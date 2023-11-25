@@ -12,5 +12,5 @@ steps:
     jdkSourceOption: 'PreInstalled'
 - task: CmdLine@2
   inputs:
-    script: 'Run.bat -run -project_location "Projects\Hackaton" -release "UI" -testset "Sample"'
+    script: 'Run.bat -run -project_location "Projects\Hackaton" -release "UI" -testset "Scenario_03"'
              
