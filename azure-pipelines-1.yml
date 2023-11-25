@@ -13,4 +13,16 @@ steps:
 - task: CmdLine@2
   inputs:
     script: 'Run.bat -run -project_location "Projects\Hackaton" -release "UI" -testset "Scenario_03"'
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'NUnit'
+    testResultsFiles: 'azure.xml'
+    searchFolder: 'Projects/Hackaton/Results/TestExecution/UI/Sample/Latest/'
+    mergeTestResults: true
+    failTaskOnFailedTests: true
+    testRunTitle: 'UI'
+- script: |
+    echo Add other tasks to build, test, and deploy your project.
+    echo See https://aka.ms/yaml
+  displayName: 'Run a multi-line script'
              
