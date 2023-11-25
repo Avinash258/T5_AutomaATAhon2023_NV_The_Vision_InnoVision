@@ -1,2 +1,5 @@
 Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
 true,Challenge_03,TC01_Project Creation,Single,Passed,Chrome,Default,Any
+true,Challenge_03,TC01_Project Creation,Single,NoRun,Firefox,Default,Any
+true,Challenge_03,TC01_Project Creation,Single,NoRun,Chrome Headless,Default,Any
+true,Challenge_03,TC01_Project Creation,Single,NoRun,Edge,Default,Any

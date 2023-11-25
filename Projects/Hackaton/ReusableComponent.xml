@@ -1,6 +1,5 @@
 <Root ref="Hackaton" type="RC">
 <Folder ref="RANDOM">
-<Scenario ref="RANDOMNAME"/>
 <Scenario ref="Challenge_03">
 <TestCase exeType="Executable" ref="Random7"/>
 <TestCase exeType="Executable" ref="RANDOMNAME"/>
