@@ -13,3 +13,18 @@ light
 2023-11-25 05:33:43:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\HacktonNVInnoVision\lib\InnoVision-engine-1.0.jar
 2023-11-25 05:33:45:11S +0530 [INFO] com.NewVision.InnoVision.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
 2023-11-25 05:33:48:11S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
+2023-11-25 12:33:38:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main main:Launching InnoVision IDE
+light
+2023-11-25 12:33:38:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 12:33:39:11S +0530 [INFO] com.NewVision.InnoVision.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2023-11-25 12:33:41:11S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
+2023-11-25 12:38:00:11S +0530 [SEVERE] com.NewVision.InnoVision.datalib.component.utils.FileUtils getRecords:File [C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\TestPlan\pact\NewTestCase.csv] doesn't exist
+2023-11-25 12:39:48:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 12:41:23:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 13:52:39:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main finish:InnoVision IDE has been Terminated - [ Total Time : 01:19:01.001 ]
+2023-11-25 13:52:40:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main main:Launching InnoVision IDE
+light
+2023-11-25 13:52:41:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 13:52:42:11S +0530 [INFO] com.NewVision.InnoVision.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2023-11-25 13:52:45:11S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
+2023-11-25 13:57:58:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main finish:InnoVision IDE has been Terminated - [ Total Time : 00:05:17.855 ]
