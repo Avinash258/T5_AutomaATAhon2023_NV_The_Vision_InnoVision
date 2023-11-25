@@ -200,4 +200,23 @@
       </Object>
     </ObjectGroup>
   </Page>
+  <Page title="" ref="WPage0"/>
+  <Page title="" ref="WPage1">
+    <ObjectGroup ref="WObject0">
+      <Object frame="" ref="WObject0">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+        <Property value="document.querySelector(&quot;#content > my-paragraph:nth-child(4) > span&quot;)" ref="JSPath" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
 </Root>

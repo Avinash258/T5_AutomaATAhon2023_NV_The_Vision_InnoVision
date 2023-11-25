@@ -1,0 +1,41 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  ${project.version}
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.9
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Sat Nov 25 12:39:48 IST 2023
+
+Scenario         :  [pact]
+TestCase         :  [NewTestCase]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: @https://the-internet.herokuapp.com/shadowdom  |  Condition:  | @25-Nov-2023 12:39:53.053
+[DONE]   | Opened Url: https://the-internet.herokuapp.com/shadowdom
+
+
+===================================================================================================
+
+Step:2  |  Object:WObject0  |  Action:highlight  |  Input:   |  Condition:  | @25-Nov-2023 12:39:53.053
+[PASS]   | Element Highlighted
+
+---------------------------------------------------
+Testcase Name        : pact:NewTestCase
+Executed Steps       : 2
+Passed Steps         : 2
+Failed Steps         : 0
+Time Taken           : 00:00:05
+---------------------------------------------------
+

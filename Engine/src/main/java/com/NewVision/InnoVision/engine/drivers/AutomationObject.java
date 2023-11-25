@@ -39,6 +39,7 @@ import java.util.logging.Logger;
 import java.util.regex.Pattern;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
@@ -347,7 +348,16 @@ public class AutomationObject {
 							tagName = attr.getValue();
 							continue;
 						}
-                                                
+						/*******************/
+						if (tag.equals("JSPath")) {
+							if(!attr.getValue().trim().isEmpty()) {
+				              JavascriptExecutor js = (JavascriptExecutor) driver;
+				              elements = new ArrayList<WebElement>();
+				              elements.add((WebElement) js.executeScript("return "+attr.getValue()));
+		                   	}
+						}
+						
+						/*******************/                   
 
 						if (elements!=null) {
 							return elements;
