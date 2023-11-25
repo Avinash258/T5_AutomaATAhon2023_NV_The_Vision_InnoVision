@@ -1,0 +1,41 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  ${project.version}
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.9
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Sat Nov 25 16:26:56 IST 2023
+
+Scenario         :  [Challenge_03]
+TestCase         :  [TC01_Project Creation]
+Browser          :  [No Browser]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: @http://34.72.96.125/secure/Dashboard.jspa  |  Condition:  | @25-Nov-2023 16:26:56.056
+[DONE]   | Opened Url: http://34.72.96.125/secure/Dashboard.jspa
+
+
+===================================================================================================
+
+Step:2  |  Object:Username  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 16:28:06.006
+[FAIL]   | Seems Like the Element [Username] is Not Present/Found in the page Try Adding wait or heal it
+
+---------------------------------------------------
+Testcase Name        : Challenge_03:TC01_Project Creation
+Executed Steps       : 2
+Passed Steps         : 1
+Failed Steps         : 1
+Time Taken           : 00:01:10
+---------------------------------------------------
+

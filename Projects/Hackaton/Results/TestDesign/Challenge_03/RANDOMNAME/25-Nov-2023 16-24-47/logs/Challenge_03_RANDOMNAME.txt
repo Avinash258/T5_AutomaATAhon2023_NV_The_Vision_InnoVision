@@ -1,0 +1,53 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  ${project.version}
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.9
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Sat Nov 25 16:24:47 IST 2023
+
+Scenario         :  [Challenge_03]
+TestCase         :  [RANDOMNAME]
+Browser          :  [No Browser]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:AddVar  |  Input: =Round(=Random(7)):  |  Condition:%Random7%  | @25-Nov-2023 16:24:47.047
+[DONE]   | Variable %Random7%
+
+
+===================================================================================================
+
+Step:2  |  Object:Browser  |  Action:print  |  Input: %Random7%  |  Condition:  | @25-Nov-2023 16:24:47.047
+[DONE]   | printed 8814328
+
+
+===================================================================================================
+
+Step:2  |  Object:Browser  |  Action:AddVar  |  Input: =Concat(%Random7%,SAMPLE):  |  Condition:%R%  | @25-Nov-2023 16:24:47.047
+[DONE]   | Variable %R%
+
+
+===================================================================================================
+
+Step:3  |  Object:Browser  |  Action:print  |  Input: %R%  |  Condition:#EmailID  | @25-Nov-2023 16:24:47.047
+[DONE]   | printed 8814328SAMPLE
+
+---------------------------------------------------
+Testcase Name        : Challenge_03:RANDOMNAME
+Executed Steps       : 4
+Passed Steps         : 4
+Failed Steps         : 0
+Time Taken           : 00:00:00
+---------------------------------------------------
+

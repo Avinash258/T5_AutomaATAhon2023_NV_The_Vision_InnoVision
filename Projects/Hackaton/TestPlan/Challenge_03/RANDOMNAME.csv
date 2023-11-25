@@ -1,0 +1,4 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Execute,,Challenge_03:Random7,,,
+2,Browser,Add a variable to access within testcase,AddVar,"=Concat(%Random7%,SAMPLE):",%R%,
+3,Browser,print the data [<Data>],print,%R%,"#R",

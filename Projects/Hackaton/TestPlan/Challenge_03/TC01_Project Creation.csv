@@ -1,0 +1,20 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@http://34.72.96.125/secure/Dashboard.jspa,,
+2,Username,"Click the [<Object>] ",Click,,,System
+3,Username,Enter the value [<Data>] in the Field [<Object>],Set,@ata,,System
+4,Password,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,@GwnsMJ8NXds5i5bUc8N3oQ== Enc,,System
+5,Password,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,@+xSsfuiE2AVFxi1axLzFrg== Enc,,System
+6,Log In,"Click the [<Object>] ",Click,,,System
+7,Tools,"Click the [<Object>] ",Click,,,System
+8,Projects,"Click the [<Object>] ",Click,,,System
+9,Create project,"Click the [<Object>] ",clickByJS,,,System
+10,Select_Agile,selecting value [<Data>] from unordered list .,clickByJS,,,System
+11,Next,"Click the [<Object>] ",Click,,,System
+12,Select,"Click the [<Object>] ",Click,,,System
+13,Execute,,Challenge_03:RANDOMNAME,,,
+"*14",Name,Enter the value [<Data>] in the Field [<Object>],Set,%R%,,System
+15,Key,Enter the value [<Data>] in the Field [<Object>],Set,%R%,,System
+16,Browser,store variable value [<Condition>] in data sheet[<Data>],storeVariableInDataSheet,Challenge3:BoardName,%R%,
+17,Browser,Add a Global variable to access across test set,AddGlobalVar,%BoardName%,%R%,
+18,Submit,"Click the [<Object>] ",Click,,,System
+"*19",Browser,Wait for [<Data>] milli seconds,takeScreenshot,,,

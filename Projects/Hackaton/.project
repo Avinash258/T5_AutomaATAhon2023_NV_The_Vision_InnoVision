@@ -32,32 +32,29 @@
     "tags" : [ ]
   }, {
     "type" : "scenario",
-    "name" : "pact",
+    "name" : "Challenge_01",
     "ref" : "com.NewVision.InnoVision.datalib.model.Attribute",
     "attributes" : [ ],
     "tags" : [ ]
   } ],
   "data" : [ {
-    "id" : "pact#TC01_DragandDrop",
-    "name" : "TC01_DragandDrop",
+    "id" : "Challenge_01#NewTestCase",
+    "name" : "NewTestCase",
     "tags" : [ ],
     "attributes" : [ {
       "name" : "type",
       "value" : "testcase"
     }, {
       "name" : "scenario",
-      "value" : "pact"
+      "value" : "Challenge_01"
     } ]
   }, {
-    "id" : "pact#TC02_Sorting",
-    "name" : "TC02_Sorting",
+    "id" : "TC01_Project Creation",
+    "name" : "TC01_Project Creation",
     "tags" : [ ],
     "attributes" : [ {
-      "name" : "type",
-      "value" : "testcase"
-    }, {
       "name" : "scenario",
-      "value" : "pact"
+      "value" : "Challenge_03"
     } ]
   } ]
 }

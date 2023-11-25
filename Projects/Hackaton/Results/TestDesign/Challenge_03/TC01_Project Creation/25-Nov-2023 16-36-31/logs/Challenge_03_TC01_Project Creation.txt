@@ -1,0 +1,149 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  ${project.version}
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.9
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Sat Nov 25 16:36:31 IST 2023
+
+Scenario         :  [Challenge_03]
+TestCase         :  [TC01_Project Creation]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: @http://34.72.96.125/secure/Dashboard.jspa  |  Condition:  | @25-Nov-2023 16:36:36.036
+[DONE]   | Opened Url: http://34.72.96.125/secure/Dashboard.jspa
+
+
+===================================================================================================
+
+Step:2  |  Object:Username  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 16:36:36.036
+[DONE]   | Clicking on Username
+
+
+===================================================================================================
+
+Step:3  |  Object:Username  |  Action:Set  |  Input: @ata  |  Condition:  | @25-Nov-2023 16:36:36.036
+[DONE]   | Entered Text 'ata' on 'Username'
+
+
+===================================================================================================
+
+Step:4  |  Object:Password  |  Action:setEncrypted  |  Input: @GwnsMJ8NXds5i5bUc8N3oQ== Enc  |  Condition:  | @25-Nov-2023 16:36:36.036
+[DONE]   | Entered Encrypted Text GwnsMJ8NXds5i5bUc8N3oQ== on Password
+
+
+===================================================================================================
+
+Step:5  |  Object:Password  |  Action:setEncrypted  |  Input: @+xSsfuiE2AVFxi1axLzFrg== Enc  |  Condition:  | @25-Nov-2023 16:36:36.036
+[DONE]   | Entered Encrypted Text +xSsfuiE2AVFxi1axLzFrg== on Password
+
+
+===================================================================================================
+
+Step:6  |  Object:Log In  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 16:36:36.036
+[DONE]   | Clicking on Log In
+
+
+===================================================================================================
+
+Step:7  |  Object:Tools  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 16:36:37.037
+[DONE]   | Clicking on Tools
+
+
+===================================================================================================
+
+Step:8  |  Object:Projects  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 16:37:07.007
+[DONE]   | Clicking on Projects
+
+
+===================================================================================================
+
+Step:9  |  Object:Create project  |  Action:clickByJS  |  Input:   |  Condition:  | @25-Nov-2023 16:37:59.059
+[FAIL]   | Seems Like the Element [Create project] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:10  |  Object:Select_Agile  |  Action:clickByJS  |  Input:   |  Condition:  | @25-Nov-2023 16:38:52.052
+[FAIL]   | Seems Like the Element [Select_Agile] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:11  |  Object:Next  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 16:39:44.044
+[FAIL]   | Seems Like the Element [Next] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:12  |  Object:Select  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 16:40:37.037
+[FAIL]   | Seems Like the Element [Select] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:AddVar  |  Input: =Round(=Random(7)):  |  Condition:%Random7%  | @25-Nov-2023 16:40:37.037
+[DONE]   | Variable %Random7%
+
+
+===================================================================================================
+
+Step:2  |  Object:Browser  |  Action:print  |  Input: %Random7%  |  Condition:  | @25-Nov-2023 16:40:37.037
+[DONE]   | printed 4517748
+
+
+===================================================================================================
+
+Step:2  |  Object:Browser  |  Action:AddVar  |  Input: =Concat(%Random7%,SAMPLE):  |  Condition:%R%  | @25-Nov-2023 16:40:37.037
+[DONE]   | Variable %R%
+
+
+===================================================================================================
+
+Step:3  |  Object:Browser  |  Action:print  |  Input: %R%  |  Condition:#R  | @25-Nov-2023 16:40:37.037
+[DONE]   | printed 4517748SAMPLE
+
+
+===================================================================================================
+
+Step:14  |  Object:Name  |  Action:Set  |  Input: %R%  |  Condition:  | @25-Nov-2023 16:41:50.050
+[FAIL]   | Seems Like the Element [Name] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:15  |  Object:Browser  |  Action:storeVariableInDataSheet  |  Input: Challenge3:BoardName  |  Condition:%R%  | @25-Nov-2023 16:41:51.051
+[DONE]   | Value of variable %R% has been stored into the data sheet
+
+
+===================================================================================================
+
+Step:16  |  Object:Browser  |  Action:AddGlobalVar  |  Input: %BoardName%  |  Condition:%R%  | @25-Nov-2023 16:41:51.051
+[DONE]   | Variable %R% added with value 
+
+
+===================================================================================================
+
+Step:17  |  Object:Submit  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 16:42:43.043
+[FAIL]   | Seems Like the Element [Submit] is Not Present/Found in the page Try Adding wait or heal it
+
+---------------------------------------------------
+Testcase Name        : Challenge_03:TC01_Project Creation
+Executed Steps       : 20
+Passed Steps         : 14
+Failed Steps         : 6
+Time Taken           : 00:06:11
+---------------------------------------------------
+

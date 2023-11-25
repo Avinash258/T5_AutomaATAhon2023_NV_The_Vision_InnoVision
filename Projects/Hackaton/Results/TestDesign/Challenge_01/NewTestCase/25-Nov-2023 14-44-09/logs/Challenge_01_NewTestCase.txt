@@ -1,0 +1,119 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  ${project.version}
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.9
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Sat Nov 25 14:44:09 IST 2023
+
+Scenario         :  [Challenge_01]
+TestCase         :  [NewTestCase]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: @https://sso.godaddy.com  |  Condition:  | @25-Nov-2023 14:44:13.013
+[DONE]   | Opened Url: https://sso.godaddy.com
+
+
+===================================================================================================
+
+Step:2  |  Object:Email*1  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 14:44:13.013
+[DONE]   | Clicking on Email*1
+
+
+===================================================================================================
+
+Step:3  |  Object:Email*1  |  Action:Set  |  Input: @team5.tvi@globaltestingretreat2023.com  |  Condition:  | @25-Nov-2023 14:44:14.014
+[DONE]   | Entered Text 'team5.tvi@globaltestingretreat2023.com' on 'Email*1'
+
+
+===================================================================================================
+
+Step:4  |  Object:Password*  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 14:44:14.014
+[DONE]   | Clicking on Password*
+
+
+===================================================================================================
+
+Step:5  |  Object:Password*  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 14:44:14.014
+[DONE]   | Clicking on Password*
+
+
+===================================================================================================
+
+Step:6  |  Object:Password*1  |  Action:setEncrypted  |  Input: @nywitDCq1oU/tSpt/uQM/WF524LS0iO+mWOyoGnsUtc= Enc  |  Condition:  | @25-Nov-2023 14:44:14.014
+[DONE]   | Entered Encrypted Text nywitDCq1oU/tSpt/uQM/WF524LS0iO+mWOyoGnsUtc= on Password*1
+
+
+===================================================================================================
+
+Step:7  |  Object:Sign In  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 14:44:15.015
+[DONE]   | Clicking on Sign In
+
+
+===================================================================================================
+
+Step:8  |  Object:Your browser is a bit unusual.  |  Action:assertElementTextContains  |  Input: @Your browser is a bit unusual...  |  Condition:  | @25-Nov-2023 14:44:15.015
+[PASS]   | Your browser is a bit unusual.'s Text CONTAINS Your browser is a bit unusual... 
+
+
+===================================================================================================
+
+Step:9  |  Object:Your browser is a bit unusual.  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 14:44:16.016
+[DONE]   | Clicking on Your browser is a bit unusual.
+
+
+===================================================================================================
+
+Step:10  |  Object:Let's Try Again  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 14:44:17.017
+[FAIL]   | org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="ux-button alternative-login-button-icon-only ux-text ux-text-size0 ux-text-action ux-button-secondary ux-button-square" target="_top" type="button" id="apple_auth" aria-label="Sign in with Apple" data-testid="apple_auth">...</button> is not clickable at point (928, 516). Other element would receive the click: <span class="ux-button-text">...</span>
+  (Session info: chrome=119.0.6045.160)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BLAVINASHSHARMA', ip: '192.168.200.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AVINAS~1.SHA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64551}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d0a2178b0ad9d3530ed64088e2ed037
+
+
+===================================================================================================
+
+Step:11  |  Object:Sign In  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 14:44:19.019
+[FAIL]   | org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="ux-button btn btn-purchase btn-block ux-text ux-text-size0 ux-text-action ux-button-primary" target="_parent" type="button" id="submitBtn">...</button> is not clickable at point (960, 430). Other element would receive the click: <ul>...</ul>
+  (Session info: chrome=119.0.6045.160)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BLAVINASHSHARMA', ip: '192.168.200.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AVINAS~1.SHA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64551}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d0a2178b0ad9d3530ed64088e2ed037
+
+
+===================================================================================================
+
+Step:12  |  Object:Let's Try Again  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 14:44:20.020
+[FAIL]   | org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="ux-button alternative-login-button-icon-only ux-text ux-text-size0 ux-text-action ux-button-secondary ux-button-square" target="_top" type="button" id="apple_auth" aria-label="Sign in with Apple" data-testid="apple_auth">...</button> is not clickable at point (928, 516). Other element would receive the click: <span class="ux-button-text">...</span>
+  (Session info: chrome=119.0.6045.160)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BLAVINASHSHARMA', ip: '192.168.200.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AVINAS~1.SHA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64551}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d0a2178b0ad9d3530ed64088e2ed037
+
+---------------------------------------------------
+Testcase Name        : Challenge_01:NewTestCase
+Executed Steps       : 12
+Passed Steps         : 9
+Failed Steps         : 3
+Time Taken           : 00:00:12
+---------------------------------------------------
+

@@ -1,0 +1,89 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  ${project.version}
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.9
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Sat Nov 25 15:14:20 IST 2023
+
+Scenario         :  [Challenge_01]
+TestCase         :  [NewTestCase]
+Browser          :  [Edge]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: @https://sso.godaddy.com  |  Condition:  | @25-Nov-2023 15:15:10.010
+[DONE]   | Opened Url: https://sso.godaddy.com
+
+
+===================================================================================================
+
+Step:2  |  Object:Email*1  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 15:15:10.010
+[DONE]   | Clicking on Email*1
+
+
+===================================================================================================
+
+Step:3  |  Object:Email*1  |  Action:Set  |  Input: @team5.tvi@globaltestingretreat2023.com  |  Condition:  | @25-Nov-2023 15:15:11.011
+[DONE]   | Entered Text 'team5.tvi@globaltestingretreat2023.com' on 'Email*1'
+
+
+===================================================================================================
+
+Step:4  |  Object:Password*  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 15:15:11.011
+[DONE]   | Clicking on Password*
+
+
+===================================================================================================
+
+Step:5  |  Object:Password*  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 15:15:11.011
+[DONE]   | Clicking on Password*
+
+
+===================================================================================================
+
+Step:6  |  Object:Password*1  |  Action:setEncrypted  |  Input: @nywitDCq1oU/tSpt/uQM/WF524LS0iO+mWOyoGnsUtc= Enc  |  Condition:  | @25-Nov-2023 15:15:12.012
+[DONE]   | Entered Encrypted Text nywitDCq1oU/tSpt/uQM/WF524LS0iO+mWOyoGnsUtc= on Password*1
+
+
+===================================================================================================
+
+Step:7  |  Object:Sign In  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 15:15:14.014
+[FAIL]   | org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="ux-button btn btn-purchase btn-block ux-text ux-text-size0 ux-text-action ux-button-primary" target="_parent" type="button" id="submitBtn">...</button> is not clickable at point (936, 430). Other element would receive the click: <ul>...</ul>
+  (Session info: MicrosoftEdge=119.0.2151.72)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BLAVINASHSHARMA', ip: '192.168.200.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.72, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:50911}, msedge: {msedgedriverVersion: 119.0.2151.72 (e8225cce8e47..., userDataDir: C:\Users\AVINAS~1.SHA\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44855bac5b63b64d633fd97d33124f68
+
+
+===================================================================================================
+
+Step:8  |  Object:Your browser is a bit unusual.  |  Action:assertElementTextContains  |  Input: @Your browser is a bit unusual...  |  Condition:  | @25-Nov-2023 15:15:15.015
+[PASS]   | Your browser is a bit unusual.'s Text CONTAINS Your browser is a bit unusual... 
+
+
+===================================================================================================
+
+Step:9  |  Object:Your browser is a bit unusual.  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 15:25:43.043
+[DONE]   | Clicking on Your browser is a bit unusual.
+
+---------------------------------------------------
+Testcase Name        : Challenge_01:NewTestCase
+Executed Steps       : 9
+Passed Steps         : 8
+Failed Steps         : 1
+Time Taken           : 00:11:23
+---------------------------------------------------
+

@@ -1,0 +1,13 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@https://sso.godaddy.com,,
+2,Email*1,"Click the [<Object>] ",Click,,,Sign
+3,Email*1,Enter the value [<Data>] in the Field [<Object>],Set,@team5.tvi@globaltestingretreat2023.com,,Sign
+4,Password*,"Click the [<Object>] ",Click,,,Sign
+5,Password*,"Click the [<Object>] ",Click,,,Sign
+6,Password*1,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,@nywitDCq1oU/tSpt/uQM/WF524LS0iO+mWOyoGnsUtc= Enc,,Sign
+7,Sign In,"Click the [<Object>] ",Click,,,Sign
+8,Your browser is a bit unusual.,Assert if [<Object>]'s Text Contains [<Data>],assertElementTextContains,@Your browser is a bit unusual...,,Sign
+"*9",Your browser is a bit unusual.,"Click the [<Object>] ",Click,,,Sign
+10,Let's Try Again,"Click the [<Object>] ",Click,,,Sign
+11,Sign In,"Click the [<Object>] ",Click,,,Sign
+12,Let's Try Again,"Click the [<Object>] ",Click,,,Sign

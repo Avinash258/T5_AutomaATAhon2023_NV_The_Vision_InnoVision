@@ -1,0 +1,161 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  ${project.version}
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.9
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Sat Nov 25 16:44:40 IST 2023
+
+Scenario         :  [Challenge_03]
+TestCase         :  [TC01_Project Creation]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: @http://34.72.96.125/secure/Dashboard.jspa  |  Condition:  | @25-Nov-2023 16:44:46.046
+[DONE]   | Opened Url: http://34.72.96.125/secure/Dashboard.jspa
+
+
+===================================================================================================
+
+Step:2  |  Object:Username  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 16:44:46.046
+[DONE]   | Clicking on Username
+
+
+===================================================================================================
+
+Step:3  |  Object:Username  |  Action:Set  |  Input: @ata  |  Condition:  | @25-Nov-2023 16:44:46.046
+[DONE]   | Entered Text 'ata' on 'Username'
+
+
+===================================================================================================
+
+Step:4  |  Object:Password  |  Action:setEncrypted  |  Input: @GwnsMJ8NXds5i5bUc8N3oQ== Enc  |  Condition:  | @25-Nov-2023 16:44:47.047
+[DONE]   | Entered Encrypted Text GwnsMJ8NXds5i5bUc8N3oQ== on Password
+
+
+===================================================================================================
+
+Step:5  |  Object:Password  |  Action:setEncrypted  |  Input: @+xSsfuiE2AVFxi1axLzFrg== Enc  |  Condition:  | @25-Nov-2023 16:44:47.047
+[DONE]   | Entered Encrypted Text +xSsfuiE2AVFxi1axLzFrg== on Password
+
+
+===================================================================================================
+
+Step:6  |  Object:Log In  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 16:44:47.047
+[DONE]   | Clicking on Log In
+
+
+===================================================================================================
+
+Step:7  |  Object:Tools  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 16:44:47.047
+[DONE]   | Clicking on Tools
+
+
+===================================================================================================
+
+Step:8  |  Object:Projects  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 16:44:55.055
+[DONE]   | Clicking on Projects
+
+
+===================================================================================================
+
+Step:9  |  Object:Create project  |  Action:clickByJS  |  Input:   |  Condition:  | @25-Nov-2023 16:44:56.056
+[DONE]   | Clicked on Create project
+
+
+===================================================================================================
+
+Step:10  |  Object:Select_Agile  |  Action:clickByJS  |  Input:   |  Condition:  | @25-Nov-2023 16:44:56.056
+[DONE]   | Clicked on Select_Agile
+
+
+===================================================================================================
+
+Step:11  |  Object:Next  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 16:44:57.057
+[DONE]   | Clicking on Next
+
+
+===================================================================================================
+
+Step:12  |  Object:Select  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 16:44:57.057
+[DONE]   | Clicking on Select
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:AddVar  |  Input: =Round(=Random(7)):  |  Condition:%Random7%  | @25-Nov-2023 16:44:58.058
+[DONE]   | Variable %Random7%
+
+
+===================================================================================================
+
+Step:2  |  Object:Browser  |  Action:print  |  Input: %Random7%  |  Condition:  | @25-Nov-2023 16:44:58.058
+[DONE]   | printed 1655132
+
+
+===================================================================================================
+
+Step:2  |  Object:Browser  |  Action:AddVar  |  Input: =Concat(%Random7%,SAMPLE):  |  Condition:%R%  | @25-Nov-2023 16:44:58.058
+[DONE]   | Variable %R%
+
+
+===================================================================================================
+
+Step:3  |  Object:Browser  |  Action:print  |  Input: %R%  |  Condition:#R  | @25-Nov-2023 16:44:58.058
+[DONE]   | printed 1655132SAMPLE
+
+
+===================================================================================================
+
+Step:14  |  Object:Name  |  Action:Set  |  Input: %R%  |  Condition:  | @25-Nov-2023 16:45:08.008
+[DONE]   | Entered Text '1655132SAMPLE' on 'Name'
+
+
+===================================================================================================
+
+Step:15  |  Object:Key  |  Action:Set  |  Input: %R%  |  Condition:  | @25-Nov-2023 16:45:12.012
+[DONE]   | Entered Text '1655132SAMPLE' on 'Key'
+
+
+===================================================================================================
+
+Step:16  |  Object:Browser  |  Action:storeVariableInDataSheet  |  Input: Challenge3:BoardName  |  Condition:%R%  | @25-Nov-2023 16:45:19.019
+[DONE]   | Value of variable %R% has been stored into the data sheet
+
+
+===================================================================================================
+
+Step:17  |  Object:Browser  |  Action:AddGlobalVar  |  Input: %BoardName%  |  Condition:%R%  | @25-Nov-2023 16:45:23.023
+[DONE]   | Variable %R% added with value 
+
+
+===================================================================================================
+
+Step:18  |  Object:Submit  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 16:45:26.026
+[DONE]   | Clicking on Submit
+
+
+===================================================================================================
+
+Step:19  |  Object:Browser  |  Action:pause  |  Input: @3  |  Condition:  | @25-Nov-2023 16:45:37.037
+[DONE]   | Thread sleep for '3
+
+---------------------------------------------------
+Testcase Name        : Challenge_03:TC01_Project Creation
+Executed Steps       : 22
+Passed Steps         : 22
+Failed Steps         : 0
+Time Taken           : 00:00:57
+---------------------------------------------------
+

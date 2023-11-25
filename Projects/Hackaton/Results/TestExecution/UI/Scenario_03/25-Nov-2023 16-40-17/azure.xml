@@ -1,0 +1,25 @@
+<test-run id="a261548c-ed8c-447a-8824-936906925cef" name="Scenario_03" fullname="Scenario_03" testcasecount="1" passed="1" failed="0" result="Passed" time="19.000" run-date="2023-11-25" start-time="16:40:18" end-time="16:40:38">
+<test-suite id="b6dc402e-5fe9-4c75-95c6-0813b55977dc" type="Assembly" name="Scenario_03" fullname="Scenario_03" testcasecount="1" passed="1" failed="0" result="Passed" time="19.000">
+<test-case id="9fd035c9-9134-4a00-a538-2f1e5138437e" name="TC01_Project Creation" fullname="TC01_Project Creation" result="Passed" time="19.000"><failure><message><![CDATA[This Test Case has no error. For details see the steps below:
+Step 1:   [DONE]   | Opened Url: http://34.72.96.125/secure/Dashboard.jspa
+Step 2:   [DONE]   | Clicking on Username
+Step 3:   [DONE]   | Entered Text 'ata' on 'Username'
+Step 4:   [DONE]   | Entered Encrypted Text GwnsMJ8NXds5i5bUc8N3oQ== on Password
+Step 5:   [DONE]   | Entered Encrypted Text +xSsfuiE2AVFxi1axLzFrg== on Password
+Step 6:   [DONE]   | Clicking on Log In
+Step 7:   [DONE]   | Clicking on Tools
+Step 8:   [DONE]   | Clicking on Projects
+Step 9:   [DONE]   | Clicked on Create project
+Step 10:   [DONE]   | Clicked on Select_Agile
+Step 11:   [DONE]   | Clicking on Next
+Step 12:   [DONE]   | Clicking on Select
+Step 13:   [DONE]   | Variable %Random7%
+Step 14:   [DONE]   | printed 6548614
+Step 15:   [DONE]   | Variable %R%
+Step 16:   [DONE]   | printed 6548614SAMPLE
+Step 17:   [DONE]   | Entered Text '6548614SAMPLE' on 'Name'
+Step 18:   [DONE]   | Value of variable %R% has been stored into the data sheet
+Step 19:   [DONE]   | Variable %R% added with value 
+Step 20:   [DONE]   | Clicking on Submit
+]]></message></failure><attachments><attachment><filePath>C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\Results\TestExecution\UI\Scenario_03\25-Nov-2023 16-40-17\logs\Challenge_03_TC01_Project Creation.txt</filePath></attachment>
+</attachments></test-case></test-suite></test-run>

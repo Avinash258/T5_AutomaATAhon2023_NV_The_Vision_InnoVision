@@ -1,0 +1,173 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine : ${project.version}
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 17.0.9
+java.home            : C:\Program Files\Java\jdk-17
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Sat Nov 25 15:12:21 IST 2023
+Loading Browser Profile
+Loading RunManager
+[Scenario:Challenge_01] [TestCase: NewTestCase] [Description: Test Run] [Browser: Firefox] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-45] WARN com.NewVision.InnoVision.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Firefox
+Launching Local Driver
+2023-11-25 15:12:52:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main finish:InnoVision IDE has been Terminated - [ Total Time : 01:10:15.657 ]
+[pool-11-thread-1] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Error reading commands.properties, using local instead
+[pool-11-thread-1] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Error reading versions.properties, using local instead
+[pool-11-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Reading https://raw.githubusercontent.com/bonigarcia/webdrivermanager/master/docs/mirror/geckodriver to seek geckodriver
+[pool-11-thread-1] WARN io.github.bonigarcia.wdm.WebDriverManager - There was an error managing geckodriver (latest version) (Connect to https://raw.githubusercontent.com:443 [raw.githubusercontent.com/49.44.79.236, raw.githubusercontent.com/2405:200:1607:2820:41:0:0:36] failed: Connection timed out: no further information) ... trying again using latest driver stored in cache
+[pool-11-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Reading https://raw.githubusercontent.com/bonigarcia/webdrivermanager/master/docs/mirror/geckodriver to seek geckodriver
+[pool-11-thread-1] ERROR io.github.bonigarcia.wdm.WebDriverManager - There was an error managing geckodriver (latest version) (Connect to https://raw.githubusercontent.com:443 [raw.githubusercontent.com/49.44.79.236, raw.githubusercontent.com/2405:200:1607:2820:41:0:0:36] failed: Connection timed out: no further information)
+org.apache.hc.client5.http.HttpHostConnectException: Connect to https://raw.githubusercontent.com:443 [raw.githubusercontent.com/49.44.79.236, raw.githubusercontent.com/2405:200:1607:2820:41:0:0:36] failed: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:554)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory$1.run(SSLConnectionSocketFactory.java:219)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:216)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:148)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:175)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:89)
+	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:158)
+	at io.github.bonigarcia.wdm.WebDriverManager.openGitHubConnection(WebDriverManager.java:1606)
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromGitHub(WebDriverManager.java:1620)
+	at io.github.bonigarcia.wdm.managers.FirefoxDriverManager.getDriverUrls(FirefoxDriverManager.java:102)
+	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1443)
+	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1278)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1197)
+	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1438)
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1415)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:418)
+	at com.NewVision.InnoVision.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:181)
+	at com.NewVision.InnoVision.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:169)
+	at com.NewVision.InnoVision.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:159)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.launchDriver(SeleniumDriver.java:66)
+	at com.NewVision.InnoVision.engine.core.Task.launchBrowser(Task.java:155)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:125)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2023-11-25 15:15:11:11S +0530 [SEVERE] com.NewVision.InnoVision.engine.core.Task onError:org.apache.hc.client5.http.HttpHostConnectException: Connect to https://raw.githubusercontent.com:443 [raw.githubusercontent.com/49.44.79.236, raw.githubusercontent.com/2405:200:1607:2820:41:0:0:36] failed: Connection timed out: no further information
+io.github.bonigarcia.wdm.config.WebDriverManagerException: org.apache.hc.client5.http.HttpHostConnectException: Connect to https://raw.githubusercontent.com:443 [raw.githubusercontent.com/49.44.79.236, raw.githubusercontent.com/2405:200:1607:2820:41:0:0:36] failed: Connection timed out: no further information
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1422)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
+	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1438)
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1415)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:418)
+	at com.NewVision.InnoVision.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:181)
+	at com.NewVision.InnoVision.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:169)
+	at com.NewVision.InnoVision.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:159)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.launchDriver(SeleniumDriver.java:66)
+	at com.NewVision.InnoVision.engine.core.Task.launchBrowser(Task.java:155)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:125)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to https://raw.githubusercontent.com:443 [raw.githubusercontent.com/49.44.79.236, raw.githubusercontent.com/2405:200:1607:2820:41:0:0:36] failed: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:554)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory$1.run(SSLConnectionSocketFactory.java:219)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:216)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:148)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:175)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:89)
+	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:158)
+	at io.github.bonigarcia.wdm.WebDriverManager.openGitHubConnection(WebDriverManager.java:1606)
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromGitHub(WebDriverManager.java:1620)
+	at io.github.bonigarcia.wdm.managers.FirefoxDriverManager.getDriverUrls(FirefoxDriverManager.java:102)
+	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1443)
+	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1278)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1197)
+	... 14 more
+
+2023-11-25 15:15:11:11S +0530 [SEVERE] com.NewVision.InnoVision.engine.core.Task run:Cannot read field "Input" because the return value of "com.NewVision.InnoVision.engine.reporting.TestCaseReport.getStep()" is null
+java.lang.NullPointerException: Cannot read field "Input" because the return value of "com.NewVision.InnoVision.engine.reporting.TestCaseReport.getStep()" is null
+	at com.NewVision.InnoVision.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:188)
+	at com.NewVision.InnoVision.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:164)
+	at com.NewVision.InnoVision.engine.core.Task.onError(Task.java:192)
+	at com.NewVision.InnoVision.engine.core.Task.onError(Task.java:180)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:137)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+
+---------------------------------------------------
+Testcase Name        : Challenge_01:NewTestCase
+Executed Steps       : 0
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:02:49
+-----------------------------------------------------
+
+Run Finished on Sat Nov 25 15:15:11 IST 2023
+-----------------------------------------------------
+ExecutionDate        : 25-Nov-2023 15-12-21
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:02:49
+ReportPath           : file:///C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\Results\TestDesign\Challenge_01\NewTestCase\25-Nov-2023 15-12-21\summary.html
+-----------------------------------------------------
+[Thread-45] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\Results\TestDesign\Challenge_01\NewTestCase\25-Nov-2023 15-12-21\summary.html
+[Thread-45] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\Results\TestDesign\Challenge_01\NewTestCase\25-Nov-2023 15-12-21\summary.html]

@@ -1,221 +1,307 @@
 <Root type="OR" ref="Hackaton">
-  <Page title="Playground for the QA automation engineers" ref="Playground">
-    <ObjectGroup ref="Geolocation Set browser geoloc">
-      <Object frame="" ref="Geolocation Set browser geoloc">
+  <Page title="Sign In" ref="Sign">
+    <ObjectGroup ref="Email*">
+      <Object frame="" ref="Email*">
         <Property value="" ref="NLP_locator" pref="1"/>
         <Property value="" ref="name" pref="2"/>
-        <Property value="" ref="id" pref="3"/>
+        <Property value="username" ref="id" pref="3"/>
         <Property value="" ref="link_text" pref="4"/>
-        <Property value="//a[18]/div" ref="relative_xpath" pref="5"/>
-        <Property value="/html/body/main/div[3]/a[18]/div" ref="xpath" pref="6"/>
-        <Property value="card-content" ref="class" pref="7"/>
-        <Property value="html > body.dark-theme > main > div.row.row-max-2 > a.card.card-course > div.card-content" ref="css" pref="8"/>
-        <Property value="div" ref="type" pref="9"/>
-        <Property value="&lt;div class=&quot;card-content&quot;>&#xa;&lt;div class=&quot;text-center&quot;>&#xa;&lt;img src=&quot;/img/geolocation.png&quot;>&#xa;&lt;/div>&#xa;&lt;h3>Geolocation&lt;/h3>&#xa;&lt;p>&#xa;Set browser geolocation to longitude: -122.03118 and latitude: 37.33182 and assert&#xa;Cupertino&#xa;&lt;/p>&#xa;&lt;span class=&quot;tag tag-sm tag-html&quot;>#html&lt;/span>&#xa;&lt;span class=&quot;tag tag-sm tag-css&quot;>#vanilla-css&lt;/span>&#xa;&lt;span class=&quot;tag tag-sm tag-javascript&quot;>#vanilla-javascript&lt;/span>&#xa;&lt;/div>" ref="outerHTML" pref="10"/>
-        <Property value="div" ref="tagName" pref="11"/>
+        <Property value="/body/div[2]/div/main/div[2]/div/div/div/div/div/div/div/div/div[3]/div[2]/div/div/div/div/input" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div[2]/div/main/div[2]/div/div/div/div/div/div/div/div/div[3]/div[2]/div/div/div/div/input)[1]" ref="xpath" pref="6"/>
+        <Property value="ux-text-entry-field" ref="class" pref="7"/>
+        <Property value="#username" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
       </Object>
     </ObjectGroup>
-    <ObjectGroup ref="Sortable List">
-      <Object frame="" ref="Sortable List">
+    <ObjectGroup ref="Password*">
+      <Object frame="" ref="Password*">
         <Property value="" ref="NLP_locator" pref="1"/>
         <Property value="" ref="name" pref="2"/>
-        <Property value="" ref="id" pref="3"/>
+        <Property value="password" ref="id" pref="3"/>
         <Property value="" ref="link_text" pref="4"/>
-        <Property value="//*[normalize-space(text())='Sortable List']" ref="relative_xpath" pref="5"/>
-        <Property value="/html/body/main/div[3]/a[5]/div/h3" ref="xpath" pref="6"/>
-        <Property value="" ref="class" pref="7"/>
-        <Property value="html > body.dark-theme > main > div.row.row-max-2 > a.card.card-course > div.card-content > h3" ref="css" pref="8"/>
-        <Property value="h3" ref="type" pref="9"/>
-        <Property value="&lt;h3>Sortable List&lt;/h3>" ref="outerHTML" pref="10"/>
-        <Property value="h3" ref="tagName" pref="11"/>
+        <Property value="//div[2]/div/div/div/input" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/main/div[2]/div/div/div/div/div/div/div/div/div[3]/div[2]/div[2]/div/div/div/input" ref="xpath" pref="6"/>
+        <Property value="ux-text-entry-field" ref="class" pref="7"/>
+        <Property value="#password" ref="css" pref="8"/>
+        <Property value="password" ref="type" pref="9"/>
+        <Property value="&lt;input class=&quot;ux-text-entry-field&quot; id=&quot;password&quot; aria-invalid=&quot;false&quot; aria-required=&quot;true&quot; type=&quot;password&quot; aria-describedby=&quot;&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
       </Object>
     </ObjectGroup>
-  </Page>
-  <Page title="Test Geolocation" ref="Test">
-    <ObjectGroup ref="Get Location">
-      <Object frame="" ref="Get Location">
+    <ObjectGroup ref="Sign In">
+      <Object frame="" ref="Sign In">
         <Property value="" ref="NLP_locator" pref="1"/>
         <Property value="" ref="name" pref="2"/>
-        <Property value="get-location" ref="id" pref="3"/>
+        <Property value="submitBtn" ref="id" pref="3"/>
         <Property value="" ref="link_text" pref="4"/>
-        <Property value="//*[normalize-space(text())='Get Location']" ref="relative_xpath" pref="5"/>
-        <Property value="/html/body/div/button" ref="xpath" pref="6"/>
-        <Property value="" ref="class" pref="7"/>
-        <Property value="#get-location" ref="css" pref="8"/>
-        <Property value="submit" ref="type" pref="9"/>
-        <Property value="&lt;button id=&quot;get-location&quot;>Get Location&lt;/button>" ref="outerHTML" pref="10"/>
+        <Property value="(//button[@type='button'])[2]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/main/div[2]/div/div/div/div/div/div/div/div/div[3]/div[2]/button" ref="xpath" pref="6"/>
+        <Property value="ux-button btn btn-purchase btn-block ux-text ux-text-size0 ux-text-action ux-button-primary" ref="class" pref="7"/>
+        <Property value="#submitBtn" ref="css" pref="8"/>
+        <Property value="button" ref="type" pref="9"/>
+        <Property value="&lt;button class=&quot;ux-button btn btn-purchase btn-block ux-text ux-text-size0 ux-text-action ux-button-primary&quot; target=&quot;_parent&quot; type=&quot;button&quot; id=&quot;submitBtn&quot;>&lt;span class=&quot;ux-button-text&quot;>Sign In&lt;/span>&lt;/button>" ref="outerHTML" pref="10"/>
         <Property value="button" ref="tagName" pref="11"/>
       </Object>
     </ObjectGroup>
-    <ObjectGroup ref="Bhopal, India">
-      <Object frame="" ref="Bhopal, India">
+    <ObjectGroup ref="Email*1">
+      <Object frame="" ref="Email*1">
         <Property value="" ref="NLP_locator" pref="1"/>
         <Property value="" ref="name" pref="2"/>
-        <Property value="location-info" ref="id" pref="3"/>
+        <Property value="username" ref="id" pref="3"/>
         <Property value="" ref="link_text" pref="4"/>
-        <Property value="//*[normalize-space(text())='Bhopal, India']" ref="relative_xpath" pref="5"/>
-        <Property value="/html/body/div/div" ref="xpath" pref="6"/>
+        <Property value="//input[@value='team5.tvi@globaltestingretreat2023.com']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div[2]/div/main/div[2]/div/div/div/div/div/div/div/div/div[3]/div[2]/div/div/div/div/input)[1]" ref="xpath" pref="6"/>
+        <Property value="ux-text-entry-field" ref="class" pref="7"/>
+        <Property value="#username" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input class=&quot;ux-text-entry-field&quot; id=&quot;username&quot; aria-invalid=&quot;false&quot; aria-required=&quot;true&quot; type=&quot;text&quot; aria-describedby=&quot;&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Password*1">
+      <Object frame="" ref="Password*1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="password" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='automatahon@2023']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/main/div[2]/div/div/div/div/div/div/div/div/div[3]/div[2]/div[2]/div/div/div/input" ref="xpath" pref="6"/>
+        <Property value="ux-text-entry-field" ref="class" pref="7"/>
+        <Property value="#password" ref="css" pref="8"/>
+        <Property value="password" ref="type" pref="9"/>
+        <Property value="&lt;input class=&quot;ux-text-entry-field&quot; id=&quot;password&quot; aria-invalid=&quot;false&quot; aria-required=&quot;true&quot; type=&quot;password&quot; aria-describedby=&quot;&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Your browser is a bit unusual.">
+      <Object frame="" ref="Your browser is a bit unusual.">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='Your browser is a bit unusual...']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[6]/div/div[2]/div/div/div/div/h2" ref="xpath" pref="6"/>
         <Property value="" ref="class" pref="7"/>
-        <Property value="#location-info" ref="css" pref="8"/>
-        <Property value="div" ref="type" pref="9"/>
-        <Property value="&lt;div id=&quot;location-info&quot;>Bhopal, India&lt;/div>" ref="outerHTML" pref="10"/>
+        <Property value="#browser-error-modal > h2" ref="css" pref="8"/>
+        <Property value="h2" ref="type" pref="9"/>
+        <Property value="&lt;h2>Your browser is a bit unusual...&lt;/h2>" ref="outerHTML" pref="10"/>
+        <Property value="h2" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Let's Try Again">
+      <Object frame="" ref="Let's Try Again">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="(//button[@type='button'])[4]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[6]/div/div[2]/div/div/div/div[3]/div/button" ref="xpath" pref="6"/>
+        <Property value="ux-button ux-text ux-text-size0 ux-text-action ux-button-primary" ref="class" pref="7"/>
+        <Property value="html.footer-html > body.ux-app.gasket-app > div.ux-disrupt-backdrop > div.ux-disrupt-content > div:nth-of-type(1) > div > div.ux-space.ux-dialog-shell ux-modal ux-text ux-space--as-module ux-space--inline ux-space--block > div.ux-dialog-details > div.ux-sibling-set.ux-dialog-actions ux-sibling-set-horizontal ux-sibling-set-gap-md > div.ux-text.ux-sibling-set-children > button.ux-button.ux-text ux-text-size0 ux-text-action ux-button-primary" ref="css" pref="8"/>
+        <Property value="button" ref="type" pref="9"/>
+        <Property value="&lt;button class=&quot;ux-button alternative-login-button-icon-only ux-text ux-text-size0 ux-text-action ux-button-secondary ux-button-square&quot; target=&quot;_top&quot; type=&quot;button&quot; id=&quot;apple_auth&quot; aria-label=&quot;Sign in with Apple&quot; data-testid=&quot;apple_auth&quot;>&lt;svg class=&quot;uxicon-svg-container&quot; height=&quot;1.5em&quot; width=&quot;1.5em&quot; role=&quot;presentation&quot;>&lt;use fill=&quot;currentColor&quot; xlink:href=&quot;#svg-container-apple&quot;>&lt;/use>&lt;/svg>&lt;/button>" ref="outerHTML" pref="10"/>
+        <Property value="button" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="System Dashboard - Jira" ref="System">
+    <ObjectGroup ref="Username">
+      <Object frame="" ref="Username">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="os_username" ref="name" pref="2"/>
+        <Property value="login-form-username" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@name='os_username']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div/div/dashboard/div/main/div/div[5]/div/div[2]/div/div/form/div/input)[1]" ref="xpath" pref="6"/>
+        <Property value="text medium-field focus-visible" ref="class" pref="7"/>
+        <Property value="#login-form-username" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input class=&quot;text medium-field focus-visible&quot; id=&quot;login-form-username&quot; name=&quot;os_username&quot; type=&quot;text&quot; data-focus-visible-added=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Password">
+      <Object frame="" ref="Password">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="os_password" ref="name" pref="2"/>
+        <Property value="login-form-password" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@name='os_password']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/dashboard/div/main/div/div[5]/div/div[2]/div/div/form/div[2]/input" ref="xpath" pref="6"/>
+        <Property value="text medium-field focus-visible" ref="class" pref="7"/>
+        <Property value="#login-form-password" ref="css" pref="8"/>
+        <Property value="password" ref="type" pref="9"/>
+        <Property value="&lt;input class=&quot;text medium-field focus-visible&quot; id=&quot;login-form-password&quot; name=&quot;os_password&quot; type=&quot;password&quot; data-focus-visible-added=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Log In">
+      <Object frame="" ref="Log In">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="login" ref="name" pref="2"/>
+        <Property value="login" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='Log In']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/dashboard/div/main/div/div[5]/div/div[2]/div/div/form/div[4]/div/input" ref="xpath" pref="6"/>
+        <Property value="aui-button aui-button-primary" ref="class" pref="7"/>
+        <Property value="#login" ref="css" pref="8"/>
+        <Property value="submit" ref="type" pref="9"/>
+        <Property value="&lt;input class=&quot;aui-button aui-button-primary&quot; id=&quot;login&quot; name=&quot;login&quot; type=&quot;submit&quot; value=&quot;Log In&quot; resolved=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Tools">
+      <Object frame="" ref="Tools">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='Tools']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/dashboard/div/main/div/div/div/div[2]/a/span" ref="xpath" pref="6"/>
+        <Property value="aui-icon aui-icon-small aui-iconfont-more" ref="class" pref="7"/>
+        <Property value="html.js-focus-visible.webkit chrome > #jira > #page > #content > dashboard > #dashboard > #main > #dashboard-content > div.aui-page-header > div.aui-page-header-inner > #dash-options > a.aui-button.aui-dropdown2-trigger aui-dropdown2-trigger-arrowless > span.aui-icon.aui-icon-small aui-iconfont-more" ref="css" pref="8"/>
+        <Property value="span" ref="type" pref="9"/>
+        <Property value="&lt;span class=&quot;aui-icon aui-icon-small aui-iconfont-more&quot;>Tools&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Projects">
+      <Object frame="" ref="Projects">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="browse_link" ref="id" pref="3"/>
+        <Property value="Projects" ref="link_text" pref="4"/>
+        <Property value="//a[@title='View recent projects and browse a list of projects']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div/header/nav/div/div/ul/li[2]/a)[1]" ref="xpath" pref="6"/>
+        <Property value="aui-nav-link aui-dropdown2-trigger aui-dropdown2-ajax" ref="class" pref="7"/>
+        <Property value="#browse_link" ref="css" pref="8"/>
+        <Property value="a" ref="type" pref="9"/>
+        <Property value="&lt;a href=&quot;/browse/SAM&quot; class=&quot; aui-nav-link aui-dropdown2-trigger aui-dropdown2-ajax&quot; id=&quot;browse_link&quot; aria-haspopup=&quot;true&quot; aria-controls=&quot;browse_link-content&quot; title=&quot;View recent projects and browse a list of projects&quot; accesskey=&quot;p&quot; resolved=&quot;&quot; aria-expanded=&quot;false&quot;>Projects&lt;/a>" ref="outerHTML" pref="10"/>
+        <Property value="a" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Create project">
+      <Object frame="" ref="Create project">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="project_template_create_link_lnk" ref="id" pref="3"/>
+        <Property value="Create project" ref="link_text" pref="4"/>
+        <Property value="//a[contains(normalize-space(text()),'Create project')]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/header/nav/div/div/ul/li[2]/div/div[2]/ul/li[2]/a" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="#project_template_create_link_lnk" ref="css" pref="8"/>
+        <Property value="a" ref="type" pref="9"/>
+        <Property value="&lt;a href=&quot;&quot; id=&quot;project_template_create_link_lnk&quot; class=&quot;&quot;>Create project&lt;/a>" ref="outerHTML" pref="10"/>
+        <Property value="a" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Select_Agile">
+      <Object frame="" ref="Select_Agile">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//div[@class=&quot;template-meta&quot;]/div[@title=&quot;Kanban software development&quot;]" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div[6]/div[3]/div/div/div/div[2]/ol)[1]" ref="xpath" pref="6"/>
+        <Property value="templates" ref="class" pref="7"/>
+        <Property value="#project-template-group-software > div.pt-templates-list > ol.templates" ref="css" pref="8"/>
+        <Property value="ol" ref="type" pref="9"/>
+        <Property value="&lt;div class=&quot;template-name&quot; title=&quot;Kanban software development&quot;>Kanban software development&lt;/div>" ref="outerHTML" pref="10"/>
         <Property value="div" ref="tagName" pref="11"/>
       </Object>
     </ObjectGroup>
-  </Page>
-  <Page title="Test Sortable List" ref="Test1">
-    <ObjectGroup ref="FirstElement">
-      <Object frame="" ref="FirstElement">
+    <ObjectGroup ref="Next">
+      <Object frame="" ref="Next">
         <Property value="" ref="NLP_locator" pref="1"/>
         <Property value="" ref="name" pref="2"/>
         <Property value="" ref="id" pref="3"/>
         <Property value="" ref="link_text" pref="4"/>
-        <Property value="//*[contains(text(),'#X')]" ref="relative_xpath" pref="5"/>
-        <Property value="(/html/body/main/ul/li/div/p)[1]" ref="xpath" pref="6"/>
-        <Property value="person-name" ref="class" pref="7"/>
-        <Property value="html > body > main > #draggable-list > li > div.draggable > p.person-name" ref="css" pref="8"/>
-        <Property value="p" ref="type" pref="9"/>
-        <Property value="&lt;p class=&quot;person-name&quot;>Michael Bloomberg&lt;/p>" ref="outerHTML" pref="10"/>
-        <Property value="p" ref="tagName" pref="11"/>
+        <Property value="//*[normalize-space(text())='Next']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[6]/div[3]/div[2]/button" ref="xpath" pref="6"/>
+        <Property value="create-project-dialog-create-button pt-submit-button aui-button aui-button-primary" ref="class" pref="7"/>
+        <Property value="html.js-focus-visible.webkit chrome > #jira > #add-project-dialog > div.dialog-components > div.dialog-button-panel > button.create-project-dialog-create-button.pt-submit-button aui-button aui-button-primary" ref="css" pref="8"/>
+        <Property value="submit" ref="type" pref="9"/>
+        <Property value="&lt;button class=&quot;create-project-dialog-create-button pt-submit-button aui-button aui-button-primary&quot; resolved=&quot;&quot;>Next&lt;/button>" ref="outerHTML" pref="10"/>
+        <Property value="button" ref="tagName" pref="11"/>
       </Object>
     </ObjectGroup>
-    <ObjectGroup ref="FirstPosition">
-      <Object frame="" ref="FirstPosition">
+    <ObjectGroup ref="Select">
+      <Object frame="" ref="Select">
         <Property value="" ref="NLP_locator" pref="1"/>
         <Property value="" ref="name" pref="2"/>
         <Property value="" ref="id" pref="3"/>
         <Property value="" ref="link_text" pref="4"/>
-        <Property value="//li[@data-index='#Y']" ref="relative_xpath" pref="5"/>
-        <Property value="/html/body/main/ul/li[2]/div/p" ref="xpath" pref="6"/>
-        <Property value="person-name" ref="class" pref="7"/>
-        <Property value="html > body > main > #draggable-list > li:nth-of-type(1) > div.draggable > p.person-name" ref="css" pref="8"/>
-        <Property value="p" ref="type" pref="9"/>
-        <Property value="&lt;li data-index=&quot;8&quot;>&#xa;        &lt;span class=&quot;number&quot;>9&lt;/span>&#xa;        &#xa;      &lt;div class=&quot;draggable&quot; draggable=&quot;true&quot;>&#xa;          &lt;p class=&quot;person-name&quot;>Larry Page&lt;/p>&#xa;          &lt;i class=&quot;fas fa-grip-lines&quot; aria-hidden=&quot;true&quot;>&lt;/i>&#xa;        &lt;/div>&lt;/li>" ref="outerHTML" pref="10"/>
-        <Property value="li" ref="tagName" pref="11"/>
+        <Property value="//*[normalize-space(text())='Select']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[6]/div[4]/div[2]/button[2]" ref="xpath" pref="6"/>
+        <Property value="template-info-dialog-create-button pt-submit-button aui-button aui-button-primary" ref="class" pref="7"/>
+        <Property value="html.js-focus-visible.webkit chrome > #jira > #add-project-dialog > div.dialog-components > div.dialog-button-panel > button.template-info-dialog-create-button.pt-submit-button aui-button aui-button-primary" ref="css" pref="8"/>
+        <Property value="submit" ref="type" pref="9"/>
+        <Property value="&lt;button class=&quot;template-info-dialog-create-button pt-submit-button aui-button aui-button-primary&quot; resolved=&quot;&quot;>Select&lt;/button>" ref="outerHTML" pref="10"/>
+        <Property value="button" ref="tagName" pref="11"/>
       </Object>
     </ObjectGroup>
-    <ObjectGroup ref="SecoundElement">
-      <Object frame="" ref="SecoundElement">
+    <ObjectGroup ref="Name">
+      <Object frame="" ref="Name">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="name" ref="name" pref="2"/>
+        <Property value="name" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@name='name']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div[6]/div[5]/div/div/div/div/form/fieldset/div/input)[1]" ref="xpath" pref="6"/>
+        <Property value="text long-field focus-visible" ref="class" pref="7"/>
+        <Property value="#name" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input class=&quot;text long-field&quot; type=&quot;text&quot; name=&quot;name&quot; id=&quot;name&quot; maxlength=&quot;80&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Submit">
+      <Object frame="" ref="Submit">
         <Property value="" ref="NLP_locator" pref="1"/>
         <Property value="" ref="name" pref="2"/>
         <Property value="" ref="id" pref="3"/>
         <Property value="" ref="link_text" pref="4"/>
-        <Property value="//*[contains(text(),'Larry Elli')]" ref="relative_xpath" pref="5"/>
-        <Property value="(/html/body/main/ul/li/div/p)[1]" ref="xpath" pref="6"/>
-        <Property value="person-name" ref="class" pref="7"/>
-        <Property value="html > body > main > #draggable-list > li > div.draggable > p.person-name" ref="css" pref="8"/>
-        <Property value="p" ref="type" pref="9"/>
-        <Property value="&lt;p class=&quot;person-name&quot;>Larry Ellison&lt;/p>" ref="outerHTML" pref="10"/>
-        <Property value="p" ref="tagName" pref="11"/>
+        <Property value="//*[normalize-space(text())='Submit']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[6]/div[5]/div[2]/button[2]" ref="xpath" pref="6"/>
+        <Property value="add-project-dialog-create-button pt-submit-button aui-button aui-button-primary" ref="class" pref="7"/>
+        <Property value="html.js-focus-visible.webkit chrome > #jira > #add-project-dialog > div.dialog-components > div.dialog-button-panel > button.add-project-dialog-create-button.pt-submit-button aui-button aui-button-primary" ref="css" pref="8"/>
+        <Property value="submit" ref="type" pref="9"/>
+        <Property value="&lt;button class=&quot;add-project-dialog-create-button pt-submit-button aui-button aui-button-primary&quot; resolved=&quot;&quot;>Submit&lt;/button>" ref="outerHTML" pref="10"/>
+        <Property value="button" ref="tagName" pref="11"/>
       </Object>
     </ObjectGroup>
-    <ObjectGroup ref="ThirdElement">
-      <Object frame="" ref="ThirdElement">
-        <Property value="" ref="NLP_locator" pref="1"/>
-        <Property value="" ref="name" pref="2"/>
-        <Property value="" ref="id" pref="3"/>
-        <Property value="" ref="link_text" pref="4"/>
-        <Property value="//*[contains(text(),'Larry Elli')]" ref="relative_xpath" pref="5"/>
-        <Property value="(/html/body/main/ul/li/div/p)[1]" ref="xpath" pref="6"/>
-        <Property value="person-name" ref="class" pref="7"/>
-        <Property value="html > body > main > #draggable-list > li > div.draggable > p.person-name" ref="css" pref="8"/>
-        <Property value="p" ref="type" pref="9"/>
-        <Property value="&lt;p class=&quot;person-name&quot;>Larry Ellison&lt;/p>" ref="outerHTML" pref="10"/>
-        <Property value="p" ref="tagName" pref="11"/>
-      </Object>
-    </ObjectGroup>
-    <ObjectGroup ref="FourElement">
-      <Object frame="" ref="FourElement">
-        <Property value="" ref="NLP_locator" pref="1"/>
-        <Property value="" ref="name" pref="2"/>
-        <Property value="" ref="id" pref="3"/>
-        <Property value="" ref="link_text" pref="4"/>
-        <Property value="//*[contains(text(),'Larry Elli')]" ref="relative_xpath" pref="5"/>
-        <Property value="(/html/body/main/ul/li/div/p)[1]" ref="xpath" pref="6"/>
-        <Property value="person-name" ref="class" pref="7"/>
-        <Property value="html > body > main > #draggable-list > li > div.draggable > p.person-name" ref="css" pref="8"/>
-        <Property value="p" ref="type" pref="9"/>
-        <Property value="&lt;p class=&quot;person-name&quot;>Larry Ellison&lt;/p>" ref="outerHTML" pref="10"/>
-        <Property value="p" ref="tagName" pref="11"/>
-      </Object>
-    </ObjectGroup>
-    <ObjectGroup ref="FirstElement Copy(4)">
-      <Object frame="" ref="FirstElement Copy(4)">
-        <Property value="" ref="NLP_locator" pref="1"/>
-        <Property value="" ref="name" pref="2"/>
-        <Property value="" ref="id" pref="3"/>
-        <Property value="" ref="link_text" pref="4"/>
-        <Property value="//*[contains(text(),'Larry Elli')]" ref="relative_xpath" pref="5"/>
-        <Property value="(/html/body/main/ul/li/div/p)[1]" ref="xpath" pref="6"/>
-        <Property value="person-name" ref="class" pref="7"/>
-        <Property value="html > body > main > #draggable-list > li > div.draggable > p.person-name" ref="css" pref="8"/>
-        <Property value="p" ref="type" pref="9"/>
-        <Property value="&lt;p class=&quot;person-name&quot;>Larry Ellison&lt;/p>" ref="outerHTML" pref="10"/>
-        <Property value="p" ref="tagName" pref="11"/>
-      </Object>
-    </ObjectGroup>
-    <ObjectGroup ref="FirstElement Copy(5)">
-      <Object frame="" ref="FirstElement Copy(5)">
-        <Property value="" ref="NLP_locator" pref="1"/>
-        <Property value="" ref="name" pref="2"/>
-        <Property value="" ref="id" pref="3"/>
-        <Property value="" ref="link_text" pref="4"/>
-        <Property value="//*[contains(text(),'Larry Elli')]" ref="relative_xpath" pref="5"/>
-        <Property value="(/html/body/main/ul/li/div/p)[1]" ref="xpath" pref="6"/>
-        <Property value="person-name" ref="class" pref="7"/>
-        <Property value="html > body > main > #draggable-list > li > div.draggable > p.person-name" ref="css" pref="8"/>
-        <Property value="p" ref="type" pref="9"/>
-        <Property value="&lt;p class=&quot;person-name&quot;>Larry Ellison&lt;/p>" ref="outerHTML" pref="10"/>
-        <Property value="p" ref="tagName" pref="11"/>
-      </Object>
-    </ObjectGroup>
-    <ObjectGroup ref="FirstElement Copy(6)">
-      <Object frame="" ref="FirstElement Copy(6)">
-        <Property value="" ref="NLP_locator" pref="1"/>
-        <Property value="" ref="name" pref="2"/>
-        <Property value="" ref="id" pref="3"/>
-        <Property value="" ref="link_text" pref="4"/>
-        <Property value="//*[contains(text(),'Larry Elli')]" ref="relative_xpath" pref="5"/>
-        <Property value="(/html/body/main/ul/li/div/p)[1]" ref="xpath" pref="6"/>
-        <Property value="person-name" ref="class" pref="7"/>
-        <Property value="html > body > main > #draggable-list > li > div.draggable > p.person-name" ref="css" pref="8"/>
-        <Property value="p" ref="type" pref="9"/>
-        <Property value="&lt;p class=&quot;person-name&quot;>Larry Ellison&lt;/p>" ref="outerHTML" pref="10"/>
-        <Property value="p" ref="tagName" pref="11"/>
-      </Object>
-    </ObjectGroup>
-    <ObjectGroup ref="FirstElement Copy(7)">
-      <Object frame="" ref="FirstElement Copy(7)">
-        <Property value="" ref="NLP_locator" pref="1"/>
-        <Property value="" ref="name" pref="2"/>
-        <Property value="" ref="id" pref="3"/>
-        <Property value="" ref="link_text" pref="4"/>
-        <Property value="//*[contains(text(),'Larry Elli')]" ref="relative_xpath" pref="5"/>
-        <Property value="(/html/body/main/ul/li/div/p)[1]" ref="xpath" pref="6"/>
-        <Property value="person-name" ref="class" pref="7"/>
-        <Property value="html > body > main > #draggable-list > li > div.draggable > p.person-name" ref="css" pref="8"/>
-        <Property value="p" ref="type" pref="9"/>
-        <Property value="&lt;p class=&quot;person-name&quot;>Larry Ellison&lt;/p>" ref="outerHTML" pref="10"/>
-        <Property value="p" ref="tagName" pref="11"/>
-      </Object>
-    </ObjectGroup>
-  </Page>
-  <Page title="" ref="WPage0"/>
-  <Page title="" ref="WPage1">
-    <ObjectGroup ref="WObject0">
-      <Object frame="" ref="WObject0">
+    <ObjectGroup ref="Key">
+      <Object frame="" ref="Key">
         <Property value="" ref="NLP_locator" pref="1"/>
         <Property value="" ref="name" pref="2"/>
         <Property value="" ref="id" pref="3"/>
         <Property value="" ref="link_text" pref="4"/>
         <Property value="" ref="relative_xpath" pref="5"/>
-        <Property value="" ref="xpath" pref="6"/>
+        <Property value="//input[@id=&quot;key&quot;]" ref="xpath" pref="6"/>
         <Property value="" ref="class" pref="7"/>
         <Property value="" ref="css" pref="8"/>
         <Property value="" ref="type" pref="9"/>
-        <Property value="" ref="outerHTML" pref="10"/>
-        <Property value="" ref="tagName" pref="11"/>
-        <Property value="document.querySelector(&quot;#content > my-paragraph:nth-child(4) > span&quot;)" ref="JSPath" pref="11"/>
+        <Property value="&lt;input class=&quot;text&quot; type=&quot;text&quot; name=&quot;key&quot; id=&quot;key&quot; maxlength=&quot;10&quot; style=&quot;text-transform: uppercase&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="SAM board - Agile Board - Jira" ref="Board">
+    <ObjectGroup ref="SAM board">
+      <Object frame="" ref="SAM board">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//span[@class=&quot;subnav-page-header&quot;]" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div/div/main/div/div/div[2]/h1/span)[1]" ref="xpath" pref="6"/>
+        <Property value="subnav-page-header" ref="class" pref="7"/>
+        <Property value="#ghx-board-name" ref="css" pref="8"/>
+        <Property value="span" ref="type" pref="9"/>
+        <Property value="&lt;span id=&quot;ghx-board-name&quot; class=&quot;subnav-page-header&quot;>DFDF board&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
       </Object>
     </ObjectGroup>
   </Page>

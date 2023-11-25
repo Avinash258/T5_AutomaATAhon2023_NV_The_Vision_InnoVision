@@ -1,0 +1,83 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  ${project.version}
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.9
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Sat Nov 25 14:35:29 IST 2023
+
+Scenario         :  [Challenge_01]
+TestCase         :  [NewTestCase]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: @https://sso.godaddy.com/?realm=pass&app=ox  |  Condition:  | @25-Nov-2023 14:35:34.034
+[DONE]   | Opened Url: https://sso.godaddy.com/?realm=pass&app=ox
+
+
+===================================================================================================
+
+Step:2  |  Object:Email*1  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 14:35:34.034
+[DONE]   | Clicking on Email*1
+
+
+===================================================================================================
+
+Step:3  |  Object:Email*1  |  Action:Set  |  Input: @team5.tvi@globaltestingretreat2023.com  |  Condition:  | @25-Nov-2023 14:35:35.035
+[DONE]   | Entered Text 'team5.tvi@globaltestingretreat2023.com' on 'Email*1'
+
+
+===================================================================================================
+
+Step:4  |  Object:Password*  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 14:35:35.035
+[DONE]   | Clicking on Password*
+
+
+===================================================================================================
+
+Step:5  |  Object:Password*  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 14:35:35.035
+[DONE]   | Clicking on Password*
+
+
+===================================================================================================
+
+Step:6  |  Object:Password*1  |  Action:setEncrypted  |  Input: @nywitDCq1oU/tSpt/uQM/WF524LS0iO+mWOyoGnsUtc= Enc  |  Condition:  | @25-Nov-2023 14:35:35.035
+[DONE]   | Entered Encrypted Text nywitDCq1oU/tSpt/uQM/WF524LS0iO+mWOyoGnsUtc= on Password*1
+
+
+===================================================================================================
+
+Step:7  |  Object:Sign In  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 14:35:35.035
+[DONE]   | Clicking on Sign In
+
+
+===================================================================================================
+
+Step:8  |  Object:Your browser is a bit unusual.  |  Action:assertElementTextContains  |  Input: @Your browser is a bit unusual...  |  Condition:  | @25-Nov-2023 14:35:37.037
+[PASS]   | Your browser is a bit unusual.'s Text CONTAINS Your browser is a bit unusual... 
+
+
+===================================================================================================
+
+Step:9  |  Object:Your browser is a bit unusual.  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 14:42:16.016
+[DONE]   | Clicking on Your browser is a bit unusual.
+
+---------------------------------------------------
+Testcase Name        : Challenge_01:NewTestCase
+Executed Steps       : 9
+Passed Steps         : 9
+Failed Steps         : 0
+Time Taken           : 00:06:47
+---------------------------------------------------
+

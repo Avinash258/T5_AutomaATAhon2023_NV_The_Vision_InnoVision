@@ -1,0 +1,119 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  ${project.version}
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.9
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Sat Nov 25 15:40:10 IST 2023
+
+Scenario         :  [Challenge_03]
+TestCase         :  [TC01_Project Creation]
+Browser          :  [Edge]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: @http://34.72.96.125/secure/Dashboard.jspa  |  Condition:  | @25-Nov-2023 15:40:17.017
+[DONE]   | Opened Url: http://34.72.96.125/secure/Dashboard.jspa
+
+
+===================================================================================================
+
+Step:2  |  Object:Username  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 15:40:17.017
+[DONE]   | Clicking on Username
+
+
+===================================================================================================
+
+Step:3  |  Object:Username  |  Action:Set  |  Input: @ata  |  Condition:  | @25-Nov-2023 15:40:17.017
+[DONE]   | Entered Text 'ata' on 'Username'
+
+
+===================================================================================================
+
+Step:4  |  Object:Password  |  Action:setEncrypted  |  Input: @GwnsMJ8NXds5i5bUc8N3oQ== Enc  |  Condition:  | @25-Nov-2023 15:40:17.017
+[DONE]   | Entered Encrypted Text GwnsMJ8NXds5i5bUc8N3oQ== on Password
+
+
+===================================================================================================
+
+Step:5  |  Object:Password  |  Action:setEncrypted  |  Input: @+xSsfuiE2AVFxi1axLzFrg== Enc  |  Condition:  | @25-Nov-2023 15:40:17.017
+[DONE]   | Entered Encrypted Text +xSsfuiE2AVFxi1axLzFrg== on Password
+
+
+===================================================================================================
+
+Step:6  |  Object:Log In  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 15:40:17.017
+[DONE]   | Clicking on Log In
+
+
+===================================================================================================
+
+Step:7  |  Object:Tools  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 15:40:17.017
+[DONE]   | Clicking on Tools
+
+
+===================================================================================================
+
+Step:8  |  Object:Projects  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 15:40:25.025
+[DONE]   | Clicking on Projects
+
+
+===================================================================================================
+
+Step:9  |  Object:Create project  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 15:40:26.026
+[DONE]   | Clicking on Create project
+
+
+===================================================================================================
+
+Step:10  |  Object:Scrum software developmentAgil  |  Action:selectValueFromUnorderedList  |  Input: @Scrum software developmentAgile development with a board, sprints and stories. Connects with source and build tools.  |  Condition:  | @25-Nov-2023 15:40:37.037
+[FAIL]   | Element[Scrum software developmentAgil] Not Visible/Available
+
+
+===================================================================================================
+
+Step:11  |  Object:Next  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 15:40:38.038
+[DONE]   | Clicking on Next
+
+
+===================================================================================================
+
+Step:12  |  Object:Select  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 15:40:38.038
+[DONE]   | Clicking on Select
+
+
+===================================================================================================
+
+Step:13  |  Object:Name  |  Action:Set  |  Input: @SameTest1  |  Condition:  | @25-Nov-2023 15:40:39.039
+[DONE]   | Entered Text 'SameTest1' on 'Name'
+
+
+===================================================================================================
+
+Step:14  |  Object:Submit  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 15:40:39.039
+[DONE]   | Clicking on Submit
+
+
+===================================================================================================
+
+Step:15  |  Object:SAM board  |  Action:assertElementTextContains  |  Input: @SAM board  |  Condition:  | @25-Nov-2023 15:41:29.029
+[FAIL]   | "SAM board" text is "TEST board" but should contain "SAM board"
+
+---------------------------------------------------
+Testcase Name        : Challenge_03:TC01_Project Creation
+Executed Steps       : 15
+Passed Steps         : 13
+Failed Steps         : 2
+Time Taken           : 00:01:20
+---------------------------------------------------
+

@@ -28,3 +28,401 @@ light
 2023-11-25 13:52:42:11S +0530 [INFO] com.NewVision.InnoVision.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
 2023-11-25 13:52:45:11S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
 2023-11-25 13:57:58:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main finish:InnoVision IDE has been Terminated - [ Total Time : 00:05:17.855 ]
+2023-11-25 14:02:36:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main main:Launching InnoVision IDE
+light
+2023-11-25 14:02:37:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 14:02:38:11S +0530 [INFO] com.NewVision.InnoVision.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2023-11-25 14:02:41:11S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
+2023-11-25 14:27:08:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.mainui.components.testdesign.tree.ProjectTree deleteScenarios:Delete Scenarios approved for 1; [pact]
+2023-11-25 14:27:08:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils deleteFile:Deleting C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\TestPlan\pact\NewTestCase.csv
+2023-11-25 14:27:08:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils deleteFile:Deleting C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\TestPlan\pact\TC01_DragandDrop.csv
+2023-11-25 14:27:08:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils deleteFile:Deleting C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\TestPlan\pact\TC02_Sorting.csv
+2023-11-25 14:27:08:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils deleteFile:Deleting C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\TestPlan\pact
+2023-11-25 14:27:18:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils deleteFile:Deleting C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\ObjectRepository\WPage0
+2023-11-25 14:27:18:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils deleteFile:Deleting C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\ObjectRepository\WPage1\WObject0\WObject0
+2023-11-25 14:27:18:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils deleteFile:Deleting C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\ObjectRepository\WPage1\WObject0
+2023-11-25 14:27:18:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils deleteFile:Deleting C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\ObjectRepository\WPage1
+2023-11-25 14:31:45:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\TestPlan\NewScenario Renamed to Challenge_01
+2023-11-25 14:31:45:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.Project refactorScenario:Refactoring started for Scenario [NewScenario] to [Challenge_01]
+2023-11-25 14:31:45:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.Project refactorScenario:Refactoring done for Scenario [NewScenario] to [Challenge_01]
+2023-11-25 14:31:47:11S +0530 [SEVERE] com.NewVision.InnoVision.datalib.component.utils.FileUtils getRecords:File [C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\TestPlan\Challenge_01\NewTestCase.csv] doesn't exist
+[AWT-EventQueue-0] INFO org.eclipse.jetty.util.log - Logging initialized @1755642ms to org.eclipse.jetty.util.log.Slf4jLog
+jar:file:/C:/Hack/Final/T5_AutomaATAhon2023_NV_The_Vision_InnoVision/lib/InnoVision-extensionconnect-1.0.jar!/localhost
+2023-11-25 14:31:51:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer startRecord:Launching Server for Record
+Current Directory: C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision
+sysstemnull
+2023-11-25 14:31:51:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Starting Server
+[SocketServer] INFO org.eclipse.jetty.server.Server - jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 17.0.9+11-LTS-201
+[SocketServer] INFO org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+[SocketServer] INFO org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+[SocketServer] INFO org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+Exception in thread "AWT-EventQueue-0" java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at com.NewVision.InnoVision.engine.drivers.customWebDriver.EmptyDriver.chormeExtension(EmptyDriver.java:158)
+	at com.NewVision.InnoVision.ide.main.mainui.components.testdesign.testcase.RecorderDialog.toggleRecorder(RecorderDialog.java:62)
+	at com.NewVision.InnoVision.ide.main.mainui.components.testdesign.testcase.TestCaseComponent.record(TestCaseComponent.java:414)
+	at com.NewVision.InnoVision.ide.main.mainui.components.testdesign.testcase.TestCaseComponent.actionPerformed(TestCaseComponent.java:325)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6626)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+[SocketServer] INFO org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@6ec29d34{/,null,AVAILABLE}
+[SocketServer] INFO org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@60f22e19(localhost,h=[localhost],a=[],w=[]) for SslContextFactory@4de8ba5d[provider=null,keyStore=jar:file:/C:/Hack/Final/T5_AutomaATAhon2023_NV_The_Vision_InnoVision/lib/InnoVision-extensionconnect-1.0.jar!/localhost,trustStore=null]
+[SocketServer] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@2f03ad91{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[SocketServer] INFO org.eclipse.jetty.server.Server - Started @1756372ms
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@2f03ad91{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.session - node0 Stopped scavenging
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@6ec29d34{/,null,STOPPED}
+jar:file:/C:/Hack/Final/T5_AutomaATAhon2023_NV_The_Vision_InnoVision/lib/InnoVision-extensionconnect-1.0.jar!/localhost
+2023-11-25 14:31:55:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Server Stopped
+2023-11-25 14:32:00:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+jar:file:/C:/Hack/Final/T5_AutomaATAhon2023_NV_The_Vision_InnoVision/lib/InnoVision-extensionconnect-1.0.jar!/localhost
+2023-11-25 14:32:08:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer startRecord:Launching Server for Record
+Current Directory: C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision
+sysstemC:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\Drivers\chromedriver.exe
+2023-11-25 14:32:08:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Starting Server
+[SocketServer] INFO org.eclipse.jetty.server.Server - jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 17.0.9+11-LTS-201
+[SocketServer] INFO org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+[SocketServer] INFO org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+[SocketServer] INFO org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+[SocketServer] INFO org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@7bb2a18{/,null,AVAILABLE}
+[SocketServer] INFO org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@4590cc68(localhost,h=[localhost],a=[],w=[]) for SslContextFactory@6556aa4a[provider=null,keyStore=jar:file:/C:/Hack/Final/T5_AutomaATAhon2023_NV_The_Vision_InnoVision/lib/InnoVision-extensionconnect-1.0.jar!/localhost,trustStore=null]
+[SocketServer] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@29fa906e{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[SocketServer] INFO org.eclipse.jetty.server.Server - Started @1772714ms
+Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 9319
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+2023-11-25 14:32:09:11S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+2023-11-25 14:32:42:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Browser[null] - Open - @https://sso.godaddy.com/?realm=pass&app=ox
+2023-11-25 14:32:46:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Email*
+2023-11-25 14:32:46:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Email*] - Click - null
+2023-11-25 14:32:47:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Password*
+2023-11-25 14:32:47:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Password*] - Click - null
+2023-11-25 14:32:51:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Sign In
+2023-11-25 14:32:51:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Sign In] - Click - null
+2023-11-25 14:33:30:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Email*1
+2023-11-25 14:33:30:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Email*1] - Click - null
+2023-11-25 14:33:34:11S +0530 [WARNING] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Sign
+Object : Email*1
+2023-11-25 14:33:34:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Email*1] - Set - @team5.tvi@globaltestingretreat2023.com
+2023-11-25 14:33:34:11S +0530 [WARNING] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Sign
+Object : Email*1
+2023-11-25 14:33:34:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Email*1] - Set - @team5.tvi@globaltestingretreat2023.com
+2023-11-25 14:33:34:11S +0530 [WARNING] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Sign
+Object : Password*
+2023-11-25 14:33:34:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Password*] - Click - null
+2023-11-25 14:33:50:11S +0530 [WARNING] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Sign
+Object : Password*
+2023-11-25 14:33:50:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Password*] - Click - null
+2023-11-25 14:33:53:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Password*1
+2023-11-25 14:33:53:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Password*1] - setEncrypted - @automatahon@2023
+2023-11-25 14:33:53:11S +0530 [WARNING] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Sign
+Object : Password*1
+2023-11-25 14:33:53:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Password*1] - setEncrypted - @automatahon@2023
+2023-11-25 14:33:54:11S +0530 [WARNING] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Sign
+Object : Sign In
+2023-11-25 14:33:54:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Sign In] - Click - null
+2023-11-25 14:34:15:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Your browser is a bit unusual.
+2023-11-25 14:34:15:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Your browser is a bit unusual.] - assertElementTextContains - @Your browser is a bit unusual...
+2023-11-25 14:34:15:11S +0530 [WARNING] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Sign
+Object : Your browser is a bit unusual.
+2023-11-25 14:34:15:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Your browser is a bit unusual.] - Click - null
+2023-11-25 14:34:21:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Let's Try Again
+2023-11-25 14:34:21:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Let's Try Again] - Click - null
+2023-11-25 14:34:24:11S +0530 [WARNING] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Sign
+Object : Sign In
+2023-11-25 14:34:24:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Sign In] - Click - null
+2023-11-25 14:34:33:11S +0530 [WARNING] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Sign
+Object : Let's Try Again
+2023-11-25 14:34:33:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Let's Try Again] - Click - null
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@29fa906e{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.session - node0 Stopped scavenging
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@7bb2a18{/,null,STOPPED}
+2023-11-25 14:34:43:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Server Stopped
+jar:file:/C:/Hack/Final/T5_AutomaATAhon2023_NV_The_Vision_InnoVision/lib/InnoVision-extensionconnect-1.0.jar!/localhost
+2023-11-25 14:34:47:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+[AWT-EventQueue-0] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\TestPlan\Challenge_01\NewTestCase.csv
+[AWT-EventQueue-0] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\TestPlan\Challenge_01\NewTestCase.csv]
+[AWT-EventQueue-0] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\TestPlan\Challenge_01\NewTestCase.csv
+[AWT-EventQueue-0] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\TestPlan\Challenge_01\NewTestCase.csv]
+2023-11-25 14:35:29:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 14:42:26:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 14:42:47:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 14:44:09:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 14:49:03:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 15:12:21:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 15:12:55:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main main:Launching InnoVision IDE
+light
+2023-11-25 15:12:56:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 15:12:58:11S +0530 [INFO] com.NewVision.InnoVision.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2023-11-25 15:13:03:11S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
+2023-11-25 15:13:20:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 15:13:47:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main main:Launching InnoVision IDE
+light
+2023-11-25 15:13:48:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 15:13:49:11S +0530 [INFO] com.NewVision.InnoVision.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2023-11-25 15:13:54:11S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
+2023-11-25 15:14:20:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 15:25:58:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 15:34:38:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\TestPlan\NewScenario Renamed to Challenge_03
+2023-11-25 15:34:38:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.Project refactorScenario:Refactoring started for Scenario [NewScenario] to [Challenge_03]
+2023-11-25 15:34:38:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.Project refactorScenario:Refactoring done for Scenario [NewScenario] to [Challenge_03]
+2023-11-25 15:34:41:11S +0530 [SEVERE] com.NewVision.InnoVision.datalib.component.utils.FileUtils getRecords:File [C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\TestPlan\Challenge_03\NewTestCase.csv] doesn't exist
+2023-11-25 15:34:58:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\TestPlan\Challenge_03\NewTestCase.csv Renamed to TC01_Project Creation.csv
+2023-11-25 15:34:58:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.Project refactorTestCase:Refactoring started for TestCase [NewTestCase] to [TC01_Project Creation]
+2023-11-25 15:34:58:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.Project refactorTestCase:Refactoring done for TestCase [NewTestCase] to [TC01_Project Creation]
+[AWT-EventQueue-0] INFO org.eclipse.jetty.util.log - Logging initialized @1280822ms to org.eclipse.jetty.util.log.Slf4jLog
+jar:file:/C:/Hack/Final/T5_AutomaATAhon2023_NV_The_Vision_InnoVision/lib/InnoVision-extensionconnect-1.0.jar!/localhost
+2023-11-25 15:35:08:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer startRecord:Launching Server for Record
+Current Directory: C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision
+sysstemC:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\Drivers\chromedriver.exe
+2023-11-25 15:35:08:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Starting Server
+[SocketServer] INFO org.eclipse.jetty.server.Server - jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 17.0.9+11-LTS-201
+[SocketServer] INFO org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+[SocketServer] INFO org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+[SocketServer] INFO org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+[SocketServer] INFO org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@35f1813f{/,null,AVAILABLE}
+[SocketServer] INFO org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@1a1e9ae1(localhost,h=[localhost],a=[],w=[]) for SslContextFactory@25441607[provider=null,keyStore=jar:file:/C:/Hack/Final/T5_AutomaATAhon2023_NV_The_Vision_InnoVision/lib/InnoVision-extensionconnect-1.0.jar!/localhost,trustStore=null]
+Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 10792
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[SocketServer] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@4cc138ac{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[SocketServer] INFO org.eclipse.jetty.server.Server - Started @1281492ms
+2023-11-25 15:35:10:11S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+2023-11-25 15:36:01:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Browser[null] - Open - @http://34.72.96.125/secure/Dashboard.jspa
+2023-11-25 15:36:14:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Username
+2023-11-25 15:36:14:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Username] - Click - null
+2023-11-25 15:36:32:11S +0530 [WARNING] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : System
+Object : Username
+2023-11-25 15:36:32:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Username] - Set - @ata
+2023-11-25 15:36:32:11S +0530 [WARNING] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : System
+Object : Username
+2023-11-25 15:36:32:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Username] - Set - @ata
+2023-11-25 15:37:03:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Password
+2023-11-25 15:37:03:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Password] - setEncrypted - @ata@
+2023-11-25 15:37:03:11S +0530 [WARNING] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : System
+Object : Password
+2023-11-25 15:37:03:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Password] - setEncrypted - @ata@
+2023-11-25 15:37:10:11S +0530 [WARNING] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : System
+Object : Password
+2023-11-25 15:37:10:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Password] - setEncrypted - @ata@123
+2023-11-25 15:37:10:11S +0530 [WARNING] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : System
+Object : Password
+2023-11-25 15:37:10:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Password] - setEncrypted - @ata@123
+2023-11-25 15:37:10:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Log In
+2023-11-25 15:37:10:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Log In] - Click - null
+2023-11-25 15:37:41:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Tools
+2023-11-25 15:37:41:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Tools] - Click - null
+2023-11-25 15:38:04:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Projects
+2023-11-25 15:38:04:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Projects] - Click - null
+2023-11-25 15:38:11:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Create project
+2023-11-25 15:38:11:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Create project] - Click - null
+2023-11-25 15:38:13:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Scrum software developmentAgil
+2023-11-25 15:38:13:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Scrum software developmentAgil] - selectValueFromUnorderedList - @Scrum software developmentAgile development with a board, sprints and stories. Connects with source and build tools.
+2023-11-25 15:38:35:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Next
+2023-11-25 15:38:35:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Next] - Click - null
+2023-11-25 15:38:57:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Select
+2023-11-25 15:38:57:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Select] - Click - null
+2023-11-25 15:39:11:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Name
+2023-11-25 15:39:11:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Name] - Set - @SameTest
+2023-11-25 15:39:11:11S +0530 [WARNING] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : System
+Object : Name
+2023-11-25 15:39:11:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Name] - Set - @SameTest
+2023-11-25 15:39:18:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Submit
+2023-11-25 15:39:18:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Submit] - Click - null
+2023-11-25 15:39:47:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Added : SAM board
+2023-11-25 15:39:47:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[SAM board] - assertElementTextContains - @SAM board
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@4cc138ac{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.session - node0 Stopped scavenging
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@35f1813f{/,null,STOPPED}
+jar:file:/C:/Hack/Final/T5_AutomaATAhon2023_NV_The_Vision_InnoVision/lib/InnoVision-extensionconnect-1.0.jar!/localhost
+2023-11-25 15:39:55:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Server Stopped
+2023-11-25 15:40:10:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 15:43:09:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 15:50:25:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main main:Launching InnoVision IDE
+light
+2023-11-25 15:50:27:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 15:50:28:11S +0530 [INFO] com.NewVision.InnoVision.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2023-11-25 15:50:32:11S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
+2023-11-25 15:51:13:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 15:51:54:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 15:57:24:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 16:00:01:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 16:02:46:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 16:04:10:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 16:10:38:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 16:12:08:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 16:14:57:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 16:16:03:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\ObjectRepository\System\Scrum software developmentAgil Renamed to Select_Agile
+2023-11-25 16:16:03:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\ObjectRepository\System\Select_Agile\Scrum software developmentAgil Renamed to Select_Agile
+2023-11-25 16:17:19:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main main:Launching InnoVision IDE
+2023-11-25 16:17:19:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main main:Launching InnoVision IDE
+light
+light
+2023-11-25 16:17:21:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 16:17:21:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 16:17:24:11S +0530 [INFO] com.NewVision.InnoVision.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2023-11-25 16:17:24:11S +0530 [INFO] com.NewVision.InnoVision.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2023-11-25 16:17:34:11S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
+2023-11-25 16:17:34:11S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
+2023-11-25 16:17:41:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main main:Launching InnoVision IDE
+light
+2023-11-25 16:17:42:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 16:17:45:11S +0530 [INFO] com.NewVision.InnoVision.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2023-11-25 16:17:51:11S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
+2023-11-25 16:20:13:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\TestPlan\NewScenario Renamed to RANDOMNAME
+2023-11-25 16:20:13:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.Project refactorScenario:Refactoring started for Scenario [NewScenario] to [RANDOMNAME]
+2023-11-25 16:20:13:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.Project refactorScenario:Refactoring done for Scenario [NewScenario] to [RANDOMNAME]
+2023-11-25 16:20:40:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main finish:InnoVision IDE has been Terminated - [ Total Time : 00:03:21.029 ]
+2023-11-25 16:23:28:11S +0530 [SEVERE] com.NewVision.InnoVision.engine.util.data.fx.FParser getJSEngine:Cannot invoke "javax.script.ScriptEngine.eval(String)" because "js" is null
+java.lang.NullPointerException: Cannot invoke "javax.script.ScriptEngine.eval(String)" because "js" is null
+	at com.NewVision.InnoVision.engine.util.data.fx.FParser.getJSEngine(FParser.java:97)
+	at com.NewVision.InnoVision.engine.util.data.fx.FParser.init(FParser.java:82)
+	at com.NewVision.InnoVision.engine.util.data.fx.FParser.<clinit>(FParser.java:41)
+	at com.NewVision.InnoVision.ide.main.mainui.components.testdesign.testcase.TestCaseAutoSuggest$InputAutoSuggest.getFunctionList(TestCaseAutoSuggest.java:299)
+	at com.NewVision.InnoVision.ide.main.mainui.components.testdesign.testcase.TestCaseAutoSuggest$InputAutoSuggest.getInputBasedOnText(TestCaseAutoSuggest.java:283)
+	at com.NewVision.InnoVision.ide.main.mainui.components.testdesign.testcase.TestCaseAutoSuggest$InputAutoSuggest.beforeSearch(TestCaseAutoSuggest.java:378)
+	at com.NewVision.InnoVision.ide.main.utils.table.autosuggest.AutoSuggest.reset(AutoSuggest.java:161)
+	at com.NewVision.InnoVision.ide.main.utils.table.autosuggest.AutoSuggestCellEditor.stopCellEditing(AutoSuggestCellEditor.java:35)
+	at java.desktop/javax.swing.DefaultCellEditor$EditorDelegate.actionPerformed(DefaultCellEditor.java:392)
+	at java.desktop/javax.swing.JComboBox.fireActionEvent(JComboBox.java:1294)
+	at java.desktop/javax.swing.JComboBox.setSelectedItem(JComboBox.java:619)
+	at com.NewVision.InnoVision.ide.main.mainui.components.testdesign.testcase.TestCaseAutoSuggest$InputAutoSuggest.setSelectedItem(TestCaseAutoSuggest.java:357)
+	at java.desktop/javax.swing.DefaultCellEditor$3.setValue(DefaultCellEditor.java:139)
+	at java.desktop/javax.swing.DefaultCellEditor.getTableCellEditorComponent(DefaultCellEditor.java:269)
+	at java.desktop/javax.swing.JTable.prepareEditor(JTable.java:5868)
+	at java.desktop/javax.swing.JTable.editCellAt(JTable.java:3565)
+	at com.NewVision.InnoVision.ide.main.utils.table.XTable.editCellAt(XTable.java:237)
+	at java.desktop/javax.swing.plaf.basic.BasicTableUI$Handler.adjustSelection(BasicTableUI.java:1147)
+	at java.desktop/javax.swing.plaf.basic.BasicTableUI$Handler.mousePressed(BasicTableUI.java:1077)
+	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:288)
+	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:287)
+	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:287)
+	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:287)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6623)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4572)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+2023-11-25 16:24:47:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+prope {BoardName=}
+properties111 {BoardName=}
+properties {BoardName=}
+2023-11-25 16:26:56:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 16:27:36:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main main:Launching InnoVision IDE
+light
+2023-11-25 16:27:38:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 16:27:40:11S +0530 [INFO] com.NewVision.InnoVision.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2023-11-25 16:27:44:11S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
+2023-11-25 16:28:05:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 16:28:31:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 16:35:28:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 16:36:31:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 16:38:38:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main main:Launching InnoVision IDE
+light
+2023-11-25 16:38:38:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 16:38:41:11S +0530 [INFO] com.NewVision.InnoVision.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2023-11-25 16:38:46:11S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
+2023-11-25 16:39:04:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 16:40:03:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\TestLab\UI\Sample.csv Renamed to Scenario_03.csv
+2023-11-25 16:40:17:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 16:41:29:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 16:44:13:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 16:44:40:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 16:46:07:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+prope {R=, BoardName=}
+properties111 {R=, BoardName=}
+properties {R=, BoardName=}
+prope {R=, BoardName=}
+properties111 {R=, BoardName=}
+properties {R=, BoardName=}
+prope {R=, BoardName=}
+properties111 {R=, BoardName=}
+properties {R=, BoardName=}
+prope {R=, BoardName=}
+properties111 {R=, BoardName=}
+properties {R=, BoardName=}
+prope {R=, BoardName=}
+properties111 {R=, BoardName=}
+properties {R=, BoardName=}

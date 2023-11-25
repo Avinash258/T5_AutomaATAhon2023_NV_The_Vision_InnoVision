@@ -1,0 +1,186 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine : ${project.version}
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 17.0.9
+java.home            : C:\Program Files\Java\jdk-17
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Sat Nov 25 16:41:29 IST 2023
+Loading Browser Profile
+Loading RunManager
+[Scenario:Challenge_03] [TestCase: TC01_Project Creation] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-14] WARN com.NewVision.InnoVision.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 11314
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+2023-11-25 16:41:31:11S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input:*********  | Conditon:  | @25-Nov-2023 16:41:31.031
+[DONE]   | Opened Url: http://34.72.96.125/secure/Dashboard.jspa
+
+===================================================================================================
+
+Step:2   | Object: Username | Action: Click | Input:*********  | Conditon:  | @25-Nov-2023 16:41:35.035
+Using @name [os_username], Object 'Username' Found in 35 ms
+[DONE]   | Clicking on Username
+
+===================================================================================================
+
+Step:3   | Object: Username | Action: Set | Input:*********  | Conditon:  | @25-Nov-2023 16:41:35.035
+Using @name [os_username], Object 'Username' Found in 31 ms
+[DONE]   | Entered Text 'ata' on 'Username'
+
+===================================================================================================
+
+Step:4   | Object: Password | Action: setEncrypted | Input:*********  | Conditon:  | @25-Nov-2023 16:41:35.035
+Using @name [os_password], Object 'Password' Found in 35 ms
+[DONE]   | Entered Encrypted Text GwnsMJ8NXds5i5bUc8N3oQ== on Password
+
+===================================================================================================
+
+Step:5   | Object: Password | Action: setEncrypted | Input:*********  | Conditon:  | @25-Nov-2023 16:41:36.036
+Using @name [os_password], Object 'Password' Found in 34 ms
+[DONE]   | Entered Encrypted Text +xSsfuiE2AVFxi1axLzFrg== on Password
+
+===================================================================================================
+
+Step:6   | Object: Log In | Action: Click | Input:*********  | Conditon:  | @25-Nov-2023 16:41:36.036
+Using @name [login], Object 'Log In' Found in 39 ms
+[DONE]   | Clicking on Log In
+
+===================================================================================================
+
+Step:7   | Object: Tools | Action: Click | Input:*********  | Conditon:  | @25-Nov-2023 16:41:36.036
+Using @relative_xpath [//*[normalize-space(text())='Tools']], Object 'Tools' Found in 40 ms
+[DONE]   | Clicking on Tools
+
+===================================================================================================
+
+Step:8   | Object: Projects | Action: Click | Input:*********  | Conditon:  | @25-Nov-2023 16:41:36.036
+Using @id [browse_link], Object 'Projects' Found in 8251 ms
+[DONE]   | Clicking on Projects
+
+===================================================================================================
+
+Step:9   | Object: Create project | Action: clickByJS | Input:*********  | Conditon:  | @25-Nov-2023 16:41:44.044
+Using @id [project_template_create_link_lnk], Object 'Create project' Found in 557 ms
+[DONE]   | Clicked on Create project
+
+===================================================================================================
+
+Step:10  | Object: Select_Agile | Action: clickByJS | Input:*********  | Conditon:  | @25-Nov-2023 16:41:45.045
+Using @relative_xpath [//div[@class="template-meta"]/div[@title="Kanban software development"]], Object 'Select_Agile' Found in 625 ms
+[DONE]   | Clicked on Select_Agile
+
+===================================================================================================
+
+Step:11  | Object: Next | Action: Click | Input:*********  | Conditon:  | @25-Nov-2023 16:41:46.046
+Using @relative_xpath [//*[normalize-space(text())='Next']], Object 'Next' Found in 132 ms
+[DONE]   | Clicking on Next
+
+===================================================================================================
+
+Step:12  | Object: Select | Action: Click | Input:*********  | Conditon:  | @25-Nov-2023 16:41:46.046
+Using @relative_xpath [//*[normalize-space(text())='Select']], Object 'Select' Found in 128 ms
+[DONE]   | Clicking on Select
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: AddVar | Input:*********  | Conditon: %Random7% | @25-Nov-2023 16:41:47.047
+Adding to runTimeVars %Random7%:6728244
+Getting runTimeVar %Random7%
+[DONE]   | Variable %Random7%
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: print | Input:*********  | Conditon:  | @25-Nov-2023 16:41:47.047
+%Random7% changed to 6728244
+6728244
+[DONE]   | printed 6728244
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: AddVar | Input:*********  | Conditon: %R% | @25-Nov-2023 16:41:47.047
+%Random7% changed to 6728244
+Adding to runTimeVars %R%:6728244SAMPLE
+Getting runTimeVar %R%
+[DONE]   | Variable %R%
+
+===================================================================================================
+
+Step:3   | Object: Browser | Action: print | Input:*********  | Conditon: #R | @25-Nov-2023 16:41:47.047
+%R% changed to 6728244SAMPLE
+6728244SAMPLE
+[DONE]   | printed 6728244SAMPLE
+
+===================================================================================================
+
+Step:14  | Object: Name | Action: Set | Input:*********  | Conditon:  | @25-Nov-2023 16:41:47.047
+%R% changed to 6728244SAMPLE
+Using @name [name], Object 'Name' Found in 99 ms
+[DONE]   | Entered Text '6728244SAMPLE' on 'Name'
+
+===================================================================================================
+
+Step:15  | Object: Browser | Action: storeVariableInDataSheet | Input:*********  | Conditon: %R% | @25-Nov-2023 16:41:47.047
+Getting runTimeVar %R%
+%R%
+Getting runTimeVar %R%
+[DONE]   | Value of variable %R% has been stored into the data sheet
+
+===================================================================================================
+
+Step:16  | Object: Browser | Action: AddGlobalVar | Input:*********  | Conditon: %R% | @25-Nov-2023 16:41:47.047
+%BoardName% changed to 
+Getting runTimeVar %R%
+[DONE]   | Variable %R% added with value 
+
+===================================================================================================
+
+Step:17  | Object: Submit | Action: Click | Input:*********  | Conditon:  | @25-Nov-2023 16:41:47.047
+Using @relative_xpath [//*[normalize-space(text())='Submit']], Object 'Submit' Found in 32 ms
+[DONE]   | Clicking on Submit
+
+===================================================================================================
+
+2023-11-25 16:43:18:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\ObjectRepository\SAM Renamed to Board
+2023-11-25 16:43:29:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\ObjectRepository\System\WObject0 Renamed to Key
+2023-11-25 16:43:29:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\ObjectRepository\System\Key\WObject0 Renamed to Key
+Step:18  | Object: Browser | Action: pause | Input:*********  | Conditon:  | @25-Nov-2023 16:44:09.009
+[DONE]   | Thread sleep for '3
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Challenge_03:TC01_Project Creation
+Executed Steps       : 21
+Passed Steps         : 21
+Failed Steps         : 0
+Time Taken           : 00:02:40
+-----------------------------------------------------
+
+Run Finished on Sat Nov 25 16:44:10 IST 2023
+-----------------------------------------------------
+ExecutionDate        : 25-Nov-2023 16-41-29
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:02:40
+ReportPath           : file:///C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\Results\TestDesign\Challenge_03\TC01_Project Creation\25-Nov-2023 16-41-29\summary.html
+-----------------------------------------------------
+[Thread-14] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\Results\TestDesign\Challenge_03\TC01_Project Creation\25-Nov-2023 16-41-29\summary.html
+[Thread-14] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\Results\TestDesign\Challenge_03\TC01_Project Creation\25-Nov-2023 16-41-29\summary.html]

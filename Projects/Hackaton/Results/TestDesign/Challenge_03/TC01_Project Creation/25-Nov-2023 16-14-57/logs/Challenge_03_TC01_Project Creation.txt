@@ -1,0 +1,119 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  ${project.version}
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.9
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Sat Nov 25 16:14:57 IST 2023
+
+Scenario         :  [Challenge_03]
+TestCase         :  [TC01_Project Creation]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: @http://34.72.96.125/secure/Dashboard.jspa  |  Condition:  | @25-Nov-2023 16:15:02.002
+[DONE]   | Opened Url: http://34.72.96.125/secure/Dashboard.jspa
+
+
+===================================================================================================
+
+Step:2  |  Object:Username  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 16:15:02.002
+[DONE]   | Clicking on Username
+
+
+===================================================================================================
+
+Step:3  |  Object:Username  |  Action:Set  |  Input: @ata  |  Condition:  | @25-Nov-2023 16:15:02.002
+[DONE]   | Entered Text 'ata' on 'Username'
+
+
+===================================================================================================
+
+Step:4  |  Object:Password  |  Action:setEncrypted  |  Input: @GwnsMJ8NXds5i5bUc8N3oQ== Enc  |  Condition:  | @25-Nov-2023 16:15:02.002
+[DONE]   | Entered Encrypted Text GwnsMJ8NXds5i5bUc8N3oQ== on Password
+
+
+===================================================================================================
+
+Step:5  |  Object:Password  |  Action:setEncrypted  |  Input: @+xSsfuiE2AVFxi1axLzFrg== Enc  |  Condition:  | @25-Nov-2023 16:15:03.003
+[DONE]   | Entered Encrypted Text +xSsfuiE2AVFxi1axLzFrg== on Password
+
+
+===================================================================================================
+
+Step:6  |  Object:Log In  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 16:15:03.003
+[DONE]   | Clicking on Log In
+
+
+===================================================================================================
+
+Step:7  |  Object:Tools  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 16:15:03.003
+[DONE]   | Clicking on Tools
+
+
+===================================================================================================
+
+Step:8  |  Object:Projects  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 16:15:12.012
+[DONE]   | Clicking on Projects
+
+
+===================================================================================================
+
+Step:9  |  Object:Create project  |  Action:clickByJS  |  Input:   |  Condition:  | @25-Nov-2023 16:15:12.012
+[DONE]   | Clicked on Create project
+
+
+===================================================================================================
+
+Step:10  |  Object:Scrum software developmentAgil  |  Action:clickByJS  |  Input:   |  Condition:  | @25-Nov-2023 16:15:13.013
+[DONE]   | Clicked on Scrum software developmentAgil
+
+
+===================================================================================================
+
+Step:11  |  Object:Next  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 16:15:13.013
+[DONE]   | Clicking on Next
+
+
+===================================================================================================
+
+Step:12  |  Object:Select  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 16:15:13.013
+[DONE]   | Clicking on Select
+
+
+===================================================================================================
+
+Step:13  |  Object:Name  |  Action:Set  |  Input: @dfdf  |  Condition:  | @25-Nov-2023 16:15:14.014
+[DONE]   | Entered Text 'dfdf' on 'Name'
+
+
+===================================================================================================
+
+Step:14  |  Object:Submit  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 16:15:14.014
+[DONE]   | Clicking on Submit
+
+
+===================================================================================================
+
+Step:15  |  Object:SAM board  |  Action:waitForElementToBeInVisible  |  Input:   |  Condition:  | @25-Nov-2023 16:15:29.029
+[DEBUG]   | Couldn't wait for action to complete in given time - 10 seconds
+
+---------------------------------------------------
+Testcase Name        : Challenge_03:TC01_Project Creation
+Executed Steps       : 15
+Passed Steps         : 14
+Failed Steps         : 1
+Time Taken           : 00:00:32
+---------------------------------------------------
+

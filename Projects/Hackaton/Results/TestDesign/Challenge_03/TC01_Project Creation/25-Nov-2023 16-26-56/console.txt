@@ -1,0 +1,121 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine : ${project.version}
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 17.0.9
+java.home            : C:\Program Files\Java\jdk-17
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Sat Nov 25 16:26:56 IST 2023
+Loading Browser Profile
+Loading RunManager
+[Scenario:Challenge_03] [TestCase: TC01_Project Creation] [Description: Test Run] [Browser: No Browser] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-31] WARN com.NewVision.InnoVision.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching No Browser
+Launching Local Driver
+No Browser Launched
+Step:1   | Object: Browser | Action: Open | Input:*********  | Conditon:  | @25-Nov-2023 16:26:56.056
+[DONE]   | Opened Url: http://34.72.96.125/secure/Dashboard.jspa
+
+===================================================================================================
+
+Step:2   | Object: Username | Action: Click | Input:*********  | Conditon:  | @25-Nov-2023 16:26:56.056
+Element could not be identified with [name] : [os_username]
+Expected condition failed: waiting for presence of any elements located by By.name: os_username (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [id] : [login-form-username]
+Expected condition failed: waiting for presence of any elements located by By.id: login-form-username (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [relative_xpath] : [//input[@name='os_username']]
+Expected condition failed: waiting for presence of any elements located by By.xpath: //input[@name='os_username'] (tried for 10 second(s) with 500 milliseconds interval)
+
+2023-11-25 16:27:36:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main finish:InnoVision IDE has been Terminated - [ Total Time : 00:37:10.564 ]
+Element could not be identified with [xpath] : [(/html/body/div/div/dashboard/div/main/div/div[5]/div/div[2]/div/div/form/div/input)[1]]
+Expected condition failed: waiting for presence of any elements located by By.xpath: (/html/body/div/div/dashboard/div/main/div/div[5]/div/div[2]/div/div/form/div/input)[1] (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [class] : [text medium-field focus-visible]
+Expected condition failed: waiting for presence of any elements located by By.xpath: //*[@className='text medium-field focus-visible'] (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [css] : [#login-form-username]
+Expected condition failed: waiting for presence of any elements located by By.cssSelector: #login-form-username (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [type] : [text]
+Expected condition failed: waiting for presence of any elements located by By.tagName: text (tried for 10 second(s) with 500 milliseconds interval)
+
+2023-11-25 16:28:06:11S +0530 [OFF ] com.NewVision.InnoVision.engine.drivers.AutomationObject getElements:null
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.NewVision.InnoVision.engine.drivers.AutomationObject$$Lambda$1274/0x00000269067d7628@5e2513ee (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BLAVINASHSHARMA', ip: '192.168.200.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: com.NewVision.InnoVision.engine.drivers.customWebDriver.EmptyDriver
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.getElements(AutomationObject.java:323)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.getWElements(AutomationObject.java:274)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElements(AutomationObject.java:261)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElement(AutomationObject.java:137)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElement(AutomationObject.java:130)
+	at com.NewVision.InnoVision.engine.core.CommandControl.sync(CommandControl.java:98)
+	at com.NewVision.InnoVision.engine.core.CommandControl.sync(CommandControl.java:183)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+Couldn't find Object 'Username' in stipulated Time '10' Seconds
+[FAIL]   | Seems Like the Element [Username] is Not Present/Found in the page Try Adding wait or heal it
+
+===================================================================================================
+
+2023-11-25 16:28:07:11S +0530 [SEVERE] com.NewVision.InnoVision.engine.execution.run.TestCaseRunner onRuntimeException:Seems Like the Element [Username] is Not Present/Found in the page Try Adding wait or heal it
+com.NewVision.InnoVision.engine.execution.exception.element.ElementException: Seems Like the Element [Username] is Not Present/Found in the page Try Adding wait or heal it
+	at com.NewVision.InnoVision.engine.commands.General.elementDisplayed(General.java:57)
+	at com.NewVision.InnoVision.engine.commands.General.elementEnabled(General.java:63)
+	at com.NewVision.InnoVision.engine.commands.Basic.Click(Basic.java:47)
+	at com.NewVision.InnoVision.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+
+---------------------------------------------------
+Testcase Name        : Challenge_03:TC01_Project Creation
+Executed Steps       : 2
+Passed Steps         : 1
+Failed Steps         : 1
+Time Taken           : 00:01:10
+-----------------------------------------------------
+
+Run Finished on Sat Nov 25 16:28:07 IST 2023
+-----------------------------------------------------
+ExecutionDate        : 25-Nov-2023 16-26-56
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:01:10
+ReportPath           : file:///C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\Results\TestDesign\Challenge_03\TC01_Project Creation\25-Nov-2023 16-26-56\summary.html
+-----------------------------------------------------
+[Thread-31] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\Results\TestDesign\Challenge_03\TC01_Project Creation\25-Nov-2023 16-26-56\summary.html
+[Thread-31] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\Results\TestDesign\Challenge_03\TC01_Project Creation\25-Nov-2023 16-26-56\summary.html]

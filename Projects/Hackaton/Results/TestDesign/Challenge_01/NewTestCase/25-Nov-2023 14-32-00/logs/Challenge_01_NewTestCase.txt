@@ -1,0 +1,35 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  ${project.version}
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.9
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Sat Nov 25 14:32:00 IST 2023
+
+Scenario         :  [Challenge_01]
+TestCase         :  [NewTestCase]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:0  |  Object:  |  Action:  |  Input:   |  Condition:  | @25-Nov-2023 14:32:02.002
+[DEBUG]   | [Could not find Action]
+
+---------------------------------------------------
+Testcase Name        : Challenge_01:NewTestCase
+Executed Steps       : 1
+Passed Steps         : 0
+Failed Steps         : 1
+Time Taken           : 00:00:01
+---------------------------------------------------
+

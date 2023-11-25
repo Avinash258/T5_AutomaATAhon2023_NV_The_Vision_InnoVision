@@ -1,0 +1,187 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine : ${project.version}
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 17.0.9
+java.home            : C:\Program Files\Java\jdk-17
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Sat Nov 25 16:40:17 IST 2023
+Loading Browser Profile
+Loading RunManager
+[Scenario:Challenge_03] [TestCase: TC01_Project Creation] [Description: TC01_Project Creation] [Browser: Chrome] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+----------------------------------------------------------
+[1] TestCase selected for execution from [//UI/Scenario_03]
+----------------------------------------------------------
+Initializing Report
+[Thread-12] INFO com.NewVision.InnoVision.engine.core.TMIntegration - TM integration disabled for the testset
+ApiLink not available!!
+testset : Scenario_03
+Run Manager true
+Continue Execution true
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 32319
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+2023-11-25 16:40:20:11S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input:*********  | Conditon:  | @25-Nov-2023 16:40:20.020
+[DONE]   | Opened Url: http://34.72.96.125/secure/Dashboard.jspa
+
+===================================================================================================
+
+Step:2   | Object: Username | Action: Click | Input:*********  | Conditon:  | @25-Nov-2023 16:40:24.024
+Using @name [os_username], Object 'Username' Found in 47 ms
+[DONE]   | Clicking on Username
+
+===================================================================================================
+
+Step:3   | Object: Username | Action: Set | Input:*********  | Conditon:  | @25-Nov-2023 16:40:25.025
+Using @name [os_username], Object 'Username' Found in 42 ms
+[DONE]   | Entered Text 'ata' on 'Username'
+
+===================================================================================================
+
+Step:4   | Object: Password | Action: setEncrypted | Input:*********  | Conditon:  | @25-Nov-2023 16:40:25.025
+Using @name [os_password], Object 'Password' Found in 37 ms
+[DONE]   | Entered Encrypted Text GwnsMJ8NXds5i5bUc8N3oQ== on Password
+
+===================================================================================================
+
+Step:5   | Object: Password | Action: setEncrypted | Input:*********  | Conditon:  | @25-Nov-2023 16:40:25.025
+Using @name [os_password], Object 'Password' Found in 34 ms
+[DONE]   | Entered Encrypted Text +xSsfuiE2AVFxi1axLzFrg== on Password
+
+===================================================================================================
+
+Step:6   | Object: Log In | Action: Click | Input:*********  | Conditon:  | @25-Nov-2023 16:40:25.025
+Using @name [login], Object 'Log In' Found in 37 ms
+[DONE]   | Clicking on Log In
+
+===================================================================================================
+
+Step:7   | Object: Tools | Action: Click | Input:*********  | Conditon:  | @25-Nov-2023 16:40:25.025
+Using @relative_xpath [//*[normalize-space(text())='Tools']], Object 'Tools' Found in 47 ms
+[DONE]   | Clicking on Tools
+
+===================================================================================================
+
+Step:8   | Object: Projects | Action: Click | Input:*********  | Conditon:  | @25-Nov-2023 16:40:26.026
+Using @id [browse_link], Object 'Projects' Found in 8300 ms
+[DONE]   | Clicking on Projects
+
+===================================================================================================
+
+Step:9   | Object: Create project | Action: clickByJS | Input:*********  | Conditon:  | @25-Nov-2023 16:40:34.034
+Using @id [project_template_create_link_lnk], Object 'Create project' Found in 565 ms
+[DONE]   | Clicked on Create project
+
+===================================================================================================
+
+Step:10  | Object: Select_Agile | Action: clickByJS | Input:*********  | Conditon:  | @25-Nov-2023 16:40:35.035
+Using @relative_xpath [//div[@class="template-meta"]/div[@title="Kanban software development"]], Object 'Select_Agile' Found in 572 ms
+[DONE]   | Clicked on Select_Agile
+
+===================================================================================================
+
+Step:11  | Object: Next | Action: Click | Input:*********  | Conditon:  | @25-Nov-2023 16:40:35.035
+Using @relative_xpath [//*[normalize-space(text())='Next']], Object 'Next' Found in 55 ms
+[DONE]   | Clicking on Next
+
+===================================================================================================
+
+Step:12  | Object: Select | Action: Click | Input:*********  | Conditon:  | @25-Nov-2023 16:40:35.035
+Using @relative_xpath [//*[normalize-space(text())='Select']], Object 'Select' Found in 41 ms
+[DONE]   | Clicking on Select
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: AddVar | Input:*********  | Conditon: %Random7% | @25-Nov-2023 16:40:36.036
+Adding to runTimeVars %Random7%:6548614
+Getting runTimeVar %Random7%
+[DONE]   | Variable %Random7%
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: print | Input:*********  | Conditon:  | @25-Nov-2023 16:40:36.036
+%Random7% changed to 6548614
+6548614
+[DONE]   | printed 6548614
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: AddVar | Input:*********  | Conditon: %R% | @25-Nov-2023 16:40:36.036
+%Random7% changed to 6548614
+Adding to runTimeVars %R%:6548614SAMPLE
+Getting runTimeVar %R%
+[DONE]   | Variable %R%
+
+===================================================================================================
+
+Step:3   | Object: Browser | Action: print | Input:*********  | Conditon: #R | @25-Nov-2023 16:40:36.036
+%R% changed to 6548614SAMPLE
+6548614SAMPLE
+[DONE]   | printed 6548614SAMPLE
+
+===================================================================================================
+
+Step:14  | Object: Name | Action: Set | Input:*********  | Conditon:  | @25-Nov-2023 16:40:36.036
+%R% changed to 6548614SAMPLE
+Using @name [name], Object 'Name' Found in 121 ms
+[DONE]   | Entered Text '6548614SAMPLE' on 'Name'
+
+===================================================================================================
+
+Step:15  | Object: Browser | Action: storeVariableInDataSheet | Input:*********  | Conditon: %R% | @25-Nov-2023 16:40:37.037
+Getting runTimeVar %R%
+%R%
+Getting runTimeVar %R%
+[DONE]   | Value of variable %R% has been stored into the data sheet
+
+===================================================================================================
+
+Step:16  | Object: Browser | Action: AddGlobalVar | Input:*********  | Conditon: %R% | @25-Nov-2023 16:40:37.037
+%BoardName% changed to 
+Getting runTimeVar %R%
+[DONE]   | Variable %R% added with value 
+
+===================================================================================================
+
+Step:17  | Object: Submit | Action: Click | Input:*********  | Conditon:  | @25-Nov-2023 16:40:37.037
+Using @relative_xpath [//*[normalize-space(text())='Submit']], Object 'Submit' Found in 198 ms
+[DONE]   | Clicking on Submit
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Challenge_03:TC01_Project Creation
+Executed Steps       : 20
+Passed Steps         : 20
+Failed Steps         : 0
+Time Taken           : 00:00:19
+-----------------------------------------------------
+
+Shutting Down Thread as there is no IE Browser to do SelectiveThreading
+Run Finished on Sat Nov 25 16:40:38 IST 2023
+[Thread-12] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\Results\TestExecution\UI\Scenario_03\25-Nov-2023 16-40-17\extent.html
+[Thread-12] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\Results\TestExecution\UI\Scenario_03\25-Nov-2023 16-40-17\extent.html]
+-----------------------------------------------------
+ExecutionDate        : 25-Nov-2023 16-40-17
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:20
+ReportPath           : file:///C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\Results\TestExecution\UI\Scenario_03\25-Nov-2023 16-40-17\summary.html
+-----------------------------------------------------
+
+-----------------------------------------------------
+Azure Report XML generated
+-----------------------------------------------------
+

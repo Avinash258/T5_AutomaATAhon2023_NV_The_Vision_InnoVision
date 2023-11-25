@@ -1,0 +1,580 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine : ${project.version}
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 17.0.9
+java.home            : C:\Program Files\Java\jdk-17
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Sat Nov 25 16:28:31 IST 2023
+Loading Browser Profile
+Loading RunManager
+[Scenario:Challenge_03] [TestCase: TC01_Project Creation] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-12] WARN com.NewVision.InnoVision.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 3291
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+2023-11-25 16:28:33:11S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input:*********  | Conditon:  | @25-Nov-2023 16:28:33.033
+[DONE]   | Opened Url: http://34.72.96.125/secure/Dashboard.jspa
+
+===================================================================================================
+
+Step:2   | Object: Username | Action: Click | Input:*********  | Conditon:  | @25-Nov-2023 16:28:37.037
+Using @name [os_username], Object 'Username' Found in 59 ms
+[DONE]   | Clicking on Username
+
+===================================================================================================
+
+Step:3   | Object: Username | Action: Set | Input:*********  | Conditon:  | @25-Nov-2023 16:28:37.037
+Using @name [os_username], Object 'Username' Found in 26 ms
+[DONE]   | Entered Text 'ata' on 'Username'
+
+===================================================================================================
+
+Step:4   | Object: Password | Action: setEncrypted | Input:*********  | Conditon:  | @25-Nov-2023 16:28:37.037
+Using @name [os_password], Object 'Password' Found in 34 ms
+[DONE]   | Entered Encrypted Text GwnsMJ8NXds5i5bUc8N3oQ== on Password
+
+===================================================================================================
+
+Step:5   | Object: Password | Action: setEncrypted | Input:*********  | Conditon:  | @25-Nov-2023 16:28:37.037
+Using @name [os_password], Object 'Password' Found in 26 ms
+[DONE]   | Entered Encrypted Text +xSsfuiE2AVFxi1axLzFrg== on Password
+
+===================================================================================================
+
+Step:6   | Object: Log In | Action: Click | Input:*********  | Conditon:  | @25-Nov-2023 16:28:37.037
+Using @name [login], Object 'Log In' Found in 32 ms
+[DONE]   | Clicking on Log In
+
+===================================================================================================
+
+Step:7   | Object: Tools | Action: Click | Input:*********  | Conditon:  | @25-Nov-2023 16:28:38.038
+Using @relative_xpath [//*[normalize-space(text())='Tools']], Object 'Tools' Found in 27 ms
+[DONE]   | Clicking on Tools
+
+===================================================================================================
+
+Step:8   | Object: Projects | Action: Click | Input:*********  | Conditon:  | @25-Nov-2023 16:28:38.038
+Element could not be identified with [id] : [browse_link]
+Expected condition failed: waiting for presence of any elements located by By.id: browse_link (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [link_text] : [Projects]
+Expected condition failed: waiting for presence of any elements located by By.linkText: Projects (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [relative_xpath] : [//a[@title='View recent projects and browse a list of projects']]
+Expected condition failed: waiting for presence of any elements located by By.xpath: //a[@title='View recent projects and browse a list of projects'] (tried for 10 second(s) with 500 milliseconds interval)
+
+Using @xpath [(/html/body/div/header/nav/div/div/ul/li[2]/a)[1]], Object 'Projects' Found in 30788 ms
+[DONE]   | Clicking on Projects
+
+===================================================================================================
+
+Step:9   | Object: Create project | Action: clickByJS | Input:*********  | Conditon:  | @25-Nov-2023 16:29:09.009
+Element could not be identified with [id] : [project_template_create_link_lnk]
+Expected condition failed: waiting for presence of any elements located by By.id: project_template_create_link_lnk (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [link_text] : [Create project]
+Expected condition failed: waiting for presence of any elements located by By.linkText: Create project (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [relative_xpath] : [//a[contains(normalize-space(text()),'Create project')]]
+Expected condition failed: waiting for presence of any elements located by By.xpath: //a[contains(normalize-space(text()),'Create project')] (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [xpath] : [/html/body/div/header/nav/div/div/ul/li[2]/div/div[2]/ul/li[2]/a]
+Expected condition failed: waiting for presence of any elements located by By.xpath: /html/body/div/header/nav/div/div/ul/li[2]/div/div[2]/ul/li[2]/a (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [css] : [#project_template_create_link_lnk]
+Expected condition failed: waiting for presence of any elements located by By.cssSelector: #project_template_create_link_lnk (tried for 10 second(s) with 500 milliseconds interval)
+
+2023-11-25 16:30:01:11S +0530 [OFF ] com.NewVision.InnoVision.engine.drivers.AutomationObject getElements:null
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.NewVision.InnoVision.engine.drivers.AutomationObject$$Lambda$1277/0x0000022f817cabf0@6d2f1974 (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BLAVINASHSHARMA', ip: '192.168.200.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AVINAS~1.SHA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64223}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b0b504792f98715c2200ed4a9f9085aa
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.getElements(AutomationObject.java:323)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.getWElements(AutomationObject.java:274)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElements(AutomationObject.java:261)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElement(AutomationObject.java:137)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElement(AutomationObject.java:130)
+	at com.NewVision.InnoVision.engine.core.CommandControl.sync(CommandControl.java:98)
+	at com.NewVision.InnoVision.engine.core.CommandControl.sync(CommandControl.java:183)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+Couldn't find Object 'Create project' in stipulated Time '10' Seconds
+[FAIL]   | Seems Like the Element [Create project] is Not Present/Found in the page Try Adding wait or heal it
+
+===================================================================================================
+
+2023-11-25 16:30:02:11S +0530 [SEVERE] com.NewVision.InnoVision.engine.execution.run.TestCaseRunner onRuntimeException:Seems Like the Element [Create project] is Not Present/Found in the page Try Adding wait or heal it
+com.NewVision.InnoVision.engine.execution.exception.element.ElementException: Seems Like the Element [Create project] is Not Present/Found in the page Try Adding wait or heal it
+	at com.NewVision.InnoVision.engine.commands.JSCommands.clickByJS(JSCommands.java:54)
+	at com.NewVision.InnoVision.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+Step:10  | Object: Select_Agile | Action: clickByJS | Input:*********  | Conditon:  | @25-Nov-2023 16:30:02.002
+Element could not be identified with [relative_xpath] : [//div[@class="template-meta"]/div[@title="Kanban software development"]]
+Expected condition failed: waiting for presence of any elements located by By.xpath: //div[@class="template-meta"]/div[@title="Kanban software development"] (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [xpath] : [(/html/body/div[6]/div[3]/div/div/div/div[2]/ol)[1]]
+Expected condition failed: waiting for presence of any elements located by By.xpath: (/html/body/div[6]/div[3]/div/div/div/div[2]/ol)[1] (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [class] : [templates]
+Expected condition failed: waiting for presence of any elements located by By.className: templates (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [css] : [#project-template-group-software > div.pt-templates-list > ol.templates]
+Expected condition failed: waiting for presence of any elements located by By.cssSelector: #project-template-group-software > div.pt-templates-list > ol.templates (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [type] : [ol]
+Expected condition failed: waiting for presence of any elements located by By.tagName: ol (tried for 10 second(s) with 500 milliseconds interval)
+
+2023-11-25 16:30:54:11S +0530 [OFF ] com.NewVision.InnoVision.engine.drivers.AutomationObject getElements:null
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.NewVision.InnoVision.engine.drivers.AutomationObject$$Lambda$1277/0x0000022f817cabf0@1992d340 (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BLAVINASHSHARMA', ip: '192.168.200.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AVINAS~1.SHA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64223}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b0b504792f98715c2200ed4a9f9085aa
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.getElements(AutomationObject.java:323)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.getWElements(AutomationObject.java:274)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElements(AutomationObject.java:261)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElement(AutomationObject.java:137)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElement(AutomationObject.java:130)
+	at com.NewVision.InnoVision.engine.core.CommandControl.sync(CommandControl.java:98)
+	at com.NewVision.InnoVision.engine.core.CommandControl.sync(CommandControl.java:183)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+Couldn't find Object 'Select_Agile' in stipulated Time '10' Seconds
+[FAIL]   | Seems Like the Element [Select_Agile] is Not Present/Found in the page Try Adding wait or heal it
+
+===================================================================================================
+
+2023-11-25 16:30:55:11S +0530 [SEVERE] com.NewVision.InnoVision.engine.execution.run.TestCaseRunner onRuntimeException:Seems Like the Element [Select_Agile] is Not Present/Found in the page Try Adding wait or heal it
+com.NewVision.InnoVision.engine.execution.exception.element.ElementException: Seems Like the Element [Select_Agile] is Not Present/Found in the page Try Adding wait or heal it
+	at com.NewVision.InnoVision.engine.commands.JSCommands.clickByJS(JSCommands.java:54)
+	at com.NewVision.InnoVision.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+Step:11  | Object: Next | Action: Click | Input:*********  | Conditon:  | @25-Nov-2023 16:30:55.055
+Element could not be identified with [relative_xpath] : [//*[normalize-space(text())='Next']]
+Expected condition failed: waiting for presence of any elements located by By.xpath: //*[normalize-space(text())='Next'] (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [xpath] : [/html/body/div[6]/div[3]/div[2]/button]
+Expected condition failed: waiting for presence of any elements located by By.xpath: /html/body/div[6]/div[3]/div[2]/button (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [class] : [create-project-dialog-create-button pt-submit-button aui-button aui-button-primary]
+Expected condition failed: waiting for presence of any elements located by By.xpath: //*[@className='create-project-dialog-create-button pt-submit-button aui-button aui-button-primary'] (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [css] : [html.js-focus-visible.webkit chrome > #jira > #add-project-dialog > div.dialog-components > div.dialog-button-panel > button.create-project-dialog-create-button.pt-submit-button aui-button aui-button-primary]
+Expected condition failed: waiting for presence of any elements located by By.cssSelector: html.js-focus-visible.webkit chrome > #jira > #add-project-dialog > div.dialog-components > div.dialog-button-panel > button.create-project-dialog-create-button.pt-submit-button aui-button aui-button-primary (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [type] : [submit]
+Expected condition failed: waiting for presence of any elements located by By.tagName: submit (tried for 10 second(s) with 500 milliseconds interval)
+
+2023-11-25 16:31:46:11S +0530 [OFF ] com.NewVision.InnoVision.engine.drivers.AutomationObject getElements:null
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.NewVision.InnoVision.engine.drivers.AutomationObject$$Lambda$1277/0x0000022f817cabf0@be4431f (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BLAVINASHSHARMA', ip: '192.168.200.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AVINAS~1.SHA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64223}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b0b504792f98715c2200ed4a9f9085aa
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.getElements(AutomationObject.java:323)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.getWElements(AutomationObject.java:274)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElements(AutomationObject.java:261)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElement(AutomationObject.java:137)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElement(AutomationObject.java:130)
+	at com.NewVision.InnoVision.engine.core.CommandControl.sync(CommandControl.java:98)
+	at com.NewVision.InnoVision.engine.core.CommandControl.sync(CommandControl.java:183)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+Couldn't find Object 'Next' in stipulated Time '10' Seconds
+[FAIL]   | Seems Like the Element [Next] is Not Present/Found in the page Try Adding wait or heal it
+
+===================================================================================================
+
+2023-11-25 16:31:47:11S +0530 [SEVERE] com.NewVision.InnoVision.engine.execution.run.TestCaseRunner onRuntimeException:Seems Like the Element [Next] is Not Present/Found in the page Try Adding wait or heal it
+com.NewVision.InnoVision.engine.execution.exception.element.ElementException: Seems Like the Element [Next] is Not Present/Found in the page Try Adding wait or heal it
+	at com.NewVision.InnoVision.engine.commands.General.elementDisplayed(General.java:57)
+	at com.NewVision.InnoVision.engine.commands.General.elementEnabled(General.java:63)
+	at com.NewVision.InnoVision.engine.commands.Basic.Click(Basic.java:47)
+	at com.NewVision.InnoVision.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+Step:12  | Object: Select | Action: Click | Input:*********  | Conditon:  | @25-Nov-2023 16:31:47.047
+Element could not be identified with [relative_xpath] : [//*[normalize-space(text())='Select']]
+Expected condition failed: waiting for presence of any elements located by By.xpath: //*[normalize-space(text())='Select'] (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [xpath] : [/html/body/div[6]/div[4]/div[2]/button[2]]
+Expected condition failed: waiting for presence of any elements located by By.xpath: /html/body/div[6]/div[4]/div[2]/button[2] (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [class] : [template-info-dialog-create-button pt-submit-button aui-button aui-button-primary]
+Expected condition failed: waiting for presence of any elements located by By.xpath: //*[@className='template-info-dialog-create-button pt-submit-button aui-button aui-button-primary'] (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [css] : [html.js-focus-visible.webkit chrome > #jira > #add-project-dialog > div.dialog-components > div.dialog-button-panel > button.template-info-dialog-create-button.pt-submit-button aui-button aui-button-primary]
+Expected condition failed: waiting for presence of any elements located by By.cssSelector: html.js-focus-visible.webkit chrome > #jira > #add-project-dialog > div.dialog-components > div.dialog-button-panel > button.template-info-dialog-create-button.pt-submit-button aui-button aui-button-primary (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [type] : [submit]
+Expected condition failed: waiting for presence of any elements located by By.tagName: submit (tried for 10 second(s) with 500 milliseconds interval)
+
+2023-11-25 16:32:39:11S +0530 [OFF ] com.NewVision.InnoVision.engine.drivers.AutomationObject getElements:null
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.NewVision.InnoVision.engine.drivers.AutomationObject$$Lambda$1277/0x0000022f817cabf0@6f3a03b (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BLAVINASHSHARMA', ip: '192.168.200.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AVINAS~1.SHA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64223}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b0b504792f98715c2200ed4a9f9085aa
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.getElements(AutomationObject.java:323)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.getWElements(AutomationObject.java:274)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElements(AutomationObject.java:261)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElement(AutomationObject.java:137)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElement(AutomationObject.java:130)
+	at com.NewVision.InnoVision.engine.core.CommandControl.sync(CommandControl.java:98)
+	at com.NewVision.InnoVision.engine.core.CommandControl.sync(CommandControl.java:183)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+Couldn't find Object 'Select' in stipulated Time '10' Seconds
+[FAIL]   | Seems Like the Element [Select] is Not Present/Found in the page Try Adding wait or heal it
+
+===================================================================================================
+
+2023-11-25 16:32:39:11S +0530 [SEVERE] com.NewVision.InnoVision.engine.execution.run.TestCaseRunner onRuntimeException:Seems Like the Element [Select] is Not Present/Found in the page Try Adding wait or heal it
+com.NewVision.InnoVision.engine.execution.exception.element.ElementException: Seems Like the Element [Select] is Not Present/Found in the page Try Adding wait or heal it
+	at com.NewVision.InnoVision.engine.commands.General.elementDisplayed(General.java:57)
+	at com.NewVision.InnoVision.engine.commands.General.elementEnabled(General.java:63)
+	at com.NewVision.InnoVision.engine.commands.Basic.Click(Basic.java:47)
+	at com.NewVision.InnoVision.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+Step:1   | Object: Browser | Action: AddVar | Input:*********  | Conditon: %Random7% | @25-Nov-2023 16:32:39.039
+2023-11-25 16:32:39:11S +0530 [SEVERE] com.NewVision.InnoVision.engine.util.data.fx.FParser getJSEngine:Cannot invoke "javax.script.ScriptEngine.eval(String)" because "js" is null
+java.lang.NullPointerException: Cannot invoke "javax.script.ScriptEngine.eval(String)" because "js" is null
+	at com.NewVision.InnoVision.engine.util.data.fx.FParser.getJSEngine(FParser.java:97)
+	at com.NewVision.InnoVision.engine.util.data.fx.FParser.init(FParser.java:82)
+	at com.NewVision.InnoVision.engine.util.data.fx.FParser.<clinit>(FParser.java:41)
+	at com.NewVision.InnoVision.engine.execution.data.DataProcessor.resolveIn(DataProcessor.java:73)
+	at com.NewVision.InnoVision.engine.execution.data.DataProcessor.resolve(DataProcessor.java:58)
+	at com.NewVision.InnoVision.engine.core.CommandControl.sync(CommandControl.java:181)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:389)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeTestCase(TestStepRunner.java:137)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.execute(TestStepRunner.java:118)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:63)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:389)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeTestCase(TestStepRunner.java:137)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.execute(TestStepRunner.java:118)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:63)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+Adding to runTimeVars %Random7%:7552252
+Getting runTimeVar %Random7%
+[DONE]   | Variable %Random7%
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: print | Input:*********  | Conditon:  | @25-Nov-2023 16:32:39.039
+%Random7% changed to 7552252
+7552252
+[DONE]   | printed 7552252
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: AddVar | Input:*********  | Conditon: %R% | @25-Nov-2023 16:32:39.039
+%Random7% changed to 7552252
+Adding to runTimeVars %R%:7552252SAMPLE
+Getting runTimeVar %R%
+[DONE]   | Variable %R%
+
+===================================================================================================
+
+Step:3   | Object: Browser | Action: print | Input:*********  | Conditon: #R | @25-Nov-2023 16:32:39.039
+%R% changed to 7552252SAMPLE
+7552252SAMPLE
+[DONE]   | printed 7552252SAMPLE
+
+===================================================================================================
+
+Step:14  | Object: Name | Action: Set | Input:*********  | Conditon:  | @25-Nov-2023 16:32:39.039
+%R% changed to 7552252SAMPLE
+Element could not be identified with [name] : [name]
+Expected condition failed: waiting for presence of any elements located by By.name: name (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [id] : [name]
+Expected condition failed: waiting for presence of any elements located by By.id: name (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [relative_xpath] : [//input[@name='name']]
+Expected condition failed: waiting for presence of any elements located by By.xpath: //input[@name='name'] (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [xpath] : [(/html/body/div[6]/div[5]/div/div/div/div/form/fieldset/div/input)[1]]
+Expected condition failed: waiting for presence of any elements located by By.xpath: (/html/body/div[6]/div[5]/div/div/div/div/form/fieldset/div/input)[1] (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [class] : [text long-field focus-visible]
+Expected condition failed: waiting for presence of any elements located by By.xpath: //*[@className='text long-field focus-visible'] (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [css] : [#name]
+Expected condition failed: waiting for presence of any elements located by By.cssSelector: #name (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [type] : [text]
+Expected condition failed: waiting for presence of any elements located by By.tagName: text (tried for 10 second(s) with 500 milliseconds interval)
+
+2023-11-25 16:33:52:11S +0530 [OFF ] com.NewVision.InnoVision.engine.drivers.AutomationObject getElements:null
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.NewVision.InnoVision.engine.drivers.AutomationObject$$Lambda$1277/0x0000022f817cabf0@2379dd0d (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BLAVINASHSHARMA', ip: '192.168.200.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AVINAS~1.SHA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64223}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b0b504792f98715c2200ed4a9f9085aa
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.getElements(AutomationObject.java:323)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.getWElements(AutomationObject.java:274)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElements(AutomationObject.java:261)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElement(AutomationObject.java:137)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElement(AutomationObject.java:130)
+	at com.NewVision.InnoVision.engine.core.CommandControl.sync(CommandControl.java:98)
+	at com.NewVision.InnoVision.engine.core.CommandControl.sync(CommandControl.java:183)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+Couldn't find Object 'Name' in stipulated Time '10' Seconds
+[FAIL]   | Seems Like the Element [Name] is Not Present/Found in the page Try Adding wait or heal it
+
+===================================================================================================
+
+2023-11-25 16:33:53:11S +0530 [SEVERE] com.NewVision.InnoVision.engine.execution.run.TestCaseRunner onRuntimeException:Seems Like the Element [Name] is Not Present/Found in the page Try Adding wait or heal it
+com.NewVision.InnoVision.engine.execution.exception.element.ElementException: Seems Like the Element [Name] is Not Present/Found in the page Try Adding wait or heal it
+	at com.NewVision.InnoVision.engine.commands.General.elementDisplayed(General.java:57)
+	at com.NewVision.InnoVision.engine.commands.General.elementEnabled(General.java:63)
+	at com.NewVision.InnoVision.engine.commands.Basic.Set(Basic.java:99)
+	at com.NewVision.InnoVision.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+Step:15  | Object: Browser | Action: storeVariableInDataSheet | Input:*********  | Conditon: %R% | @25-Nov-2023 16:33:53.053
+Getting runTimeVar %R%
+%R%
+Getting runTimeVar %R%
+[DONE]   | Value of variable %R% has been stored into the data sheet
+
+===================================================================================================
+
+Step:16  | Object: Browser | Action: AddGlobalVar | Input:*********  | Conditon: %R% | @25-Nov-2023 16:33:53.053
+%BoardName% changed to 
+Getting runTimeVar %R%
+[DONE]   | Variable %R% added with value 
+
+===================================================================================================
+
+Step:17  | Object: Submit | Action: Click | Input:*********  | Conditon:  | @25-Nov-2023 16:33:53.053
+Element could not be identified with [relative_xpath] : [//*[normalize-space(text())='Submit']]
+Expected condition failed: waiting for presence of any elements located by By.xpath: //*[normalize-space(text())='Submit'] (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [xpath] : [/html/body/div[6]/div[5]/div[2]/button[2]]
+Expected condition failed: waiting for presence of any elements located by By.xpath: /html/body/div[6]/div[5]/div[2]/button[2] (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [class] : [add-project-dialog-create-button pt-submit-button aui-button aui-button-primary]
+Expected condition failed: waiting for presence of any elements located by By.xpath: //*[@className='add-project-dialog-create-button pt-submit-button aui-button aui-button-primary'] (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [css] : [html.js-focus-visible.webkit chrome > #jira > #add-project-dialog > div.dialog-components > div.dialog-button-panel > button.add-project-dialog-create-button.pt-submit-button aui-button aui-button-primary]
+Expected condition failed: waiting for presence of any elements located by By.cssSelector: html.js-focus-visible.webkit chrome > #jira > #add-project-dialog > div.dialog-components > div.dialog-button-panel > button.add-project-dialog-create-button.pt-submit-button aui-button aui-button-primary (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [type] : [submit]
+Expected condition failed: waiting for presence of any elements located by By.tagName: submit (tried for 10 second(s) with 500 milliseconds interval)
+
+2023-11-25 16:34:45:11S +0530 [OFF ] com.NewVision.InnoVision.engine.drivers.AutomationObject getElements:null
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.NewVision.InnoVision.engine.drivers.AutomationObject$$Lambda$1277/0x0000022f817cabf0@582289bb (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BLAVINASHSHARMA', ip: '192.168.200.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AVINAS~1.SHA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64223}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b0b504792f98715c2200ed4a9f9085aa
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.getElements(AutomationObject.java:323)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.getWElements(AutomationObject.java:274)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElements(AutomationObject.java:261)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElement(AutomationObject.java:137)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElement(AutomationObject.java:130)
+	at com.NewVision.InnoVision.engine.core.CommandControl.sync(CommandControl.java:98)
+	at com.NewVision.InnoVision.engine.core.CommandControl.sync(CommandControl.java:183)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+Couldn't find Object 'Submit' in stipulated Time '10' Seconds
+[FAIL]   | Seems Like the Element [Submit] is Not Present/Found in the page Try Adding wait or heal it
+
+===================================================================================================
+
+2023-11-25 16:34:46:11S +0530 [SEVERE] com.NewVision.InnoVision.engine.execution.run.TestCaseRunner onRuntimeException:Seems Like the Element [Submit] is Not Present/Found in the page Try Adding wait or heal it
+com.NewVision.InnoVision.engine.execution.exception.element.ElementException: Seems Like the Element [Submit] is Not Present/Found in the page Try Adding wait or heal it
+	at com.NewVision.InnoVision.engine.commands.General.elementDisplayed(General.java:57)
+	at com.NewVision.InnoVision.engine.commands.General.elementEnabled(General.java:63)
+	at com.NewVision.InnoVision.engine.commands.Basic.Click(Basic.java:47)
+	at com.NewVision.InnoVision.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+
+---------------------------------------------------
+Testcase Name        : Challenge_03:TC01_Project Creation
+Executed Steps       : 20
+Passed Steps         : 14
+Failed Steps         : 6
+Time Taken           : 00:06:16
+-----------------------------------------------------
+
+Run Finished on Sat Nov 25 16:34:47 IST 2023
+-----------------------------------------------------
+ExecutionDate        : 25-Nov-2023 16-28-31
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:06:16
+ReportPath           : file:///C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\Results\TestDesign\Challenge_03\TC01_Project Creation\25-Nov-2023 16-28-31\summary.html
+-----------------------------------------------------
+[Thread-12] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\Results\TestDesign\Challenge_03\TC01_Project Creation\25-Nov-2023 16-28-31\summary.html
+[Thread-12] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\Results\TestDesign\Challenge_03\TC01_Project Creation\25-Nov-2023 16-28-31\summary.html]

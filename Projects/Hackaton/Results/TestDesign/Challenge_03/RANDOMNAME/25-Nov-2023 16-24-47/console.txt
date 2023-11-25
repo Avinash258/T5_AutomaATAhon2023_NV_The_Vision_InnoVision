@@ -1,0 +1,74 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine : ${project.version}
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 17.0.9
+java.home            : C:\Program Files\Java\jdk-17
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Sat Nov 25 16:24:47 IST 2023
+Loading Browser Profile
+Loading RunManager
+[Scenario:Challenge_03] [TestCase: RANDOMNAME] [Description: Test Run] [Browser: No Browser] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-28] WARN com.NewVision.InnoVision.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching No Browser
+Launching Local Driver
+No Browser Launched
+Step:1   | Object: Browser | Action: AddVar | Input:*********  | Conditon: %Random7% | @25-Nov-2023 16:24:47.047
+Adding to runTimeVars %Random7%:8814328
+Getting runTimeVar %Random7%
+[DONE]   | Variable %Random7%
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: print | Input:*********  | Conditon:  | @25-Nov-2023 16:24:47.047
+%Random7% changed to 8814328
+8814328
+[DONE]   | printed 8814328
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: AddVar | Input:*********  | Conditon: %R% | @25-Nov-2023 16:24:47.047
+%Random7% changed to 8814328
+Adding to runTimeVars %R%:8814328SAMPLE
+Getting runTimeVar %R%
+[DONE]   | Variable %R%
+
+===================================================================================================
+
+Step:3   | Object: Browser | Action: print | Input:*********  | Conditon: #EmailID | @25-Nov-2023 16:24:47.047
+%R% changed to 8814328SAMPLE
+8814328SAMPLE
+[DONE]   | printed 8814328SAMPLE
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Challenge_03:RANDOMNAME
+Executed Steps       : 4
+Passed Steps         : 4
+Failed Steps         : 0
+Time Taken           : 00:00:00
+-----------------------------------------------------
+
+Run Finished on Sat Nov 25 16:24:47 IST 2023
+-----------------------------------------------------
+ExecutionDate        : 25-Nov-2023 16-24-47
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:00
+ReportPath           : file:///C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\Results\TestDesign\Challenge_03\RANDOMNAME\25-Nov-2023 16-24-47\summary.html
+-----------------------------------------------------
+[Thread-28] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\Results\TestDesign\Challenge_03\RANDOMNAME\25-Nov-2023 16-24-47\summary.html
+[Thread-28] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Hack\Final\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Hackaton\Results\TestDesign\Challenge_03\RANDOMNAME\25-Nov-2023 16-24-47\summary.html]
