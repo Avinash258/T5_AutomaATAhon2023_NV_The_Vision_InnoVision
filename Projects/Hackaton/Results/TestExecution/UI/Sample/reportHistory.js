@@ -1,0 +1,1 @@
+var reportName="UI:Sample";var dataSet=[{"PassTC":"1","FailTC":"0","ReportPath":"25-Nov-2023 05-19-08\\summary.html","ExecTC":"1","ExecutionDate":"25-Nov-2023 05-19-08","ExecTime":"00:00:51"},{"PassTC":"0","FailTC":"1","ReportPath":"25-Nov-2023 05-22-16\\summary.html","ExecTC":"1","ExecutionDate":"25-Nov-2023 05-22-16","ExecTime":"00:00:47"}]

@@ -1,0 +1,15 @@
+<test-run id="6640c82e-2352-48dc-94c7-c5c7772ccef0" name="Sample" fullname="Sample" testcasecount="1" passed="0" failed="1" result="Failed" time="46.000" run-date="2023-11-25" start-time="05:22:16" end-time="05:23:03">
+<test-suite id="d604b734-2e05-4205-a0e8-e27f4fe1f2b0" type="Assembly" name="Sample" fullname="Sample" testcasecount="1" passed="0" failed="1" result="Failed" time="46.000">
+<test-case id="f505b30b-57f4-47cc-9a78-55db6fad06c2" name="TC01_DragandDrop" fullname="TC01_DragandDrop" result="Failed" time="46.000"><failure><message><![CDATA[Step 1:   [DONE]   | Opened Url: https://qaplayground.dev/
+Step 2:   [PASS]   | 'Geolocation Set browser geoloc' Element Present in the stipulated time
+Step 3:   [DONE]   | Clicking on Geolocation Set browser geoloc
+Step 4:   [DONE]   | 'Get Location' Element becomes visible in stipulated time
+Step 5:   [DONE]   | Clicking on Get Location
+Step 6:   [DONE]   | Thread sleep for '10000
+Step 7:   [FAIL]   | --Bhopal, India-- text is --Pune, India-- but should contain --Bhopal, India--
+Step 8:   [DONE]   | Clicking on Bhopal, India
+]]></message><stack-trace><![CDATA[Step 7:   [FAIL]   | --Bhopal, India-- text is --Pune, India-- but should contain --Bhopal, India--
+]]></stack-trace></failure><attachments><attachment><filePath>C:\Hack\HacktonNVInnoVision\Projects\Hackaton\Results\TestExecution\UI\Sample\25-Nov-2023 05-22-16\img\pact_TC01_DragandDrop_Step-2_05-22-30.png</filePath></attachment>
+<attachment><filePath>C:\Hack\HacktonNVInnoVision\Projects\Hackaton\Results\TestExecution\UI\Sample\25-Nov-2023 05-22-16\img\pact_TC01_DragandDrop_Step-7_05-23-00.png</filePath></attachment>
+<attachment><filePath>C:\Hack\HacktonNVInnoVision\Projects\Hackaton\Results\TestExecution\UI\Sample\25-Nov-2023 05-22-16\logs\pact_TC01_DragandDrop.txt</filePath></attachment>
+</attachments></test-case></test-suite></test-run>

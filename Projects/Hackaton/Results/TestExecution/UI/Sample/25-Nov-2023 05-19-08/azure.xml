@@ -1,0 +1,63 @@
+<test-run id="d4e2ae01-de2a-4376-a421-0fe56834142c" name="Sample" fullname="Sample" testcasecount="1" passed="1" failed="0" result="Passed" time="50.000" run-date="2023-11-25" start-time="05:19:09" end-time="05:20:00">
+<test-suite id="0d1263d8-f70a-4595-bebd-7d846ab5614b" type="Assembly" name="Sample" fullname="Sample" testcasecount="1" passed="1" failed="0" result="Passed" time="50.000">
+<test-case id="993340ca-c4d1-47a8-9f4a-c94da9ead87c" name="TC02_Sorting" fullname="TC02_Sorting" result="Passed" time="50.000"><failure><message><![CDATA[This Test Case has no error. For details see the steps below:
+Step 1:   [DONE]   | Opened Url: https://qaplayground.dev/
+Step 2:   [DONE]   | Clicking on Sortable List
+Step 3:   [DONE]   | Thread sleep for '3000
+Step 4:   [DONE]   | Thread sleep for '2
+Step 5:   [DONE]   | Setting Object Property for #X with Jeff Bezos for Object [Test1 - FirstElement]
+Step 6:   [DONE]   | Setting Object Property for #Y with 0 for Object [Test1 - FirstPosition]
+Step 7:   [PASS]   | 'FirstElement' has been dragged and dropped to 'FirstPosition'
+Step 8:   [DONE]   | Thread sleep for '2
+Step 9:   [DONE]   | Thread sleep for '2
+Step 10:   [DONE]   | Setting Object Property for #X with Bill Gates for Object [Test1 - FirstElement]
+Step 11:   [DONE]   | Setting Object Property for #Y with 1 for Object [Test1 - FirstPosition]
+Step 12:   [PASS]   | 'FirstElement' has been dragged and dropped to 'FirstPosition'
+Step 13:   [DONE]   | Thread sleep for '2
+Step 14:   [DONE]   | Thread sleep for '2
+Step 15:   [DONE]   | Setting Object Property for #X with Warren Buffett for Object [Test1 - FirstElement]
+Step 16:   [DONE]   | Setting Object Property for #Y with 2 for Object [Test1 - FirstPosition]
+Step 17:   [PASS]   | 'FirstElement' has been dragged and dropped to 'FirstPosition'
+Step 18:   [DONE]   | Thread sleep for '2
+Step 19:   [DONE]   | Thread sleep for '2
+Step 20:   [DONE]   | Setting Object Property for #X with Bernard Arnault for Object [Test1 - FirstElement]
+Step 21:   [DONE]   | Setting Object Property for #Y with 3 for Object [Test1 - FirstPosition]
+Step 22:   [PASS]   | 'FirstElement' has been dragged and dropped to 'FirstPosition'
+Step 23:   [DONE]   | Thread sleep for '2
+Step 24:   [DONE]   | Thread sleep for '2
+Step 25:   [DONE]   | Setting Object Property for #X with Carlos Slim Helu for Object [Test1 - FirstElement]
+Step 26:   [DONE]   | Setting Object Property for #Y with 4 for Object [Test1 - FirstPosition]
+Step 27:   [PASS]   | 'FirstElement' has been dragged and dropped to 'FirstPosition'
+Step 28:   [DONE]   | Thread sleep for '2
+Step 29:   [DONE]   | Thread sleep for '2
+Step 30:   [DONE]   | Setting Object Property for #X with Amancio Ortega for Object [Test1 - FirstElement]
+Step 31:   [DONE]   | Setting Object Property for #Y with 5 for Object [Test1 - FirstPosition]
+Step 32:   [PASS]   | 'FirstElement' has been dragged and dropped to 'FirstPosition'
+Step 33:   [DONE]   | Thread sleep for '2
+Step 34:   [DONE]   | Thread sleep for '2
+Step 35:   [DONE]   | Setting Object Property for #X with Larry Ellison for Object [Test1 - FirstElement]
+Step 36:   [DONE]   | Setting Object Property for #Y with 6 for Object [Test1 - FirstPosition]
+Step 37:   [PASS]   | 'FirstElement' has been dragged and dropped to 'FirstPosition'
+Step 38:   [DONE]   | Thread sleep for '2
+Step 39:   [DONE]   | Thread sleep for '2
+Step 40:   [DONE]   | Setting Object Property for #X with Mark Zuckerberg for Object [Test1 - FirstElement]
+Step 41:   [DONE]   | Setting Object Property for #Y with 7 for Object [Test1 - FirstPosition]
+Step 42:   [PASS]   | 'FirstElement' has been dragged and dropped to 'FirstPosition'
+Step 43:   [DONE]   | Thread sleep for '2
+Step 44:   [DONE]   | Thread sleep for '2
+Step 45:   [DONE]   | Setting Object Property for #X with Michael Bloomberg for Object [Test1 - FirstElement]
+Step 46:   [DONE]   | Setting Object Property for #Y with 8 for Object [Test1 - FirstPosition]
+Step 47:   [PASS]   | 'FirstElement' has been dragged and dropped to 'FirstPosition'
+Step 48:   [DONE]   | Thread sleep for '2
+Step 49:   [DONE]   | Thread sleep for '2
+]]></message></failure><attachments><attachment><filePath>C:\Hack\HacktonNVInnoVision\Projects\Hackaton\Results\TestExecution\UI\Sample\25-Nov-2023 05-19-08\img\pact_TC02_Sorting_Step-7_05-19-19.png</filePath></attachment>
+<attachment><filePath>C:\Hack\HacktonNVInnoVision\Projects\Hackaton\Results\TestExecution\UI\Sample\25-Nov-2023 05-19-08\img\pact_TC02_Sorting_Step-12_05-19-24.png</filePath></attachment>
+<attachment><filePath>C:\Hack\HacktonNVInnoVision\Projects\Hackaton\Results\TestExecution\UI\Sample\25-Nov-2023 05-19-08\img\pact_TC02_Sorting_Step-17_05-19-28.png</filePath></attachment>
+<attachment><filePath>C:\Hack\HacktonNVInnoVision\Projects\Hackaton\Results\TestExecution\UI\Sample\25-Nov-2023 05-19-08\img\pact_TC02_Sorting_Step-22_05-19-33.png</filePath></attachment>
+<attachment><filePath>C:\Hack\HacktonNVInnoVision\Projects\Hackaton\Results\TestExecution\UI\Sample\25-Nov-2023 05-19-08\img\pact_TC02_Sorting_Step-27_05-19-37.png</filePath></attachment>
+<attachment><filePath>C:\Hack\HacktonNVInnoVision\Projects\Hackaton\Results\TestExecution\UI\Sample\25-Nov-2023 05-19-08\img\pact_TC02_Sorting_Step-32_05-19-42.png</filePath></attachment>
+<attachment><filePath>C:\Hack\HacktonNVInnoVision\Projects\Hackaton\Results\TestExecution\UI\Sample\25-Nov-2023 05-19-08\img\pact_TC02_Sorting_Step-37_05-19-46.png</filePath></attachment>
+<attachment><filePath>C:\Hack\HacktonNVInnoVision\Projects\Hackaton\Results\TestExecution\UI\Sample\25-Nov-2023 05-19-08\img\pact_TC02_Sorting_Step-42_05-19-51.png</filePath></attachment>
+<attachment><filePath>C:\Hack\HacktonNVInnoVision\Projects\Hackaton\Results\TestExecution\UI\Sample\25-Nov-2023 05-19-08\img\pact_TC02_Sorting_Step-47_05-19-55.png</filePath></attachment>
+<attachment><filePath>C:\Hack\HacktonNVInnoVision\Projects\Hackaton\Results\TestExecution\UI\Sample\25-Nov-2023 05-19-08\logs\pact_TC02_Sorting.txt</filePath></attachment>
+</attachments></test-case></test-suite></test-run>

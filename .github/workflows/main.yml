@@ -1,0 +1,42 @@
+name: Run Windows Command
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-command:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      
+    - name: Set up JDK
+      uses: actions/setup-java@v2
+      with:
+        java-version: '17'
+        distribution: 'adopt'  # Specify the distribution, e.g., 'adopt', 'adopt-hotspot', 'adopt-openj9'
+        architecture: 'x64'
+        check-latest: false
+        server-id: github
+        server-username: GITHUB_ACTOR
+        server-password: ${{ secrets.GITHUB_TOKEN }}
+        overwrite-settings: true
+
+    - name: AssureIT
+      run: |
+        # Specify the full path to Run.bat if it's not in the current working directory
+        .\Run.bat -run -project_location "Projects\Hackaton" -release "UI" -testset "Sample"
+        
+    - name: Publish results
+      uses: actions/upload-artifact@v2
+      with:
+        name: test-results
+        path: Projects/Hackaton/Results/TestExecution/UI/Sample/Latest
+        
+    - name: Upload coverage reports to Codecov
+      uses: codecov/codecov-action@v3
+      env: 
+       CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}

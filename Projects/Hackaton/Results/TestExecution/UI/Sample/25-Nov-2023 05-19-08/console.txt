@@ -1,0 +1,325 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 17.0.9
+java.home            : C:\Program Files\Java\jdk-17
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Sat Nov 25 05:19:08 IST 2023
+Loading Browser Profile
+Loading RunManager
+[Scenario:pact] [TestCase: TC02_Sorting] [Description: TC02_Sorting] [Browser: Chrome Headless] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+----------------------------------------------------------
+[1] TestCase selected for execution from [//UI/Sample]
+----------------------------------------------------------
+Initializing Report
+[Thread-13] INFO com.NewVision.InnoVision.engine.core.TMIntegration - TM integration disabled for the testset
+ApiLink not available!!
+testset : Sample
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome Headless
+Launching Local Driver
+Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 2400
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+2023-11-25 05:19:10:11S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Headless Launched
+Step:1   | Object: Browser | Action: Open | Input:*********  | Conditon:  | @25-Nov-2023 05:19:10.010
+[DONE]   | Opened Url: https://qaplayground.dev/
+
+===================================================================================================
+
+Step:2   | Object: Sortable List | Action: Click | Input:*********  | Conditon:  | @25-Nov-2023 05:19:14.014
+Using @relative_xpath [//*[normalize-space(text())='Sortable List']], Object 'Sortable List' Found in 43 ms
+[DONE]   | Clicking on Sortable List
+
+===================================================================================================
+
+Step:3   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @25-Nov-2023 05:19:16.016
+[DONE]   | Thread sleep for '3000
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: pause | Input:*********  | Conditon: Start Param | @25-Nov-2023 05:19:19.019
+[DONE]   | Thread sleep for '2
+
+===================================================================================================
+
+Step:5   | Object: FirstElement | Action: setObjectProperty | Input:*********  | Conditon: #X | @25-Nov-2023 05:19:19.019
+[DONE]   | Setting Object Property for #X with Jeff Bezos for Object [Test1 - FirstElement]
+
+===================================================================================================
+
+Step:6   | Object: FirstPosition | Action: setObjectProperty | Input:*********  | Conditon: #Y | @25-Nov-2023 05:19:19.019
+[DONE]   | Setting Object Property for #Y with 0 for Object [Test1 - FirstPosition]
+
+===================================================================================================
+
+Step:7   | Object: FirstElement | Action: dragToAndDropElement | Input:*********  | Conditon:  | @25-Nov-2023 05:19:19.019
+Using @relative_xpath [//*[contains(text(),'Jeff Bezos')]], Object 'FirstElement' Found in 40 ms
+Using @relative_xpath [//li[@data-index='0']], Object 'FirstPosition' Found in 35 ms
+[PASS]   | 'FirstElement' has been dragged and dropped to 'FirstPosition'
+
+===================================================================================================
+
+Step:8   | Object: Browser | Action: pause | Input:*********  | Conditon: End Param | @25-Nov-2023 05:19:23.023
+[DONE]   | Thread sleep for '2
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: pause | Input:*********  | Conditon: Start Param | @25-Nov-2023 05:19:23.023
+[DONE]   | Thread sleep for '2
+
+===================================================================================================
+
+Step:5   | Object: FirstElement | Action: setObjectProperty | Input:*********  | Conditon: #X | @25-Nov-2023 05:19:23.023
+[DONE]   | Setting Object Property for #X with Bill Gates for Object [Test1 - FirstElement]
+
+===================================================================================================
+
+Step:6   | Object: FirstPosition | Action: setObjectProperty | Input:*********  | Conditon: #Y | @25-Nov-2023 05:19:23.023
+[DONE]   | Setting Object Property for #Y with 1 for Object [Test1 - FirstPosition]
+
+===================================================================================================
+
+Step:7   | Object: FirstElement | Action: dragToAndDropElement | Input:*********  | Conditon:  | @25-Nov-2023 05:19:23.023
+Using @relative_xpath [//*[contains(text(),'Bill Gates')]], Object 'FirstElement' Found in 33 ms
+Using @relative_xpath [//li[@data-index='1']], Object 'FirstPosition' Found in 38 ms
+[PASS]   | 'FirstElement' has been dragged and dropped to 'FirstPosition'
+
+===================================================================================================
+
+Step:8   | Object: Browser | Action: pause | Input:*********  | Conditon: End Param | @25-Nov-2023 05:19:28.028
+[DONE]   | Thread sleep for '2
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: pause | Input:*********  | Conditon: Start Param | @25-Nov-2023 05:19:28.028
+[DONE]   | Thread sleep for '2
+
+===================================================================================================
+
+Step:5   | Object: FirstElement | Action: setObjectProperty | Input:*********  | Conditon: #X | @25-Nov-2023 05:19:28.028
+[DONE]   | Setting Object Property for #X with Warren Buffett for Object [Test1 - FirstElement]
+
+===================================================================================================
+
+Step:6   | Object: FirstPosition | Action: setObjectProperty | Input:*********  | Conditon: #Y | @25-Nov-2023 05:19:28.028
+[DONE]   | Setting Object Property for #Y with 2 for Object [Test1 - FirstPosition]
+
+===================================================================================================
+
+Step:7   | Object: FirstElement | Action: dragToAndDropElement | Input:*********  | Conditon:  | @25-Nov-2023 05:19:28.028
+Using @relative_xpath [//*[contains(text(),'Warren Buffett')]], Object 'FirstElement' Found in 36 ms
+Using @relative_xpath [//li[@data-index='2']], Object 'FirstPosition' Found in 32 ms
+[PASS]   | 'FirstElement' has been dragged and dropped to 'FirstPosition'
+
+===================================================================================================
+
+Step:8   | Object: Browser | Action: pause | Input:*********  | Conditon: End Param | @25-Nov-2023 05:19:32.032
+[DONE]   | Thread sleep for '2
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: pause | Input:*********  | Conditon: Start Param | @25-Nov-2023 05:19:32.032
+[DONE]   | Thread sleep for '2
+
+===================================================================================================
+
+Step:5   | Object: FirstElement | Action: setObjectProperty | Input:*********  | Conditon: #X | @25-Nov-2023 05:19:32.032
+[DONE]   | Setting Object Property for #X with Bernard Arnault for Object [Test1 - FirstElement]
+
+===================================================================================================
+
+Step:6   | Object: FirstPosition | Action: setObjectProperty | Input:*********  | Conditon: #Y | @25-Nov-2023 05:19:32.032
+[DONE]   | Setting Object Property for #Y with 3 for Object [Test1 - FirstPosition]
+
+===================================================================================================
+
+Step:7   | Object: FirstElement | Action: dragToAndDropElement | Input:*********  | Conditon:  | @25-Nov-2023 05:19:32.032
+Using @relative_xpath [//*[contains(text(),'Bernard Arnault')]], Object 'FirstElement' Found in 30 ms
+Using @relative_xpath [//li[@data-index='3']], Object 'FirstPosition' Found in 30 ms
+[PASS]   | 'FirstElement' has been dragged and dropped to 'FirstPosition'
+
+===================================================================================================
+
+Step:8   | Object: Browser | Action: pause | Input:*********  | Conditon: End Param | @25-Nov-2023 05:19:37.037
+[DONE]   | Thread sleep for '2
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: pause | Input:*********  | Conditon: Start Param | @25-Nov-2023 05:19:37.037
+[DONE]   | Thread sleep for '2
+
+===================================================================================================
+
+Step:5   | Object: FirstElement | Action: setObjectProperty | Input:*********  | Conditon: #X | @25-Nov-2023 05:19:37.037
+[DONE]   | Setting Object Property for #X with Carlos Slim Helu for Object [Test1 - FirstElement]
+
+===================================================================================================
+
+Step:6   | Object: FirstPosition | Action: setObjectProperty | Input:*********  | Conditon: #Y | @25-Nov-2023 05:19:37.037
+[DONE]   | Setting Object Property for #Y with 4 for Object [Test1 - FirstPosition]
+
+===================================================================================================
+
+Step:7   | Object: FirstElement | Action: dragToAndDropElement | Input:*********  | Conditon:  | @25-Nov-2023 05:19:37.037
+Using @relative_xpath [//*[contains(text(),'Carlos Slim Helu')]], Object 'FirstElement' Found in 38 ms
+Using @relative_xpath [//li[@data-index='4']], Object 'FirstPosition' Found in 35 ms
+[PASS]   | 'FirstElement' has been dragged and dropped to 'FirstPosition'
+
+===================================================================================================
+
+Step:8   | Object: Browser | Action: pause | Input:*********  | Conditon: End Param | @25-Nov-2023 05:19:41.041
+[DONE]   | Thread sleep for '2
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: pause | Input:*********  | Conditon: Start Param | @25-Nov-2023 05:19:41.041
+[DONE]   | Thread sleep for '2
+
+===================================================================================================
+
+Step:5   | Object: FirstElement | Action: setObjectProperty | Input:*********  | Conditon: #X | @25-Nov-2023 05:19:41.041
+[DONE]   | Setting Object Property for #X with Amancio Ortega for Object [Test1 - FirstElement]
+
+===================================================================================================
+
+Step:6   | Object: FirstPosition | Action: setObjectProperty | Input:*********  | Conditon: #Y | @25-Nov-2023 05:19:41.041
+[DONE]   | Setting Object Property for #Y with 5 for Object [Test1 - FirstPosition]
+
+===================================================================================================
+
+Step:7   | Object: FirstElement | Action: dragToAndDropElement | Input:*********  | Conditon:  | @25-Nov-2023 05:19:41.041
+Using @relative_xpath [//*[contains(text(),'Amancio Ortega')]], Object 'FirstElement' Found in 32 ms
+Using @relative_xpath [//li[@data-index='5']], Object 'FirstPosition' Found in 31 ms
+[PASS]   | 'FirstElement' has been dragged and dropped to 'FirstPosition'
+
+===================================================================================================
+
+Step:8   | Object: Browser | Action: pause | Input:*********  | Conditon: End Param | @25-Nov-2023 05:19:46.046
+[DONE]   | Thread sleep for '2
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: pause | Input:*********  | Conditon: Start Param | @25-Nov-2023 05:19:46.046
+[DONE]   | Thread sleep for '2
+
+===================================================================================================
+
+Step:5   | Object: FirstElement | Action: setObjectProperty | Input:*********  | Conditon: #X | @25-Nov-2023 05:19:46.046
+[DONE]   | Setting Object Property for #X with Larry Ellison for Object [Test1 - FirstElement]
+
+===================================================================================================
+
+Step:6   | Object: FirstPosition | Action: setObjectProperty | Input:*********  | Conditon: #Y | @25-Nov-2023 05:19:46.046
+[DONE]   | Setting Object Property for #Y with 6 for Object [Test1 - FirstPosition]
+
+===================================================================================================
+
+Step:7   | Object: FirstElement | Action: dragToAndDropElement | Input:*********  | Conditon:  | @25-Nov-2023 05:19:46.046
+Using @relative_xpath [//*[contains(text(),'Larry Ellison')]], Object 'FirstElement' Found in 31 ms
+Using @relative_xpath [//li[@data-index='6']], Object 'FirstPosition' Found in 31 ms
+[PASS]   | 'FirstElement' has been dragged and dropped to 'FirstPosition'
+
+===================================================================================================
+
+Step:8   | Object: Browser | Action: pause | Input:*********  | Conditon: End Param | @25-Nov-2023 05:19:50.050
+[DONE]   | Thread sleep for '2
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: pause | Input:*********  | Conditon: Start Param | @25-Nov-2023 05:19:50.050
+[DONE]   | Thread sleep for '2
+
+===================================================================================================
+
+Step:5   | Object: FirstElement | Action: setObjectProperty | Input:*********  | Conditon: #X | @25-Nov-2023 05:19:50.050
+[DONE]   | Setting Object Property for #X with Mark Zuckerberg for Object [Test1 - FirstElement]
+
+===================================================================================================
+
+Step:6   | Object: FirstPosition | Action: setObjectProperty | Input:*********  | Conditon: #Y | @25-Nov-2023 05:19:50.050
+[DONE]   | Setting Object Property for #Y with 7 for Object [Test1 - FirstPosition]
+
+===================================================================================================
+
+Step:7   | Object: FirstElement | Action: dragToAndDropElement | Input:*********  | Conditon:  | @25-Nov-2023 05:19:50.050
+Using @relative_xpath [//*[contains(text(),'Mark Zuckerberg')]], Object 'FirstElement' Found in 35 ms
+Using @relative_xpath [//li[@data-index='7']], Object 'FirstPosition' Found in 31 ms
+[PASS]   | 'FirstElement' has been dragged and dropped to 'FirstPosition'
+
+===================================================================================================
+
+Step:8   | Object: Browser | Action: pause | Input:*********  | Conditon: End Param | @25-Nov-2023 05:19:55.055
+[DONE]   | Thread sleep for '2
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: pause | Input:*********  | Conditon: Start Param | @25-Nov-2023 05:19:55.055
+[DONE]   | Thread sleep for '2
+
+===================================================================================================
+
+Step:5   | Object: FirstElement | Action: setObjectProperty | Input:*********  | Conditon: #X | @25-Nov-2023 05:19:55.055
+[DONE]   | Setting Object Property for #X with Michael Bloomberg for Object [Test1 - FirstElement]
+
+===================================================================================================
+
+Step:6   | Object: FirstPosition | Action: setObjectProperty | Input:*********  | Conditon: #Y | @25-Nov-2023 05:19:55.055
+[DONE]   | Setting Object Property for #Y with 8 for Object [Test1 - FirstPosition]
+
+===================================================================================================
+
+Step:7   | Object: FirstElement | Action: dragToAndDropElement | Input:*********  | Conditon:  | @25-Nov-2023 05:19:55.055
+Using @relative_xpath [//*[contains(text(),'Michael Bloomberg')]], Object 'FirstElement' Found in 38 ms
+Using @relative_xpath [//li[@data-index='8']], Object 'FirstPosition' Found in 32 ms
+[PASS]   | 'FirstElement' has been dragged and dropped to 'FirstPosition'
+
+===================================================================================================
+
+Step:8   | Object: Browser | Action: pause | Input:*********  | Conditon: End Param | @25-Nov-2023 05:20:00.000
+[DONE]   | Thread sleep for '2
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: pause | Input:*********  | Conditon: Start Param | @25-Nov-2023 05:20:00.000
+[DONE]   | Thread sleep for '2
+
+===================================================================================================
+
+Step:5   | Object: FirstElement | Action: setObjectProperty | Input:*********  | Conditon: #X | @25-Nov-2023 05:20:00.000
+Breaking subIteration, End Of Input!!
+
+---------------------------------------------------
+Testcase Name        : pact:TC02_Sorting
+Executed Steps       : 49
+Passed Steps         : 49
+Failed Steps         : 0
+Time Taken           : 00:00:50
+-----------------------------------------------------
+
+Run Finished on Sat Nov 25 05:20:00 IST 2023
+[Thread-13] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Hack\HacktonNVInnoVision\Projects\Hackaton\Results\TestExecution\UI\Sample\25-Nov-2023 05-19-08\extent.html
+[Thread-13] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Hack\HacktonNVInnoVision\Projects\Hackaton\Results\TestExecution\UI\Sample\25-Nov-2023 05-19-08\extent.html]
+-----------------------------------------------------
+ExecutionDate        : 25-Nov-2023 05-19-08
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:51
+ReportPath           : file:///C:\Hack\HacktonNVInnoVision\Projects\Hackaton\Results\TestExecution\UI\Sample\25-Nov-2023 05-19-08\summary.html
+-----------------------------------------------------
+
+-----------------------------------------------------
+Azure Report XML generated
+-----------------------------------------------------
+

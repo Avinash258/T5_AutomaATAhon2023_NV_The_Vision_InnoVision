@@ -1,0 +1,108 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 17.0.9
+java.home            : C:\Program Files\Java\jdk-17
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Sat Nov 25 05:22:16 IST 2023
+Loading Browser Profile
+Loading RunManager
+[Scenario:pact] [TestCase: TC01_DragandDrop] [Description: TC01_DragandDrop] [Browser: Edge] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+----------------------------------------------------------
+[1] TestCase selected for execution from [//UI/Sample]
+----------------------------------------------------------
+Initializing Report
+[Thread-15] INFO com.NewVision.InnoVision.engine.core.TMIntegration - TM integration disabled for the testset
+ApiLink not available!!
+testset : Sample
+Run Manager true
+Continue Execution true
+Running Iteration 1
+Launching Edge
+Launching Local Driver
+[pool-7-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 119.0.2151.72 (resolved driver for Edge 119)
+[pool-7-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
+[pool-7-thread-1] INFO io.github.bonigarcia.wdm.online.Downloader - Downloading https://msedgedriver.azureedge.net/119.0.2151.72/edgedriver_win64.zip
+[pool-7-thread-1] INFO io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file edgedriver_win64.zip
+[pool-7-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Avinash.sharma\.cache\selenium\msedgedriver\win64\119.0.2151.72\msedgedriver.exe
+Starting Microsoft Edge WebDriver 119.0.2151.72 (e8225cce8e47b91666db3b4c1a2735e5c6eec139) on port 36469
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+2023-11-25 05:22:29:11S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Edge Launched
+Step:1   | Object: Browser | Action: Open | Input:*********  | Conditon:  | @25-Nov-2023 05:22:29.029
+[DONE]   | Opened Url: https://qaplayground.dev/
+
+===================================================================================================
+
+Step:2   | Object: Geolocation Set browser geoloc | Action: waitForElementToBePresent | Input:*********  | Conditon:  | @25-Nov-2023 05:22:30.030
+Using @relative_xpath [//a[18]/div], Object 'Geolocation Set browser geoloc' Found in 47 ms
+[PASS]   | 'Geolocation Set browser geoloc' Element Present in the stipulated time
+
+===================================================================================================
+
+Step:3   | Object: Geolocation Set browser geoloc | Action: Click | Input:*********  | Conditon:  | @25-Nov-2023 05:22:49.049
+Using @relative_xpath [//a[18]/div], Object 'Geolocation Set browser geoloc' Found in 39 ms
+[DONE]   | Clicking on Geolocation Set browser geoloc
+
+===================================================================================================
+
+Step:4   | Object: Get Location | Action: waitForElementToBeVisible | Input:*********  | Conditon:  | @25-Nov-2023 05:22:50.050
+Using @id [get-location], Object 'Get Location' Found in 42 ms
+[DONE]   | 'Get Location' Element becomes visible in stipulated time
+
+===================================================================================================
+
+Step:5   | Object: Get Location | Action: Click | Input:*********  | Conditon:  | @25-Nov-2023 05:22:50.050
+Using @id [get-location], Object 'Get Location' Found in 26 ms
+[DONE]   | Clicking on Get Location
+
+===================================================================================================
+
+Step:6   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @25-Nov-2023 05:22:50.050
+[DONE]   | Thread sleep for '10000
+
+===================================================================================================
+
+Step:7   | Object: Bhopal, India | Action: assertElementTextContains | Input:*********  | Conditon:  | @25-Nov-2023 05:23:00.000
+Using @id [location-info], Object 'Bhopal, India' Found in 34 ms
+[FAIL]   | "Bhopal, India" text is "Pune, India" but should contain "Bhopal, India"
+
+===================================================================================================
+
+Step:8   | Object: Bhopal, India | Action: Click | Input:*********  | Conditon:  | @25-Nov-2023 05:23:02.002
+Using @id [location-info], Object 'Bhopal, India' Found in 44 ms
+[DONE]   | Clicking on Bhopal, India
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : pact:TC01_DragandDrop
+Executed Steps       : 8
+Passed Steps         : 7
+Failed Steps         : 1
+Time Taken           : 00:00:46
+-----------------------------------------------------
+
+Shutting Down Thread as there is no IE Browser to do SelectiveThreading
+Run Finished on Sat Nov 25 05:23:03 IST 2023
+[Thread-15] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Hack\HacktonNVInnoVision\Projects\Hackaton\Results\TestExecution\UI\Sample\25-Nov-2023 05-22-16\extent.html
+[Thread-15] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Hack\HacktonNVInnoVision\Projects\Hackaton\Results\TestExecution\UI\Sample\25-Nov-2023 05-22-16\extent.html]
+-----------------------------------------------------
+ExecutionDate        : 25-Nov-2023 05-22-16
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:47
+ReportPath           : file:///C:\Hack\HacktonNVInnoVision\Projects\Hackaton\Results\TestExecution\UI\Sample\25-Nov-2023 05-22-16\summary.html
+-----------------------------------------------------

@@ -1,0 +1,15 @@
+2023-11-25 03:59:54:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main main:Launching InnoVision IDE
+light
+2023-11-25 03:59:55:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\HacktonNVInnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 03:59:57:11S +0530 [INFO] com.NewVision.InnoVision.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2023-11-25 04:00:01:11S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
+2023-11-25 04:00:15:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\HacktonNVInnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 04:02:20:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\HacktonNVInnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 05:19:08:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\HacktonNVInnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 05:22:16:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\HacktonNVInnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 05:24:00:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main finish:InnoVision IDE has been Terminated - [ Total Time : 01:24:06.149 ]
+2023-11-25 05:33:42:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main main:Launching InnoVision IDE
+light
+2023-11-25 05:33:43:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Hack\HacktonNVInnoVision\lib\InnoVision-engine-1.0.jar
+2023-11-25 05:33:45:11S +0530 [INFO] com.NewVision.InnoVision.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2023-11-25 05:33:48:11S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea

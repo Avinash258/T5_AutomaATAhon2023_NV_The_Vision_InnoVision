@@ -1,0 +1,323 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.9
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Sat Nov 25 05:19:09 IST 2023
+
+Scenario         :  [pact]
+TestCase         :  [TC02_Sorting]
+Browser          :  [Chrome Headless]
+Browser Version  :  [Default]
+Platform         :  [Any]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: @https://qaplayground.dev/  |  Condition:  | @25-Nov-2023 05:19:14.014
+[DONE]   | Opened Url: https://qaplayground.dev/
+
+
+===================================================================================================
+
+Step:2  |  Object:Sortable List  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 05:19:16.016
+[DONE]   | Clicking on Sortable List
+
+
+===================================================================================================
+
+Step:3  |  Object:Browser  |  Action:pause  |  Input: @3000  |  Condition:  | @25-Nov-2023 05:19:19.019
+[DONE]   | Thread sleep for '3000
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:pause  |  Input: @2  |  Condition:Start Param  | @25-Nov-2023 05:19:19.019
+[DONE]   | Thread sleep for '2
+
+
+===================================================================================================
+
+Step:5  |  Object:FirstElement  |  Action:setObjectProperty  |  Input: TestData:List  |  Condition:#X  | @25-Nov-2023 05:19:19.019
+[DONE]   | Setting Object Property for #X with Jeff Bezos for Object [Test1 - FirstElement]
+
+
+===================================================================================================
+
+Step:6  |  Object:FirstPosition  |  Action:setObjectProperty  |  Input: TestData:Position  |  Condition:#Y  | @25-Nov-2023 05:19:19.019
+[DONE]   | Setting Object Property for #Y with 0 for Object [Test1 - FirstPosition]
+
+
+===================================================================================================
+
+Step:7  |  Object:FirstElement  |  Action:dragToAndDropElement  |  Input: @Test1:FirstPosition  |  Condition:  | @25-Nov-2023 05:19:19.019
+[PASS]   | 'FirstElement' has been dragged and dropped to 'FirstPosition'
+
+
+===================================================================================================
+
+Step:8  |  Object:Browser  |  Action:pause  |  Input: @2  |  Condition:End Param  | @25-Nov-2023 05:19:23.023
+[DONE]   | Thread sleep for '2
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:pause  |  Input: @2  |  Condition:Start Param  | @25-Nov-2023 05:19:23.023
+[DONE]   | Thread sleep for '2
+
+
+===================================================================================================
+
+Step:5  |  Object:FirstElement  |  Action:setObjectProperty  |  Input: TestData:List  |  Condition:#X  | @25-Nov-2023 05:19:23.023
+[DONE]   | Setting Object Property for #X with Bill Gates for Object [Test1 - FirstElement]
+
+
+===================================================================================================
+
+Step:6  |  Object:FirstPosition  |  Action:setObjectProperty  |  Input: TestData:Position  |  Condition:#Y  | @25-Nov-2023 05:19:23.023
+[DONE]   | Setting Object Property for #Y with 1 for Object [Test1 - FirstPosition]
+
+
+===================================================================================================
+
+Step:7  |  Object:FirstElement  |  Action:dragToAndDropElement  |  Input: @Test1:FirstPosition  |  Condition:  | @25-Nov-2023 05:19:24.024
+[PASS]   | 'FirstElement' has been dragged and dropped to 'FirstPosition'
+
+
+===================================================================================================
+
+Step:8  |  Object:Browser  |  Action:pause  |  Input: @2  |  Condition:End Param  | @25-Nov-2023 05:19:28.028
+[DONE]   | Thread sleep for '2
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:pause  |  Input: @2  |  Condition:Start Param  | @25-Nov-2023 05:19:28.028
+[DONE]   | Thread sleep for '2
+
+
+===================================================================================================
+
+Step:5  |  Object:FirstElement  |  Action:setObjectProperty  |  Input: TestData:List  |  Condition:#X  | @25-Nov-2023 05:19:28.028
+[DONE]   | Setting Object Property for #X with Warren Buffett for Object [Test1 - FirstElement]
+
+
+===================================================================================================
+
+Step:6  |  Object:FirstPosition  |  Action:setObjectProperty  |  Input: TestData:Position  |  Condition:#Y  | @25-Nov-2023 05:19:28.028
+[DONE]   | Setting Object Property for #Y with 2 for Object [Test1 - FirstPosition]
+
+
+===================================================================================================
+
+Step:7  |  Object:FirstElement  |  Action:dragToAndDropElement  |  Input: @Test1:FirstPosition  |  Condition:  | @25-Nov-2023 05:19:28.028
+[PASS]   | 'FirstElement' has been dragged and dropped to 'FirstPosition'
+
+
+===================================================================================================
+
+Step:8  |  Object:Browser  |  Action:pause  |  Input: @2  |  Condition:End Param  | @25-Nov-2023 05:19:32.032
+[DONE]   | Thread sleep for '2
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:pause  |  Input: @2  |  Condition:Start Param  | @25-Nov-2023 05:19:32.032
+[DONE]   | Thread sleep for '2
+
+
+===================================================================================================
+
+Step:5  |  Object:FirstElement  |  Action:setObjectProperty  |  Input: TestData:List  |  Condition:#X  | @25-Nov-2023 05:19:32.032
+[DONE]   | Setting Object Property for #X with Bernard Arnault for Object [Test1 - FirstElement]
+
+
+===================================================================================================
+
+Step:6  |  Object:FirstPosition  |  Action:setObjectProperty  |  Input: TestData:Position  |  Condition:#Y  | @25-Nov-2023 05:19:32.032
+[DONE]   | Setting Object Property for #Y with 3 for Object [Test1 - FirstPosition]
+
+
+===================================================================================================
+
+Step:7  |  Object:FirstElement  |  Action:dragToAndDropElement  |  Input: @Test1:FirstPosition  |  Condition:  | @25-Nov-2023 05:19:33.033
+[PASS]   | 'FirstElement' has been dragged and dropped to 'FirstPosition'
+
+
+===================================================================================================
+
+Step:8  |  Object:Browser  |  Action:pause  |  Input: @2  |  Condition:End Param  | @25-Nov-2023 05:19:37.037
+[DONE]   | Thread sleep for '2
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:pause  |  Input: @2  |  Condition:Start Param  | @25-Nov-2023 05:19:37.037
+[DONE]   | Thread sleep for '2
+
+
+===================================================================================================
+
+Step:5  |  Object:FirstElement  |  Action:setObjectProperty  |  Input: TestData:List  |  Condition:#X  | @25-Nov-2023 05:19:37.037
+[DONE]   | Setting Object Property for #X with Carlos Slim Helu for Object [Test1 - FirstElement]
+
+
+===================================================================================================
+
+Step:6  |  Object:FirstPosition  |  Action:setObjectProperty  |  Input: TestData:Position  |  Condition:#Y  | @25-Nov-2023 05:19:37.037
+[DONE]   | Setting Object Property for #Y with 4 for Object [Test1 - FirstPosition]
+
+
+===================================================================================================
+
+Step:7  |  Object:FirstElement  |  Action:dragToAndDropElement  |  Input: @Test1:FirstPosition  |  Condition:  | @25-Nov-2023 05:19:37.037
+[PASS]   | 'FirstElement' has been dragged and dropped to 'FirstPosition'
+
+
+===================================================================================================
+
+Step:8  |  Object:Browser  |  Action:pause  |  Input: @2  |  Condition:End Param  | @25-Nov-2023 05:19:41.041
+[DONE]   | Thread sleep for '2
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:pause  |  Input: @2  |  Condition:Start Param  | @25-Nov-2023 05:19:41.041
+[DONE]   | Thread sleep for '2
+
+
+===================================================================================================
+
+Step:5  |  Object:FirstElement  |  Action:setObjectProperty  |  Input: TestData:List  |  Condition:#X  | @25-Nov-2023 05:19:41.041
+[DONE]   | Setting Object Property for #X with Amancio Ortega for Object [Test1 - FirstElement]
+
+
+===================================================================================================
+
+Step:6  |  Object:FirstPosition  |  Action:setObjectProperty  |  Input: TestData:Position  |  Condition:#Y  | @25-Nov-2023 05:19:41.041
+[DONE]   | Setting Object Property for #Y with 5 for Object [Test1 - FirstPosition]
+
+
+===================================================================================================
+
+Step:7  |  Object:FirstElement  |  Action:dragToAndDropElement  |  Input: @Test1:FirstPosition  |  Condition:  | @25-Nov-2023 05:19:42.042
+[PASS]   | 'FirstElement' has been dragged and dropped to 'FirstPosition'
+
+
+===================================================================================================
+
+Step:8  |  Object:Browser  |  Action:pause  |  Input: @2  |  Condition:End Param  | @25-Nov-2023 05:19:46.046
+[DONE]   | Thread sleep for '2
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:pause  |  Input: @2  |  Condition:Start Param  | @25-Nov-2023 05:19:46.046
+[DONE]   | Thread sleep for '2
+
+
+===================================================================================================
+
+Step:5  |  Object:FirstElement  |  Action:setObjectProperty  |  Input: TestData:List  |  Condition:#X  | @25-Nov-2023 05:19:46.046
+[DONE]   | Setting Object Property for #X with Larry Ellison for Object [Test1 - FirstElement]
+
+
+===================================================================================================
+
+Step:6  |  Object:FirstPosition  |  Action:setObjectProperty  |  Input: TestData:Position  |  Condition:#Y  | @25-Nov-2023 05:19:46.046
+[DONE]   | Setting Object Property for #Y with 6 for Object [Test1 - FirstPosition]
+
+
+===================================================================================================
+
+Step:7  |  Object:FirstElement  |  Action:dragToAndDropElement  |  Input: @Test1:FirstPosition  |  Condition:  | @25-Nov-2023 05:19:46.046
+[PASS]   | 'FirstElement' has been dragged and dropped to 'FirstPosition'
+
+
+===================================================================================================
+
+Step:8  |  Object:Browser  |  Action:pause  |  Input: @2  |  Condition:End Param  | @25-Nov-2023 05:19:50.050
+[DONE]   | Thread sleep for '2
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:pause  |  Input: @2  |  Condition:Start Param  | @25-Nov-2023 05:19:50.050
+[DONE]   | Thread sleep for '2
+
+
+===================================================================================================
+
+Step:5  |  Object:FirstElement  |  Action:setObjectProperty  |  Input: TestData:List  |  Condition:#X  | @25-Nov-2023 05:19:50.050
+[DONE]   | Setting Object Property for #X with Mark Zuckerberg for Object [Test1 - FirstElement]
+
+
+===================================================================================================
+
+Step:6  |  Object:FirstPosition  |  Action:setObjectProperty  |  Input: TestData:Position  |  Condition:#Y  | @25-Nov-2023 05:19:50.050
+[DONE]   | Setting Object Property for #Y with 7 for Object [Test1 - FirstPosition]
+
+
+===================================================================================================
+
+Step:7  |  Object:FirstElement  |  Action:dragToAndDropElement  |  Input: @Test1:FirstPosition  |  Condition:  | @25-Nov-2023 05:19:51.051
+[PASS]   | 'FirstElement' has been dragged and dropped to 'FirstPosition'
+
+
+===================================================================================================
+
+Step:8  |  Object:Browser  |  Action:pause  |  Input: @2  |  Condition:End Param  | @25-Nov-2023 05:19:55.055
+[DONE]   | Thread sleep for '2
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:pause  |  Input: @2  |  Condition:Start Param  | @25-Nov-2023 05:19:55.055
+[DONE]   | Thread sleep for '2
+
+
+===================================================================================================
+
+Step:5  |  Object:FirstElement  |  Action:setObjectProperty  |  Input: TestData:List  |  Condition:#X  | @25-Nov-2023 05:19:55.055
+[DONE]   | Setting Object Property for #X with Michael Bloomberg for Object [Test1 - FirstElement]
+
+
+===================================================================================================
+
+Step:6  |  Object:FirstPosition  |  Action:setObjectProperty  |  Input: TestData:Position  |  Condition:#Y  | @25-Nov-2023 05:19:55.055
+[DONE]   | Setting Object Property for #Y with 8 for Object [Test1 - FirstPosition]
+
+
+===================================================================================================
+
+Step:7  |  Object:FirstElement  |  Action:dragToAndDropElement  |  Input: @Test1:FirstPosition  |  Condition:  | @25-Nov-2023 05:19:55.055
+[PASS]   | 'FirstElement' has been dragged and dropped to 'FirstPosition'
+
+
+===================================================================================================
+
+Step:8  |  Object:Browser  |  Action:pause  |  Input: @2  |  Condition:End Param  | @25-Nov-2023 05:20:00.000
+[DONE]   | Thread sleep for '2
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:pause  |  Input: @2  |  Condition:Start Param  | @25-Nov-2023 05:20:00.000
+[DONE]   | Thread sleep for '2
+
+---------------------------------------------------
+Testcase Name        : pact:TC02_Sorting
+Executed Steps       : 49
+Passed Steps         : 49
+Failed Steps         : 0
+Time Taken           : 00:00:50
+---------------------------------------------------
+

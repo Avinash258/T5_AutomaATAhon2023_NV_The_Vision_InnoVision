@@ -1,0 +1,156 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 17.0.9
+java.home            : C:\Program Files\Java\jdk-17
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Sat Nov 25 04:00:15 IST 2023
+Loading Browser Profile
+Loading RunManager
+[Scenario:pact] [TestCase: TC01_DragandDrop] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-9] WARN com.NewVision.InnoVision.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 98.0.4758.102 (273bf7ac8c909cde36982d27f66f3c70846a3718-refs/branch-heads/4758@{#1151}) on port 18093
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+2023-11-25 04:00:18:11S +0530 [SEVERE] com.NewVision.InnoVision.engine.core.Task onError:session not created: This version of ChromeDriver only supports Chrome version 98
+Current browser version is 119.0.6045.160 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BLAVINASHSHARMA', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x007069A3+2582947]
+	Ordinal0 [0x0069A6D1+2139857]
+	Ordinal0 [0x00593A98+1063576]
+	Ordinal0 [0x005B33B8+1192888]
+	Ordinal0 [0x005AF235+1176117]
+	Ordinal0 [0x005AC9E1+1165793]
+	Ordinal0 [0x005DCFFF+1363967]
+	Ordinal0 [0x005DCC2A+1362986]
+	Ordinal0 [0x005D8366+1344358]
+	Ordinal0 [0x005B5176+1200502]
+	Ordinal0 [0x005B6066+1204326]
+	GetHandleVerifier [0x008ABE02+1675858]
+	GetHandleVerifier [0x0096036C+2414524]
+	GetHandleVerifier [0x0079BB01+560977]
+	GetHandleVerifier [0x0079A8D3+556323]
+	Ordinal0 [0x006A020E+2163214]
+	Ordinal0 [0x006A5078+2183288]
+	Ordinal0 [0x006A51C0+2183616]
+	Ordinal0 [0x006AEE1C+2223644]
+	BaseThreadInitThunk [0x76C2FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FD7C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FD7C3E+238]
+
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 98
+Current browser version is 119.0.6045.160 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BLAVINASHSHARMA', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x007069A3+2582947]
+	Ordinal0 [0x0069A6D1+2139857]
+	Ordinal0 [0x00593A98+1063576]
+	Ordinal0 [0x005B33B8+1192888]
+	Ordinal0 [0x005AF235+1176117]
+	Ordinal0 [0x005AC9E1+1165793]
+	Ordinal0 [0x005DCFFF+1363967]
+	Ordinal0 [0x005DCC2A+1362986]
+	Ordinal0 [0x005D8366+1344358]
+	Ordinal0 [0x005B5176+1200502]
+	Ordinal0 [0x005B6066+1204326]
+	GetHandleVerifier [0x008ABE02+1675858]
+	GetHandleVerifier [0x0096036C+2414524]
+	GetHandleVerifier [0x0079BB01+560977]
+	GetHandleVerifier [0x0079A8D3+556323]
+	Ordinal0 [0x006A020E+2163214]
+	Ordinal0 [0x006A5078+2183288]
+	Ordinal0 [0x006A51C0+2183616]
+	Ordinal0 [0x006AEE1C+2223644]
+	BaseThreadInitThunk [0x76C2FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FD7C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FD7C3E+238]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at com.NewVision.InnoVision.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:194)
+	at com.NewVision.InnoVision.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:169)
+	at com.NewVision.InnoVision.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:159)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.launchDriver(SeleniumDriver.java:66)
+	at com.NewVision.InnoVision.engine.core.Task.launchBrowser(Task.java:155)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:125)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+2023-11-25 04:00:18:11S +0530 [SEVERE] com.NewVision.InnoVision.engine.core.Task run:Cannot read field "Input" because the return value of "com.NewVision.InnoVision.engine.reporting.TestCaseReport.getStep()" is null
+java.lang.NullPointerException: Cannot read field "Input" because the return value of "com.NewVision.InnoVision.engine.reporting.TestCaseReport.getStep()" is null
+	at com.NewVision.InnoVision.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:188)
+	at com.NewVision.InnoVision.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:164)
+	at com.NewVision.InnoVision.engine.core.Task.onError(Task.java:192)
+	at com.NewVision.InnoVision.engine.core.Task.onError(Task.java:180)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:137)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+
+---------------------------------------------------
+Testcase Name        : pact:TC01_DragandDrop
+Executed Steps       : 0
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:02
+-----------------------------------------------------
+
+Run Finished on Sat Nov 25 04:00:18 IST 2023
+-----------------------------------------------------
+ExecutionDate        : 25-Nov-2023 04-00-15
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:02
+ReportPath           : file:///C:\Hack\HacktonNVInnoVision\Projects\Hackaton\Results\TestDesign\pact\TC01_DragandDrop\25-Nov-2023 04-00-15\summary.html
+-----------------------------------------------------
+[Thread-9] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Hack\HacktonNVInnoVision\Projects\Hackaton\Results\TestDesign\pact\TC01_DragandDrop\25-Nov-2023 04-00-15\summary.html
+[Thread-9] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Hack\HacktonNVInnoVision\Projects\Hackaton\Results\TestDesign\pact\TC01_DragandDrop\25-Nov-2023 04-00-15\summary.html]

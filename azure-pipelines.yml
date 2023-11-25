@@ -1,0 +1,26 @@
+trigger:
+- main
+
+pool:
+     name: Default
+     
+steps:
+#- task: JavaToolInstaller@0
+ # inputs:
+  #  versionSpec: '17'
+   # jdkArchitectureOption: 'x64'
+    #jdkSourceOption: 'PreInstalled'
+- task: CmdLine@2
+  inputs:
+    script: 'Run.bat -run -project_location "Projects\Hackaton" -release "UI" -testset "Sample"'
+    workingDirectory: '$(System.DefaultWorkingDirectory)'
+
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'NUnit'
+    testResultsFiles: 'Projects/Hackaton/Results/TestExecution/UI/Sample/Latest/azure.xml'
+    mergeTestResults: true
+    failTaskOnFailedTests: true
+    testRunTitle: 'UI'
+    
+

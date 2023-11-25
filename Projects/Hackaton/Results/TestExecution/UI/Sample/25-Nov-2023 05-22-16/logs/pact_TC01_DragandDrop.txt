@@ -1,0 +1,77 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.9
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Sat Nov 25 05:22:16 IST 2023
+
+Scenario         :  [pact]
+TestCase         :  [TC01_DragandDrop]
+Browser          :  [Edge]
+Browser Version  :  [Default]
+Platform         :  [Any]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: @https://qaplayground.dev/  |  Condition:  | @25-Nov-2023 05:22:30.030
+[DONE]   | Opened Url: https://qaplayground.dev/
+
+
+===================================================================================================
+
+Step:2  |  Object:Geolocation Set browser geoloc  |  Action:waitForElementToBePresent  |  Input:   |  Condition:  | @25-Nov-2023 05:22:30.030
+[PASS]   | 'Geolocation Set browser geoloc' Element Present in the stipulated time
+
+
+===================================================================================================
+
+Step:3  |  Object:Geolocation Set browser geoloc  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 05:22:50.050
+[DONE]   | Clicking on Geolocation Set browser geoloc
+
+
+===================================================================================================
+
+Step:4  |  Object:Get Location  |  Action:waitForElementToBeVisible  |  Input:   |  Condition:  | @25-Nov-2023 05:22:50.050
+[DONE]   | 'Get Location' Element becomes visible in stipulated time
+
+
+===================================================================================================
+
+Step:5  |  Object:Get Location  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 05:22:50.050
+[DONE]   | Clicking on Get Location
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:pause  |  Input: @10000  |  Condition:  | @25-Nov-2023 05:23:00.000
+[DONE]   | Thread sleep for '10000
+
+
+===================================================================================================
+
+Step:7  |  Object:Bhopal, India  |  Action:assertElementTextContains  |  Input: @Bhopal, India  |  Condition:  | @25-Nov-2023 05:23:00.000
+[FAIL]   | "Bhopal, India" text is "Pune, India" but should contain "Bhopal, India"
+
+
+===================================================================================================
+
+Step:8  |  Object:Bhopal, India  |  Action:Click  |  Input:   |  Condition:  | @25-Nov-2023 05:23:02.002
+[DONE]   | Clicking on Bhopal, India
+
+---------------------------------------------------
+Testcase Name        : pact:TC01_DragandDrop
+Executed Steps       : 8
+Passed Steps         : 7
+Failed Steps         : 1
+Time Taken           : 00:00:46
+---------------------------------------------------
+
