@@ -1,0 +1,2 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+true,Challenge_01,TC01_Login to Email,Single,Failed,Chrome,Default,Any
