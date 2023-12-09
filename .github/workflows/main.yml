@@ -36,6 +36,13 @@ jobs:
         name: test-results
         path: Projects/Hackaton/Results/TestExecution/UI/Sample/Latest
         
+    - name: Publish HTML reports to GitHub Pages
+      run: |
+          mkdir -p $GITHUB_WORKSPACE/docs  # Create a directory for GitHub Pages
+          cp -r Projects/Hackaton/Results/TestExecution/UI/Sample/Latest/* $GITHUB_WORKSPACE/docs
+      if: always()
+
+        
     - name: Upload coverage reports to Codecov
       uses: codecov/codecov-action@v3
       env: 
