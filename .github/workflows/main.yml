@@ -17,7 +17,7 @@ jobs:
       uses: actions/setup-java@v2
       with:
         java-version: '17'
-        distribution: 'adopt'  # Specify the distribution, e.g., 'adopt', 'adopt-hotspot', 'adopt-openj9'
+        distribution: 'adopt'
         architecture: 'x64'
         check-latest: false
         server-id: github
@@ -27,7 +27,6 @@ jobs:
 
     - name: AssureIT
       run: |
-        # Specify the full path to Run.bat if it's not in the current working directory
         .\Run.bat -run -project_location "Projects\Hackaton" -release "UI" -testset "Scenario_03"
         
     - name: Publish results
@@ -37,11 +36,18 @@ jobs:
         path: Projects/Hackaton/Results/TestExecution/UI/Sample/Latest
         
     - name: Publish HTML reports to GitHub Pages
-      run: |
-          mkdir -p $GITHUB_WORKSPACE/docs  # Create a directory for GitHub Pages
-          cp -r Projects/Hackaton/Results/TestExecution/UI/Sample/Latest/* $GITHUB_WORKSPACE/docs
       if: always()
-
+      run: |
+        mkdir -p $GITHUB_WORKSPACE/docs
+        cp -r Projects/Hackaton/Results/TestExecution/UI/Sample/Latest/* $GITHUB_WORKSPACE/docs
+        git config --global user.email "actions@github.com"
+        git config --global user.name "GitHub Actions"
+        git checkout gh-pages || git checkout --orphan gh-pages
+        git rm -rf .
+        cp -r $GITHUB_WORKSPACE/docs/* .
+        git add .
+        git commit -m "Update GitHub Pages with latest HTML reports"
+        git push origin gh-pages
         
     - name: Upload coverage reports to Codecov
       uses: codecov/codecov-action@v3
