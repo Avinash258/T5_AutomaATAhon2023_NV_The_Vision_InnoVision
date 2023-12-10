@@ -58,8 +58,3 @@ jobs:
     - name: Deploy to GitHub Pages
       id: github-pages
       uses: actions/deploy-pages@v1
-        
-    - name: Upload coverage reports to Codecov
-      uses: codecov/codecov-action@v3
-      env: 
-       CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
