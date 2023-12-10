@@ -4,11 +4,18 @@ on:
   push:
     branches:
       - main
-
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  
 jobs:
   run-command:
     runs-on: windows-latest
-
+    if: always()
+    environment:
+        name: github-pages
+        url: ${{ steps.deployment.outputs.page_url }}  
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
@@ -24,7 +31,7 @@ jobs:
         server-username: GITHUB_ACTOR
         server-password: ${{ secrets.GITHUB_TOKEN }}
         overwrite-settings: true
-
+         
     - name: AssureIT
       run: |
         .\Run.bat -run -project_location "Projects\Hackaton" -release "UI" -testset "Scenario_03"
@@ -35,12 +42,22 @@ jobs:
         name: test-results
         path: Projects/Hackaton/Results/TestExecution/UI/Sample/Latest
         
-    - name: Deploy to GitHub Pages
-      uses: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && success() && contains(runner.os, 'Windows') && contains(matrix.java, '17') ? 'peaceiris/actions-gh-pages@v3' : 'some/other-action@v1' }}
+    - name: Upload Pages Artifact
+      uses: actions/upload-pages-artifact@v1
       with:
-      github_token: ${{ secrets.GITHUB_TOKEN }}
-      publish_dir: Projects/Hackaton/Results/TestExecution/UI/Sample/Latest/
-
+        path: Projects/Hackaton/Results/TestExecution/UI/Sample/Latest
+        retention-days: 1
+                   
+    - name: Setup Pages
+      uses: actions/configure-pages@v2
+       
+    - uses: actions/download-artifact@v2
+      with:
+        name: 'github-pages'
+           
+    - name: Deploy to GitHub Pages
+      id: github-pages
+      uses: actions/deploy-pages@v1
         
     - name: Upload coverage reports to Codecov
       uses: codecov/codecov-action@v3
