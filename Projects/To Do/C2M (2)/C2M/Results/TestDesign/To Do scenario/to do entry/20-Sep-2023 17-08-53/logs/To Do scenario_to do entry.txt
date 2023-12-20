@@ -1,0 +1,89 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Wed Sep 20 17:08:53 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [to do entry]
+Browser          :  [Edge]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: %Login_Link%  |  Condition:  | @20-Sep-2023 17:08:56.056
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @20-Sep-2023 17:08:56.056
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: To Do:Username  |  Condition:  | @20-Sep-2023 17:08:57.057
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @20-Sep-2023 17:08:57.057
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:Set  |  Input: To Do:Password  |  Condition:  | @20-Sep-2023 17:08:57.057
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @20-Sep-2023 17:08:57.057
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @20-Sep-2023 17:09:02.002
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @20-Sep-2023 17:09:03.003
+[FAIL]   | org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLSpanElement] has no size and location
+  (Session info: MicrosoftEdge=117.0.2045.31)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '10.20.0.46', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 117.0.2045.31, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:62422}, msedge: {msedgedriverVersion: 117.0.2045.31 (fdd954ad1e8c..., userDataDir: C:\Users\SHAILJ~1.RAJ\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fde3bc76ff4caa5b09ec1bb8c85f5543
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do Entry  |  Action:clickByJS  |  Input:   |  Condition:  | @20-Sep-2023 17:09:36.036
+[DONE]   | Clicked on To Do Entry
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:to do entry
+Executed Steps       : 9
+Passed Steps         : 8
+Failed Steps         : 1
+Time Taken           : 00:00:43
+---------------------------------------------------
+

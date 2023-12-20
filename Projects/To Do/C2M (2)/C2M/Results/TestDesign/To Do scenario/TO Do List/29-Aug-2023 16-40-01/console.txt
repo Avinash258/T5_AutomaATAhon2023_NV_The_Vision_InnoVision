@@ -1,0 +1,380 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 20.0.1
+java.home            : C:\Program Files\Java\jdk-20
+os.name              : Windows 11
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Tue Aug 29 16:40:01 IST 2023
+Loading Browser Profile
+Loading RunManager
+[Scenario:To Do scenario] [TestCase: TO Do List] [Description: Test Run] [Browser: Edge] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-27] WARN com.NewVision.InnoVision.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Edge
+Launching Local Driver
+[pool-11-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 116.0.1938.62 (resolved driver for Edge 116)
+[pool-11-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\shailja.rajak\.cache\selenium\msedgedriver\win64\116.0.1938.62\msedgedriver.exe
+Starting Microsoft Edge WebDriver 116.0.1938.62 (493f2197e519d4dde5309fdf4abf4f719089372d) on port 26288
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+2023-08-29 16:40:04:08S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Edge Launched
+Step:1   | Object: Browser | Action: Open | Input:*********  | Conditon:  | @29-Aug-2023 16:40:04.004
+%Login_Link% changed to http://172.40.0.60:8009/ouaf/cis.jsp
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+===================================================================================================
+
+Step:2   | Object: j_username | Action: Click | Input:*********  | Conditon:  | @29-Aug-2023 16:40:05.005
+Using @name [j_username], Object 'j_username' Found in 33 ms
+[DONE]   | Clicking on j_username
+
+===================================================================================================
+
+Step:3   | Object: j_username | Action: Set | Input:*********  | Conditon:  | @29-Aug-2023 16:40:05.005
+Using @name [j_username], Object 'j_username' Found in 20 ms
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+===================================================================================================
+
+Step:4   | Object: j_password | Action: Click | Input:*********  | Conditon:  | @29-Aug-2023 16:40:05.005
+Using @name [j_password], Object 'j_password' Found in 18 ms
+[DONE]   | Clicking on j_password
+
+===================================================================================================
+
+Step:5   | Object: j_password | Action: Set | Input:*********  | Conditon:  | @29-Aug-2023 16:40:05.005
+Using @name [j_password], Object 'j_password' Found in 21 ms
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+===================================================================================================
+
+Step:6   | Object: Login | Action: Click | Input:*********  | Conditon:  | @29-Aug-2023 16:40:06.006
+Using @id [loginButton], Object 'Login' Found in 21 ms
+[DONE]   | Clicking on Login
+
+===================================================================================================
+
+Step:2   | Object: Menu | Action: Click | Input:*********  | Conditon:  | @29-Aug-2023 16:40:07.007
+Using @id [IM_menuButton], Object 'Menu' Found in 7578 ms
+[DONE]   | Clicking on Menu
+
+===================================================================================================
+
+Step:3   | Object: To Do | Action: mouseOverElement | Input:*********  | Conditon:  | @29-Aug-2023 16:40:15.015
+Using @relative_xpath [(//*[normalize-space(text())='To Do'])[1]], Object 'To Do' Found in 70 ms
+[DONE]   | Mouse Over to Element 'To Do
+
+===================================================================================================
+
+Step:4   | Object: To Do List | Action: Click | Input:*********  | Conditon:  | @29-Aug-2023 16:40:15.015
+Using @relative_xpath [//*[normalize-space(text())='To Do List']], Object 'To Do List' Found in 1421 ms
+[DONE]   | Clicking on To Do List
+
+===================================================================================================
+
+Step:5   | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @29-Aug-2023 16:40:17.017
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @29-Aug-2023 16:40:18.018
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:10  | Object: enter type to do | Action: setByJS | Input:*********  | Conditon:  | @29-Aug-2023 16:40:20.020
+Using @xpath [//*[@id="TD_TYPE_CD"]], Object 'enter type to do' Found in 34 ms
+[DONE]   | Entered Text 'Water_2' on 'enter type to do'
+
+===================================================================================================
+
+Step:11  | Object: enter type to do | Action: sendKeysToElement | Input:*********  | Conditon:  | @29-Aug-2023 16:40:20.020
+Using @xpath [//*[@id="TD_TYPE_CD"]], Object 'enter type to do' Found in 27 ms
+[DONE]   | Keys Submitted
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @29-Aug-2023 16:40:20.020
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:13  | Object: Filter By | Action: clickByJS | Input:*********  | Conditon:  | @29-Aug-2023 16:40:22.022
+Using @name [SRCH_ENT_STAT_FLG], Object 'Filter By' Found in 29 ms
+[DONE]   | Clicked on Filter By
+
+===================================================================================================
+
+Step:14  | Object: Filter By | Action: selectByVisibleText | Input:*********  | Conditon:  | @29-Aug-2023 16:40:22.022
+Using @name [SRCH_ENT_STAT_FLG], Object 'Filter By' Found in 28 ms
+[DONE]   | Item/s 'All' is/are selected from list Filter By
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @29-Aug-2023 16:40:23.023
+[DONE]   | Thread sleep for '30000
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @29-Aug-2023 16:40:53.053
+[DONE]   | Thread sleep for '1000
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: takeScreenshot | Input:*********  | Conditon:  | @29-Aug-2023 16:40:54.054
+[PASS]   | Screenshot is taken
+
+===================================================================================================
+
+Step:17  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @29-Aug-2023 16:40:56.056
+[DONE]   | Webdriver switched to new frame by name[dataframe]
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: switchToDefaultContent | Input:*********  | Conditon:  | @29-Aug-2023 16:40:56.056
+[DONE]   | Webdriver switched to default content
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @29-Aug-2023 16:40:56.056
+[DONE]   | Webdriver switched to new frame by name[main]
+
+===================================================================================================
+
+Step:3   | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @29-Aug-2023 16:40:56.056
+2023-08-29 16:40:56:08S +0530 [OFF ] com.NewVision.InnoVision.engine.commands.SwitchTo switchToFrame:null
+org.openqa.selenium.NoSuchFrameException: No frame element found by name or id dataframe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '192.168.29.24', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:885)
+	at com.NewVision.InnoVision.engine.commands.SwitchTo.switchToFrame(SwitchTo.java:46)
+	at com.NewVision.InnoVision.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:389)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeTestCase(TestStepRunner.java:137)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.execute(TestStepRunner.java:118)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:63)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+[DEBUG]   | No frame element found by name or id dataframe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '192.168.29.24', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown
+
+===================================================================================================
+
+Step:4   | Object: Select all | Action: Click | Input:*********  | Conditon:  | @29-Aug-2023 16:40:56.056
+Element could not be identified with [xpath] : [//*[@id="SELECT_ALL_LBL"]]
+Expected condition failed: waiting for presence of any elements located by By.xpath: //*[@id="SELECT_ALL_LBL"] (tried for 10 second(s) with 500 milliseconds interval)
+
+
+-------------------- Auto Heal has been invoked --------------------
+Element has been healed. Attribute [CSS Selector] with value [#IM_DELETE] is used
+Using @css [#IM_DELETE], Object 'Select all' Found in 10580 ms
+[FAIL]   | Seems Like the Element [Select all] is Not Visible or hidden at the moment
+
+===================================================================================================
+
+2023-08-29 16:41:07:08S +0530 [SEVERE] com.NewVision.InnoVision.engine.execution.run.TestCaseRunner onRuntimeException:Seems Like the Element [Select all] is Not Visible or hidden at the moment
+com.NewVision.InnoVision.engine.execution.exception.element.ElementException: Seems Like the Element [Select all] is Not Visible or hidden at the moment
+	at com.NewVision.InnoVision.engine.commands.General.elementEnabled(General.java:64)
+	at com.NewVision.InnoVision.engine.commands.Basic.Click(Basic.java:47)
+	at com.NewVision.InnoVision.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:389)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeTestCase(TestStepRunner.java:137)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.execute(TestStepRunner.java:118)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:63)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @29-Aug-2023 16:41:07.007
+[AWT-EventQueue-0] INFO org.eclipse.jetty.util.log - Logging initialized @1347279ms to org.eclipse.jetty.util.log.Slf4jLog
+jar:file:/C:/InnoVision-2.0-setup/InnoVision-1.0/lib/InnoVision-extensionconnect-1.0.jar!/localhost
+2023-08-29 16:41:18:08S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer startRecord:Launching Server for Record
+Current Directory: C:\InnoVision-2.0-setup\InnoVision-1.0
+2023-08-29 16:41:18:08S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Starting Server
+[SocketServer] INFO org.eclipse.jetty.server.Server - jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 20.0.1+9-29
+[SocketServer] INFO org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+[SocketServer] INFO org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+[SocketServer] INFO org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+[SocketServer] INFO org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@3ea47e66{/,null,AVAILABLE}
+[SocketServer] INFO org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@508fd95c(localhost,h=[localhost],a=[],w=[]) for SslContextFactory@1cd0548d[provider=null,keyStore=jar:file:/C:/InnoVision-2.0-setup/InnoVision-1.0/lib/InnoVision-extensionconnect-1.0.jar!/localhost,trustStore=null]
+[SocketServer] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@1f806fb5{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[SocketServer] INFO org.eclipse.jetty.server.Server - Started @1347569ms
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 24566
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Exception in thread "AWT-EventQueue-0" org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 116.0.5845.111 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '192.168.29.24', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: EmptyDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x004AA813+48355]
+	(No symbol) [0x0043C4B1]
+	(No symbol) [0x00345358]
+	(No symbol) [0x003661AC]
+	(No symbol) [0x00361EF3]
+	(No symbol) [0x00360579]
+	(No symbol) [0x00390C55]
+	(No symbol) [0x0039093C]
+	(No symbol) [0x0038A536]
+	(No symbol) [0x003682DC]
+	(No symbol) [0x003693DD]
+	GetHandleVerifier [0x0070AABD+2539405]
+	GetHandleVerifier [0x0074A78F+2800735]
+	GetHandleVerifier [0x0074456C+2775612]
+	GetHandleVerifier [0x005351E0+616112]
+	(No symbol) [0x00445F8C]
+	(No symbol) [0x00442328]
+	(No symbol) [0x0044240B]
+	(No symbol) [0x00434FF7]
+	BaseThreadInitThunk [0x75777D59+25]
+	RtlInitializeExceptionChain [0x76F5B79B+107]
+	RtlClearBits [0x76F5B71F+191]
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1016)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at com.NewVision.InnoVision.engine.drivers.customWebDriver.EmptyDriver.chormeExtension(EmptyDriver.java:154)
+	at com.NewVision.InnoVision.ide.main.mainui.components.testdesign.testcase.RecorderDialog.toggleRecorder(RecorderDialog.java:62)
+	at com.NewVision.InnoVision.ide.main.mainui.components.testdesign.testcase.TestCaseComponent.record(TestCaseComponent.java:411)
+	at com.NewVision.InnoVision.ide.main.mainui.components.testdesign.testcase.TestCaseComponent.actionPerformed(TestCaseComponent.java:322)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6620)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3398)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6385)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4995)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4827)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4827)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@1f806fb5{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.session - node0 Stopped scavenging
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@3ea47e66{/,null,STOPPED}
+jar:file:/C:/InnoVision-2.0-setup/InnoVision-1.0/lib/InnoVision-extensionconnect-1.0.jar!/localhost2023-08-29 16:41:21:08S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Server Stopped
+
+[DONE]   | Thread sleep for '30000
+
+===================================================================================================
+
+Step:30  | Object: Complete Button | Action: Click | Input:*********  | Conditon:  | @29-Aug-2023 16:41:37.037
+Element could not be identified with [xpath] : [//*[@id="COMPLETE_SW"]]
+Expected condition failed: waiting for presence of any elements located by By.xpath: //*[@id="COMPLETE_SW"] (tried for 10 second(s) with 500 milliseconds interval)
+
+
+-------------------- Auto Heal has been invoked --------------------
+Element has been healed. Attribute [CSS Selector] with value [#IM_CLEAR] is used
+Using @css [#IM_CLEAR], Object 'Complete Button' Found in 10411 ms
+[DONE]   | Clicking on Complete Button
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:TO Do List
+Executed Steps       : 26
+Passed Steps         : 24
+Failed Steps         : 2
+Time Taken           : 00:01:46
+-----------------------------------------------------
+
+Run Finished on Tue Aug 29 16:41:48 IST 2023
+-----------------------------------------------------
+ExecutionDate        : 29-Aug-2023 16-40-01
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:01:46
+ReportPath           : file:///C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\TO Do List\29-Aug-2023 16-40-01\summary.html
+-----------------------------------------------------
+[Thread-27] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\TO Do List\29-Aug-2023 16-40-01\summary.html
+[Thread-27] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\TO Do List\29-Aug-2023 16-40-01\summary.html]

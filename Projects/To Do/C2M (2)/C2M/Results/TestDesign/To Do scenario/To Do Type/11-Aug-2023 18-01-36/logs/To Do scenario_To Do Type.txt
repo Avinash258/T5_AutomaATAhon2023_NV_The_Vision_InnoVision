@@ -1,0 +1,113 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Fri Aug 11 18:01:36 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [To Do Type]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: %Login_Link%  |  Condition:  | @11-Aug-2023 18:01:38.038
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 18:01:39.039
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: To Do:Username  |  Condition:  | @11-Aug-2023 18:01:39.039
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 18:01:39.039
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:Set  |  Input: To Do:Password  |  Condition:  | @11-Aug-2023 18:01:39.039
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 18:01:39.039
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @11-Aug-2023 18:02:09.009
+[DONE]   | Thread sleep for '30000
+
+
+===================================================================================================
+
+Step:3  |  Object:Admin  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 18:02:09.009
+[DONE]   | Clicking on Admin
+
+
+===================================================================================================
+
+Step:4  |  Object:T  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 18:02:10.010
+[DONE]   | Clicking on T
+
+
+===================================================================================================
+
+Step:5  |  Object:To Do Type  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 18:02:10.010
+[DONE]   | Clicking on To Do Type
+
+
+===================================================================================================
+
+Step:6  |  Object:Add1  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 18:02:10.010
+[DONE]   | Clicking on Add1
+
+
+===================================================================================================
+
+Step:7  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabPage  |  Condition:  | @11-Aug-2023 18:02:10.010
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:8  |  Object:To Do Type Page  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 18:03:31.031
+[FAIL]   | Seems Like the Element [To Do Type Page] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:9  |  Object:To Do Type Page  |  Action:Set  |  Input: @Water  |  Condition:  | @11-Aug-2023 18:04:24.024
+[FAIL]   | Driver Chrome Closed / Could not be reached
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To Do Type
+Executed Steps       : 14
+Passed Steps         : 12
+Failed Steps         : 2
+Time Taken           : 00:02:47
+---------------------------------------------------
+

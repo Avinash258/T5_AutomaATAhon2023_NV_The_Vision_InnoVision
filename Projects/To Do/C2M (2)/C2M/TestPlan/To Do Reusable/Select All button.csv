@@ -1,0 +1,5 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Switching control to the default window,switchToDefaultContent,,,
+2,Browser,Switch to frame by name: [<Data>],switchToFrame,Frames:frame 2,,
+3,Browser,Switch to frame by name: [<Data>],switchToFrame,To Do:Frame,,
+"*4",Select all,"Click the [<Object>] ",Click,,,to do list objects

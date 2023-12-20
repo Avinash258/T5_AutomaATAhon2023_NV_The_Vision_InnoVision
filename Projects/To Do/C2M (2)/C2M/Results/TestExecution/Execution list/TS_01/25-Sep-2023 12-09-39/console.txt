@@ -1,0 +1,613 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 20.0.1
+java.home            : C:\Program Files\Java\jdk-20
+os.name              : Windows 11
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Mon Sep 25 12:09:39 IST 2023
+Loading Browser Profile
+Loading RunManager
+[Scenario:To Do scenario] [TestCase: To do Dashbord] [Description: To do Dashbord] [Browser: Edge] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+[Scenario:To Do scenario] [TestCase: to do entry] [Description: to do entry] [Browser: Edge] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+[Scenario:To Do scenario] [TestCase: TO Do List] [Description: TO Do List] [Browser: Edge] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+[Scenario:To Do scenario] [TestCase: To do search] [Description: To do search] [Browser: Edge] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+[Scenario:To Do scenario] [TestCase: To do Summary] [Description: To do Summary] [Browser: Edge] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+[Scenario:To Do scenario] [TestCase: To Do Type] [Description: To Do Type] [Browser: Edge] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+----------------------------------------------------------
+[6] TestCases selected for execution from [//Execution list/TS_01]
+----------------------------------------------------------
+Initializing Report
+[Thread-10] INFO com.NewVision.InnoVision.engine.core.TMIntegration - TM integration disabled for the testset
+ApiLink not available!!
+testset : TS_01
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Edge
+Launching Local Driver
+[pool-4-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 117.0.2045.40 (resolved driver for Edge 117)
+[pool-4-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\shailja.rajak\.cache\selenium\msedgedriver\win64\117.0.2045.40\msedgedriver.exe
+Starting Microsoft Edge WebDriver 117.0.2045.40 (1a64d4a9399846625cc98ece3dc48b04ffae70b8) on port 41893
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+2023-09-25 12:09:47:09S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Edge Launched
+Step:1   | Object: Browser | Action: Open | Input:*********  | Conditon:  | @25-Sep-2023 12:09:48.048
+%Login_Link% changed to http://172.40.0.60:8009/ouaf/cis.jsp
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+===================================================================================================
+
+Step:2   | Object: j_username | Action: Click | Input:*********  | Conditon:  | @25-Sep-2023 12:09:48.048
+Using @name [j_username], Object 'j_username' Found in 46 ms
+[DONE]   | Clicking on j_username
+
+===================================================================================================
+
+Step:3   | Object: j_username | Action: Set | Input:*********  | Conditon:  | @25-Sep-2023 12:09:48.048
+Using @name [j_username], Object 'j_username' Found in 23 ms
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+===================================================================================================
+
+Step:4   | Object: j_password | Action: Click | Input:*********  | Conditon:  | @25-Sep-2023 12:09:49.049
+Using @name [j_password], Object 'j_password' Found in 24 ms
+[DONE]   | Clicking on j_password
+
+===================================================================================================
+
+Step:5   | Object: j_password | Action: Set | Input:*********  | Conditon:  | @25-Sep-2023 12:09:49.049
+Using @name [j_password], Object 'j_password' Found in 26 ms
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+===================================================================================================
+
+Step:6   | Object: Login | Action: Click | Input:*********  | Conditon:  | @25-Sep-2023 12:09:49.049
+Using @id [loginButton], Object 'Login' Found in 27 ms
+[DONE]   | Clicking on Login
+
+===================================================================================================
+
+Step:2   | Object: Menu | Action: Click | Input:*********  | Conditon:  | @25-Sep-2023 12:09:49.049
+Using @id [IM_menuButton], Object 'Menu' Found in 4613 ms
+[DONE]   | Clicking on Menu
+
+===================================================================================================
+
+Step:3   | Object: To Do | Action: mouseOverElement | Input:*********  | Conditon:  | @25-Sep-2023 12:09:54.054
+Using @relative_xpath [(//*[normalize-space(text())='To Do'])[1]], Object 'To Do' Found in 149 ms
+[DONE]   | Mouse Over to Element 'To Do
+
+===================================================================================================
+
+Step:4   | Object: To Do Dashboard | Action: Click | Input:*********  | Conditon:  | @25-Sep-2023 12:09:57.057
+Using @id [CI_TODO_subMenuItem0x3], Object 'To Do Dashboard' Found in 112 ms
+[DONE]   | Clicking on To Do Dashboard
+
+===================================================================================================
+
+Step:5   | Object: Browser | Action: scrollToBottom | Input:*********  | Conditon:  | @25-Sep-2023 12:09:57.057
+[DONE]   | Browser Scrolled to []
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @25-Sep-2023 12:09:57.057
+[DONE]   | Thread sleep for '30000
+
+===================================================================================================
+
+Step:7   | Object: Browser | Action: verifyTextPresentInPage | Input:*********  | Conditon:  | @25-Sep-2023 12:10:27.027
+[PASS]   | Expected text To Do Dashboard is present in the page
+
+===================================================================================================
+
+Step:8   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @25-Sep-2023 12:10:29.029
+[DONE]   | Thread sleep for '5000
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @25-Sep-2023 12:10:34.034
+[DONE]   | Thread sleep for '1000
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: takeScreenshot | Input:*********  | Conditon:  | @25-Sep-2023 12:10:35.035
+[PASS]   | Screenshot is taken
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To do Dashbord
+Executed Steps       : 15
+Passed Steps         : 15
+Failed Steps         : 0
+Time Taken           : 00:00:58
+-----------------------------------------------------
+
+Running Iteration 1
+Launching Edge
+Launching Local Driver
+[pool-4-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 117.0.2045.40 (resolved driver for Edge 117)
+[pool-4-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\shailja.rajak\.cache\selenium\msedgedriver\win64\117.0.2045.40\msedgedriver.exe
+Starting Microsoft Edge WebDriver 117.0.2045.40 (1a64d4a9399846625cc98ece3dc48b04ffae70b8) on port 16986
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+2023-09-25 12:10:39:09S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Edge Launched
+Step:1   | Object: Browser | Action: Open | Input:*********  | Conditon:  | @25-Sep-2023 12:10:39.039
+%Login_Link% changed to http://172.40.0.60:8009/ouaf/cis.jsp
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+===================================================================================================
+
+Step:2   | Object: j_username | Action: Click | Input:*********  | Conditon:  | @25-Sep-2023 12:10:40.040
+Using @name [j_username], Object 'j_username' Found in 37 ms
+[DONE]   | Clicking on j_username
+
+===================================================================================================
+
+Step:3   | Object: j_username | Action: Set | Input:*********  | Conditon:  | @25-Sep-2023 12:10:40.040
+Using @name [j_username], Object 'j_username' Found in 25 ms
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+===================================================================================================
+
+Step:4   | Object: j_password | Action: Click | Input:*********  | Conditon:  | @25-Sep-2023 12:10:40.040
+Using @name [j_password], Object 'j_password' Found in 29 ms
+[DONE]   | Clicking on j_password
+
+===================================================================================================
+
+Step:5   | Object: j_password | Action: Set | Input:*********  | Conditon:  | @25-Sep-2023 12:10:40.040
+Using @name [j_password], Object 'j_password' Found in 28 ms
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+===================================================================================================
+
+Step:6   | Object: Login | Action: Click | Input:*********  | Conditon:  | @25-Sep-2023 12:10:40.040
+Using @id [loginButton], Object 'Login' Found in 24 ms
+[DONE]   | Clicking on Login
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @25-Sep-2023 12:10:41.041
+[DONE]   | Thread sleep for '5000
+
+===================================================================================================
+
+Step:3   | Object: Menu | Action: Click | Input:*********  | Conditon:  | @25-Sep-2023 12:10:46.046
+Using @id [IM_menuButton], Object 'Menu' Found in 633 ms
+[DONE]   | Clicking on Menu
+
+===================================================================================================
+
+Step:4   | Object: To Do | Action: mouseOverElement | Input:*********  | Conditon:  | @25-Sep-2023 12:10:47.047
+Using @relative_xpath [(//*[normalize-space(text())='To Do'])[1]], Object 'To Do' Found in 366 ms
+[DONE]   | Mouse Over to Element 'To Do
+
+===================================================================================================
+
+Step:5   | Object: To Do Entry | Action: Click | Input:*********  | Conditon:  | @25-Sep-2023 12:10:48.048
+Using @relative_xpath [//*[normalize-space(text())='To Do Entry']], Object 'To Do Entry' Found in 87 ms
+[DONE]   | Clicking on To Do Entry
+
+===================================================================================================
+
+Step:6   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @25-Sep-2023 12:10:48.048
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:8   | Object: Add | Action: Click | Input:*********  | Conditon:  | @25-Sep-2023 12:10:50.050
+Element could not be identified with [relative_xpath] : [//*[normalize-space(text())='Add']]
+Expected condition failed: waiting for presence of any elements located by By.xpath: //*[normalize-space(text())='Add'] (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [xpath] : [(/html/body/div[2]/ul/li[2]/span)[1]]
+Expected condition failed: waiting for presence of any elements located by By.xpath: (/html/body/div[2]/ul/li[2]/span)[1] (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [css] : [html > body.pageContainer.oraDesktop > #menuDiv_2 > ul.menuList > #toDoEntryMaintAdd > span]
+Expected condition failed: waiting for presence of any elements located by By.cssSelector: html > body.pageContainer.oraDesktop > #menuDiv_2 > ul.menuList > #toDoEntryMaintAdd > span (tried for 10 second(s) with 500 milliseconds interval)
+
+
+-------------------- Auto Heal has been invoked --------------------
+Element has been healed. Attribute [CSS Selector] with value [#aboutLabel] is used
+Using @css [#aboutLabel], Object 'Add' Found in 30695 ms
+[DONE]   | Clicking on Add
+
+===================================================================================================
+
+Step:9   | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @25-Sep-2023 12:11:21.021
+[DONE]   | Webdriver switched to new frame by name[uiMap]
+
+===================================================================================================
+
+Step:10  | Object: Frame To do select type | Action: highlight | Input:*********  | Conditon:  | @25-Sep-2023 12:11:21.021
+Using @xpath [/html], Object 'Frame To do select type' Found in 49 ms
+[PASS]   | Element Highlighted
+
+===================================================================================================
+
+2023-09-25 12:11:22:09S +0530 [SEVERE] com.NewVision.InnoVision.engine.reporting.util.ReportUtils takeScreenshot:null
+java.lang.RuntimeException: Error making screenshot
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.createNewScreenshot(SeleniumDriver.java:186)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.createScreenShot(SeleniumDriver.java:164)
+	at com.NewVision.InnoVision.engine.reporting.util.ReportUtils.takeScreenshot(ReportUtils.java:86)
+	at com.NewVision.InnoVision.engine.reporting.impl.extent.ExtentTestCaseHandler.takeSSAndPutDetail(ExtentTestCaseHandler.java:375)
+	at com.NewVision.InnoVision.engine.reporting.impl.extent.ExtentTestCaseHandler.takeScreenShot(ExtentTestCaseHandler.java:336)
+	at com.NewVision.InnoVision.engine.reporting.impl.extent.ExtentTestCaseHandler.putStatus(ExtentTestCaseHandler.java:313)
+	at com.NewVision.InnoVision.engine.reporting.impl.extent.ExtentTestCaseHandler.updateTestLog(ExtentTestCaseHandler.java:181)
+	at com.NewVision.InnoVision.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:206)
+	at com.NewVision.InnoVision.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:164)
+	at com.NewVision.InnoVision.engine.commands.Basic.highlight(Basic.java:349)
+	at com.NewVision.InnoVision.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.lang.IllegalArgumentException: Width (1860) and height (0) cannot be <= 0
+	at java.desktop/java.awt.image.DirectColorModel.createCompatibleWritableRaster(DirectColorModel.java:1016)
+	at java.desktop/java.awt.image.BufferedImage.<init>(BufferedImage.java:324)
+	at com.galenframework.utils.GalenUtils.makeFullScreenshot(GalenUtils.java:140)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.getScreenShotFromGalen(SeleniumDriver.java:197)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.createNewScreenshot(SeleniumDriver.java:183)
+	... 21 more
+
+2023-09-25 12:11:22:09S +0530 [SEVERE] com.NewVision.InnoVision.engine.reporting.util.ReportUtils takeScreenshot:null
+java.lang.RuntimeException: Error making screenshot
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.createNewScreenshot(SeleniumDriver.java:186)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.createScreenShot(SeleniumDriver.java:164)
+	at com.NewVision.InnoVision.engine.reporting.util.ReportUtils.takeScreenshot(ReportUtils.java:86)
+	at com.NewVision.InnoVision.engine.reporting.impl.html.HtmlTestCaseHandler.takeSSAndPutDetail(HtmlTestCaseHandler.java:291)
+	at com.NewVision.InnoVision.engine.reporting.impl.html.HtmlTestCaseHandler.takeScreenShot(HtmlTestCaseHandler.java:252)
+	at com.NewVision.InnoVision.engine.reporting.impl.html.HtmlTestCaseHandler.putStatus(HtmlTestCaseHandler.java:227)
+	at com.NewVision.InnoVision.engine.reporting.impl.html.HtmlTestCaseHandler.updateTestLog(HtmlTestCaseHandler.java:115)
+	at com.NewVision.InnoVision.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:206)
+	at com.NewVision.InnoVision.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:164)
+	at com.NewVision.InnoVision.engine.commands.Basic.highlight(Basic.java:349)
+	at com.NewVision.InnoVision.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.lang.IllegalArgumentException: Width (1860) and height (0) cannot be <= 0
+	at java.desktop/java.awt.image.DirectColorModel.createCompatibleWritableRaster(DirectColorModel.java:1016)
+	at java.desktop/java.awt.image.BufferedImage.<init>(BufferedImage.java:324)
+	at com.galenframework.utils.GalenUtils.makeFullScreenshot(GalenUtils.java:140)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.getScreenShotFromGalen(SeleniumDriver.java:197)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.createNewScreenshot(SeleniumDriver.java:183)
+	... 21 more
+
+Step:11  | Object: selectedType1 | Action: Click | Input:*********  | Conditon:  | @25-Sep-2023 12:11:22.022
+Element could not be identified with [id] : [selectedType]
+Expected condition failed: waiting for presence of any elements located by By.id: selectedType (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [relative_xpath] : [//select[@oratype='string']]
+Expected condition failed: waiting for presence of any elements located by By.xpath: //select[@oratype='string'] (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [xpath] : [/html/body/table[2]/tbody/tr/td[2]/select]
+Expected condition failed: waiting for presence of any elements located by By.xpath: /html/body/table[2]/tbody/tr/td[2]/select (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [class] : [oraInput oraDefault]
+Expected condition failed: waiting for presence of any elements located by By.xpath: //*[@className='oraInput oraDefault'] (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [css] : [#selectedType]
+Expected condition failed: waiting for presence of any elements located by By.cssSelector: #selectedType (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [type] : [select-one]
+Expected condition failed: waiting for presence of any elements located by By.tagName: select-one (tried for 10 second(s) with 500 milliseconds interval)
+
+
+-------------------- Auto Heal has been invoked --------------------
+2023-09-25 12:12:24:09S +0530 [OFF ] com.NewVision.InnoVision.engine.drivers.AutomationObject getElements:null
+java.lang.NullPointerException: Cannot invoke "org.jsoup.nodes.Element.cssSelector()" because "targetElementString" is null
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.elementHeal(AutomationObject.java:733)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.lambda$getElements$0(AutomationObject.java:385)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.getElements(AutomationObject.java:322)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.getWElements(AutomationObject.java:273)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElements(AutomationObject.java:260)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElement(AutomationObject.java:136)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElement(AutomationObject.java:129)
+	at com.NewVision.InnoVision.engine.core.CommandControl.sync(CommandControl.java:98)
+	at com.NewVision.InnoVision.engine.core.CommandControl.sync(CommandControl.java:183)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Couldn't find Object 'selectedType1' in stipulated Time '10' Seconds
+[FAIL]   | Seems Like the Element [selectedType1] is Not Present/Found in the page Try Adding wait or heal it
+
+===================================================================================================
+
+2023-09-25 12:12:24:09S +0530 [SEVERE] com.NewVision.InnoVision.engine.reporting.util.ReportUtils takeScreenshot:null
+java.lang.RuntimeException: Error making screenshot
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.createNewScreenshot(SeleniumDriver.java:186)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.createScreenShot(SeleniumDriver.java:164)
+	at com.NewVision.InnoVision.engine.reporting.util.ReportUtils.takeScreenshot(ReportUtils.java:86)
+	at com.NewVision.InnoVision.engine.reporting.impl.extent.ExtentTestCaseHandler.takeSSAndPutDetail(ExtentTestCaseHandler.java:375)
+	at com.NewVision.InnoVision.engine.reporting.impl.extent.ExtentTestCaseHandler.takeScreenShot(ExtentTestCaseHandler.java:336)
+	at com.NewVision.InnoVision.engine.reporting.impl.extent.ExtentTestCaseHandler.putStatus(ExtentTestCaseHandler.java:313)
+	at com.NewVision.InnoVision.engine.reporting.impl.extent.ExtentTestCaseHandler.updateTestLog(ExtentTestCaseHandler.java:181)
+	at com.NewVision.InnoVision.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:206)
+	at com.NewVision.InnoVision.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:164)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.lambda$reportOnError$0(TestCaseRunner.java:329)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.reportOnError(TestCaseRunner.java:328)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.onRuntimeException(TestCaseRunner.java:292)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:367)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.lang.IllegalArgumentException: Width (1860) and height (0) cannot be <= 0
+	at java.desktop/java.awt.image.DirectColorModel.createCompatibleWritableRaster(DirectColorModel.java:1016)
+	at java.desktop/java.awt.image.BufferedImage.<init>(BufferedImage.java:324)
+	at com.galenframework.utils.GalenUtils.makeFullScreenshot(GalenUtils.java:140)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.getScreenShotFromGalen(SeleniumDriver.java:197)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.createNewScreenshot(SeleniumDriver.java:183)
+	... 18 more
+
+2023-09-25 12:12:25:09S +0530 [SEVERE] com.NewVision.InnoVision.engine.reporting.util.ReportUtils takeScreenshot:null
+java.lang.RuntimeException: Error making screenshot
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.createNewScreenshot(SeleniumDriver.java:186)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.createScreenShot(SeleniumDriver.java:164)
+	at com.NewVision.InnoVision.engine.reporting.util.ReportUtils.takeScreenshot(ReportUtils.java:86)
+	at com.NewVision.InnoVision.engine.reporting.impl.html.HtmlTestCaseHandler.takeSSAndPutDetail(HtmlTestCaseHandler.java:291)
+	at com.NewVision.InnoVision.engine.reporting.impl.html.HtmlTestCaseHandler.takeScreenShot(HtmlTestCaseHandler.java:252)
+	at com.NewVision.InnoVision.engine.reporting.impl.html.HtmlTestCaseHandler.putStatus(HtmlTestCaseHandler.java:227)
+	at com.NewVision.InnoVision.engine.reporting.impl.html.HtmlTestCaseHandler.updateTestLog(HtmlTestCaseHandler.java:115)
+	at com.NewVision.InnoVision.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:206)
+	at com.NewVision.InnoVision.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:164)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.lambda$reportOnError$0(TestCaseRunner.java:329)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.reportOnError(TestCaseRunner.java:328)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.onRuntimeException(TestCaseRunner.java:292)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:367)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.lang.IllegalArgumentException: Width (1860) and height (0) cannot be <= 0
+	at java.desktop/java.awt.image.DirectColorModel.createCompatibleWritableRaster(DirectColorModel.java:1016)
+	at java.desktop/java.awt.image.BufferedImage.<init>(BufferedImage.java:324)
+	at com.galenframework.utils.GalenUtils.makeFullScreenshot(GalenUtils.java:140)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.getScreenShotFromGalen(SeleniumDriver.java:197)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.createNewScreenshot(SeleniumDriver.java:183)
+	... 18 more
+
+2023-09-25 12:12:25:09S +0530 [SEVERE] com.NewVision.InnoVision.engine.execution.run.TestCaseRunner onRuntimeException:Seems Like the Element [selectedType1] is Not Present/Found in the page Try Adding wait or heal it
+com.NewVision.InnoVision.engine.execution.exception.element.ElementException: Seems Like the Element [selectedType1] is Not Present/Found in the page Try Adding wait or heal it
+	at com.NewVision.InnoVision.engine.commands.General.elementDisplayed(General.java:57)
+	at com.NewVision.InnoVision.engine.commands.General.elementEnabled(General.java:63)
+	at com.NewVision.InnoVision.engine.commands.Basic.Click(Basic.java:47)
+	at com.NewVision.InnoVision.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Step:12  | Object: selectedType1 | Action: selectByVisibleText | Input:*********  | Conditon:  | @25-Sep-2023 12:12:25.025
+Element could not be identified with [id] : [selectedType]
+Expected condition failed: waiting for presence of any elements located by By.id: selectedType (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [relative_xpath] : [//select[@oratype='string']]
+Expected condition failed: waiting for presence of any elements located by By.xpath: //select[@oratype='string'] (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [xpath] : [/html/body/table[2]/tbody/tr/td[2]/select]
+Expected condition failed: waiting for presence of any elements located by By.xpath: /html/body/table[2]/tbody/tr/td[2]/select (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [class] : [oraInput oraDefault]
+Expected condition failed: waiting for presence of any elements located by By.xpath: //*[@className='oraInput oraDefault'] (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [css] : [#selectedType]
+Expected condition failed: waiting for presence of any elements located by By.cssSelector: #selectedType (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [type] : [select-one]
+Expected condition failed: waiting for presence of any elements located by By.tagName: select-one (tried for 10 second(s) with 500 milliseconds interval)
+
+
+-------------------- Auto Heal has been invoked --------------------
+2023-09-25 12:13:27:09S +0530 [OFF ] com.NewVision.InnoVision.engine.drivers.AutomationObject getElements:null
+java.lang.NullPointerException: Cannot invoke "org.jsoup.nodes.Element.cssSelector()" because "targetElementString" is null
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.elementHeal(AutomationObject.java:733)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.lambda$getElements$0(AutomationObject.java:385)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.getElements(AutomationObject.java:322)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.getWElements(AutomationObject.java:273)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElements(AutomationObject.java:260)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElement(AutomationObject.java:136)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElement(AutomationObject.java:129)
+	at com.NewVision.InnoVision.engine.core.CommandControl.sync(CommandControl.java:98)
+	at com.NewVision.InnoVision.engine.core.CommandControl.sync(CommandControl.java:183)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Couldn't find Object 'selectedType1' in stipulated Time '10' Seconds
+[FAIL]   | Seems Like the Element [selectedType1] is Not Present/Found in the page Try Adding wait or heal it
+
+===================================================================================================
+
+2023-09-25 12:13:27:09S +0530 [SEVERE] com.NewVision.InnoVision.engine.reporting.util.ReportUtils takeScreenshot:null
+java.lang.RuntimeException: Error making screenshot
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.createNewScreenshot(SeleniumDriver.java:186)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.createScreenShot(SeleniumDriver.java:164)
+	at com.NewVision.InnoVision.engine.reporting.util.ReportUtils.takeScreenshot(ReportUtils.java:86)
+	at com.NewVision.InnoVision.engine.reporting.impl.extent.ExtentTestCaseHandler.takeSSAndPutDetail(ExtentTestCaseHandler.java:375)
+	at com.NewVision.InnoVision.engine.reporting.impl.extent.ExtentTestCaseHandler.takeScreenShot(ExtentTestCaseHandler.java:336)
+	at com.NewVision.InnoVision.engine.reporting.impl.extent.ExtentTestCaseHandler.putStatus(ExtentTestCaseHandler.java:313)
+	at com.NewVision.InnoVision.engine.reporting.impl.extent.ExtentTestCaseHandler.updateTestLog(ExtentTestCaseHandler.java:181)
+	at com.NewVision.InnoVision.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:206)
+	at com.NewVision.InnoVision.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:164)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.lambda$reportOnError$0(TestCaseRunner.java:329)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.reportOnError(TestCaseRunner.java:328)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.onRuntimeException(TestCaseRunner.java:292)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:367)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.lang.IllegalArgumentException: Width (1860) and height (0) cannot be <= 0
+	at java.desktop/java.awt.image.DirectColorModel.createCompatibleWritableRaster(DirectColorModel.java:1016)
+	at java.desktop/java.awt.image.BufferedImage.<init>(BufferedImage.java:324)
+	at com.galenframework.utils.GalenUtils.makeFullScreenshot(GalenUtils.java:140)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.getScreenShotFromGalen(SeleniumDriver.java:197)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.createNewScreenshot(SeleniumDriver.java:183)
+	... 18 more
+
+2023-09-25 12:13:28:09S +0530 [SEVERE] com.NewVision.InnoVision.engine.reporting.util.ReportUtils takeScreenshot:null
+java.lang.RuntimeException: Error making screenshot
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.createNewScreenshot(SeleniumDriver.java:186)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.createScreenShot(SeleniumDriver.java:164)
+	at com.NewVision.InnoVision.engine.reporting.util.ReportUtils.takeScreenshot(ReportUtils.java:86)
+	at com.NewVision.InnoVision.engine.reporting.impl.html.HtmlTestCaseHandler.takeSSAndPutDetail(HtmlTestCaseHandler.java:291)
+	at com.NewVision.InnoVision.engine.reporting.impl.html.HtmlTestCaseHandler.takeScreenShot(HtmlTestCaseHandler.java:252)
+	at com.NewVision.InnoVision.engine.reporting.impl.html.HtmlTestCaseHandler.putStatus(HtmlTestCaseHandler.java:227)
+	at com.NewVision.InnoVision.engine.reporting.impl.html.HtmlTestCaseHandler.updateTestLog(HtmlTestCaseHandler.java:115)
+	at com.NewVision.InnoVision.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:206)
+	at com.NewVision.InnoVision.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:164)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.lambda$reportOnError$0(TestCaseRunner.java:329)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.reportOnError(TestCaseRunner.java:328)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.onRuntimeException(TestCaseRunner.java:292)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:367)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.lang.IllegalArgumentException: Width (1860) and height (0) cannot be <= 0
+	at java.desktop/java.awt.image.DirectColorModel.createCompatibleWritableRaster(DirectColorModel.java:1016)
+	at java.desktop/java.awt.image.BufferedImage.<init>(BufferedImage.java:324)
+	at com.galenframework.utils.GalenUtils.makeFullScreenshot(GalenUtils.java:140)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.getScreenShotFromGalen(SeleniumDriver.java:197)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.createNewScreenshot(SeleniumDriver.java:183)
+	... 18 more
+
+2023-09-25 12:13:28:09S +0530 [SEVERE] com.NewVision.InnoVision.engine.execution.run.TestCaseRunner onRuntimeException:Seems Like the Element [selectedType1] is Not Present/Found in the page Try Adding wait or heal it
+com.NewVision.InnoVision.engine.execution.exception.element.ElementException: Seems Like the Element [selectedType1] is Not Present/Found in the page Try Adding wait or heal it
+	at com.NewVision.InnoVision.engine.commands.Dropdown.select(Dropdown.java:231)
+	at com.NewVision.InnoVision.engine.commands.Dropdown.selectByVisibleText(Dropdown.java:112)
+	at com.NewVision.InnoVision.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:to do entry
+Executed Steps       : 16
+Passed Steps         : 14
+Failed Steps         : 2
+Time Taken           : 00:02:50
+-----------------------------------------------------
+
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:TO Do List
+Executed Steps       : 0
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:00
+-----------------------------------------------------
+
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To do search
+Executed Steps       : 0
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:00
+-----------------------------------------------------
+
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To do Summary
+Executed Steps       : 0
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:00
+-----------------------------------------------------
+
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To Do Type
+Executed Steps       : 0
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:00
+-----------------------------------------------------
+
+Run Finished on Mon Sep 25 12:13:28 IST 2023
+[Thread-10] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestExecution\Execution list\TS_01\25-Sep-2023 12-09-39\extent.html
+[Thread-10] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestExecution\Execution list\TS_01\25-Sep-2023 12-09-39\extent.html]
+-----------------------------------------------------
+ExecutionDate        : 25-Sep-2023 12-09-39
+Executed TestCases   : 6
+Passed TestCases     : 1
+Failed TestCases     : 5
+Time Taken           : 00:03:50
+ReportPath           : file:///C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestExecution\Execution list\TS_01\25-Sep-2023 12-09-39\summary.html
+-----------------------------------------------------

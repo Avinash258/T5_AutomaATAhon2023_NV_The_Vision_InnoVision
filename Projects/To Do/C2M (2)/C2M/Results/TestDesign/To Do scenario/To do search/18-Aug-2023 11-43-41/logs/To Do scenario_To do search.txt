@@ -1,0 +1,107 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Fri Aug 18 11:43:42 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [To do search]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: %Login_Link%  |  Condition:  | @18-Aug-2023 11:43:46.046
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 11:43:46.046
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: To Do:Username  |  Condition:  | @18-Aug-2023 11:43:46.046
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 11:43:46.046
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:Set  |  Input: To Do:Password  |  Condition:  | @18-Aug-2023 11:43:46.046
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 11:43:47.047
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 11:43:52.052
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @18-Aug-2023 11:43:52.052
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do Search  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 11:43:53.053
+[DONE]   | Clicking on To Do Search
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @18-Aug-2023 11:43:55.055
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabPage  |  Condition:  | @18-Aug-2023 11:43:56.056
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:7  |  Object:Related to do filter  |  Action:selectByVisibleText  |  Input: @Specific To Do  |  Condition:  | @18-Aug-2023 11:43:56.056
+[DONE]   | Item/s 'Specific To Do' is/are selected from list Related to do filter
+
+
+===================================================================================================
+
+Step:8  |  Object:To Do ID  |  Action:Set  |  Input: @10853160561150  |  Condition:  | @18-Aug-2023 11:43:57.057
+[DONE]   | Entered Text '10853160561150' on 'To Do ID'
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To do search
+Executed Steps       : 13
+Passed Steps         : 13
+Failed Steps         : 0
+Time Taken           : 00:00:15
+---------------------------------------------------
+

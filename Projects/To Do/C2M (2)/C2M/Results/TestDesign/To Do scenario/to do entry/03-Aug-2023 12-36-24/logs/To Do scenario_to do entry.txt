@@ -1,0 +1,108 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Thu Aug 03 12:36:24 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [to do entry]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: @http://172.40.0.60:8009/ouaf/cis.jsp  |  Condition:  | @03-Aug-2023 12:36:28.028
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @03-Aug-2023 12:36:28.028
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: @SYSUSER  |  Condition:  | @03-Aug-2023 12:36:28.028
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @03-Aug-2023 12:36:28.028
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:setEncrypted  |  Input: @S/DuxGW4WhUofNaPo6mQyw== Enc  |  Condition:  | @03-Aug-2023 12:36:29.029
+[DONE]   | Entered Encrypted Text S/DuxGW4WhUofNaPo6mQyw== on j_password
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @03-Aug-2023 12:36:29.029
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @03-Aug-2023 12:36:36.036
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @03-Aug-2023 12:36:36.036
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do Entry  |  Action:Click  |  Input:   |  Condition:  | @03-Aug-2023 12:36:37.037
+[DONE]   | Clicking on To Do Entry
+
+
+===================================================================================================
+
+Step:5  |  Object:Add  |  Action:Click  |  Input:   |  Condition:  | @03-Aug-2023 12:36:37.037
+[FAIL]   | org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '10.20.0.60', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SHAILJ~1.RAJ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a45ef17d3f080e013db6289d3114a8ab
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:pause  |  Input: @20000  |  Condition:  | @03-Aug-2023 12:36:58.058
+[DONE]   | Thread sleep for '20000
+
+
+===================================================================================================
+
+Step:11  |  Object:OK  |  Action:clickByJS  |  Input:   |  Condition:  | @03-Aug-2023 12:37:32.032
+[FAIL]   | Driver Chrome Closed / Could not be reached
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:to do entry
+Executed Steps       : 12
+Passed Steps         : 10
+Failed Steps         : 2
+Time Taken           : 00:01:08
+---------------------------------------------------
+

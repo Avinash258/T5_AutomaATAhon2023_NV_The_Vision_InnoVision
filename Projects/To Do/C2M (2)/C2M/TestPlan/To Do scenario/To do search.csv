@@ -1,0 +1,28 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Execute,,To Do scenario:Login,,,
+2,Execute,,Wait:wait 2 sec,,,
+3,Menu,Wait  for the element [<Object>] to be present,waitForElementToBePresent,,,Home Page
+4,Menu,Click on [<Object>],clickByJS,,,Home Page
+5,To Do,Hover over the [<Object>] element,mouseOverElement,,,Home Page
+6,To Do Search,"Click the [<Object>] ",clickByJS,,,To do search
+7,Execute,,Wait:wait 2 sec,,,
+8,Browser,Switch to frame by name: [<Data>],switchToFrame,To Do:Frame,,
+"//*9",Related to do filter,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,@Specific To Do,,To do search
+"//10",To Do ID,Enter the value [<Data>] in the Field [<Object>],Set,@ 35867720906688,,To do search
+11,to do type filter,"Click the [<Object>] ",Click,,,To do search
+12,to do type filter,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,@Specific To Do Type,,To do search
+13,To Do Type,Enter the value [<Data>] in the Field [<Object>],Set,"To Do:To Do type ",,To do search
+14,To Do Type,Send Keys [<Data>]  to object [<Object>].,sendKeysToElement,@Enter,,To do search
+15,User filter,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,@Completed By User,,To do search
+16,User id,"Click the [<Object>] ",Click,,,To do search
+17,User id,Enter the value [<Data>] in the Field [<Object>],Set,@SYSUSER,,To do search
+18,User id,Enter the value [<Data>] in the Field [<Object>],sendKeysToElement,@Enter,,To do search
+19,Execute,,Wait:wait 2 sec,,,
+20,Status Filter,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,@All,,To do search
+21,Search,"Click the [<Object>] ",Click,,,To do search
+22,Browser,Switch to frame by name: [<Data>],switchToFrame,Frames:frame 1,,
+"//*23",Expand Scroll,"Click the [<Object>] ",Click,,,To do search
+"//24",Execute,,Wait:wait 2 sec,,,
+25,Browser,Switching control to the default window,switchToDefaultContent,,,
+26,Browser,Switch to frame by name: [<Data>],switchToFrame,Frames:frame 2,,
+27,Execute,,Evidence:Screen Shot,,,

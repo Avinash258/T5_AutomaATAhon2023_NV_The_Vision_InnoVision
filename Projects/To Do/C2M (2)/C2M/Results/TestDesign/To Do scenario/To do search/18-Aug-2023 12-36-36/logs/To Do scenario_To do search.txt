@@ -1,0 +1,137 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Fri Aug 18 12:36:36 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [To do search]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: %Login_Link%  |  Condition:  | @18-Aug-2023 12:36:40.040
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 12:36:40.040
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: To Do:Username  |  Condition:  | @18-Aug-2023 12:36:40.040
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 12:36:41.041
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:Set  |  Input: To Do:Password  |  Condition:  | @18-Aug-2023 12:36:41.041
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 12:36:41.041
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 12:36:47.047
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @18-Aug-2023 12:36:47.047
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do Search  |  Action:clickByJS  |  Input:   |  Condition:  | @18-Aug-2023 12:36:47.047
+[DONE]   | Clicked on To Do Search
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @18-Aug-2023 12:36:49.049
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabPage  |  Condition:  | @18-Aug-2023 12:36:50.050
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:7  |  Object:Related to do filter  |  Action:selectByVisibleText  |  Input: @Specific To Do  |  Condition:  | @18-Aug-2023 12:36:57.057
+[DONE]   | Item/s 'Specific To Do' is/are selected from list Related to do filter
+
+
+===================================================================================================
+
+Step:8  |  Object:To Do ID  |  Action:Set  |  Input: @ 35867720906688  |  Condition:  | @18-Aug-2023 12:37:00.000
+[DONE]   | Entered Text ' 35867720906688' on 'To Do ID'
+
+
+===================================================================================================
+
+Step:9  |  Object:to do type filter  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 12:37:03.003
+[DONE]   | Clicking on to do type filter
+
+
+===================================================================================================
+
+Step:10  |  Object:to do type filter  |  Action:selectByVisibleText  |  Input: @All  |  Condition:  | @18-Aug-2023 12:37:05.005
+[DONE]   | Item/s 'All' is/are selected from list to do type filter
+
+
+===================================================================================================
+
+Step:11  |  Object:To Do Type  |  Action:Set  |  Input: @WATER_2  |  Condition:  | @18-Aug-2023 12:37:06.006
+[FAIL]   | Seems Like the Element [To Do Type] is Not Visible or hidden at the moment
+
+
+===================================================================================================
+
+Step:12  |  Object:To Do Type  |  Action:sendKeysToElement  |  Input: @Enter  |  Condition:  | @18-Aug-2023 12:37:13.013
+[FAIL]   | org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=115.0.5790.173)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '10.20.0.28', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.173, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SHAILJ~1.RAJ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63971}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 75fe98c37f09c7dc3eb278f3404b83a5
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To do search
+Executed Steps       : 17
+Passed Steps         : 15
+Failed Steps         : 2
+Time Taken           : 00:00:38
+---------------------------------------------------
+

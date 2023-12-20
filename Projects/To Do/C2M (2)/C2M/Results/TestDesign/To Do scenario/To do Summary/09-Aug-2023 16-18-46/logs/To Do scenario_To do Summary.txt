@@ -1,0 +1,149 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Wed Aug 09 16:18:46 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [To do Summary]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: %Login_Link%  |  Condition:  | @09-Aug-2023 16:18:50.050
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @09-Aug-2023 16:18:50.050
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: select:Username  |  Condition:  | @09-Aug-2023 16:18:50.050
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @09-Aug-2023 16:18:50.050
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:Set  |  Input: select:Password  |  Condition:  | @09-Aug-2023 16:18:50.050
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @09-Aug-2023 16:18:51.051
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @09-Aug-2023 16:18:57.057
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @09-Aug-2023 16:18:57.057
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do Summary1  |  Action:Click  |  Input:   |  Condition:  | @09-Aug-2023 16:18:57.057
+[DONE]   | Clicking on To Do Summary1
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @1000  |  Condition:  | @09-Aug-2023 16:18:58.058
+[DONE]   | Thread sleep for '1000
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabPage  |  Condition:  | @09-Aug-2023 16:18:59.059
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:7  |  Object:Browser  |  Action:switchToFrame  |  Input: @dataframe  |  Condition:  | @09-Aug-2023 16:18:59.059
+[DONE]   | Webdriver switched to new frame by name[dataframe]
+
+
+===================================================================================================
+
+Step:8  |  Object:To Do Summary-Main-List var so1  |  Action:highlight  |  Input:   |  Condition:  | @09-Aug-2023 16:18:59.059
+[PASS]   | Element Highlighted
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @09-Aug-2023 16:19:31.031
+[DONE]   | Thread sleep for '30000
+
+
+===================================================================================================
+
+Step:10  |  Object:12  |  Action:Click  |  Input:   |  Condition:  | @09-Aug-2023 16:19:32.032
+[DONE]   | Clicking on 12
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @09-Aug-2023 16:20:02.002
+[DONE]   | Thread sleep for '30000
+
+
+===================================================================================================
+
+Step:14  |  Object:Browser  |  Action:switchToDefaultContent  |  Input:   |  Condition:  | @09-Aug-2023 16:20:02.002
+[DONE]   | Webdriver switched to default content
+
+
+===================================================================================================
+
+Step:15  |  Object:Tab Page var isPopup = false;  |  Action:highlight  |  Input:   |  Condition:  | @09-Aug-2023 16:20:02.002
+[PASS]   | Element Highlighted
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @09-Aug-2023 16:20:32.032
+[DONE]   | Thread sleep for '30000
+
+
+===================================================================================================
+
+Step:17  |  Object:SORT_BY_FLG  |  Action:Click  |  Input:   |  Condition:  | @09-Aug-2023 16:20:53.053
+[FAIL]   | Driver Chrome Closed / Could not be reached
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To do Summary
+Executed Steps       : 20
+Passed Steps         : 19
+Failed Steps         : 1
+Time Taken           : 00:02:06
+---------------------------------------------------
+

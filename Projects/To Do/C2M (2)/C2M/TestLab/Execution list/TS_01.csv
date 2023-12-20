@@ -1,0 +1,7 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+false,To Do scenario,To do Dashbord,Single,Passed,Edge,Default,Any
+false,To Do scenario,to do entry,Single,Passed,Edge,Default,Any
+false,To Do scenario,TO Do List,Single,Passed,Edge,Default,Any
+false,To Do scenario,To do search,Single,Passed,Edge,Default,Any
+false,To Do scenario,To do Summary,Single,Passed,Edge,Default,Any
+true,To Do scenario,To Do Type,Single,Passed,Edge,Default,Any

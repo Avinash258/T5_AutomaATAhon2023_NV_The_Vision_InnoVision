@@ -1,0 +1,105 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Fri Aug 18 11:41:34 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [To do search]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: %Login_Link%  |  Condition:  | @18-Aug-2023 11:41:37.037
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 11:41:37.037
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: To Do:Username  |  Condition:  | @18-Aug-2023 11:41:37.037
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 11:41:38.038
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:Set  |  Input: To Do:Password  |  Condition:  | @18-Aug-2023 11:41:38.038
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 11:41:38.038
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 11:41:43.043
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @18-Aug-2023 11:41:43.043
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do Search  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 11:41:44.044
+[DONE]   | Clicking on To Do Search
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @18-Aug-2023 11:41:46.046
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabPage  |  Condition:  | @18-Aug-2023 11:41:46.046
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:7  |  Object:Related to do filter  |  Action:selectByIndex  |  Input: @3  |  Condition:  | @18-Aug-2023 11:41:49.049
+[FAIL]   | org.openqa.selenium.NoSuchElementException: Cannot locate option with index: 3
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '10.20.0.28', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To do search
+Executed Steps       : 12
+Passed Steps         : 11
+Failed Steps         : 1
+Time Taken           : 00:00:16
+---------------------------------------------------
+

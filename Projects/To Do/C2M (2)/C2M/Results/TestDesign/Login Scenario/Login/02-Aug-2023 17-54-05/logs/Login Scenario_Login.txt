@@ -1,0 +1,101 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Wed Aug 02 17:54:05 IST 2023
+
+Scenario         :  [Login Scenario]
+TestCase         :  [Login]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: @http://172.40.0.60:8009/ouaf/cis.jsp  |  Condition:  | @02-Aug-2023 17:54:08.008
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @02-Aug-2023 17:54:08.008
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: @SYSUSER  |  Condition:  | @02-Aug-2023 17:54:08.008
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @02-Aug-2023 17:54:08.008
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:setEncrypted  |  Input: @S/DuxGW4WhUofNaPo6mQyw== Enc  |  Condition:  | @02-Aug-2023 17:54:09.009
+[DONE]   | Entered Encrypted Text S/DuxGW4WhUofNaPo6mQyw== on j_password
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @02-Aug-2023 17:54:09.009
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:7  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @02-Aug-2023 17:54:17.017
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:8  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @02-Aug-2023 17:54:17.017
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:9  |  Object:To Do Summary  |  Action:Click  |  Input:   |  Condition:  | @02-Aug-2023 17:54:18.018
+[DONE]   | Clicking on To Do Summary
+
+
+===================================================================================================
+
+Step:10  |  Object:Browser  |  Action:pause  |  Input: @3000  |  Condition:  | @02-Aug-2023 17:54:21.021
+[DONE]   | Thread sleep for '3000
+
+
+===================================================================================================
+
+Step:11  |  Object:3  |  Action:ClickIfExists  |  Input:   |  Condition:  | @02-Aug-2023 17:54:41.041
+[DONE]   | Element [3] not Exists
+
+
+===================================================================================================
+
+Step:12  |  Object:Browser  |  Action:pause  |  Input: @3000  |  Condition:  | @02-Aug-2023 17:54:44.044
+[DONE]   | Thread sleep for '3000
+
+---------------------------------------------------
+Testcase Name        : Login Scenario:Login
+Executed Steps       : 12
+Passed Steps         : 12
+Failed Steps         : 0
+Time Taken           : 00:00:39
+---------------------------------------------------
+

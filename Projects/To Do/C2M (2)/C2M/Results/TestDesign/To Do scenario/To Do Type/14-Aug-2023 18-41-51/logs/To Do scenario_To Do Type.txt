@@ -1,0 +1,575 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Aug 14 18:41:51 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [To Do Type]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: %Login_Link%  |  Condition:  | @14-Aug-2023 18:41:55.055
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 18:41:55.055
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: To Do:Username  |  Condition:  | @14-Aug-2023 18:41:55.055
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 18:41:55.055
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:Set  |  Input: To Do:Password  |  Condition:  | @14-Aug-2023 18:41:55.055
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 18:41:55.055
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @14-Aug-2023 18:41:57.057
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:3  |  Object:Admin  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 18:42:00.000
+[DONE]   | Clicking on Admin
+
+
+===================================================================================================
+
+Step:4  |  Object:T  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 18:42:00.000
+[DONE]   | Clicking on T
+
+
+===================================================================================================
+
+Step:5  |  Object:To Do Type  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 18:42:00.000
+[DONE]   | Clicking on To Do Type
+
+
+===================================================================================================
+
+Step:6  |  Object:Add1  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 18:42:01.001
+[DONE]   | Clicking on Add1
+
+
+===================================================================================================
+
+Step:7  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabPage  |  Condition:  | @14-Aug-2023 18:42:02.002
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:8  |  Object:To Do Type Page  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 18:42:02.002
+[DONE]   | Clicking on To Do Type Page
+
+
+===================================================================================================
+
+Step:9  |  Object:To Do Type Page  |  Action:Set  |  Input: @Water  |  Condition:  | @14-Aug-2023 18:42:02.002
+[DONE]   | Entered Text 'Water' on 'To Do Type Page'
+
+
+===================================================================================================
+
+Step:10  |  Object:Description  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 18:42:02.002
+[DONE]   | Clicking on Description
+
+
+===================================================================================================
+
+Step:11  |  Object:Description  |  Action:Set  |  Input: @Water High Bill Consumption  |  Condition:  | @14-Aug-2023 18:42:02.002
+[DONE]   | Entered Text 'Water High Bill Consumption' on 'Description'
+
+
+===================================================================================================
+
+Step:13  |  Object:TD_PRIORITY_FLG  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 18:42:02.002
+[DONE]   | Clicking on TD_PRIORITY_FLG
+
+
+===================================================================================================
+
+Step:14  |  Object:TD_PRIORITY_FLG  |  Action:selectByVisibleText  |  Input: @Priority 20  |  Condition:  | @14-Aug-2023 18:42:03.003
+[DONE]   | Item/s 'Priority 20' is/are selected from list TD_PRIORITY_FLG
+
+
+===================================================================================================
+
+Step:15  |  Object:TD_USAGE_TYPE_FLG  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 18:42:03.003
+[DONE]   | Clicking on TD_USAGE_TYPE_FLG
+
+
+===================================================================================================
+
+Step:16  |  Object:TD_USAGE_TYPE_FLG  |  Action:selectByVisibleText  |  Input: @Manual  |  Condition:  | @14-Aug-2023 18:42:03.003
+[DONE]   | Item/s 'Manual' is/are selected from list TD_USAGE_TYPE_FLG
+
+
+===================================================================================================
+
+Step:17  |  Object:Search for Navigation Option  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 18:42:03.003
+[DONE]   | Clicking on Search for Navigation Option
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @14-Aug-2023 18:42:05.005
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:19  |  Object:Browser  |  Action:switchToWindowByTitle  |  Input: @Navigation Option Search  |  Condition:  | @14-Aug-2023 18:42:06.006
+[DONE]   | Webdriver switched to new window by title[Navigation Option Search]
+
+
+===================================================================================================
+
+Step:20  |  Object:Search  |  Action:clickByJS  |  Input:   |  Condition:  | @14-Aug-2023 18:42:06.006
+[DONE]   | Clicked on Search
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @14-Aug-2023 18:42:08.008
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:22  |  Object:Browser  |  Action:switchToFrame  |  Input: @dataframe  |  Condition:  | @14-Aug-2023 18:42:08.008
+[DONE]   | Webdriver switched to new frame by name[dataframe]
+
+
+===================================================================================================
+
+Step:23  |  Object:Rebate Claim  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 18:42:08.008
+[DONE]   | Clicking on Rebate Claim
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @14-Aug-2023 18:42:10.010
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:25  |  Object:Browser  |  Action:switchToWindowByIndex  |  Input: @0  |  Condition:  | @14-Aug-2023 18:42:10.010
+[DONE]   | Webdriver switched to new window            
+
+
+===================================================================================================
+
+Step:26  |  Object:Browser  |  Action:switchToDefaultContent  |  Input:   |  Condition:  | @14-Aug-2023 18:42:10.010
+[DONE]   | Webdriver switched to default content
+
+
+===================================================================================================
+
+Step:27  |  Object:Browser  |  Action:waitForTitleToBe  |  Input: @To Do Type  |  Condition:  | @14-Aug-2023 18:42:10.010
+[DONE]   | Title Equals 'To Do Type' in stipulated Time
+
+
+===================================================================================================
+
+Step:28  |  Object:Browser  |  Action:switchToDefaultContent  |  Input:   |  Condition:  | @14-Aug-2023 18:42:10.010
+[DONE]   | Webdriver switched to default content
+
+
+===================================================================================================
+
+Step:29  |  Object:Browser  |  Action:switchToFrame  |  Input: @main  |  Condition:  | @14-Aug-2023 18:42:10.010
+[DONE]   | Webdriver switched to new frame by name[main]
+
+
+===================================================================================================
+
+Step:30  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabPage  |  Condition:  | @14-Aug-2023 18:42:10.010
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @14-Aug-2023 18:42:12.012
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:32  |  Object:Message Category  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 18:42:12.012
+[DONE]   | Clicking on Message Category
+
+
+===================================================================================================
+
+Step:33  |  Object:Message Category  |  Action:setByJS  |  Input: @6  |  Condition:  | @14-Aug-2023 18:42:12.012
+[DONE]   | Entered Text '6' on 'Message Category'
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @14-Aug-2023 18:42:14.014
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:35  |  Object:Routing Process  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 18:42:14.014
+[DONE]   | Clicking on Routing Process
+
+
+===================================================================================================
+
+Step:36  |  Object:to do meassage text  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 18:42:15.015
+[DONE]   | Clicking on to do meassage text
+
+
+===================================================================================================
+
+Step:37  |  Object:to do meassage text  |  Action:setByJS  |  Input: @2  |  Condition:  | @14-Aug-2023 18:42:15.015
+[DONE]   | Entered Text '2' on 'to do meassage text'
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @14-Aug-2023 18:42:17.017
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:39  |  Object:Routing Process  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 18:42:18.018
+[DONE]   | Clicking on Routing Process
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @14-Aug-2023 18:42:48.048
+[DONE]   | Thread sleep for '30000
+
+
+===================================================================================================
+
+Step:41  |  Object:Browser  |  Action:switchToDefaultContent  |  Input:   |  Condition:  | @14-Aug-2023 18:42:48.048
+[DONE]   | Webdriver switched to default content
+
+
+===================================================================================================
+
+Step:42  |  Object:Browser  |  Action:switchToFrame  |  Input: @main  |  Condition:  | @14-Aug-2023 18:42:48.048
+[DONE]   | Webdriver switched to new frame by name[main]
+
+
+===================================================================================================
+
+Step:43  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabMenu  |  Condition:  | @14-Aug-2023 18:42:48.048
+[DONE]   | Webdriver switched to new frame by name[tabMenu]
+
+
+===================================================================================================
+
+Step:44  |  Object:Roles1  |  Action:clickByJS  |  Input:   |  Condition:  | @14-Aug-2023 18:42:48.048
+[DONE]   | Clicked on Roles1
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @14-Aug-2023 18:42:50.050
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:46  |  Object:Browser  |  Action:switchToDefaultContent  |  Input:   |  Condition:  | @14-Aug-2023 18:42:50.050
+[DONE]   | Webdriver switched to default content
+
+
+===================================================================================================
+
+Step:47  |  Object:Browser  |  Action:switchToFrame  |  Input: @main  |  Condition:  | @14-Aug-2023 18:42:50.050
+[DONE]   | Webdriver switched to new frame by name[main]
+
+
+===================================================================================================
+
+Step:48  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabPage  |  Condition:  | @14-Aug-2023 18:42:50.050
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:49  |  Object:Browser  |  Action:switchToFrame  |  Input: @roleGrid  |  Condition:  | @14-Aug-2023 18:42:50.050
+[DONE]   | Webdriver switched to new frame by name[roleGrid]
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @14-Aug-2023 18:42:52.052
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:51  |  Object:TD_TYPE_ROLE:0$ROLE_ID  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 18:42:52.052
+[DONE]   | Clicking on TD_TYPE_ROLE:0$ROLE_ID
+
+
+===================================================================================================
+
+Step:52  |  Object:TD_TYPE_ROLE:0$ROLE_ID  |  Action:setByJS  |  Input: @BILLERR  |  Condition:  | @14-Aug-2023 18:42:52.052
+[DONE]   | Entered Text 'BILLERR' on 'TD_TYPE_ROLE:0$ROLE_ID'
+
+
+===================================================================================================
+
+Step:53  |  Object:TD_TYPE_ROLE:0$DEFAULT_SW  |  Action:clickByJS  |  Input:   |  Condition:  | @14-Aug-2023 18:42:52.052
+[DONE]   | Clicked on TD_TYPE_ROLE:0$DEFAULT_SW
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @14-Aug-2023 18:42:54.054
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:55  |  Object:Browser  |  Action:takeScreenshot  |  Input:   |  Condition:  | @14-Aug-2023 18:42:54.054
+[PASS]   | Screenshot is taken
+
+
+===================================================================================================
+
+Step:56  |  Object:Browser  |  Action:switchToDefaultContent  |  Input:   |  Condition:  | @14-Aug-2023 18:42:56.056
+[DONE]   | Webdriver switched to default content
+
+
+===================================================================================================
+
+Step:57  |  Object:Browser  |  Action:switchToFrame  |  Input: @main  |  Condition:  | @14-Aug-2023 18:42:56.056
+[DONE]   | Webdriver switched to new frame by name[main]
+
+
+===================================================================================================
+
+Step:58  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabMenu  |  Condition:  | @14-Aug-2023 18:42:56.056
+[DONE]   | Webdriver switched to new frame by name[tabMenu]
+
+
+===================================================================================================
+
+Step:59  |  Object:Sort Keys  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 18:42:57.057
+[DONE]   | Clicking on Sort Keys
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @14-Aug-2023 18:42:59.059
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:61  |  Object:Browser  |  Action:switchToDefaultContent  |  Input:   |  Condition:  | @14-Aug-2023 18:42:59.059
+[DONE]   | Webdriver switched to default content
+
+
+===================================================================================================
+
+Step:62  |  Object:Browser  |  Action:switchToFrame  |  Input: @main  |  Condition:  | @14-Aug-2023 18:42:59.059
+[DONE]   | Webdriver switched to new frame by name[main]
+
+
+===================================================================================================
+
+Step:63  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabPage  |  Condition:  | @14-Aug-2023 18:42:59.059
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:64  |  Object:Browser  |  Action:switchToFrame  |  Input: @sortKeyGrid  |  Condition:  | @14-Aug-2023 18:42:59.059
+[DONE]   | Webdriver switched to new frame by name[sortKeyGrid]
+
+
+===================================================================================================
+
+Step:65  |  Object:Sequence  |  Action:setByJS  |  Input: @1  |  Condition:  | @14-Aug-2023 18:42:59.059
+[DONE]   | Entered Text '1' on 'Sequence'
+
+
+===================================================================================================
+
+Step:66  |  Object:Description  |  Action:setByJS  |  Input: @Water related issue  |  Condition:  | @14-Aug-2023 18:42:59.059
+[DONE]   | Entered Text 'Water related issue' on 'Description'
+
+
+===================================================================================================
+
+Step:67  |  Object:Use as a defoult  |  Action:clickByJS  |  Input:   |  Condition:  | @14-Aug-2023 18:42:59.059
+[DONE]   | Clicked on Use as a defoult
+
+
+===================================================================================================
+
+Step:68  |  Object:Sort order  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 18:43:00.000
+[DONE]   | Clicking on Sort order
+
+
+===================================================================================================
+
+Step:69  |  Object:Sort order  |  Action:selectByVisibleText  |  Input: @Ascending  |  Condition:  | @14-Aug-2023 18:43:00.000
+[DONE]   | Item/s 'Ascending' is/are selected from list Sort order
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @14-Aug-2023 18:43:02.002
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:71  |  Object:Browser  |  Action:takeScreenshot  |  Input:   |  Condition:  | @14-Aug-2023 18:43:02.002
+[PASS]   | Screenshot is taken
+
+
+===================================================================================================
+
+Step:72  |  Object:Browser  |  Action:switchToDefaultContent  |  Input:   |  Condition:  | @14-Aug-2023 18:43:04.004
+[DONE]   | Webdriver switched to default content
+
+
+===================================================================================================
+
+Step:73  |  Object:Browser  |  Action:switchToFrame  |  Input: @main  |  Condition:  | @14-Aug-2023 18:43:04.004
+[DONE]   | Webdriver switched to new frame by name[main]
+
+
+===================================================================================================
+
+Step:74  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabMenu  |  Condition:  | @14-Aug-2023 18:43:04.004
+[DONE]   | Webdriver switched to new frame by name[tabMenu]
+
+
+===================================================================================================
+
+Step:75  |  Object:Drill Keys  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 18:43:04.004
+[DONE]   | Clicking on Drill Keys
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @14-Aug-2023 18:43:06.006
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:77  |  Object:Browser  |  Action:switchToDefaultContent  |  Input:   |  Condition:  | @14-Aug-2023 18:43:06.006
+[DONE]   | Webdriver switched to default content
+
+
+===================================================================================================
+
+Step:78  |  Object:Browser  |  Action:switchToFrame  |  Input: @main  |  Condition:  | @14-Aug-2023 18:43:06.006
+[DONE]   | Webdriver switched to new frame by name[main]
+
+
+===================================================================================================
+
+Step:79  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabPage  |  Condition:  | @14-Aug-2023 18:43:06.006
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:80  |  Object:Browser  |  Action:switchToFrame  |  Input: @drillGrid  |  Condition:  | @14-Aug-2023 18:43:06.006
+[DONE]   | Webdriver switched to new frame by name[drillGrid]
+
+
+===================================================================================================
+
+Step:81  |  Object:Sequence  |  Action:Set  |  Input: @2  |  Condition:  | @14-Aug-2023 18:43:07.007
+[DONE]   | Entered Text '2' on 'Sequence'
+
+
+===================================================================================================
+
+Step:82  |  Object:Table  |  Action:Set  |  Input: @C1_BI_BILL_VW  |  Condition:  | @14-Aug-2023 18:43:07.007
+[DONE]   | Entered Text 'C1_BI_BILL_VW' on 'Table'
+
+
+===================================================================================================
+
+Step:83  |  Object:Feild  |  Action:Set  |  Input: @BILL_AMT  |  Condition:  | @14-Aug-2023 18:43:07.007
+[DONE]   | Entered Text 'BILL_AMT' on 'Feild'
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @14-Aug-2023 18:43:09.009
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:85  |  Object:Browser  |  Action:takeScreenshot  |  Input:   |  Condition:  | @14-Aug-2023 18:43:09.009
+[PASS]   | Screenshot is taken
+
+
+===================================================================================================
+
+Step:86  |  Object:Save  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 18:43:11.011
+[DONE]   | Clicking on Save
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @14-Aug-2023 18:43:41.041
+[DONE]   | Thread sleep for '30000
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To Do Type
+Executed Steps       : 91
+Passed Steps         : 91
+Failed Steps         : 0
+Time Taken           : 00:01:50
+---------------------------------------------------
+

@@ -1,0 +1,789 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 20.0.1
+java.home            : C:\Program Files\Java\jdk-20
+os.name              : Windows 11
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Mon Aug 14 18:58:13 IST 2023
+Loading Browser Profile
+Loading RunManager
+[Scenario:To Do scenario] [TestCase: To Do Type] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-242] WARN com.NewVision.InnoVision.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+[pool-72-thread-1] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[pool-72-thread-1] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[pool-72-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\shailja.rajak\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 35366
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1692019696.277][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
+2023-08-14 18:58:16:08S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input:*********  | Conditon:  | @14-Aug-2023 18:58:16.016
+%Login_Link% changed to http://172.40.0.60:8009/ouaf/cis.jsp
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+===================================================================================================
+
+Step:2   | Object: j_username | Action: Click | Input:*********  | Conditon:  | @14-Aug-2023 18:58:17.017
+Using @name [j_username], Object 'j_username' Found in 32 ms
+[DONE]   | Clicking on j_username
+
+===================================================================================================
+
+Step:3   | Object: j_username | Action: Set | Input:*********  | Conditon:  | @14-Aug-2023 18:58:18.018
+Using @name [j_username], Object 'j_username' Found in 22 ms
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+===================================================================================================
+
+Step:4   | Object: j_password | Action: Click | Input:*********  | Conditon:  | @14-Aug-2023 18:58:18.018
+Using @name [j_password], Object 'j_password' Found in 19 ms
+[DONE]   | Clicking on j_password
+
+===================================================================================================
+
+Step:5   | Object: j_password | Action: Set | Input:*********  | Conditon:  | @14-Aug-2023 18:58:18.018
+Using @name [j_password], Object 'j_password' Found in 14 ms
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+===================================================================================================
+
+Step:6   | Object: Login | Action: Click | Input:*********  | Conditon:  | @14-Aug-2023 18:58:18.018
+Using @id [loginButton], Object 'Login' Found in 16 ms
+[DONE]   | Clicking on Login
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @14-Aug-2023 18:58:19.019
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:3   | Object: Admin | Action: Click | Input:*********  | Conditon:  | @14-Aug-2023 18:58:21.021
+Using @id [IM_adminButton], Object 'Admin' Found in 683 ms
+[DONE]   | Clicking on Admin
+
+===================================================================================================
+
+Step:4   | Object: T | Action: Click | Input:*********  | Conditon:  | @14-Aug-2023 18:58:24.024
+Using @relative_xpath [//*[normalize-space(text())='T']], Object 'T' Found in 117 ms
+[DONE]   | Clicking on T
+
+===================================================================================================
+
+Step:5   | Object: To Do Type | Action: Click | Input:*********  | Conditon:  | @14-Aug-2023 18:58:25.025
+Using @id [CI_SG_ADMIN_T_subMenuItem1x11], Object 'To Do Type' Found in 104 ms
+[DONE]   | Clicking on To Do Type
+
+===================================================================================================
+
+Step:6   | Object: Add1 | Action: Click | Input:*********  | Conditon:  | @14-Aug-2023 18:58:25.025
+Using @relative_xpath [//*[normalize-space(text())='Add']], Object 'Add1' Found in 82 ms
+[DONE]   | Clicking on Add1
+
+===================================================================================================
+
+Step:7   | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @14-Aug-2023 18:58:25.025
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+===================================================================================================
+
+Step:8   | Object: To Do Type Page | Action: Click | Input:*********  | Conditon:  | @14-Aug-2023 18:58:27.027
+Using @name [TD_TYPE_CD], Object 'To Do Type Page' Found in 1391 ms
+[DONE]   | Clicking on To Do Type Page
+
+===================================================================================================
+
+Step:9   | Object: To Do Type Page | Action: Set | Input:*********  | Conditon:  | @14-Aug-2023 18:58:29.029
+Using @name [TD_TYPE_CD], Object 'To Do Type Page' Found in 36 ms
+[DONE]   | Entered Text 'Water' on 'To Do Type Page'
+
+===================================================================================================
+
+Step:10  | Object: Description | Action: Click | Input:*********  | Conditon:  | @14-Aug-2023 18:58:29.029
+Using @name [DESCR], Object 'Description' Found in 36 ms
+[DONE]   | Clicking on Description
+
+===================================================================================================
+
+Step:11  | Object: Description | Action: Set | Input:*********  | Conditon:  | @14-Aug-2023 18:58:29.029
+Using @name [DESCR], Object 'Description' Found in 36 ms
+[DONE]   | Entered Text 'Water High Bill Consumption' on 'Description'
+
+===================================================================================================
+
+Step:13  | Object: TD_PRIORITY_FLG | Action: Click | Input:*********  | Conditon:  | @14-Aug-2023 18:58:30.030
+Using @name [TD_PRIORITY_FLG], Object 'TD_PRIORITY_FLG' Found in 39 ms
+[DONE]   | Clicking on TD_PRIORITY_FLG
+
+===================================================================================================
+
+Step:14  | Object: TD_PRIORITY_FLG | Action: selectByVisibleText | Input:*********  | Conditon:  | @14-Aug-2023 18:58:30.030
+Using @name [TD_PRIORITY_FLG], Object 'TD_PRIORITY_FLG' Found in 36 ms
+[DONE]   | Item/s 'Priority 20' is/are selected from list TD_PRIORITY_FLG
+
+===================================================================================================
+
+Step:15  | Object: TD_USAGE_TYPE_FLG | Action: Click | Input:*********  | Conditon:  | @14-Aug-2023 18:58:30.030
+Using @name [TD_USAGE_TYPE_FLG], Object 'TD_USAGE_TYPE_FLG' Found in 40 ms
+[DONE]   | Clicking on TD_USAGE_TYPE_FLG
+
+===================================================================================================
+
+Step:16  | Object: TD_USAGE_TYPE_FLG | Action: selectByVisibleText | Input:*********  | Conditon:  | @14-Aug-2023 18:58:30.030
+Using @name [TD_USAGE_TYPE_FLG], Object 'TD_USAGE_TYPE_FLG' Found in 33 ms
+[DONE]   | Item/s 'Manual' is/are selected from list TD_USAGE_TYPE_FLG
+
+===================================================================================================
+
+Step:17  | Object: Search for Navigation Option | Action: Click | Input:*********  | Conditon:  | @14-Aug-2023 18:58:31.031
+Using @name [IM_NAV_OPT_CD], Object 'Search for Navigation Option' Found in 41 ms
+[DONE]   | Clicking on Search for Navigation Option
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @14-Aug-2023 18:58:31.031
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:19  | Object: Browser | Action: switchToWindowByTitle | Input:*********  | Conditon:  | @14-Aug-2023 18:58:33.033
+[DONE]   | Webdriver switched to new window by title[Navigation Option Search]
+
+===================================================================================================
+
+Step:20  | Object: Search | Action: clickByJS | Input:*********  | Conditon:  | @14-Aug-2023 18:58:33.033
+Using @name [BU_section01_sec01_03], Object 'Search' Found in 31 ms
+[DONE]   | Clicked on Search
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @14-Aug-2023 18:58:33.033
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:22  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @14-Aug-2023 18:58:35.035
+[DONE]   | Webdriver switched to new frame by name[dataframe]
+
+===================================================================================================
+
+Step:23  | Object: Rebate Claim | Action: Click | Input:*********  | Conditon:  | @14-Aug-2023 18:58:35.035
+Using @id [SEARCH_RESULTS:25$DESCR], Object 'Rebate Claim' Found in 33 ms
+[DONE]   | Clicking on Rebate Claim
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @14-Aug-2023 18:58:35.035
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:25  | Object: Browser | Action: switchToWindowByIndex | Input:*********  | Conditon:  | @14-Aug-2023 18:58:37.037
+[DONE]   | Webdriver switched to new window            
+
+===================================================================================================
+
+Step:26  | Object: Browser | Action: switchToDefaultContent | Input:*********  | Conditon:  | @14-Aug-2023 18:58:37.037
+[DONE]   | Webdriver switched to default content
+
+===================================================================================================
+
+Step:27  | Object: Browser | Action: waitForTitleToBe | Input:*********  | Conditon:  | @14-Aug-2023 18:58:37.037
+[DONE]   | Title Equals 'To Do Type' in stipulated Time
+
+===================================================================================================
+
+Step:28  | Object: Browser | Action: switchToDefaultContent | Input:*********  | Conditon:  | @14-Aug-2023 18:58:37.037
+[DONE]   | Webdriver switched to default content
+
+===================================================================================================
+
+Step:29  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @14-Aug-2023 18:58:37.037
+[DONE]   | Webdriver switched to new frame by name[main]
+
+===================================================================================================
+
+Step:30  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @14-Aug-2023 18:58:37.037
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @14-Aug-2023 18:58:37.037
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:32  | Object: Message Category | Action: Click | Input:*********  | Conditon:  | @14-Aug-2023 18:58:39.039
+Using @name [MESSAGE_CAT_NBR], Object 'Message Category' Found in 43 ms
+[DONE]   | Clicking on Message Category
+
+===================================================================================================
+
+Step:33  | Object: Message Category | Action: setByJS | Input:*********  | Conditon:  | @14-Aug-2023 18:58:40.040
+Using @name [MESSAGE_CAT_NBR], Object 'Message Category' Found in 35 ms
+[DONE]   | Entered Text '6' on 'Message Category'
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @14-Aug-2023 18:58:40.040
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:35  | Object: Routing Process | Action: Click | Input:*********  | Conditon:  | @14-Aug-2023 18:58:42.042
+Using @name [RTE_BATCH_CD], Object 'Routing Process' Found in 42 ms
+[DONE]   | Clicking on Routing Process
+
+===================================================================================================
+
+Step:36  | Object: to do meassage text | Action: Click | Input:*********  | Conditon:  | @14-Aug-2023 18:58:42.042
+Using @xpath [//*[@id="MESSAGE_NBR"]], Object 'to do meassage text' Found in 39 ms
+[DONE]   | Clicking on to do meassage text
+
+===================================================================================================
+
+Step:37  | Object: to do meassage text | Action: setByJS | Input:*********  | Conditon:  | @14-Aug-2023 18:58:42.042
+Using @xpath [//*[@id="MESSAGE_NBR"]], Object 'to do meassage text' Found in 39 ms
+[DONE]   | Entered Text '2' on 'to do meassage text'
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @14-Aug-2023 18:58:42.042
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:39  | Object: Routing Process | Action: Click | Input:*********  | Conditon:  | @14-Aug-2023 18:58:44.044
+Using @name [RTE_BATCH_CD], Object 'Routing Process' Found in 42 ms
+[DONE]   | Clicking on Routing Process
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @14-Aug-2023 18:58:45.045
+[DONE]   | Thread sleep for '30000
+
+===================================================================================================
+
+Step:41  | Object: Browser | Action: switchToDefaultContent | Input:*********  | Conditon:  | @14-Aug-2023 18:59:15.015
+[DONE]   | Webdriver switched to default content
+
+===================================================================================================
+
+Step:42  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @14-Aug-2023 18:59:15.015
+[DONE]   | Webdriver switched to new frame by name[main]
+
+===================================================================================================
+
+Step:43  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @14-Aug-2023 18:59:15.015
+[DONE]   | Webdriver switched to new frame by name[tabMenu]
+
+===================================================================================================
+
+Step:44  | Object: Roles1 | Action: clickByJS | Input:*********  | Conditon:  | @14-Aug-2023 18:59:15.015
+Using @relative_xpath [//td[@title='Roles']], Object 'Roles1' Found in 47 ms
+[DONE]   | Clicked on Roles1
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @14-Aug-2023 18:59:15.015
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:46  | Object: Browser | Action: switchToDefaultContent | Input:*********  | Conditon:  | @14-Aug-2023 18:59:17.017
+[DONE]   | Webdriver switched to default content
+
+===================================================================================================
+
+Step:47  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @14-Aug-2023 18:59:17.017
+[DONE]   | Webdriver switched to new frame by name[main]
+
+===================================================================================================
+
+Step:48  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @14-Aug-2023 18:59:17.017
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+===================================================================================================
+
+Step:49  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @14-Aug-2023 18:59:17.017
+[DONE]   | Webdriver switched to new frame by name[roleGrid]
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @14-Aug-2023 18:59:17.017
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:51  | Object: TD_TYPE_ROLE:0$ROLE_ID | Action: Click | Input:*********  | Conditon:  | @14-Aug-2023 18:59:19.019
+Using @name [TD_TYPE_ROLE:0$ROLE_ID], Object 'TD_TYPE_ROLE:0$ROLE_ID' Found in 39 ms
+[DONE]   | Clicking on TD_TYPE_ROLE:0$ROLE_ID
+
+===================================================================================================
+
+Step:52  | Object: TD_TYPE_ROLE:0$ROLE_ID | Action: setByJS | Input:*********  | Conditon:  | @14-Aug-2023 18:59:19.019
+Using @name [TD_TYPE_ROLE:0$ROLE_ID], Object 'TD_TYPE_ROLE:0$ROLE_ID' Found in 38 ms
+[DONE]   | Entered Text 'BILLERR' on 'TD_TYPE_ROLE:0$ROLE_ID'
+
+===================================================================================================
+
+Step:53  | Object: TD_TYPE_ROLE:0$DEFAULT_SW | Action: clickByJS | Input:*********  | Conditon:  | @14-Aug-2023 18:59:19.019
+Using @name [TD_TYPE_ROLE:0$DEFAULT_SW], Object 'TD_TYPE_ROLE:0$DEFAULT_SW' Found in 41 ms
+[DONE]   | Clicked on TD_TYPE_ROLE:0$DEFAULT_SW
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @14-Aug-2023 18:59:20.020
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:55  | Object: Browser | Action: takeScreenshot | Input:*********  | Conditon:  | @14-Aug-2023 18:59:22.022
+[PASS]   | Screenshot is taken
+
+===================================================================================================
+
+Step:56  | Object: Browser | Action: switchToDefaultContent | Input:*********  | Conditon:  | @14-Aug-2023 18:59:23.023
+[DONE]   | Webdriver switched to default content
+
+===================================================================================================
+
+Step:57  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @14-Aug-2023 18:59:23.023
+[DONE]   | Webdriver switched to new frame by name[main]
+
+===================================================================================================
+
+Step:58  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @14-Aug-2023 18:59:23.023
+[DONE]   | Webdriver switched to new frame by name[tabMenu]
+
+===================================================================================================
+
+Step:59  | Object: Sort Keys | Action: Click | Input:*********  | Conditon:  | @14-Aug-2023 18:59:23.023
+Using @relative_xpath [//td[@title='Sort Keys']], Object 'Sort Keys' Found in 46 ms
+[DONE]   | Clicking on Sort Keys
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @14-Aug-2023 18:59:24.024
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:61  | Object: Browser | Action: switchToDefaultContent | Input:*********  | Conditon:  | @14-Aug-2023 18:59:26.026
+[DONE]   | Webdriver switched to default content
+
+===================================================================================================
+
+Step:62  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @14-Aug-2023 18:59:26.026
+[DONE]   | Webdriver switched to new frame by name[main]
+
+===================================================================================================
+
+Step:63  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @14-Aug-2023 18:59:26.026
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+===================================================================================================
+
+Step:64  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @14-Aug-2023 18:59:26.026
+[DONE]   | Webdriver switched to new frame by name[sortKeyGrid]
+
+===================================================================================================
+
+Step:65  | Object: Sequence | Action: setByJS | Input:*********  | Conditon:  | @14-Aug-2023 18:59:26.026
+Using @name [TD_TYPE_SRTKY:0$SEQ_NUM], Object 'Sequence' Found in 34 ms
+[DONE]   | Entered Text '1' on 'Sequence'
+
+===================================================================================================
+
+Step:66  | Object: Description | Action: setByJS | Input:*********  | Conditon:  | @14-Aug-2023 18:59:26.026
+Using @name [TD_TYPE_SRTKY:0$DESCR], Object 'Description' Found in 34 ms
+[DONE]   | Entered Text 'Water related issue' on 'Description'
+
+===================================================================================================
+
+Step:67  | Object: Use as a defoult | Action: clickByJS | Input:*********  | Conditon:  | @14-Aug-2023 18:59:26.026
+Using @name [TD_TYPE_SRTKY:0$DEFAULT_SW], Object 'Use as a defoult' Found in 34 ms
+[DONE]   | Clicked on Use as a defoult
+
+===================================================================================================
+
+Step:68  | Object: Sort order | Action: Click | Input:*********  | Conditon:  | @14-Aug-2023 18:59:26.026
+Using @name [TD_TYPE_SRTKY:0$ORDER_FLG], Object 'Sort order' Found in 46 ms
+[DONE]   | Clicking on Sort order
+
+===================================================================================================
+
+Step:69  | Object: Sort order | Action: selectByVisibleText | Input:*********  | Conditon:  | @14-Aug-2023 18:59:26.026
+Using @name [TD_TYPE_SRTKY:0$ORDER_FLG], Object 'Sort order' Found in 37 ms
+[DONE]   | Item/s 'Ascending' is/are selected from list Sort order
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @14-Aug-2023 18:59:27.027
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:71  | Object: Browser | Action: takeScreenshot | Input:*********  | Conditon:  | @14-Aug-2023 18:59:29.029
+[PASS]   | Screenshot is taken
+
+===================================================================================================
+
+Step:72  | Object: Browser | Action: switchToDefaultContent | Input:*********  | Conditon:  | @14-Aug-2023 18:59:30.030
+[DONE]   | Webdriver switched to default content
+
+===================================================================================================
+
+Step:73  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @14-Aug-2023 18:59:30.030
+[DONE]   | Webdriver switched to new frame by name[main]
+
+===================================================================================================
+
+Step:74  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @14-Aug-2023 18:59:30.030
+[DONE]   | Webdriver switched to new frame by name[tabMenu]
+
+===================================================================================================
+
+Step:75  | Object: Drill Keys | Action: Click | Input:*********  | Conditon:  | @14-Aug-2023 18:59:31.031
+Using @xpath [//*[@id="DRILLKEYS_TLBL"]/table/tbody/tr[2]/td], Object 'Drill Keys' Found in 44 ms
+[DONE]   | Clicking on Drill Keys
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @14-Aug-2023 18:59:31.031
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:77  | Object: Browser | Action: switchToDefaultContent | Input:*********  | Conditon:  | @14-Aug-2023 18:59:33.033
+[DONE]   | Webdriver switched to default content
+
+===================================================================================================
+
+Step:78  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @14-Aug-2023 18:59:33.033
+[DONE]   | Webdriver switched to new frame by name[main]
+
+===================================================================================================
+
+Step:79  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @14-Aug-2023 18:59:33.033
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+===================================================================================================
+
+Step:80  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @14-Aug-2023 18:59:33.033
+[DONE]   | Webdriver switched to new frame by name[drillGrid]
+
+===================================================================================================
+
+Step:81  | Object: Sequence | Action: Set | Input:*********  | Conditon:  | @14-Aug-2023 18:59:33.033
+Using @name [TD_TYPE_DRLKY:0$SEQ_NUM], Object 'Sequence' Found in 40 ms
+[DONE]   | Entered Text '2' on 'Sequence'
+
+===================================================================================================
+
+Step:82  | Object: Table | Action: Set | Input:*********  | Conditon:  | @14-Aug-2023 18:59:33.033
+Using @name [TD_TYPE_DRLKY:0$TBL_NAME], Object 'Table' Found in 46 ms
+[DONE]   | Entered Text 'C1_BI_BILL_VW' on 'Table'
+
+===================================================================================================
+
+Step:83  | Object: Feild | Action: Set | Input:*********  | Conditon:  | @14-Aug-2023 18:59:34.034
+Using @name [TD_TYPE_DRLKY:0$FLD_NAME], Object 'Feild' Found in 45 ms
+[DONE]   | Entered Text 'BILL_AMT' on 'Feild'
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @14-Aug-2023 18:59:34.034
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:85  | Object: Browser | Action: takeScreenshot | Input:*********  | Conditon:  | @14-Aug-2023 18:59:36.036
+[PASS]   | Screenshot is taken
+
+===================================================================================================
+
+Step:86  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @14-Aug-2023 18:59:38.038
+2023-08-14 18:59:38:08S +0530 [OFF ] com.NewVision.InnoVision.engine.commands.SwitchTo switchToFrame:null
+org.openqa.selenium.NoSuchFrameException: No frame element found by name or id main
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '10.20.0.31', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:885)
+	at com.NewVision.InnoVision.engine.commands.SwitchTo.switchToFrame(SwitchTo.java:46)
+	at com.NewVision.InnoVision.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+[DEBUG]   | No frame element found by name or id main
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '10.20.0.31', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown
+
+===================================================================================================
+
+Step:87  | Object: Save | Action: Click | Input:*********  | Conditon:  | @14-Aug-2023 18:59:38.038
+Element could not be identified with [name] : [Save]
+Expected condition failed: waiting for presence of any elements located by By.name: Save (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [id] : [IM_SAVE]
+Expected condition failed: waiting for presence of any elements located by By.id: IM_SAVE (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [relative_xpath] : [//input[@title='Save (Alt+S)']]
+Expected condition failed: waiting for presence of any elements located by By.xpath: //input[@title='Save (Alt+S)'] (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [xpath] : [/html/body/div[8]/div[2]/div/input[7]]
+Expected condition failed: waiting for presence of any elements located by By.xpath: /html/body/div[8]/div[2]/div/input[7] (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [css] : [#IM_SAVE]
+Expected condition failed: waiting for presence of any elements located by By.cssSelector: #IM_SAVE (tried for 10 second(s) with 500 milliseconds interval)
+
+Element could not be identified with [type] : [button]
+Expected condition failed: waiting for presence of any elements located by By.tagName: button (tried for 10 second(s) with 500 milliseconds interval)
+
+2023-08-14 19:00:39:08S +0530 [OFF ] com.NewVision.InnoVision.engine.drivers.AutomationObject getElements:null
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.NewVision.InnoVision.engine.drivers.AutomationObject$$Lambda$1305/0x00000008018550f8@33be36ca (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '10.20.0.31', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SHAILJ~1.RAJ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53700}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5935ed4b3abf18db14495480725b4e6d
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.getElements(AutomationObject.java:322)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.getWElements(AutomationObject.java:273)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElements(AutomationObject.java:260)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElement(AutomationObject.java:136)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElement(AutomationObject.java:129)
+	at com.NewVision.InnoVision.engine.core.CommandControl.sync(CommandControl.java:98)
+	at com.NewVision.InnoVision.engine.core.CommandControl.sync(CommandControl.java:183)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Couldn't find Object 'Save' in stipulated Time '10' Seconds
+[FAIL]   | Seems Like the Element [Save] is Not Present/Found in the page Try Adding wait or heal it
+
+===================================================================================================
+
+2023-08-14 19:00:39:08S +0530 [SEVERE] com.NewVision.InnoVision.engine.reporting.util.ReportUtils takeScreenshot:null
+java.lang.RuntimeException: Error making screenshot
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.createNewScreenshot(SeleniumDriver.java:186)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.createScreenShot(SeleniumDriver.java:164)
+	at com.NewVision.InnoVision.engine.reporting.util.ReportUtils.takeScreenshot(ReportUtils.java:86)
+	at com.NewVision.InnoVision.engine.reporting.impl.html.HtmlTestCaseHandler.takeSSAndPutDetail(HtmlTestCaseHandler.java:291)
+	at com.NewVision.InnoVision.engine.reporting.impl.html.HtmlTestCaseHandler.takeScreenShot(HtmlTestCaseHandler.java:252)
+	at com.NewVision.InnoVision.engine.reporting.impl.html.HtmlTestCaseHandler.putStatus(HtmlTestCaseHandler.java:227)
+	at com.NewVision.InnoVision.engine.reporting.impl.html.HtmlTestCaseHandler.updateTestLog(HtmlTestCaseHandler.java:115)
+	at com.NewVision.InnoVision.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:206)
+	at com.NewVision.InnoVision.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:164)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.lambda$reportOnError$0(TestCaseRunner.java:329)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.reportOnError(TestCaseRunner.java:328)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.onRuntimeException(TestCaseRunner.java:292)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:367)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=115.0.5790.171): {Alert text : 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '10.20.0.31', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SHAILJ~1.RAJ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53700}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5935ed4b3abf18db14495480725b4e6d
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at com.galenframework.utils.GalenUtils.obtainVerticalScrollPosition(GalenUtils.java:248)
+	at com.galenframework.utils.GalenUtils.waitUntilItIsScrolledToPosition(GalenUtils.java:243)
+	at com.galenframework.utils.GalenUtils.scrollVerticallyTo(GalenUtils.java:227)
+	at com.galenframework.utils.GalenUtils.makeFullScreenshot(GalenUtils.java:112)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.getScreenShotFromGalen(SeleniumDriver.java:197)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.createNewScreenshot(SeleniumDriver.java:183)
+	... 18 more
+
+2023-08-14 19:00:39:08S +0530 [SEVERE] com.NewVision.InnoVision.engine.execution.run.TestCaseRunner onRuntimeException:Seems Like the Element [Save] is Not Present/Found in the page Try Adding wait or heal it
+com.NewVision.InnoVision.engine.execution.exception.element.ElementException: Seems Like the Element [Save] is Not Present/Found in the page Try Adding wait or heal it
+	at com.NewVision.InnoVision.engine.commands.General.elementDisplayed(General.java:57)
+	at com.NewVision.InnoVision.engine.commands.General.elementEnabled(General.java:63)
+	at com.NewVision.InnoVision.engine.commands.Basic.Click(Basic.java:47)
+	at com.NewVision.InnoVision.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Step:88  | Object: Save | Action: Click | Input:*********  | Conditon:  | @14-Aug-2023 19:00:39.039
+2023-08-14 19:00:43:08S +0530 [OFF ] com.NewVision.InnoVision.engine.drivers.AutomationObject getElements:null
+org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=115.0.5790.171): {Alert text : 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '10.20.0.31', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SHAILJ~1.RAJ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53700}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5935ed4b3abf18db14495480725b4e6d
+*** Element info: {Using=name, value=Save}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByName(RemoteWebDriver.java:408)
+	at org.openqa.selenium.By$ByName.findElements(By.java:276)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.ui.ExpectedConditions$11.apply(ExpectedConditions.java:328)
+	at org.openqa.selenium.support.ui.ExpectedConditions$11.apply(ExpectedConditions.java:325)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.lambda$getElements$0(AutomationObject.java:359)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.getElements(AutomationObject.java:322)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.getWElements(AutomationObject.java:273)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElements(AutomationObject.java:260)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElement(AutomationObject.java:136)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElement(AutomationObject.java:129)
+	at com.NewVision.InnoVision.engine.core.CommandControl.sync(CommandControl.java:98)
+	at com.NewVision.InnoVision.engine.core.CommandControl.sync(CommandControl.java:183)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Couldn't find Object 'Save' in stipulated Time '10' Seconds
+[FAIL]   | Seems Like the Element [Save] is Not Present/Found in the page Try Adding wait or heal it
+
+===================================================================================================
+
+2023-08-14 19:00:44:08S +0530 [SEVERE] com.NewVision.InnoVision.engine.reporting.util.ReportUtils takeScreenshot:null
+java.lang.RuntimeException: Error making screenshot
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.createNewScreenshot(SeleniumDriver.java:186)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.createScreenShot(SeleniumDriver.java:164)
+	at com.NewVision.InnoVision.engine.reporting.util.ReportUtils.takeScreenshot(ReportUtils.java:86)
+	at com.NewVision.InnoVision.engine.reporting.impl.html.HtmlTestCaseHandler.takeSSAndPutDetail(HtmlTestCaseHandler.java:291)
+	at com.NewVision.InnoVision.engine.reporting.impl.html.HtmlTestCaseHandler.takeScreenShot(HtmlTestCaseHandler.java:252)
+	at com.NewVision.InnoVision.engine.reporting.impl.html.HtmlTestCaseHandler.putStatus(HtmlTestCaseHandler.java:227)
+	at com.NewVision.InnoVision.engine.reporting.impl.html.HtmlTestCaseHandler.updateTestLog(HtmlTestCaseHandler.java:115)
+	at com.NewVision.InnoVision.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:206)
+	at com.NewVision.InnoVision.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:164)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.lambda$reportOnError$0(TestCaseRunner.java:329)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.reportOnError(TestCaseRunner.java:328)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.onRuntimeException(TestCaseRunner.java:292)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:367)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=115.0.5790.171): {Alert text : 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '10.20.0.31', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SHAILJ~1.RAJ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53700}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5935ed4b3abf18db14495480725b4e6d
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at com.galenframework.utils.GalenUtils.scrollVerticallyTo(GalenUtils.java:225)
+	at com.galenframework.utils.GalenUtils.makeFullScreenshot(GalenUtils.java:160)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.getScreenShotFromGalen(SeleniumDriver.java:197)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.createNewScreenshot(SeleniumDriver.java:183)
+	... 18 more
+
+2023-08-14 19:00:44:08S +0530 [SEVERE] com.NewVision.InnoVision.engine.execution.run.TestCaseRunner onRuntimeException:Seems Like the Element [Save] is Not Present/Found in the page Try Adding wait or heal it
+com.NewVision.InnoVision.engine.execution.exception.element.ElementException: Seems Like the Element [Save] is Not Present/Found in the page Try Adding wait or heal it
+	at com.NewVision.InnoVision.engine.commands.General.elementDisplayed(General.java:57)
+	at com.NewVision.InnoVision.engine.commands.General.elementEnabled(General.java:63)
+	at com.NewVision.InnoVision.engine.commands.Basic.Click(Basic.java:47)
+	at com.NewVision.InnoVision.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @14-Aug-2023 19:00:44.044
+[DONE]   | Thread sleep for '30000
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To Do Type
+Executed Steps       : 93
+Passed Steps         : 90
+Failed Steps         : 3
+Time Taken           : 00:03:00
+-----------------------------------------------------
+
+Run Finished on Mon Aug 14 19:01:14 IST 2023
+-----------------------------------------------------
+ExecutionDate        : 14-Aug-2023 18-58-13
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:03:00
+ReportPath           : file:///C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\To Do Type\14-Aug-2023 18-58-13\summary.html
+-----------------------------------------------------
+[Thread-242] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\To Do Type\14-Aug-2023 18-58-13\summary.html
+[Thread-242] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\To Do Type\14-Aug-2023 18-58-13\summary.html]

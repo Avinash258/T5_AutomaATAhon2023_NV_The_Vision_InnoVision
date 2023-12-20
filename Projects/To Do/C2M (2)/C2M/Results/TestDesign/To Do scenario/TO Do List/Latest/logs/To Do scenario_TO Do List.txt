@@ -1,0 +1,179 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Wed Sep 20 17:17:12 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [TO Do List]
+Browser          :  [Edge]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: %Login_Link%  |  Condition:  | @20-Sep-2023 17:17:15.015
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @20-Sep-2023 17:17:15.015
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: To Do:Username  |  Condition:  | @20-Sep-2023 17:17:16.016
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @20-Sep-2023 17:17:16.016
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:Set  |  Input: To Do:Password  |  Condition:  | @20-Sep-2023 17:17:16.016
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @20-Sep-2023 17:17:16.016
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @20-Sep-2023 17:17:21.021
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @20-Sep-2023 17:17:21.021
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do List  |  Action:Click  |  Input:   |  Condition:  | @20-Sep-2023 17:17:21.021
+[DONE]   | Clicking on To Do List
+
+
+===================================================================================================
+
+Step:5  |  Object:Browser  |  Action:switchToFrame  |  Input: To Do:Frame  |  Condition:  | @20-Sep-2023 17:17:23.023
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @20-Sep-2023 17:17:25.025
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:10  |  Object:enter type to do  |  Action:setByJS  |  Input: To Do:To Do type   |  Condition:  | @20-Sep-2023 17:17:25.025
+[DONE]   | Entered Text 'Water_2' on 'enter type to do'
+
+
+===================================================================================================
+
+Step:11  |  Object:enter type to do  |  Action:sendKeysToElement  |  Input: @Enter  |  Condition:  | @20-Sep-2023 17:17:26.026
+[DONE]   | Keys Submitted
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @20-Sep-2023 17:17:28.028
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:13  |  Object:Filter By  |  Action:clickByJS  |  Input:   |  Condition:  | @20-Sep-2023 17:17:28.028
+[DONE]   | Clicked on Filter By
+
+
+===================================================================================================
+
+Step:14  |  Object:Filter By  |  Action:selectByVisibleText  |  Input: To Do:Filter By- To do List  |  Condition:  | @20-Sep-2023 17:17:29.029
+[DONE]   | Item/s 'All' is/are selected from list Filter By
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @20-Sep-2023 17:17:59.059
+[DONE]   | Thread sleep for '30000
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @1000  |  Condition:  | @20-Sep-2023 17:18:00.000
+[DONE]   | Thread sleep for '1000
+
+
+===================================================================================================
+
+Step:2  |  Object:Browser  |  Action:takeScreenshot  |  Input:   |  Condition:  | @20-Sep-2023 17:18:00.000
+[PASS]   | Screenshot is taken
+
+
+===================================================================================================
+
+Step:17  |  Object:Browser  |  Action:switchToFrame  |  Input: Frames:frame 1  |  Condition:  | @20-Sep-2023 17:18:01.001
+[DONE]   | Webdriver switched to new frame by name[dataframe]
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:switchToDefaultContent  |  Input:   |  Condition:  | @20-Sep-2023 17:18:02.002
+[DONE]   | Webdriver switched to default content
+
+
+===================================================================================================
+
+Step:2  |  Object:Browser  |  Action:switchToFrame  |  Input: Frames:frame 2  |  Condition:  | @20-Sep-2023 17:18:02.002
+[DONE]   | Webdriver switched to new frame by name[main]
+
+
+===================================================================================================
+
+Step:3  |  Object:Browser  |  Action:switchToFrame  |  Input: To Do:Frame  |  Condition:  | @20-Sep-2023 17:18:02.002
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:4  |  Object:Select all  |  Action:Click  |  Input:   |  Condition:  | @20-Sep-2023 17:18:02.002
+[DONE]   | Clicking on Select all
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @20-Sep-2023 17:18:32.032
+[DONE]   | Thread sleep for '30000
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:TO Do List
+Executed Steps       : 25
+Passed Steps         : 25
+Failed Steps         : 0
+Time Taken           : 00:01:20
+---------------------------------------------------
+

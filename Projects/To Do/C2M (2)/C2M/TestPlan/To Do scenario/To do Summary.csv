@@ -1,0 +1,18 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Execute,,To Do scenario:Login,,,
+2,Execute,,Wait:wait 2 sec,,,
+3,Menu,Wait  for the element [<Object>] to be present,waitForElementToBePresent,,,Home Page
+4,Menu,Click on [<Object>],clickByJS,,,Home Page
+"*5",To Do,Hover over the [<Object>] element,mouseOverElement,,,Home Page
+6,To Do Summary1,"Click the [<Object>] ",Click,,,Home Page
+7,Execute,,Wait:wait 1 sec,,,
+8,Browser,Switch to frame by name: [<Data>],switchToFrame,To Do:Frame,,
+9,Browser,Switch to frame by name: [<Data>],switchToFrame,Frames:frame 1,,
+10,To Do Summary-Main-List var so1,Highlight the element [<Object>],highlight,,,To do Summary
+11,Execute,,Wait:wait 30 sec,,,
+12,Execute,,Evidence:Screen Shot,,,
+"*13",12,Click on [<Object>],Click,,,To do Summary
+"//14",WObject0,Set object [<Object>] property  as [<Data>] at runtime,setObjectProperty,"To Do:To Do type ","#To Do type ",To do Summary
+"//*15",WObject0,"Click the [<Object>] ",Click,,,To do Summary
+16,Execute,,Wait:wait 30 sec,,,
+17,Execute,,Evidence:Screen Shot,,,

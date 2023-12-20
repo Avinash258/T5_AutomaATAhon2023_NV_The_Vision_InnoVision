@@ -1,0 +1,119 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Thu Aug 10 13:07:24 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [to do entry]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: %Login_Link%  |  Condition:  | @10-Aug-2023 13:07:27.027
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @10-Aug-2023 13:07:27.027
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: select:Username  |  Condition:  | @10-Aug-2023 13:07:28.028
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @10-Aug-2023 13:07:28.028
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:Set  |  Input: select:Password  |  Condition:  | @10-Aug-2023 13:07:28.028
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @10-Aug-2023 13:07:28.028
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @10-Aug-2023 13:07:32.032
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @10-Aug-2023 13:07:33.033
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do Entry  |  Action:clickByJS  |  Input:   |  Condition:  | @10-Aug-2023 13:07:33.033
+[DONE]   | Clicked on To Do Entry
+
+
+===================================================================================================
+
+Step:5  |  Object:Search  |  Action:Click  |  Input:   |  Condition:  | @10-Aug-2023 13:07:33.033
+[DONE]   | Clicking on Search
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @10-Aug-2023 13:07:35.035
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:14  |  Object:Subject text  |  Action:Set  |  Input: select:Subject  |  Condition:  | @10-Aug-2023 13:07:45.045
+[FAIL]   | Seems Like the Element [Subject text] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @10-Aug-2023 13:07:48.048
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:16  |  Object:Comment text  |  Action:Set  |  Input: @Bill Reading   |  Condition:  | @10-Aug-2023 13:07:58.058
+[FAIL]   | Seems Like the Element [Comment text] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:17  |  Object:Priority  |  Action:selectByVisibleText  |  Input: select:Priority  |  Condition:  | @10-Aug-2023 13:08:09.009
+[FAIL]   | Driver Chrome Closed / Could not be reached
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:to do entry
+Executed Steps       : 15
+Passed Steps         : 12
+Failed Steps         : 3
+Time Taken           : 00:00:44
+---------------------------------------------------
+

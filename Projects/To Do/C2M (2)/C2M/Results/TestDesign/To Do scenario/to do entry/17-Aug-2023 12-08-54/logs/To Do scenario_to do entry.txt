@@ -1,0 +1,113 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Thu Aug 17 12:08:54 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [to do entry]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: %Login_Link%  |  Condition:  | @17-Aug-2023 12:08:59.059
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 12:08:59.059
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: To Do:Username  |  Condition:  | @17-Aug-2023 12:08:59.059
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 12:08:59.059
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:Set  |  Input: To Do:Password  |  Condition:  | @17-Aug-2023 12:08:59.059
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 12:09:00.000
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 12:09:07.007
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @17-Aug-2023 12:09:08.008
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do Entry  |  Action:clickByJS  |  Input:   |  Condition:  | @17-Aug-2023 12:09:08.008
+[DONE]   | Clicked on To Do Entry
+
+
+===================================================================================================
+
+Step:6  |  Object:Add  |  Action:clickByJS  |  Input:   |  Condition:  | @17-Aug-2023 12:09:08.008
+[FAIL]   | Seems Like the Element [Add] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:7  |  Object:Browser  |  Action:switchToFrame  |  Input: To Do:Frame  |  Condition:  | @17-Aug-2023 12:09:10.010
+[DONE]   | Webdriver switched to new frame by name[uiMap]
+
+
+===================================================================================================
+
+Step:8  |  Object:Frame To do select type  |  Action:highlight  |  Input:   |  Condition:  | @17-Aug-2023 12:09:10.010
+[PASS]   | Element Highlighted
+
+
+===================================================================================================
+
+Step:9  |  Object:selectedType1  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 12:10:13.013
+[FAIL]   | Seems Like the Element [selectedType1] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:10  |  Object:selectedType1  |  Action:selectByVisibleText  |  Input: To Do:To Do type   |  Condition:  | @17-Aug-2023 12:10:54.054
+[FAIL]   | Driver Chrome Closed / Could not be reached
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:to do entry
+Executed Steps       : 14
+Passed Steps         : 11
+Failed Steps         : 3
+Time Taken           : 00:02:00
+---------------------------------------------------
+

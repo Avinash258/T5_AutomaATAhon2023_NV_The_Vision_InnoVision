@@ -3,6 +3,7 @@ package com.NewVision.InnoVision.engine.CustomMethods;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -327,9 +328,85 @@ public void IfacceptAlert() {
     }
 }
 
+@Action(object = ObjectType.BROWSER, desc = "Update the Sub-Iterations in sheet input<NPI to be update>condition<fileName.xlxs>",input=InputType.OPTIONAL,condition=InputType.YES)
+public void subIterationsLooping() {
+	String projectLocation = Control.getCurrentProject().getLocation();
+	String absolutePath = projectLocation + "/TestData/" + Condition;
 
+	int data = 5;
+	if(!Data.isEmpty()) {
+         data=Integer.parseInt(Data);		
+	}
+	try {
+		FileInputStream fis = new FileInputStream(absolutePath);
+		try {
+			XSSFWorkbook wb = new XSSFWorkbook(fis);
+			XSSFSheet sheet = wb.getSheetAt(0);
+			// DataFormatter formatter = new DataFormatter();
 
-
-
-
+			for(int i=0;i<=data ;i++) {
+				//Scenario
+				String ScenarioName = sheet.getRow(1).getCell(0).getStringCellValue();
+				Cell UpdateScenarioName =sheet.getRow(i+2).getCell(0);
+				UpdateScenarioName.setCellValue(ScenarioName);
+				//Flow
+				String Flow = sheet.getRow(1).getCell(1).getStringCellValue();
+				Cell UpdateFlow =sheet.getRow(i+2).getCell(1);
+				UpdateFlow.setCellValue(Flow);
+				//Iteration
+				String Iteration = sheet.getRow(1).getCell(2).getStringCellValue();
+				Cell UpdateIteration =sheet.getRow(i+2).getCell(2);
+				UpdateIteration.setCellValue(Iteration);
+				//SubIteration
+				Cell SubIteration =sheet.getRow(i+2).getCell(2);
+				SubIteration.setCellValue(i+2);
+			}
+			FileOutputStream outputStream = new FileOutputStream(absolutePath);
+			wb.write(outputStream);
+			wb.close();
+			outputStream.close();
+ 
+			Report.updateTestLog(Action, "Path :[" + absolutePath + "] generated", Status.DONE);
+		} catch (Exception e) {
+			Logger.getLogger(this.getClass().getName()).log(Level.OFF, e.getMessage(), e);
+			Report.updateTestLog(Action, "Path :[" + absolutePath + "] generated", Status.DONE);
+		}
+	} catch (Exception e) {
+		Logger.getLogger(this.getClass().getName()).log(Level.OFF, e.getMessage(), e);
+		Report.updateTestLog(Action, "Path :[" + absolutePath + "] generated", Status.DONE);
+	}
+ 
 }
+
+@Action(object = ObjectType.BROWSER, desc = "Query and save the result in Datasheet ", input = InputType.YES, condition = InputType.YES)
+public void storeMultipleIterations() {
+    try {
+       
+        int totalRows = result.getRow();
+        result.beforeFirst();
+        int totalCols = resultData.getColumnCount();
+        for (int colIndex = 0; colIndex < totalCols; colIndex++) {
+            result.beforeFirst();
+            for (int rowIndex = 1; rowIndex <= totalRows; rowIndex++) {
+                if (result.absolute(rowIndex)) {
+                    userData.putData(Condition, colNames.get(colIndex), result.getString(colIndex + 1), userData.getIteration(), Integer.toString(rowIndex));
+                } else {
+                    Report.updateTestLog(Action, "Row " + rowIndex + " doesn't exist",
+                            Status.FAILNS);
+                    return;
+                }
+            }
+        }
+        Report.updateTestLog(Action, " SQL Query Result has been saved in DataSheet: ",
+                Status.PASSNS);
+    } catch (SQLException ex) {
+        Report.updateTestLog(Action, "Error executing the SQL Query: " + ex.getMessage(),
+                Status.FAILNS);
+    }
+}
+}
+
+
+
+
+

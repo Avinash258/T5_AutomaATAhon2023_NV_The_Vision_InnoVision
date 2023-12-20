@@ -1,0 +1,178 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 20.0.1
+java.home            : C:\Program Files\Java\jdk-20
+os.name              : Windows 11
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Mon Sep 25 14:56:28 IST 2023
+Loading Browser Profile
+Loading RunManager
+[Scenario:To Do scenario] [TestCase: To Do Type] [Description: Test Run] [Browser: Edge] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-18] WARN com.NewVision.InnoVision.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Edge
+Launching Local Driver
+[pool-8-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 117.0.2045.40 (resolved driver for Edge 117)
+[pool-8-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\shailja.rajak\.cache\selenium\msedgedriver\win64\117.0.2045.40\msedgedriver.exe
+Starting Microsoft Edge WebDriver 117.0.2045.40 (1a64d4a9399846625cc98ece3dc48b04ffae70b8) on port 44988
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+2023-09-25 14:56:30:09S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Edge Launched
+Step:1   | Object: Browser | Action: Open | Input:*********  | Conditon:  | @25-Sep-2023 14:56:30.030
+%Login_Link% changed to http://172.40.0.60:8009/ouaf/cis.jsp
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+===================================================================================================
+
+Step:2   | Object: j_username | Action: Click | Input:*********  | Conditon:  | @25-Sep-2023 14:56:30.030
+Using @name [j_username], Object 'j_username' Found in 35 ms
+[DONE]   | Clicking on j_username
+
+===================================================================================================
+
+Step:3   | Object: j_username | Action: Set | Input:*********  | Conditon:  | @25-Sep-2023 14:56:30.030
+Using @name [j_username], Object 'j_username' Found in 21 ms
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+===================================================================================================
+
+Step:4   | Object: j_password | Action: Click | Input:*********  | Conditon:  | @25-Sep-2023 14:56:30.030
+Using @name [j_password], Object 'j_password' Found in 17 ms
+[DONE]   | Clicking on j_password
+
+===================================================================================================
+
+Step:5   | Object: j_password | Action: Set | Input:*********  | Conditon:  | @25-Sep-2023 14:56:31.031
+Using @name [j_password], Object 'j_password' Found in 17 ms
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+===================================================================================================
+
+Step:6   | Object: Login | Action: Click | Input:*********  | Conditon:  | @25-Sep-2023 14:56:31.031
+Using @id [loginButton], Object 'Login' Found in 19 ms
+[DONE]   | Clicking on Login
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @25-Sep-2023 14:56:31.031
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:3   | Object: Admin | Action: Click | Input:*********  | Conditon:  | @25-Sep-2023 14:56:33.033
+Using @id [IM_adminButton], Object 'Admin' Found in 772 ms
+[DONE]   | Clicking on Admin
+
+===================================================================================================
+
+Step:4   | Object: T | Action: Click | Input:*********  | Conditon:  | @25-Sep-2023 14:56:35.035
+Element could not be identified with [relative_xpath] : [//*[normalize-space(text())='T']]
+Expected condition failed: waiting for presence of any elements located by By.xpath: //*[normalize-space(text())='T'] (tried for 10 second(s) with 500 milliseconds interval)
+
+Using @xpath [(/html/body/div[3]/ul/li[20]/span)[1]], Object 'T' Found in 17091 ms
+[DONE]   | Clicking on T
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @25-Sep-2023 14:56:52.052
+[DONE]   | Thread sleep for '30000
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @25-Sep-2023 14:57:22.022
+Exception in thread "AWT-EventQueue-0" java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 97
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.util.Objects.checkIndex(Objects.java:385)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at java.base/java.util.Collections$SynchronizedList.get(Collections.java:2499)
+	at com.NewVision.InnoVision.datalib.component.TestCase.getValueAt(TestCase.java:366)
+	at java.desktop/javax.swing.JTable.getValueAt(JTable.java:2763)
+	at com.NewVision.InnoVision.ide.main.mainui.components.testdesign.testcase.TestCaseAutoSuggest$ActionAutoSuggest.getActionBasedOnObject(TestCaseAutoSuggest.java:200)
+	at com.NewVision.InnoVision.ide.main.mainui.components.testdesign.testcase.TestCaseAutoSuggest$ActionAutoSuggest.beforeSearch(TestCaseAutoSuggest.java:258)
+	at com.NewVision.InnoVision.ide.main.utils.table.autosuggest.AutoSuggest.reset(AutoSuggest.java:161)
+	at com.NewVision.InnoVision.ide.main.utils.table.autosuggest.AutoSuggestCellEditor.stopCellEditing(AutoSuggestCellEditor.java:35)
+	at java.desktop/javax.swing.DefaultCellEditor$EditorDelegate.actionPerformed(DefaultCellEditor.java:392)
+	at java.desktop/javax.swing.JComboBox.fireActionEvent(JComboBox.java:1294)
+	at java.desktop/javax.swing.JComboBox.setSelectedItem(JComboBox.java:619)
+	at java.desktop/javax.swing.DefaultCellEditor$3.setValue(DefaultCellEditor.java:139)
+	at java.desktop/javax.swing.DefaultCellEditor.getTableCellEditorComponent(DefaultCellEditor.java:269)
+	at java.desktop/javax.swing.JTable.prepareEditor(JTable.java:5868)
+	at java.desktop/javax.swing.JTable.editCellAt(JTable.java:3565)
+	at com.NewVision.InnoVision.ide.main.utils.table.XTable.editCellAt(XTable.java:233)
+	at java.desktop/javax.swing.plaf.basic.BasicTableUI$Handler.adjustSelection(BasicTableUI.java:1138)
+	at java.desktop/javax.swing.plaf.basic.BasicTableUI$Handler.mousePressed(BasicTableUI.java:1068)
+	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:288)
+	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:287)
+	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:287)
+	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:287)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6617)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3398)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6385)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4995)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4827)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4572)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4827)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+[DONE]   | Thread sleep for '30000
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To Do Type
+Executed Steps       : 11
+Passed Steps         : 11
+Failed Steps         : 0
+Time Taken           : 00:01:24
+-----------------------------------------------------
+
+Run Finished on Mon Sep 25 14:57:52 IST 2023
+-----------------------------------------------------
+ExecutionDate        : 25-Sep-2023 14-56-28
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:01:24
+ReportPath           : file:///C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\To Do Type\25-Sep-2023 14-56-28\summary.html
+-----------------------------------------------------
+[Thread-18] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\To Do Type\25-Sep-2023 14-56-28\summary.html
+[Thread-18] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\To Do Type\25-Sep-2023 14-56-28\summary.html]

@@ -1,0 +1,152 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Aug 21 12:23:43 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [To do entry-search]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: %Login_Link%  |  Condition:  | @21-Aug-2023 12:23:47.047
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @21-Aug-2023 12:23:47.047
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: To Do:Username  |  Condition:  | @21-Aug-2023 12:23:47.047
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @21-Aug-2023 12:23:47.047
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:Set  |  Input: To Do:Password  |  Condition:  | @21-Aug-2023 12:23:47.047
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @21-Aug-2023 12:23:47.047
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @21-Aug-2023 12:23:59.059
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @21-Aug-2023 12:24:00.000
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do Entry  |  Action:clickByJS  |  Input:   |  Condition:  | @21-Aug-2023 12:24:00.000
+[DONE]   | Clicked on To Do Entry
+
+
+===================================================================================================
+
+Step:5  |  Object:Search  |  Action:Click  |  Input:   |  Condition:  | @21-Aug-2023 12:24:01.001
+[DONE]   | Clicking on Search
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabPage  |  Condition:  | @21-Aug-2023 12:24:02.002
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:7  |  Object:toDoType1  |  Action:clickByJS  |  Input:   |  Condition:  | @21-Aug-2023 12:24:12.012
+[DONE]   | Clicked on toDoType1
+
+
+===================================================================================================
+
+Step:8  |  Object:toDoType1  |  Action:selectByVisibleText  |  Input: @Water High Bill Consumption  |  Condition:  | @21-Aug-2023 12:24:13.013
+[DONE]   | Item/s 'Water High Bill Consumption' is/are selected from list toDoType1
+
+
+===================================================================================================
+
+Step:9  |  Object:Search  |  Action:Click  |  Input:   |  Condition:  | @21-Aug-2023 12:24:13.013
+[DONE]   | Clicking on Search
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @21-Aug-2023 12:24:15.015
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:11  |  Object:Browser  |  Action:takeScreenshot  |  Input:   |  Condition:  | @21-Aug-2023 12:24:15.015
+[PASS]   | Screenshot is taken
+
+
+===================================================================================================
+
+Step:12  |  Object:Water High Bill Consumption -  |  Action:Click  |  Input:   |  Condition:  | @21-Aug-2023 12:24:16.016
+[DONE]   | Clicking on Water High Bill Consumption -
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @21-Aug-2023 12:24:46.046
+[DONE]   | Thread sleep for '30000
+
+
+===================================================================================================
+
+Step:14  |  Object:Browser  |  Action:switchToFrame  |  Input: @zoneMapFrame_1:  |  Condition:  | @21-Aug-2023 12:24:46.046
+[DEBUG]   | No frame element found by name or id zoneMapFrame_1:
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '10.20.0.32', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown
+
+
+===================================================================================================
+
+Step:15  |  Object:Edit  |  Action:clickByJS  |  Input:   |  Condition:  | @21-Aug-2023 12:25:16.016
+[FAIL]   | Driver Chrome Closed / Could not be reached
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To do entry-search
+Executed Steps       : 20
+Passed Steps         : 18
+Failed Steps         : 2
+Time Taken           : 00:01:33
+---------------------------------------------------
+

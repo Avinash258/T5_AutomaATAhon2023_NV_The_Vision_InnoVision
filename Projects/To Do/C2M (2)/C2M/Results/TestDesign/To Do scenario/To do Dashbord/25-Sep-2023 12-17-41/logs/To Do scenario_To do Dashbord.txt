@@ -1,0 +1,107 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Sep 25 12:17:41 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [To do Dashbord]
+Browser          :  [Edge]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: %Login_Link%  |  Condition:  | @25-Sep-2023 12:17:43.043
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @25-Sep-2023 12:17:43.043
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: To Do:Username  |  Condition:  | @25-Sep-2023 12:17:44.044
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @25-Sep-2023 12:17:44.044
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:Set  |  Input: To Do:Password  |  Condition:  | @25-Sep-2023 12:17:44.044
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @25-Sep-2023 12:17:44.044
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @25-Sep-2023 12:17:49.049
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:Browser  |  Action:pause  |  Input: @3000  |  Condition:  | @25-Sep-2023 12:17:52.052
+[DONE]   | Thread sleep for '3000
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do  |  Action:Click  |  Input:   |  Condition:  | @25-Sep-2023 12:17:52.052
+[FAIL]   | Seems Like the Element [To Do] is Not Visible or hidden at the moment
+
+
+===================================================================================================
+
+Step:5  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @25-Sep-2023 12:17:55.055
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:6  |  Object:To Do Dashboard  |  Action:Click  |  Input:   |  Condition:  | @25-Sep-2023 12:18:57.057
+[FAIL]   | Seems Like the Element [To Do Dashboard] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:7  |  Object:Browser  |  Action:scrollToBottom  |  Input:   |  Condition:  | @25-Sep-2023 12:18:57.057
+[DONE]   | Browser Scrolled to []
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @25-Sep-2023 12:19:28.028
+[DONE]   | Thread sleep for '30000
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To do Dashbord
+Executed Steps       : 13
+Passed Steps         : 11
+Failed Steps         : 2
+Time Taken           : 00:01:46
+---------------------------------------------------
+

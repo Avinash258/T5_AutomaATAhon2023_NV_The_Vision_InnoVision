@@ -1,0 +1,113 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Fri Aug 04 19:03:28 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [To Do Entry search]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: @http://172.40.0.60:8009/ouaf/cis.jsp  |  Condition:  | @04-Aug-2023 19:03:32.032
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @04-Aug-2023 19:03:32.032
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: @SYSUSER  |  Condition:  | @04-Aug-2023 19:03:32.032
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @04-Aug-2023 19:03:32.032
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:setEncrypted  |  Input: @S/DuxGW4WhUofNaPo6mQyw== Enc  |  Condition:  | @04-Aug-2023 19:03:32.032
+[DONE]   | Entered Encrypted Text S/DuxGW4WhUofNaPo6mQyw== on j_password
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @04-Aug-2023 19:03:33.033
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @04-Aug-2023 19:03:37.037
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @04-Aug-2023 19:03:37.037
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do Entry  |  Action:clickByJS  |  Input:   |  Condition:  | @04-Aug-2023 19:03:38.038
+[DONE]   | Clicked on To Do Entry
+
+
+===================================================================================================
+
+Step:5  |  Object:To do entry - search  |  Action:Click  |  Input:   |  Condition:  | @04-Aug-2023 19:03:38.038
+[DONE]   | Clicking on To do entry - search
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabPage  |  Condition:  | @04-Aug-2023 19:03:38.038
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @04-Aug-2023 19:03:40.040
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:8  |  Object:iframe  |  Action:highlight  |  Input:   |  Condition:  | @04-Aug-2023 19:03:51.051
+[FAIL]   | Seems Like the Element [iframe] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:9  |  Object:toDoType  |  Action:Click  |  Input:   |  Condition:  | @04-Aug-2023 19:04:13.013
+[FAIL]   | Driver Chrome Closed / Could not be reached
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To Do Entry search
+Executed Steps       : 14
+Passed Steps         : 12
+Failed Steps         : 2
+Time Taken           : 00:00:45
+---------------------------------------------------
+

@@ -1,0 +1,191 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Fri Aug 18 14:38:24 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [To do search]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: %Login_Link%  |  Condition:  | @18-Aug-2023 14:38:27.027
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 14:38:28.028
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: To Do:Username  |  Condition:  | @18-Aug-2023 14:38:28.028
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 14:38:28.028
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:Set  |  Input: To Do:Password  |  Condition:  | @18-Aug-2023 14:38:28.028
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 14:38:28.028
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 14:38:34.034
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @18-Aug-2023 14:38:34.034
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do Search  |  Action:clickByJS  |  Input:   |  Condition:  | @18-Aug-2023 14:38:34.034
+[DONE]   | Clicked on To Do Search
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @18-Aug-2023 14:38:36.036
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabPage  |  Condition:  | @18-Aug-2023 14:38:36.036
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:9  |  Object:to do type filter  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 14:38:37.037
+[DONE]   | Clicking on to do type filter
+
+
+===================================================================================================
+
+Step:10  |  Object:to do type filter  |  Action:selectByVisibleText  |  Input: @Specific To Do Type  |  Condition:  | @18-Aug-2023 14:38:37.037
+[DONE]   | Item/s 'Specific To Do Type' is/are selected from list to do type filter
+
+
+===================================================================================================
+
+Step:11  |  Object:To Do Type  |  Action:Set  |  Input: @WATER_2  |  Condition:  | @18-Aug-2023 14:38:37.037
+[DONE]   | Entered Text 'WATER_2' on 'To Do Type'
+
+
+===================================================================================================
+
+Step:12  |  Object:To Do Type  |  Action:sendKeysToElement  |  Input: @Enter  |  Condition:  | @18-Aug-2023 14:38:37.037
+[DONE]   | Keys Submitted
+
+
+===================================================================================================
+
+Step:13  |  Object:User filter  |  Action:selectByVisibleText  |  Input: @Completed By User  |  Condition:  | @18-Aug-2023 14:38:37.037
+[DONE]   | Item/s 'Completed By User' is/are selected from list User filter
+
+
+===================================================================================================
+
+Step:14  |  Object:User id  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 14:38:38.038
+[DONE]   | Clicking on User id
+
+
+===================================================================================================
+
+Step:15  |  Object:User id  |  Action:Set  |  Input: @SYSUSER  |  Condition:  | @18-Aug-2023 14:38:38.038
+[DONE]   | Entered Text 'SYSUSER' on 'User id'
+
+
+===================================================================================================
+
+Step:16  |  Object:User id  |  Action:sendKeysToElement  |  Input: @Enter  |  Condition:  | @18-Aug-2023 14:38:38.038
+[DONE]   | Keys Submitted
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @18-Aug-2023 14:38:40.040
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:18  |  Object:Status Filter  |  Action:selectByVisibleText  |  Input: @All  |  Condition:  | @18-Aug-2023 14:38:40.040
+[DONE]   | Item/s 'All' is/are selected from list Status Filter
+
+
+===================================================================================================
+
+Step:19  |  Object:Search  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 14:38:40.040
+[DONE]   | Clicking on Search
+
+
+===================================================================================================
+
+Step:20  |  Object:Browser  |  Action:switchToFrame  |  Input: @dataframe  |  Condition:  | @18-Aug-2023 14:38:40.040
+[DONE]   | Webdriver switched to new frame by name[dataframe]
+
+
+===================================================================================================
+
+Step:21  |  Object:Expand Scroll  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 14:38:41.041
+[DONE]   | Clicking on Expand Scroll
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @18-Aug-2023 14:38:43.043
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:23  |  Object:Browser  |  Action:verifyHScrollBarPresent  |  Input:   |  Condition:  | @18-Aug-2023 14:38:43.043
+[FAIL]   | Horizontal Scrollbar is  present
+
+
+===================================================================================================
+
+Step:24  |  Object:Browser  |  Action:scrollToBottom  |  Input:   |  Condition:  | @18-Aug-2023 14:39:12.012
+[DONE]   | Browser Scrolled to []
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To do search
+Executed Steps       : 27
+Passed Steps         : 26
+Failed Steps         : 1
+Time Taken           : 00:00:48
+---------------------------------------------------
+

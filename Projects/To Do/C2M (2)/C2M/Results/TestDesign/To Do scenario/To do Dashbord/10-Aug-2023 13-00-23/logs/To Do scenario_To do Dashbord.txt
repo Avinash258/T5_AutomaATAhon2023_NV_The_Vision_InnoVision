@@ -1,0 +1,107 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Thu Aug 10 13:00:24 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [To do Dashbord]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: %Login_Link%  |  Condition:  | @10-Aug-2023 13:00:27.027
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @10-Aug-2023 13:00:27.027
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: select:Username  |  Condition:  | @10-Aug-2023 13:00:27.027
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @10-Aug-2023 13:00:27.027
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:Set  |  Input: select:Password  |  Condition:  | @10-Aug-2023 13:00:27.027
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @10-Aug-2023 13:00:27.027
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @10-Aug-2023 13:00:32.032
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @10-Aug-2023 13:00:33.033
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do Dashboard  |  Action:Click  |  Input:   |  Condition:  | @10-Aug-2023 13:00:33.033
+[DONE]   | Clicking on To Do Dashboard
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @10-Aug-2023 13:00:35.035
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:scrollToBottom  |  Input:   |  Condition:  | @10-Aug-2023 13:00:35.035
+[DONE]   | Browser Scrolled to []
+
+
+===================================================================================================
+
+Step:7  |  Object:Browser  |  Action:assertTitleContains  |  Input: @To Do Dashboard  |  Condition:  | @10-Aug-2023 13:00:35.035
+[PASS]   | Browser's Title CONTAINS To Do Dashboard 
+
+
+===================================================================================================
+
+Step:8  |  Object:Browser  |  Action:takeScreenshot  |  Input:   |  Condition:  | @10-Aug-2023 13:00:36.036
+[PASS]   | Screenshot is taken
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To do Dashbord
+Executed Steps       : 13
+Passed Steps         : 13
+Failed Steps         : 0
+Time Taken           : 00:00:13
+---------------------------------------------------
+

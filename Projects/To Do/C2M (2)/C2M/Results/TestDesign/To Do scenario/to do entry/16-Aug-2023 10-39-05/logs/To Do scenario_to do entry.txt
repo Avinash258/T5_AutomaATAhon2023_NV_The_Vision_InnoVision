@@ -1,0 +1,161 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Wed Aug 16 10:39:05 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [to do entry]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: %Login_Link%  |  Condition:  | @16-Aug-2023 10:39:10.010
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @16-Aug-2023 10:39:10.010
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: To Do:Username  |  Condition:  | @16-Aug-2023 10:39:11.011
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @16-Aug-2023 10:39:11.011
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:Set  |  Input: To Do:Password  |  Condition:  | @16-Aug-2023 10:39:11.011
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @16-Aug-2023 10:39:11.011
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @16-Aug-2023 10:39:16.016
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @16-Aug-2023 10:39:16.016
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do Entry  |  Action:clickByJS  |  Input:   |  Condition:  | @16-Aug-2023 10:39:16.016
+[DONE]   | Clicked on To Do Entry
+
+
+===================================================================================================
+
+Step:6  |  Object:Add  |  Action:clickByJS  |  Input:   |  Condition:  | @16-Aug-2023 10:39:17.017
+[DONE]   | Clicked on Add
+
+
+===================================================================================================
+
+Step:7  |  Object:Browser  |  Action:switchToFrame  |  Input: To Do:Frame  |  Condition:  | @16-Aug-2023 10:39:17.017
+[DONE]   | Webdriver switched to new frame by name[uiMap]
+
+
+===================================================================================================
+
+Step:8  |  Object:Frame To do select type  |  Action:highlight  |  Input:   |  Condition:  | @16-Aug-2023 10:39:17.017
+[PASS]   | Element Highlighted
+
+
+===================================================================================================
+
+Step:9  |  Object:selectedType1  |  Action:Click  |  Input:   |  Condition:  | @16-Aug-2023 10:39:21.021
+[DONE]   | Clicking on selectedType1
+
+
+===================================================================================================
+
+Step:10  |  Object:selectedType1  |  Action:selectByVisibleText  |  Input: To Do:To Do type   |  Condition:  | @16-Aug-2023 10:39:21.021
+[DONE]   | Item/s 'High water bill' is/are selected from list selectedType1
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @16-Aug-2023 10:39:23.023
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:12  |  Object:OK button  |  Action:Click  |  Input:   |  Condition:  | @16-Aug-2023 10:39:23.023
+[DONE]   | Clicking on OK button
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @16-Aug-2023 10:39:25.025
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:14  |  Object:Subject text  |  Action:Set  |  Input: To Do:Subject  |  Condition:  | @16-Aug-2023 10:39:27.027
+[DONE]   | Entered Text 'Water consumption ' on 'Subject text'
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @16-Aug-2023 10:39:29.029
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:16  |  Object:Comment text  |  Action:Set  |  Input: @water related issue   |  Condition:  | @16-Aug-2023 10:39:30.030
+[DONE]   | Entered Text 'water related issue ' on 'Comment text'
+
+
+===================================================================================================
+
+Step:17  |  Object:Priority  |  Action:selectByVisibleText  |  Input: To Do:Priority  |  Condition:  | @16-Aug-2023 10:39:30.030
+[DONE]   | Item/s 'Priority 20' is/are selected from list Priority
+
+
+===================================================================================================
+
+Step:18  |  Object:Save  |  Action:clickByJS  |  Input:   |  Condition:  | @16-Aug-2023 10:39:30.030
+[DONE]   | Clicked on Save
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:to do entry
+Executed Steps       : 22
+Passed Steps         : 22
+Failed Steps         : 0
+Time Taken           : 00:00:25
+---------------------------------------------------
+

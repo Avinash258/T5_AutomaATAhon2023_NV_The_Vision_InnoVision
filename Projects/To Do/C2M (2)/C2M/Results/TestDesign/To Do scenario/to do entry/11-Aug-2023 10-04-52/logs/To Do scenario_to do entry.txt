@@ -1,0 +1,158 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Fri Aug 11 10:04:52 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [to do entry]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: %Login_Link%  |  Condition:  | @11-Aug-2023 10:04:53.053
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 10:04:54.054
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: select:Username  |  Condition:  | @11-Aug-2023 10:04:54.054
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 10:04:54.054
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:Set  |  Input: select:Password  |  Condition:  | @11-Aug-2023 10:04:54.054
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 10:04:54.054
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 10:04:59.059
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @11-Aug-2023 10:04:59.059
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do Entry  |  Action:clickByJS  |  Input:   |  Condition:  | @11-Aug-2023 10:04:59.059
+[DONE]   | Clicked on To Do Entry
+
+
+===================================================================================================
+
+Step:5  |  Object:Search  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 10:05:00.000
+[DONE]   | Clicking on Search
+
+
+===================================================================================================
+
+Step:20  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabPage  |  Condition:  | @11-Aug-2023 10:05:00.000
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @11-Aug-2023 10:05:29.029
+[DONE]   | Thread sleep for '30000
+
+
+===================================================================================================
+
+Step:22  |  Object:toDoType1  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 10:05:29.029
+[DONE]   | Clicking on toDoType1
+
+
+===================================================================================================
+
+Step:23  |  Object:toDoType1  |  Action:selectByVisibleText  |  Input: @Billing Related Problem  |  Condition:  | @11-Aug-2023 10:05:29.029
+[DONE]   | Item/s 'Billing Related Problem' is/are selected from list toDoType1
+
+
+===================================================================================================
+
+Step:24  |  Object:Search  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 10:05:29.029
+[DONE]   | Clicking on Search
+
+
+===================================================================================================
+
+Step:25  |  Object:Billing Related Problem - Open  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 10:05:30.030
+[DONE]   | Clicking on Billing Related Problem - Open
+
+
+===================================================================================================
+
+Step:26  |  Object:Browser  |  Action:switchToFrame  |  Input: @zoneMapFrame_1  |  Condition:  | @11-Aug-2023 10:05:30.030
+[DEBUG]   | No frame element found by name or id zoneMapFrame_1
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '10.20.0.60', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @11-Aug-2023 10:05:58.058
+[DONE]   | Thread sleep for '30000
+
+
+===================================================================================================
+
+Step:28  |  Object:Expand (Record information)  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 10:06:39.039
+[FAIL]   | Seems Like the Element [Expand (Record information)] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @11-Aug-2023 10:06:43.043
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:30  |  Object:Browser  |  Action:takeScreenshot  |  Input:   |  Condition:  | @11-Aug-2023 10:06:43.043
+[PASS]   | Screenshot is taken
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:to do entry
+Executed Steps       : 21
+Passed Steps         : 19
+Failed Steps         : 2
+Time Taken           : 00:01:53
+---------------------------------------------------
+

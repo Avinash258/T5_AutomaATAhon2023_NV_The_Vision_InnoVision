@@ -1,0 +1,245 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Tue Aug 08 09:49:14 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [To do Summary]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: %Login_Link%  |  Condition:  | @08-Aug-2023 09:49:19.019
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @08-Aug-2023 09:49:19.019
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: select:Username  |  Condition:  | @08-Aug-2023 09:49:20.020
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @08-Aug-2023 09:49:20.020
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:Set  |  Input: select:Password  |  Condition:  | @08-Aug-2023 09:49:20.020
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @08-Aug-2023 09:49:20.020
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @08-Aug-2023 09:49:27.027
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @08-Aug-2023 09:49:27.027
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do Summary1  |  Action:Click  |  Input:   |  Condition:  | @08-Aug-2023 09:49:28.028
+[DONE]   | Clicking on To Do Summary1
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @1000  |  Condition:  | @08-Aug-2023 09:49:29.029
+[DONE]   | Thread sleep for '1000
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @08-Aug-2023 09:49:29.029
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @08-Aug-2023 09:49:30.030
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do List  |  Action:Click  |  Input:   |  Condition:  | @08-Aug-2023 09:49:30.030
+[DONE]   | Clicking on To Do List
+
+
+===================================================================================================
+
+Step:5  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabPage  |  Condition:  | @08-Aug-2023 09:49:30.030
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @08-Aug-2023 09:49:32.032
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:10  |  Object:enter type to do  |  Action:setByJS  |  Input: @CM_BRPM  |  Condition:  | @08-Aug-2023 09:49:32.032
+[DONE]   | Entered Text 'CM_BRPM' on 'enter type to do'
+
+
+===================================================================================================
+
+Step:11  |  Object:enter type to do  |  Action:sendKeysToElement  |  Input: @Enter  |  Condition:  | @08-Aug-2023 09:49:33.033
+[DONE]   | Keys Submitted
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @08-Aug-2023 09:50:03.003
+[DONE]   | Thread sleep for '30000
+
+
+===================================================================================================
+
+Step:13  |  Object:Browser  |  Action:takeScreenshot  |  Input:   |  Condition:  | @08-Aug-2023 09:50:03.003
+[PASS]   | Screenshot is taken
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @08-Aug-2023 09:50:06.006
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @08-Aug-2023 09:50:06.006
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do Entry  |  Action:clickByJS  |  Input:   |  Condition:  | @08-Aug-2023 09:50:06.006
+[DONE]   | Clicked on To Do Entry
+
+
+===================================================================================================
+
+Step:5  |  Object:Add  |  Action:clickByJS  |  Input:   |  Condition:  | @08-Aug-2023 09:50:07.007
+[DONE]   | Clicked on Add
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:switchToFrame  |  Input: select:Frame  |  Condition:  | @08-Aug-2023 09:50:07.007
+[DONE]   | Webdriver switched to new frame by name[uiMap]
+
+
+===================================================================================================
+
+Step:7  |  Object:Frame To do select type  |  Action:highlight  |  Input:   |  Condition:  | @08-Aug-2023 09:50:07.007
+[PASS]   | Element Highlighted
+
+
+===================================================================================================
+
+Step:8  |  Object:selectedType1  |  Action:Click  |  Input:   |  Condition:  | @08-Aug-2023 09:50:09.009
+[DONE]   | Clicking on selectedType1
+
+
+===================================================================================================
+
+Step:9  |  Object:selectedType1  |  Action:selectByVisibleText  |  Input: select:To Do type   |  Condition:  | @08-Aug-2023 09:50:10.010
+[DONE]   | Item/s 'Billing Related Problem' is/are selected from list selectedType1
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @08-Aug-2023 09:50:12.012
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:11  |  Object:OK button  |  Action:Click  |  Input:   |  Condition:  | @08-Aug-2023 09:50:12.012
+[DONE]   | Clicking on OK button
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @08-Aug-2023 09:50:14.014
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:13  |  Object:Subject text  |  Action:Set  |  Input: select:Subject  |  Condition:  | @08-Aug-2023 09:50:16.016
+[DONE]   | Entered Text 'reading ' on 'Subject text'
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @08-Aug-2023 09:50:18.018
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:15  |  Object:Comment text  |  Action:Set  |  Input: @Bill Reading   |  Condition:  | @08-Aug-2023 09:50:19.019
+[DONE]   | Entered Text 'Bill Reading ' on 'Comment text'
+
+
+===================================================================================================
+
+Step:16  |  Object:Priority  |  Action:selectByVisibleText  |  Input: select:Priority  |  Condition:  | @08-Aug-2023 09:50:19.019
+[DONE]   | Item/s 'Priority 20' is/are selected from list Priority
+
+
+===================================================================================================
+
+Step:17  |  Object:Save  |  Action:clickByJS  |  Input:   |  Condition:  | @08-Aug-2023 09:50:19.019
+[DONE]   | Clicked on Save
+
+
+===================================================================================================
+
+Step:18  |  Object:Browser  |  Action:pause  |  Input: @3000  |  Condition:  | @08-Aug-2023 09:50:22.022
+[DONE]   | Thread sleep for '3000
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To do Summary
+Executed Steps       : 36
+Passed Steps         : 36
+Failed Steps         : 0
+Time Taken           : 00:01:08
+---------------------------------------------------
+

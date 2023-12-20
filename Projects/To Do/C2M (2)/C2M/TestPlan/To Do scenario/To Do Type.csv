@@ -1,0 +1,99 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Execute,,To Do scenario:Login,,,
+2,Execute,,Wait:wait 2 sec,,,
+3,Admin,Wait  for the element [<Object>] to be present,waitForElementToBePresent,,,Home Page
+4,Admin,"Click the [<Object>] ",Click,,,Home Page
+5,T,"Click the [<Object>] ",Click,,,Home Page
+6,To Do Type,"Click the [<Object>] ",Click,,,Home Page
+7,Execute,,Wait:wait 1 sec,,,
+8,Add1,"Click the [<Object>] ",Click,,,Home Page
+9,Browser,Switch to frame by name: [<Data>],switchToFrame,To Do:Frame,,
+10,To Do Type Page,"Click the [<Object>] ",Click,,,To do type
+11,To Do Type Page,"Click the [<Object>] ",Set,"To Do:To Do type ",,To do type
+12,Description,"Click the [<Object>] ",Click,,,To do type
+13,Description,"Click the [<Object>] ",setByJS,@Water High Bill Consumption,,To do type
+"//14",Detailed Description,"Click the [<Object>] ",Click,,,To do type
+15,TD_PRIORITY_FLG,"Click the [<Object>] ",Click,,,To do type
+16,TD_PRIORITY_FLG,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,To Do:Priority,,To do type
+17,TD_USAGE_TYPE_FLG,"Click the [<Object>] ",Click,,,To do type
+18,TD_USAGE_TYPE_FLG,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,@Manual,,To do type
+19,Execute,,Evidence:Screen Shot,,,
+20,Search for Navigation Option,"Click the [<Object>] ",Click,,,To do type
+21,Execute,,Wait:wait 2 sec,,,
+22,Browser,Switch to Window by Index: [<Data>],switchToWindowByTitle,@Navigation Option Search,,
+23,Search,Click on [<Object>],clickByJS,,,To do type
+24,Execute,,Wait:wait 2 sec,,,
+25,Browser,Switch to frame by name: [<Data>],switchToFrame,Frames:frame 1,,
+26,Rebate Claim,"Click the [<Object>] ",Click,,,To do type
+27,Execute,,Wait:wait 2 sec,,,
+28,Browser,Switch to Window by Index: [<Data>],switchToWindowByIndex,@0,,
+29,Browser,Switching control to the default window,switchToDefaultContent,,,
+30,Browser,Wait for page's title to be [<Data>],waitForTitleToBe,@To Do Type,,
+31,Browser,Switching control to the default window,switchToDefaultContent,,,
+32,Browser,Switch to frame by name: [<Data>],switchToFrame,Frames:frame 2,,
+33,Browser,Switch to frame by name: [<Data>],switchToFrame,To Do:Frame,,
+34,Execute,,Wait:wait 2 sec,,,
+35,Message Category,Click on [<Object>],Click,,,To do type
+36,Message Category,Enter the value [<Data>] in the Field [<Object>],setByJS,@6,,To do type
+37,Execute,,Wait:wait 2 sec,,,
+38,Routing Process,"Click the [<Object>] ",Click,,,To do type
+39,to do meassage text,"Click the [<Object>] ",Click,,,To do type
+40,to do meassage text,Set [<Data>] on [<Object>],setByJS,@2,,To do type
+41,Execute,,Wait:wait 2 sec,,,
+42,Routing Process,"Click the [<Object>] ",Click,,,To do type
+43,Execute,,Evidence:Screen Shot,,,
+44,Execute,,Wait:wait 30 sec,,,
+45,Browser,Switching control to the default window,switchToDefaultContent,,,
+46,Browser,Switch to frame by name: [<Data>],switchToFrame,Frames:frame 2,,
+47,Browser,Switch to frame by name: [<Data>],switchToFrame,Frames:frame 3,,
+48,Roles1,"Click the [<Object>] ",clickByJS,,,To do type
+49,Execute,,Wait:wait 2 sec,,,
+50,Browser,Switching control to the default window,switchToDefaultContent,,,
+51,Browser,Switch to frame by name: [<Data>],switchToFrame,Frames:frame 2,,
+52,Browser,Switch to frame by name: [<Data>],switchToFrame,To Do:Frame,,
+53,Browser,Switch to frame by name: [<Data>],switchToFrame,@roleGrid,,
+54,Execute,,Wait:wait 2 sec,,,
+55,TD_TYPE_ROLE:0$ROLE_ID,"Click the [<Object>] ",Click,,,To do type - Roles
+56,TD_TYPE_ROLE:0$ROLE_ID,"Click the [<Object>] ",setByJS,@BILLERR,,To do type - Roles
+57,TD_TYPE_ROLE:0$DEFAULT_SW,"Click the [<Object>] ",clickByJS,,,To do type - Roles
+58,Execute,,Wait:wait 2 sec,,,
+59,Execute,,Evidence:Screen Shot,,,
+60,Browser,Switching control to the default window,switchToDefaultContent,,,
+61,Browser,Switch to frame by name: [<Data>],switchToFrame,Frames:frame 2,,
+62,Browser,Switch to frame by name: [<Data>],switchToFrame,Frames:frame 3,,
+"*63",Sort Keys,Click on [<Object>],Click,,,To do type - Short Key
+64,Execute,,Wait:wait 2 sec,,,
+65,Browser,Switching control to the default window,switchToDefaultContent,,,
+66,Browser,Switch to frame by name: [<Data>],switchToFrame,Frames:frame 2,,
+67,Browser,Switch to frame by name: [<Data>],switchToFrame,To Do:Frame,,
+68,Browser,Switch to frame by name: [<Data>],switchToFrame,@sortKeyGrid,,
+69,Sequence,Set [<Data>] on [<Object>],setByJS,@1,,To do type - Short Key
+70,Sequence,Send Keys [<Data>]  to object [<Object>].,sendKeysToElement,@Enter,,To do type - Short Key
+71,Description,"Click the [<Object>] ",setByJS,@Water related issue,,To do type - Short Key
+72,Use as a defoult,"Click the [<Object>] ",clickByJS,,,To do type - Short Key
+73,Sort order,"Click the [<Object>] ",Click,,,To do type - Short Key
+74,Sort order,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,@Ascending,,To do type - Short Key
+75,Execute,,Wait:wait 2 sec,,,
+76,Execute,,Evidence:Screen Shot,,,
+77,Browser,Switching control to the default window,switchToDefaultContent,,,
+78,Browser,Switch to frame by name: [<Data>],switchToFrame,Frames:frame 2,,
+79,Browser,Switch to frame by name: [<Data>],switchToFrame,Frames:frame 3,,
+"*80",Drill Keys,"Click the [<Object>] ",Click,,,To do type - Drill
+81,Execute,,Wait:wait 2 sec,,,
+82,Browser,Switching control to the default window,switchToDefaultContent,,,
+83,Browser,Switch to frame by name: [<Data>],switchToFrame,Frames:frame 2,,
+84,Browser,Switch to frame by name: [<Data>],switchToFrame,To Do:Frame,,
+85,Browser,Switch to frame by name: [<Data>],switchToFrame,@drillGrid,,
+86,Sequence,Set [<Data>] on [<Object>],setByJS,@2,,To do type - Drill
+87,Table,Set [<Data>] on [<Object>],setByJS,@C1_BI_BILL_VW,,To do type - Drill
+88,Table,Send Keys [<Data>]  to object [<Object>].,sendKeysToElement,@Enter,,To do type - Drill
+89,Feild,Set [<Data>] on [<Object>],setByJS,@BILL_AMT,,To do type - Drill
+90,Feild,Send Keys [<Data>]  to object [<Object>].,sendKeysToElement,@Enter,,To do type - Drill
+91,Execute,,Wait:wait 2 sec,,,
+92,Execute,,Evidence:Screen Shot,,,
+"*93",Browser,Switching control to the default window,switchToDefaultContent,,,
+94,Browser,Switch to frame by name: [<Data>],switchToFrame,Frames:frame 2,,
+95,Save,"Click the [<Object>] ",Click,,,To do type - Drill
+96,Execute,,Wait:wait 2 sec,,,
+"//97",Browser,Accept the alert present,acceptAlert,,,
+98,Execute,,Evidence:Screen Shot,,,

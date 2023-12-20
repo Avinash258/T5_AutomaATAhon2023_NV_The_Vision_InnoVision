@@ -1,0 +1,182 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Fri Aug 11 19:10:49 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [To Do Type]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: %Login_Link%  |  Condition:  | @11-Aug-2023 19:10:52.052
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 19:10:52.052
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: To Do:Username  |  Condition:  | @11-Aug-2023 19:10:52.052
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 19:10:52.052
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:Set  |  Input: To Do:Password  |  Condition:  | @11-Aug-2023 19:10:52.052
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 19:10:52.052
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @11-Aug-2023 19:11:22.022
+[DONE]   | Thread sleep for '30000
+
+
+===================================================================================================
+
+Step:3  |  Object:Admin  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 19:11:23.023
+[DONE]   | Clicking on Admin
+
+
+===================================================================================================
+
+Step:4  |  Object:T  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 19:11:23.023
+[DONE]   | Clicking on T
+
+
+===================================================================================================
+
+Step:5  |  Object:To Do Type  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 19:11:23.023
+[DONE]   | Clicking on To Do Type
+
+
+===================================================================================================
+
+Step:6  |  Object:Add1  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 19:11:24.024
+[DONE]   | Clicking on Add1
+
+
+===================================================================================================
+
+Step:7  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabPage  |  Condition:  | @11-Aug-2023 19:11:24.024
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:8  |  Object:To Do Type Page  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 19:11:26.026
+[DONE]   | Clicking on To Do Type Page
+
+
+===================================================================================================
+
+Step:9  |  Object:To Do Type Page  |  Action:Set  |  Input: @Water  |  Condition:  | @11-Aug-2023 19:11:26.026
+[DONE]   | Entered Text 'Water' on 'To Do Type Page'
+
+
+===================================================================================================
+
+Step:10  |  Object:Description  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 19:11:26.026
+[DONE]   | Clicking on Description
+
+
+===================================================================================================
+
+Step:11  |  Object:Description  |  Action:Set  |  Input: @Water High Bill Consumption  |  Condition:  | @11-Aug-2023 19:11:26.026
+[DONE]   | Entered Text 'Water High Bill Consumption' on 'Description'
+
+
+===================================================================================================
+
+Step:13  |  Object:TD_PRIORITY_FLG  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 19:11:27.027
+[DONE]   | Clicking on TD_PRIORITY_FLG
+
+
+===================================================================================================
+
+Step:14  |  Object:TD_PRIORITY_FLG  |  Action:selectByVisibleText  |  Input: @Priority 20  |  Condition:  | @11-Aug-2023 19:11:27.027
+[DONE]   | Item/s 'Priority 20' is/are selected from list TD_PRIORITY_FLG
+
+
+===================================================================================================
+
+Step:15  |  Object:TD_USAGE_TYPE_FLG  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 19:11:27.027
+[DONE]   | Clicking on TD_USAGE_TYPE_FLG
+
+
+===================================================================================================
+
+Step:16  |  Object:TD_USAGE_TYPE_FLG  |  Action:selectByVisibleText  |  Input: @Manual  |  Condition:  | @11-Aug-2023 19:11:28.028
+[DONE]   | Item/s 'Manual' is/are selected from list TD_USAGE_TYPE_FLG
+
+
+===================================================================================================
+
+Step:17  |  Object:Search for Navigation Option  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 19:11:28.028
+[DONE]   | Clicking on Search for Navigation Option
+
+
+===================================================================================================
+
+Step:18  |  Object:Search navgation  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 19:11:28.028
+[DONE]   | Clicking on Search navgation
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @11-Aug-2023 19:11:58.058
+[DONE]   | Thread sleep for '30000
+
+
+===================================================================================================
+
+Step:20  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabPage  |  Condition:  | @11-Aug-2023 19:11:59.059
+[DEBUG]   | No frame element found by name or id tabPage
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '10.20.0.60', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown
+
+
+===================================================================================================
+
+Step:21  |  Object:Search  |  Action:Click  |  Input:   |  Condition:  | @11-Aug-2023 19:13:10.010
+[FAIL]   | Seems Like the Element [Search] is Not Present/Found in the page Try Adding wait or heal it
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To Do Type
+Executed Steps       : 25
+Passed Steps         : 23
+Failed Steps         : 2
+Time Taken           : 00:02:22
+---------------------------------------------------
+

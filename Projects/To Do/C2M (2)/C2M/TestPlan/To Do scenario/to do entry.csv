@@ -1,0 +1,34 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Execute,,To Do scenario:Login,,,
+2,Execute,,Wait:wait 2 sec,,,
+3,Menu,Wait  for the element [<Object>] to be present,waitForElementToBePresent,,,Home Page
+4,Menu,Click on [<Object>],clickByJS,,,Home Page
+5,To Do,Hover over the [<Object>] element,mouseOverElement,,,Home Page
+6,To Do Entry,"Click the [<Object>] ",Click,,,Home Page
+7,Browser,Wait for [<Data>] milli seconds,pause,@2000,,
+"//8",Search,"Click the [<Object>] ",Click,,,Home Page
+9,Add,Click on [<Object>],Click,,,Home Page
+10,Browser,Switch to frame by name: [<Data>],switchToFrame,To Do:Frame,,
+11,Frame To do select type,Highlight the element [<Object>],highlight,,,Select
+12,selectedType1,"Click the [<Object>] ",Click,,,Select
+13,selectedType1,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,"To Do:To Do type ",,Select
+14,Execute,,Wait:wait 2 sec,,,
+15,OK button,"Click the [<Object>] ",Click,,,Select
+16,Execute,,Wait:wait 2 sec,,,
+17,Subject text,Enter the value [<Data>] in the Field [<Object>],Set,To Do:Subject,,to do objects
+18,Execute,,Wait:wait 2 sec,,,
+"*19",Comment text,Enter the value [<Data>] in the Field [<Object>],Set,"@water related issue ",,to do objects
+20,Priority,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,To Do:Priority,,to do objects
+"*21",Save,Click on [<Object>],clickByJS,,,To
+22,Execute,,Wait:wait 30 sec,,,
+23,Browser,Switching control to the default window,switchToDefaultContent,,,
+24,Browser,Switch to frame by name: [<Data>],switchToFrame,Frames:frame 2,,
+25,Browser,Switch to frame by name: [<Data>],switchToFrame,Frames:frame 1,,
+"*26",Browser,Switch to frame by name: [<Data>],switchToFrame,Frames:frame 3,,
+27,Execute,,Wait:wait 2 sec,,,
+28,Expand (Record information),"Click the [<Object>] ",Click,,,To
+29,Execute,,Wait:wait 2 sec,,,
+30,Execute,,Evidence:Screen Shot,,,
+31,To Do ID,Assert if [<Object>] is present,assertElementPresent,,,To
+32,to do id no,Store the [<Object>] element's text into datasheet:columname [<Data>],storeTextinDataSheet,To Do:To do Id,,To
+33,Execute,,To Do scenario:To do entry-search,,,

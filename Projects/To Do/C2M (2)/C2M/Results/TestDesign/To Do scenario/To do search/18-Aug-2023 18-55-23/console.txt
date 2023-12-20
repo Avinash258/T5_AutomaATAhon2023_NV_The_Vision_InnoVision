@@ -1,0 +1,219 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 20.0.1
+java.home            : C:\Program Files\Java\jdk-20
+os.name              : Windows 11
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Fri Aug 18 18:55:23 IST 2023
+Loading Browser Profile
+Loading RunManager
+[Scenario:To Do scenario] [TestCase: To do search] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-161] WARN com.NewVision.InnoVision.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+[pool-70-thread-1] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[pool-70-thread-1] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[pool-70-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\shailja.rajak\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 48681
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1692365125.095][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
+2023-08-18 18:55:25:08S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input:*********  | Conditon:  | @18-Aug-2023 18:55:25.025
+%Login_Link% changed to http://172.40.0.60:8009/ouaf/cis.jsp
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+===================================================================================================
+
+Step:2   | Object: j_username | Action: Click | Input:*********  | Conditon:  | @18-Aug-2023 18:55:25.025
+Using @name [j_username], Object 'j_username' Found in 29 ms
+[DONE]   | Clicking on j_username
+
+===================================================================================================
+
+Step:3   | Object: j_username | Action: Set | Input:*********  | Conditon:  | @18-Aug-2023 18:55:26.026
+Using @name [j_username], Object 'j_username' Found in 20 ms
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+===================================================================================================
+
+Step:4   | Object: j_password | Action: Click | Input:*********  | Conditon:  | @18-Aug-2023 18:55:26.026
+Using @name [j_password], Object 'j_password' Found in 26 ms
+[DONE]   | Clicking on j_password
+
+===================================================================================================
+
+Step:5   | Object: j_password | Action: Set | Input:*********  | Conditon:  | @18-Aug-2023 18:55:26.026
+Using @name [j_password], Object 'j_password' Found in 21 ms
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+===================================================================================================
+
+Step:6   | Object: Login | Action: Click | Input:*********  | Conditon:  | @18-Aug-2023 18:55:26.026
+Using @id [loginButton], Object 'Login' Found in 20 ms
+[DONE]   | Clicking on Login
+
+===================================================================================================
+
+Step:2   | Object: Menu | Action: Click | Input:*********  | Conditon:  | @18-Aug-2023 18:55:26.026
+Using @id [IM_menuButton], Object 'Menu' Found in 4826 ms
+[DONE]   | Clicking on Menu
+
+===================================================================================================
+
+Step:3   | Object: To Do | Action: mouseOverElement | Input:*********  | Conditon:  | @18-Aug-2023 18:55:31.031
+Using @relative_xpath [(//*[normalize-space(text())='To Do'])[1]], Object 'To Do' Found in 62 ms
+[DONE]   | Mouse Over to Element 'To Do
+
+===================================================================================================
+
+Step:4   | Object: To Do Search | Action: clickByJS | Input:*********  | Conditon:  | @18-Aug-2023 18:55:31.031
+Using @relative_xpath [//*[normalize-space(text())='To Do Search']], Object 'To Do Search' Found in 55 ms
+[DONE]   | Clicked on To Do Search
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @18-Aug-2023 18:55:31.031
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:6   | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @18-Aug-2023 18:55:33.033
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+===================================================================================================
+
+Step:9   | Object: to do type filter | Action: Click | Input:*********  | Conditon:  | @18-Aug-2023 18:55:34.034
+Using @name [TD_TYPE_FILTER_FLG], Object 'to do type filter' Found in 27 ms
+[DONE]   | Clicking on to do type filter
+
+===================================================================================================
+
+Step:10  | Object: to do type filter | Action: selectByVisibleText | Input:*********  | Conditon:  | @18-Aug-2023 18:55:34.034
+Using @name [TD_TYPE_FILTER_FLG], Object 'to do type filter' Found in 41 ms
+[DONE]   | Item/s 'Specific To Do Type' is/are selected from list to do type filter
+
+===================================================================================================
+
+Step:11  | Object: To Do Type | Action: Set | Input:*********  | Conditon:  | @18-Aug-2023 18:55:34.034
+Using @name [TD_TYPE_CD], Object 'To Do Type' Found in 31 ms
+[DONE]   | Entered Text 'WATER_2' on 'To Do Type'
+
+===================================================================================================
+
+Step:12  | Object: To Do Type | Action: sendKeysToElement | Input:*********  | Conditon:  | @18-Aug-2023 18:55:35.035
+Using @name [TD_TYPE_CD], Object 'To Do Type' Found in 22 ms
+[DONE]   | Keys Submitted
+
+===================================================================================================
+
+Step:13  | Object: User filter | Action: selectByVisibleText | Input:*********  | Conditon:  | @18-Aug-2023 18:55:35.035
+Using @name [TD_USER_FILTER_FLG], Object 'User filter' Found in 21 ms
+[DONE]   | Item/s 'Completed By User' is/are selected from list User filter
+
+===================================================================================================
+
+Step:14  | Object: User id | Action: Click | Input:*********  | Conditon:  | @18-Aug-2023 18:55:35.035
+Using @xpath [//*[@id="USER_ID"]], Object 'User id' Found in 34 ms
+[DONE]   | Clicking on User id
+
+===================================================================================================
+
+Step:15  | Object: User id | Action: Set | Input:*********  | Conditon:  | @18-Aug-2023 18:55:35.035
+Using @xpath [//*[@id="USER_ID"]], Object 'User id' Found in 25 ms
+[DONE]   | Entered Text 'SYSUSER' on 'User id'
+
+===================================================================================================
+
+Step:16  | Object: User id | Action: sendKeysToElement | Input:*********  | Conditon:  | @18-Aug-2023 18:55:35.035
+Using @xpath [//*[@id="USER_ID"]], Object 'User id' Found in 19 ms
+[DONE]   | Keys Submitted
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @18-Aug-2023 18:55:35.035
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:18  | Object: Status Filter | Action: selectByVisibleText | Input:*********  | Conditon:  | @18-Aug-2023 18:55:37.037
+Using @name [TD_STAT_FILTER_FLG], Object 'Status Filter' Found in 21 ms
+[DONE]   | Item/s 'All' is/are selected from list Status Filter
+
+===================================================================================================
+
+Step:19  | Object: Search | Action: Click | Input:*********  | Conditon:  | @18-Aug-2023 18:55:37.037
+Using @name [BU_MAIN_SRCH], Object 'Search' Found in 22 ms
+[DONE]   | Clicking on Search
+
+===================================================================================================
+
+Step:20  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @18-Aug-2023 18:55:38.038
+[DONE]   | Webdriver switched to new frame by name[dataframe]
+
+===================================================================================================
+
+Step:21  | Object: Expand Scroll | Action: Click | Input:*********  | Conditon:  | @18-Aug-2023 18:55:38.038
+Using @xpath [//*[@id="expandScrollControl"]], Object 'Expand Scroll' Found in 37 ms
+[DONE]   | Clicking on Expand Scroll
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @18-Aug-2023 18:55:38.038
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:23  | Object: Browser | Action: switchToDefaultContent | Input:*********  | Conditon:  | @18-Aug-2023 18:55:40.040
+[DONE]   | Webdriver switched to default content
+
+===================================================================================================
+
+Step:24  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @18-Aug-2023 18:55:40.040
+[DONE]   | Webdriver switched to new frame by name[main]
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @18-Aug-2023 18:55:40.040
+[DONE]   | Thread sleep for '1000
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: takeScreenshot | Input:*********  | Conditon:  | @18-Aug-2023 18:55:41.041
+[PASS]   | Screenshot is taken
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To do search
+Executed Steps       : 29
+Passed Steps         : 29
+Failed Steps         : 0
+Time Taken           : 00:00:19
+-----------------------------------------------------
+
+Run Finished on Fri Aug 18 18:55:42 IST 2023
+-----------------------------------------------------
+ExecutionDate        : 18-Aug-2023 18-55-23
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:19
+ReportPath           : file:///C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\To do search\18-Aug-2023 18-55-23\summary.html
+-----------------------------------------------------
+[Thread-161] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\To do search\18-Aug-2023 18-55-23\summary.html
+[Thread-161] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\To do search\18-Aug-2023 18-55-23\summary.html]

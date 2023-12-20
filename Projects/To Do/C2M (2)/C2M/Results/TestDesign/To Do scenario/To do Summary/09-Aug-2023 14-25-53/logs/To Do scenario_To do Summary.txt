@@ -1,0 +1,146 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Wed Aug 09 14:25:53 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [To do Summary]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: %Login_Link%  |  Condition:  | @09-Aug-2023 14:25:56.056
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @09-Aug-2023 14:25:56.056
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: select:Username  |  Condition:  | @09-Aug-2023 14:25:56.056
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @09-Aug-2023 14:25:56.056
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:Set  |  Input: select:Password  |  Condition:  | @09-Aug-2023 14:25:56.056
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @09-Aug-2023 14:25:57.057
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @09-Aug-2023 14:26:01.001
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @09-Aug-2023 14:26:01.001
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do Summary1  |  Action:Click  |  Input:   |  Condition:  | @09-Aug-2023 14:26:01.001
+[DONE]   | Clicking on To Do Summary1
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @1000  |  Condition:  | @09-Aug-2023 14:26:03.003
+[DONE]   | Thread sleep for '1000
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabPage  |  Condition:  | @09-Aug-2023 14:26:04.004
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:7  |  Object:Browser  |  Action:switchToFrame  |  Input: @dataframe  |  Condition:  | @09-Aug-2023 14:26:04.004
+[DEBUG]   | No frame element found by name or id dataframe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '10.20.0.60', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown
+
+
+===================================================================================================
+
+Step:8  |  Object:To Do Summary-Main-List var so1  |  Action:highlight  |  Input:   |  Condition:  | @09-Aug-2023 14:26:04.004
+[PASS]   | Element Highlighted
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @09-Aug-2023 14:26:35.035
+[DONE]   | Thread sleep for '30000
+
+
+===================================================================================================
+
+Step:10  |  Object:12  |  Action:Click  |  Input:   |  Condition:  | @09-Aug-2023 14:27:27.027
+[FAIL]   | Seems Like the Element [12] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @09-Aug-2023 14:27:30.030
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:14  |  Object:Browser  |  Action:switchToDefaultContent  |  Input:   |  Condition:  | @09-Aug-2023 14:27:30.030
+[DONE]   | Webdriver switched to default content
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @09-Aug-2023 14:28:00.000
+[DONE]   | Thread sleep for '30000
+
+
+===================================================================================================
+
+Step:17  |  Object:SORT_BY_FLG  |  Action:Click  |  Input:   |  Condition:  | @09-Aug-2023 14:29:13.013
+[FAIL]   | Seems Like the Element [SORT_BY_FLG] is Not Present/Found in the page Try Adding wait or heal it
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To do Summary
+Executed Steps       : 19
+Passed Steps         : 16
+Failed Steps         : 3
+Time Taken           : 00:03:21
+---------------------------------------------------
+

@@ -1,0 +1,198 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Fri Aug 18 12:50:31 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [To do search]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: %Login_Link%  |  Condition:  | @18-Aug-2023 12:50:34.034
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 12:50:34.034
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: To Do:Username  |  Condition:  | @18-Aug-2023 12:50:34.034
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 12:50:34.034
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:Set  |  Input: To Do:Password  |  Condition:  | @18-Aug-2023 12:50:34.034
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 12:50:35.035
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 12:50:41.041
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @18-Aug-2023 12:50:41.041
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do Search  |  Action:clickByJS  |  Input:   |  Condition:  | @18-Aug-2023 12:50:41.041
+[DONE]   | Clicked on To Do Search
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @18-Aug-2023 12:50:43.043
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabPage  |  Condition:  | @18-Aug-2023 12:50:43.043
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:7  |  Object:Related to do filter  |  Action:selectByVisibleText  |  Input: @Specific To Do  |  Condition:  | @18-Aug-2023 12:50:46.046
+[DONE]   | Item/s 'Specific To Do' is/are selected from list Related to do filter
+
+
+===================================================================================================
+
+Step:8  |  Object:To Do ID  |  Action:Set  |  Input: @ 35867720906688  |  Condition:  | @18-Aug-2023 12:50:48.048
+[DONE]   | Entered Text ' 35867720906688' on 'To Do ID'
+
+
+===================================================================================================
+
+Step:9  |  Object:to do type filter  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 12:50:51.051
+[DONE]   | Clicking on to do type filter
+
+
+===================================================================================================
+
+Step:10  |  Object:to do type filter  |  Action:selectByVisibleText  |  Input: @Specific To Do Type  |  Condition:  | @18-Aug-2023 12:50:53.053
+[DONE]   | Item/s 'Specific To Do Type' is/are selected from list to do type filter
+
+
+===================================================================================================
+
+Step:11  |  Object:To Do Type  |  Action:Set  |  Input: @WATER_2  |  Condition:  | @18-Aug-2023 12:50:54.054
+[DONE]   | Entered Text 'WATER_2' on 'To Do Type'
+
+
+===================================================================================================
+
+Step:12  |  Object:To Do Type  |  Action:sendKeysToElement  |  Input: @Enter  |  Condition:  | @18-Aug-2023 12:50:55.055
+[DONE]   | Keys Submitted
+
+
+===================================================================================================
+
+Step:13  |  Object:User filter  |  Action:selectByVisibleText  |  Input: @Completed By User  |  Condition:  | @18-Aug-2023 12:50:58.058
+[DONE]   | Item/s 'Completed By User' is/are selected from list User filter
+
+
+===================================================================================================
+
+Step:14  |  Object:User id  |  Action:setByJS  |  Input: @SYSUSER  |  Condition:  | @18-Aug-2023 12:51:00.000
+[DONE]   | Entered Text 'SYSUSER' on 'User id'
+
+
+===================================================================================================
+
+Step:15  |  Object:User id  |  Action:sendKeysToElement  |  Input: @Enter  |  Condition:  | @18-Aug-2023 12:51:09.009
+[DONE]   | Keys Submitted
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @18-Aug-2023 12:51:19.019
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:17  |  Object:Status Filter  |  Action:selectByVisibleText  |  Input: @All  |  Condition:  | @18-Aug-2023 12:51:49.049
+[DONE]   | Item/s 'All' is/are selected from list Status Filter
+
+
+===================================================================================================
+
+Step:18  |  Object:Search  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 12:51:51.051
+[DONE]   | Clicking on Search
+
+
+===================================================================================================
+
+Step:19  |  Object:Browser  |  Action:switchToFrame  |  Input: @dataframe  |  Condition:  | @18-Aug-2023 12:51:53.053
+[DEBUG]   | unexpected alert open: {Alert text : User field missing.
+
+
+If you need support please supply the following info to system support:
+
+Message number: 11001, 101
+}
+  (Session info: chrome=115.0.5790.173): User field missing.
+
+
+If you need support please supply the following info to system support:
+
+Message number: 11001, 101
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '10.20.0.28', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.173, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SHAILJ~1.RAJ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64412}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 604fb9781eb47f096fa73198c061b6df
+*** Element info: {Using=css selector, value=frame[name='dataframe'],iframe[name='dataframe']}
+
+
+===================================================================================================
+
+Step:20  |  Object:Expand Scroll  |  Action:Click  |  Input:   |  Condition:  | @18-Aug-2023 12:53:21.021
+[FAIL]   | Driver Chrome Closed / Could not be reached
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To do search
+Executed Steps       : 25
+Passed Steps         : 23
+Failed Steps         : 2
+Time Taken           : 00:02:50
+---------------------------------------------------
+

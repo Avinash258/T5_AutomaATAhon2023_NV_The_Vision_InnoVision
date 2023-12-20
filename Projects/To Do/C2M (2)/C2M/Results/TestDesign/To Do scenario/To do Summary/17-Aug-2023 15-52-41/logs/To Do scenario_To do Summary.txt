@@ -1,0 +1,131 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Thu Aug 17 15:52:41 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [To do Summary]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: %Login_Link%  |  Condition:  | @17-Aug-2023 15:52:45.045
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 15:52:45.045
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: To Do:Username  |  Condition:  | @17-Aug-2023 15:52:45.045
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 15:52:46.046
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:Set  |  Input: To Do:Password  |  Condition:  | @17-Aug-2023 15:52:46.046
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 15:52:46.046
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 15:52:53.053
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @17-Aug-2023 15:52:53.053
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do Summary1  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 15:52:53.053
+[DONE]   | Clicking on To Do Summary1
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @1000  |  Condition:  | @17-Aug-2023 15:52:54.054
+[DONE]   | Thread sleep for '1000
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabPage  |  Condition:  | @17-Aug-2023 15:52:55.055
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:7  |  Object:Browser  |  Action:switchToFrame  |  Input: @dataframe  |  Condition:  | @17-Aug-2023 15:52:55.055
+[DONE]   | Webdriver switched to new frame by name[dataframe]
+
+
+===================================================================================================
+
+Step:8  |  Object:To Do Summary-Main-List var so1  |  Action:highlight  |  Input:   |  Condition:  | @17-Aug-2023 15:52:55.055
+[PASS]   | Element Highlighted
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @17-Aug-2023 15:53:26.026
+[DONE]   | Thread sleep for '30000
+
+
+===================================================================================================
+
+Step:11  |  Object:WObject0  |  Action:setObjectProperty  |  Input: To Do:To Do type   |  Condition:#To Do type   | @17-Aug-2023 15:53:26.026
+[DONE]   | Setting Object Property for #To Do type  with Water High Bill Consumption for Object [To do Summary - WObject0]
+
+
+===================================================================================================
+
+Step:12  |  Object:WObject0  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 15:53:37.037
+[FAIL]   | Seems Like the Element [WObject0] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @17-Aug-2023 15:54:08.008
+[DONE]   | Thread sleep for '30000
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To do Summary
+Executed Steps       : 17
+Passed Steps         : 16
+Failed Steps         : 1
+Time Taken           : 00:01:27
+---------------------------------------------------
+

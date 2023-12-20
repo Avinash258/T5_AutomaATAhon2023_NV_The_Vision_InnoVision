@@ -1,0 +1,113 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Thu Aug 03 16:33:56 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [TO Do List]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: @http://172.40.0.60:8009/ouaf/cis.jsp  |  Condition:  | @03-Aug-2023 16:33:59.059
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @03-Aug-2023 16:33:59.059
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: @SYSUSER  |  Condition:  | @03-Aug-2023 16:33:59.059
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @03-Aug-2023 16:33:59.059
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:setEncrypted  |  Input: @S/DuxGW4WhUofNaPo6mQyw== Enc  |  Condition:  | @03-Aug-2023 16:33:59.059
+[DONE]   | Entered Encrypted Text S/DuxGW4WhUofNaPo6mQyw== on j_password
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @03-Aug-2023 16:33:59.059
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @03-Aug-2023 16:34:04.004
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @03-Aug-2023 16:34:05.005
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do List  |  Action:Click  |  Input:   |  Condition:  | @03-Aug-2023 16:34:05.005
+[DONE]   | Clicking on To Do List
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @1000  |  Condition:  | @03-Aug-2023 16:34:06.006
+[DONE]   | Thread sleep for '1000
+
+
+===================================================================================================
+
+Step:7  |  Object:search  |  Action:clickByJS  |  Input:   |  Condition:  | @03-Aug-2023 16:34:06.006
+[DONE]   | Clicked on search
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @03-Aug-2023 16:34:36.036
+[DONE]   | Thread sleep for '30000
+
+
+===================================================================================================
+
+Step:9  |  Object:to do type search  |  Action:clickByJS  |  Input:   |  Condition:  | @03-Aug-2023 16:34:46.046
+[FAIL]   | Seems Like the Element [to do type search] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:10  |  Object:to do type search  |  Action:setByJS  |  Input: @ACTVTAPY  |  Condition:  | @03-Aug-2023 16:34:57.057
+[FAIL]   | Seems Like the Element [to do type search] is Not Present/Found in the page Try Adding wait or heal it
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:TO Do List
+Executed Steps       : 14
+Passed Steps         : 12
+Failed Steps         : 2
+Time Taken           : 00:01:02
+---------------------------------------------------
+

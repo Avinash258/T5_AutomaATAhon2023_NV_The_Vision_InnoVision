@@ -1,0 +1,136 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 20.0.1
+java.home            : C:\Program Files\Java\jdk-20
+os.name              : Windows 11
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Fri Aug 11 18:04:27 IST 2023
+Loading Browser Profile
+Loading RunManager
+[Scenario:To Do scenario] [TestCase: To Do Type] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-74] WARN com.NewVision.InnoVision.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+[pool-26-thread-1] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[pool-26-thread-1] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[pool-26-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\shailja.rajak\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 54486
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1691757269.470][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
+2023-08-11 18:04:29:08S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input:*********  | Conditon:  | @11-Aug-2023 18:04:29.029
+%Login_Link% changed to http://172.40.0.60:8009/ouaf/cis.jsp
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+===================================================================================================
+
+Step:2   | Object: j_username | Action: Click | Input:*********  | Conditon:  | @11-Aug-2023 18:04:30.030
+Using @name [j_username], Object 'j_username' Found in 37 ms
+[DONE]   | Clicking on j_username
+
+===================================================================================================
+
+Step:3   | Object: j_username | Action: Set | Input:*********  | Conditon:  | @11-Aug-2023 18:04:31.031
+Using @name [j_username], Object 'j_username' Found in 22 ms
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+===================================================================================================
+
+Step:4   | Object: j_password | Action: Click | Input:*********  | Conditon:  | @11-Aug-2023 18:04:31.031
+Using @name [j_password], Object 'j_password' Found in 24 ms
+[DONE]   | Clicking on j_password
+
+===================================================================================================
+
+Step:5   | Object: j_password | Action: Set | Input:*********  | Conditon:  | @11-Aug-2023 18:04:31.031
+Using @name [j_password], Object 'j_password' Found in 17 ms
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+===================================================================================================
+
+Step:6   | Object: Login | Action: Click | Input:*********  | Conditon:  | @11-Aug-2023 18:04:31.031
+Using @id [loginButton], Object 'Login' Found in 17 ms
+[DONE]   | Clicking on Login
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @11-Aug-2023 18:04:31.031
+[DONE]   | Thread sleep for '30000
+
+===================================================================================================
+
+Step:3   | Object: Admin | Action: Click | Input:*********  | Conditon:  | @11-Aug-2023 18:05:01.001
+Using @id [IM_adminButton], Object 'Admin' Found in 60 ms
+[DONE]   | Clicking on Admin
+
+===================================================================================================
+
+Step:4   | Object: T | Action: Click | Input:*********  | Conditon:  | @11-Aug-2023 18:05:01.001
+Using @relative_xpath [//*[normalize-space(text())='T']], Object 'T' Found in 76 ms
+[DONE]   | Clicking on T
+
+===================================================================================================
+
+Step:5   | Object: To Do Type | Action: Click | Input:*********  | Conditon:  | @11-Aug-2023 18:05:01.001
+Using @id [CI_SG_ADMIN_T_subMenuItem1x11], Object 'To Do Type' Found in 56 ms
+[DONE]   | Clicking on To Do Type
+
+===================================================================================================
+
+Step:6   | Object: Add1 | Action: Click | Input:*********  | Conditon:  | @11-Aug-2023 18:05:02.002
+Using @relative_xpath [//*[normalize-space(text())='Add']], Object 'Add1' Found in 50 ms
+[DONE]   | Clicking on Add1
+
+===================================================================================================
+
+Step:7   | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @11-Aug-2023 18:05:02.002
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+===================================================================================================
+
+Step:8   | Object: To Do Type Page | Action: Click | Input:*********  | Conditon:  | @11-Aug-2023 18:05:02.002
+Using @name [TD_TYPE_CD], Object 'To Do Type Page' Found in 1499 ms
+[DONE]   | Clicking on To Do Type Page
+
+===================================================================================================
+
+Step:9   | Object: To Do Type Page | Action: Set | Input:*********  | Conditon:  | @11-Aug-2023 18:05:03.003
+Using @name [TD_TYPE_CD], Object 'To Do Type Page' Found in 24 ms
+[DONE]   | Entered Text 'Water' on 'To Do Type Page'
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To Do Type
+Executed Steps       : 14
+Passed Steps         : 14
+Failed Steps         : 0
+Time Taken           : 00:00:36
+-----------------------------------------------------
+
+Run Finished on Fri Aug 11 18:05:04 IST 2023
+-----------------------------------------------------
+ExecutionDate        : 11-Aug-2023 18-04-27
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:36
+ReportPath           : file:///C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\To Do Type\11-Aug-2023 18-04-27\summary.html
+-----------------------------------------------------
+[Thread-74] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\To Do Type\11-Aug-2023 18-04-27\summary.html
+[Thread-74] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\To Do Type\11-Aug-2023 18-04-27\summary.html]

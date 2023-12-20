@@ -1,0 +1,155 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Thu Aug 17 22:59:25 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [TO Do List]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: %Login_Link%  |  Condition:  | @17-Aug-2023 22:59:29.029
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 22:59:29.029
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: To Do:Username  |  Condition:  | @17-Aug-2023 22:59:29.029
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 22:59:29.029
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:Set  |  Input: To Do:Password  |  Condition:  | @17-Aug-2023 22:59:30.030
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 22:59:30.030
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 22:59:37.037
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @17-Aug-2023 22:59:37.037
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do List  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 22:59:37.037
+[DONE]   | Clicking on To Do List
+
+
+===================================================================================================
+
+Step:5  |  Object:Browser  |  Action:switchToFrame  |  Input: To Do:Frame  |  Condition:  | @17-Aug-2023 22:59:40.040
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @17-Aug-2023 22:59:42.042
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:10  |  Object:enter type to do  |  Action:setByJS  |  Input: To Do:To Do type   |  Condition:  | @17-Aug-2023 22:59:42.042
+[DONE]   | Entered Text 'Water_2' on 'enter type to do'
+
+
+===================================================================================================
+
+Step:11  |  Object:enter type to do  |  Action:sendKeysToElement  |  Input: @Enter  |  Condition:  | @17-Aug-2023 22:59:42.042
+[DONE]   | Keys Submitted
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @17-Aug-2023 22:59:44.044
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:13  |  Object:Filter By  |  Action:clickByJS  |  Input:   |  Condition:  | @17-Aug-2023 22:59:44.044
+[DONE]   | Clicked on Filter By
+
+
+===================================================================================================
+
+Step:14  |  Object:Filter By  |  Action:selectByVisibleText  |  Input: To Do:Filter By- To do List  |  Condition:  | @17-Aug-2023 22:59:45.045
+[DONE]   | Item/s 'Open' is/are selected from list Filter By
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @17-Aug-2023 23:00:15.015
+[DONE]   | Thread sleep for '30000
+
+
+===================================================================================================
+
+Step:16  |  Object:Browser  |  Action:takeScreenshot  |  Input:   |  Condition:  | @17-Aug-2023 23:00:15.015
+[PASS]   | Screenshot is taken
+
+
+===================================================================================================
+
+Step:17  |  Object:TD_ENTRY_LIST:0$CHECKED_SW  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 23:01:29.029
+[FAIL]   | Seems Like the Element [TD_ENTRY_LIST:0$CHECKED_SW] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:17  |  Object:TD_ENTRY_LIST:0$CHECKED_SW  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 23:02:42.042
+[FAIL]   | Seems Like the Element [TD_ENTRY_LIST:0$CHECKED_SW] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:18  |  Object:Assign  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 23:03:44.044
+[FAIL]   | Driver Chrome Closed / Could not be reached
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:TO Do List
+Executed Steps       : 21
+Passed Steps         : 18
+Failed Steps         : 3
+Time Taken           : 00:04:19
+---------------------------------------------------
+

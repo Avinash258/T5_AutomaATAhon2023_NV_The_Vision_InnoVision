@@ -1,0 +1,240 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 20.0.1
+java.home            : C:\Program Files\Java\jdk-20
+os.name              : Windows 11
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Sat Aug 12 13:24:54 IST 2023
+Loading Browser Profile
+Loading RunManager
+[Scenario:To Do scenario] [TestCase: To Do Type] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-34] WARN com.NewVision.InnoVision.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+[pool-15-thread-1] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[pool-15-thread-1] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[pool-15-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\shailja.rajak\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 39408
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1691826896.310][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
+2023-08-12 13:24:56:08S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input:*********  | Conditon:  | @12-Aug-2023 13:24:56.056
+%Login_Link% changed to http://172.40.0.60:8009/ouaf/cis.jsp
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+===================================================================================================
+
+Step:2   | Object: j_username | Action: Click | Input:*********  | Conditon:  | @12-Aug-2023 13:24:57.057
+Using @name [j_username], Object 'j_username' Found in 24 ms
+[DONE]   | Clicking on j_username
+
+===================================================================================================
+
+Step:3   | Object: j_username | Action: Set | Input:*********  | Conditon:  | @12-Aug-2023 13:24:57.057
+Using @name [j_username], Object 'j_username' Found in 17 ms
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+===================================================================================================
+
+Step:4   | Object: j_password | Action: Click | Input:*********  | Conditon:  | @12-Aug-2023 13:24:57.057
+Using @name [j_password], Object 'j_password' Found in 20 ms
+[DONE]   | Clicking on j_password
+
+===================================================================================================
+
+Step:5   | Object: j_password | Action: Set | Input:*********  | Conditon:  | @12-Aug-2023 13:24:57.057
+Using @name [j_password], Object 'j_password' Found in 16 ms
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+===================================================================================================
+
+Step:6   | Object: Login | Action: Click | Input:*********  | Conditon:  | @12-Aug-2023 13:24:57.057
+Using @id [loginButton], Object 'Login' Found in 17 ms
+[DONE]   | Clicking on Login
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @12-Aug-2023 13:24:58.058
+[DONE]   | Thread sleep for '30000
+
+===================================================================================================
+
+Step:3   | Object: Admin | Action: Click | Input:*********  | Conditon:  | @12-Aug-2023 13:25:28.028
+Using @id [IM_adminButton], Object 'Admin' Found in 57 ms
+[DONE]   | Clicking on Admin
+
+===================================================================================================
+
+Step:4   | Object: T | Action: Click | Input:*********  | Conditon:  | @12-Aug-2023 13:25:28.028
+Using @relative_xpath [//*[normalize-space(text())='T']], Object 'T' Found in 59 ms
+[DONE]   | Clicking on T
+
+===================================================================================================
+
+Step:5   | Object: To Do Type | Action: Click | Input:*********  | Conditon:  | @12-Aug-2023 13:25:28.028
+Using @id [CI_SG_ADMIN_T_subMenuItem1x11], Object 'To Do Type' Found in 49 ms
+[DONE]   | Clicking on To Do Type
+
+===================================================================================================
+
+Step:6   | Object: Add1 | Action: Click | Input:*********  | Conditon:  | @12-Aug-2023 13:25:28.028
+Using @relative_xpath [//*[normalize-space(text())='Add']], Object 'Add1' Found in 48 ms
+[DONE]   | Clicking on Add1
+
+===================================================================================================
+
+Step:7   | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @12-Aug-2023 13:25:28.028
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+===================================================================================================
+
+Step:8   | Object: To Do Type Page | Action: Click | Input:*********  | Conditon:  | @12-Aug-2023 13:25:28.028
+Using @name [TD_TYPE_CD], Object 'To Do Type Page' Found in 3041 ms
+[DONE]   | Clicking on To Do Type Page
+
+===================================================================================================
+
+Step:9   | Object: To Do Type Page | Action: Set | Input:*********  | Conditon:  | @12-Aug-2023 13:25:32.032
+Using @name [TD_TYPE_CD], Object 'To Do Type Page' Found in 17 ms
+[DONE]   | Entered Text 'Water' on 'To Do Type Page'
+
+===================================================================================================
+
+Step:10  | Object: Description | Action: Click | Input:*********  | Conditon:  | @12-Aug-2023 13:25:32.032
+Using @name [DESCR], Object 'Description' Found in 21 ms
+[DONE]   | Clicking on Description
+
+===================================================================================================
+
+Step:11  | Object: Description | Action: Set | Input:*********  | Conditon:  | @12-Aug-2023 13:25:32.032
+Using @name [DESCR], Object 'Description' Found in 29 ms
+[DONE]   | Entered Text 'Water High Bill Consumption' on 'Description'
+
+===================================================================================================
+
+Step:13  | Object: TD_PRIORITY_FLG | Action: Click | Input:*********  | Conditon:  | @12-Aug-2023 13:25:32.032
+Using @name [TD_PRIORITY_FLG], Object 'TD_PRIORITY_FLG' Found in 23 ms
+[DONE]   | Clicking on TD_PRIORITY_FLG
+
+===================================================================================================
+
+Step:14  | Object: TD_PRIORITY_FLG | Action: selectByVisibleText | Input:*********  | Conditon:  | @12-Aug-2023 13:25:32.032
+Using @name [TD_PRIORITY_FLG], Object 'TD_PRIORITY_FLG' Found in 18 ms
+[DONE]   | Item/s 'Priority 20' is/are selected from list TD_PRIORITY_FLG
+
+===================================================================================================
+
+Step:15  | Object: TD_USAGE_TYPE_FLG | Action: Click | Input:*********  | Conditon:  | @12-Aug-2023 13:25:32.032
+Using @name [TD_USAGE_TYPE_FLG], Object 'TD_USAGE_TYPE_FLG' Found in 22 ms
+[DONE]   | Clicking on TD_USAGE_TYPE_FLG
+
+===================================================================================================
+
+Step:16  | Object: TD_USAGE_TYPE_FLG | Action: selectByVisibleText | Input:*********  | Conditon:  | @12-Aug-2023 13:25:32.032
+Using @name [TD_USAGE_TYPE_FLG], Object 'TD_USAGE_TYPE_FLG' Found in 18 ms
+[DONE]   | Item/s 'Manual' is/are selected from list TD_USAGE_TYPE_FLG
+
+===================================================================================================
+
+Step:17  | Object: Search for Navigation Option | Action: Click | Input:*********  | Conditon:  | @12-Aug-2023 13:25:32.032
+Using @name [IM_NAV_OPT_CD], Object 'Search for Navigation Option' Found in 25 ms
+[DONE]   | Clicking on Search for Navigation Option
+
+===================================================================================================
+
+Step:18  | Object: Search navgation | Action: Click | Input:*********  | Conditon:  | @12-Aug-2023 13:25:33.033
+Using @xpath [//*[@id="IM_NAV_OPT_CD"]], Object 'Search navgation' Found in 20 ms
+[DONE]   | Clicking on Search navgation
+
+===================================================================================================
+
+Step:19  | Object: Browser | Action: createAndSwitchToWindow | Input:*********  | Conditon:  | @12-Aug-2023 13:25:33.033
+[DONE]   | New Window Created and Switched to that 
+
+===================================================================================================
+
+Step:20  | Object: Search | Action: Click | Input:*********  | Conditon:  | @12-Aug-2023 13:25:33.033
+Using @name [BU_section01_sec01_03], Object 'Search' Found in 21 ms
+[DONE]   | Clicking on Search
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @12-Aug-2023 13:25:34.034
+[DONE]   | Thread sleep for '30000
+
+===================================================================================================
+
+Step:22  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @12-Aug-2023 13:26:04.004
+[DONE]   | Webdriver switched to new frame by name[dataframe]
+
+===================================================================================================
+
+Step:23  | Object: Rebate Claim | Action: Click | Input:*********  | Conditon:  | @12-Aug-2023 13:26:04.004
+Using @id [SEARCH_RESULTS:25$DESCR], Object 'Rebate Claim' Found in 17 ms
+[DONE]   | Clicking on Rebate Claim
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @12-Aug-2023 13:28:45.045
+[AWT-EventQueue-0] INFO org.eclipse.jetty.util.log - Logging initialized @1889006ms to org.eclipse.jetty.util.log.Slf4jLog
+jar:file:/C:/InnoVision-2.0-setup/InnoVision-1.0/lib/InnoVision-extensionconnect-1.0.jar!/localhost
+2023-08-12 13:28:58:08S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer startRecord:Launching Server for Record
+Current Directory: C:\InnoVision-2.0-setup\InnoVision-1.0
+2023-08-12 13:28:58:08S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Starting Server
+[SocketServer] INFO org.eclipse.jetty.server.Server - jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 20.0.1+9-29
+[SocketServer] INFO org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+[SocketServer] INFO org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+[SocketServer] INFO org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+[SocketServer] INFO org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@35a7139b{/,null,AVAILABLE}
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae4[SocketServer] INFO org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@4f08c5d5(localhost,h=[localhost],a=[],w=[]) for SslContextFactory@51cfe754[provider=null,keyStore=jar:file:/C:/InnoVision-2.0-setup/InnoVision-1.0/lib/InnoVision-extensionconnect-1.0.jar!/localhost,trustStore=null]
+9-refs/branch-heads/5735@{#1052}) on port 7842
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[SocketServer] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@50c3a451{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[SocketServer] INFO org.eclipse.jetty.server.Server - Started @1889246ms
+[1691827138.993][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
+2023-08-12 13:28:59:08S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@50c3a451{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.session - node0 Stopped scavenging
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@35a7139b{/,null,STOPPED}
+jar:file:/C:/InnoVision-2.0-setup/InnoVision-1.0/lib/InnoVision-extensionconnect-1.0.jar!/localhost2023-08-12 13:29:11:08S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Server Stopped
+
+[DONE]   | Thread sleep for '30000
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To Do Type
+Executed Steps       : 28
+Passed Steps         : 28
+Failed Steps         : 0
+Time Taken           : 00:04:20
+-----------------------------------------------------
+
+Run Finished on Sat Aug 12 13:29:15 IST 2023
+-----------------------------------------------------
+ExecutionDate        : 12-Aug-2023 13-24-54
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:04:21
+ReportPath           : file:///C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\To Do Type\12-Aug-2023 13-24-54\summary.html
+-----------------------------------------------------
+[Thread-34] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\To Do Type\12-Aug-2023 13-24-54\summary.html
+[Thread-34] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\To Do Type\12-Aug-2023 13-24-54\summary.html]

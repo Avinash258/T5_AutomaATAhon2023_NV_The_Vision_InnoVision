@@ -1,0 +1,9 @@
+Scenario,Flow,Iteration,SubIteration,"To Do type ",Username,Password,Frame,Subject,Priority,Filter By- To do List,To do Id
+To Do scenario,to do entry,1,1,Water High Bill Consumption,SYSUSER,sysuser00,uiMap,"Water consumption ",Priority 20,,09055267214028
+To Do scenario,Login,1,1,,SYSUSER,sysuser00,,,,,
+To Do scenario,To do Dashbord,1,1,,SYSUSER,sysuser00,,,,,
+To Do scenario,To Do Type,1,1,Water_2,SYSUSER,sysuser00,tabPage,,Priority 20,,
+To Do scenario,TO Do List,1,1,Water_2,SYSUSER,sysuser00,tabPage,,,All,
+To Do scenario,To do Summary,1,1,Water High Bill Consumption,SYSUSER,sysuser00,tabPage,"Water consumption ",,,
+To Do scenario,To do search,1,1,WATER_2,SYSUSER,sysuser00,tabPage,,,,
+To Do scenario,To do entry-search,1,1,Water High Bill Consumption,SYSUSER,sysuser00,,,,,

@@ -1,0 +1,38 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+"//1",Execute,,To Do scenario:Login,,,
+2,Menu,"Click the [<Object>] ",Click,,,Home Page
+3,To Do,Hover over the [<Object>] element,mouseOverElement,,,Home Page
+4,To Do Entry,"Click the [<Object>] ",clickByJS,,,Home Page
+5,Search,"Click the [<Object>] ",Click,,,Home Page
+6,Browser,Switch to frame by name: [<Data>],switchToFrame,Frames:frame 1,,
+"*7",toDoType1,"Click the [<Object>] ",clickByJS,,,To do Entry
+8,toDoType1,"Click the [<Object>] ",selectByVisibleText,@Water High Bill Consumption,,To do Entry
+9,Search,"Click the [<Object>] ",Click,,,To do Entry
+10,Execute,,Evidence:Screen Shot,,,
+11,Execute,,Wait:wait 2 sec,,,
+12,Browser,"Take a Screen Shot ",takeScreenshot,,,
+13,Water High Bill Consumption -,"Click the [<Object>] ",Click,,,To do Entry
+14,Execute,,Wait:wait 30 sec,,,
+15,Browser,Switch to frame by name: [<Data>],switchToFrame,Frames:frame 3,,
+"*16",Edit,"Click the [<Object>] ",clickByJS,,,To
+17,Browser,Switching control to the default window,switchToDefaultContent,,,
+18,Browser,Switch to frame by name: [<Data>],switchToFrame,Frames:frame 2,,
+19,Browser,Switch to frame by name: [<Data>],switchToFrame,@uiMap,,
+20,boGroup_toDoPriority,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,@Priority 30,,To
+21,Save1,"Click the [<Object>] ",Click,,,To
+22,Execute,,Evidence:Screen Shot,,,
+23,Execute,,Wait:wait 2 sec,,,
+24,Browser,Switch to frame by name: [<Data>],switchToDefaultContent,,,
+25,Browser,Switch to frame by name: [<Data>],switchToFrame,Frames:frame 2,,
+26,Browser,Switch to frame by name: [<Data>],switchToFrame,Frames:frame 1,,
+27,Browser,Switch to frame by name: [<Data>],switchToFrame,Frames:frame 3,,
+"*28",Forward,"Click the [<Object>] ",clickByJS,,,To
+"//29",Search - User,"Click the [<Object>] ",Click,,,To do entry - forword
+"//30",user,Enter the value [<Data>] in the Field [<Object>],Set,@ARFULLER,,To do entry - forword
+31,Browser,Switching control to the default window,switchToDefaultContent,,,
+32,Browser,Switch to frame by name: [<Data>],switchToFrame,Frames:frame 2,,
+33,Browser,Switch to frame by name: [<Data>],switchToFrame,@uiMap,,
+34,details,"Click the [<Object>] ",Click,,,To do entry - forword
+35,details,Enter the value [<Data>] in the Field [<Object>],Set,@water consumption,,To do entry - forword
+36,Execute,,Evidence:Screen Shot,,,
+37,Save,"Click the [<Object>] ",Click,,,To do entry - forword

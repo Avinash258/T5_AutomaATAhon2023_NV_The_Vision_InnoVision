@@ -1,0 +1,1335 @@
+<Root type="OR" ref="C2M">
+  <Page title="Login" ref="Login1">
+    <ObjectGroup ref="j_username">
+      <Object frame="" ref="j_username">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="j_username" ref="name" pref="2"/>
+        <Property value="userId" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@name='j_username']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/form/div[2]/span/input" ref="xpath" pref="6"/>
+        <Property value="loginField" ref="class" pref="7"/>
+        <Property value="#userId" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input id=&quot;userId&quot; type=&quot;text&quot; name=&quot;j_username&quot; class=&quot;loginField&quot; autocomplete=&quot;off&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="j_password">
+      <Object frame="" ref="j_password">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="j_password" ref="name" pref="2"/>
+        <Property value="password" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@name='j_password']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/form/div[3]/span/input" ref="xpath" pref="6"/>
+        <Property value="loginField" ref="class" pref="7"/>
+        <Property value="#password" ref="css" pref="8"/>
+        <Property value="password" ref="type" pref="9"/>
+        <Property value="&lt;input id=&quot;password&quot; type=&quot;password&quot; name=&quot;j_password&quot; size=&quot;30&quot; class=&quot;loginField&quot; autocomplete=&quot;off&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Login">
+      <Object frame="" ref="Login">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="loginButton" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='Login']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/form/div[4]/input" ref="xpath" pref="6"/>
+        <Property value="loginButton" ref="class" pref="7"/>
+        <Property value="#loginButton" ref="css" pref="8"/>
+        <Property value="submit" ref="type" pref="9"/>
+        <Property value="&lt;input type=&quot;submit&quot; id=&quot;loginButton&quot; class=&quot;loginButton&quot; value=&quot;Login&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Oracle Utilities Application Framework TM" ref="Home Page">
+    <ObjectGroup ref="Menu">
+      <Object frame="main" ref="Menu">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="IM_menuButton" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//span[@title='Menu (Ctrl+Alt+M)']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[3]/div/span[3]" ref="xpath" pref="6"/>
+        <Property value="ouafButton toolbarButton toolbarButtonMenu simpleToolbarButton menuImg" ref="class" pref="7"/>
+        <Property value="#IM_menuButton" ref="css" pref="8"/>
+        <Property value="span" ref="type" pref="9"/>
+        <Property value="&lt;span id=&quot;IM_menuButton&quot; class=&quot;ouafButton toolbarButton toolbarButtonMenu simpleToolbarButton menuImg&quot; title=&quot;Menu (Ctrl+Alt+M)&quot; onclick=&quot;doClose();onTopMenuClick('CI_MAINMENU', event);&quot; onkeypress=&quot;onToolbarButtonKeyPress(event)&quot; role=&quot;button&quot; tabindex=&quot;5&quot;>Menu&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="To Do">
+      <Object frame="main" ref="To Do">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="(//*[normalize-space(text())='To Do'])[1]" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div[2]/ul/li[25]/span)[1]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="html > body.pageContainer.oraDesktop > #menuDiv_0 > ul.menuList > #CI_MAINMENU_topMenuItem0x29 > span" ref="css" pref="8"/>
+        <Property value="span" ref="type" pref="9"/>
+        <Property value="&lt;span data-menuobj=&quot;CI_MAINMENU&quot;>To Do&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="To Do Entry">
+      <Object frame="main" ref="To Do Entry">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='To Do Entry']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div[3]/ul/li[5]/span)[1]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="html > body.pageContainer.oraDesktop > #menuDiv_1 > ul.menuList > #CI_TODO_subMenuItem1x4 > span" ref="css" pref="8"/>
+        <Property value="span" ref="type" pref="9"/>
+        <Property value="&lt;span data-menuobj=&quot;CI_MAINMENU&quot;>To Do Entry&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Add">
+      <Object frame="main" ref="Add">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='Add']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div[2]/ul/li[2]/span)[1]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="html > body.pageContainer.oraDesktop > #menuDiv_2 > ul.menuList > #toDoEntryMaintAdd > span" ref="css" pref="8"/>
+        <Property value="span" ref="type" pref="9"/>
+        <Property value="&lt;span data-menuobj=&quot;CI_MAINMENU&quot;>Add&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="To Do List">
+      <Object frame="main" ref="To Do List">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='To Do List']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div[2]/ul/li[6]/span)[1]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="html > body.pageContainer.oraDesktop > #menuDiv_1 > ul.menuList > #CI_TODO_subMenuItem0x5 > span" ref="css" pref="8"/>
+        <Property value="span" ref="type" pref="9"/>
+        <Property value="&lt;span data-menuobj=&quot;CI_MAINMENU&quot;>To Do List&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Search">
+      <Object frame="main" ref="Search">
+        <Property value="//*[@id=&quot;f1todoeqTabMenu&quot;]" ref="xpath" pref="6"/>
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;li class=&quot;menuItem activeMenuItem&quot; tabindex=&quot;5&quot; role=&quot;menuitem&quot; data-menuobj=&quot;CI_MAINMENU&quot; data-isleaf=&quot;true&quot; data-menutype=&quot;MAIN&quot; data-navoptcode=&quot;f1todoeqTabMenu&quot; onclick=&quot;ouaf.context.onSubMenuEnter()&quot; onmouseover=&quot;ouaf.context.expandSubMenu(false)&quot; onkeydown=&quot;ouaf.context.onMenuKeyPress(event)&quot; id=&quot;f1todoeqTabMenu&quot;>&lt;span data-menuobj=&quot;CI_MAINMENU&quot;>Search&lt;/span>&lt;span data-menuobj=&quot;CI_MAINMENU&quot;>&lt;/span>&lt;/li>" ref="outerHTML" pref="10"/>
+        <Property value="li" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="To Do Summary1">
+      <Object frame="main" ref="To Do Summary1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='To Do Summary']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div[2]/ul/li[9]/span)[1]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="html > body.pageContainer.oraDesktop > #menuDiv_1 > ul.menuList > #CI_TODO_subMenuItem0x8 > span" ref="css" pref="8"/>
+        <Property value="span" ref="type" pref="9"/>
+        <Property value="&lt;span data-menuobj=&quot;CI_MAINMENU&quot;>To Do Summary&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="To Do Dashboard">
+      <Object frame="main" ref="To Do Dashboard">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="CI_TODO_subMenuItem0x3" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="(//li[@data-menutype='MAIN'])[4]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/ul/li[4]" ref="xpath" pref="6"/>
+        <Property value="menuItem activeMenuItem" ref="class" pref="7"/>
+        <Property value="#CI_TODO_subMenuItem0x3" ref="css" pref="8"/>
+        <Property value="li" ref="type" pref="9"/>
+        <Property value="&lt;li class=&quot;menuItem&quot; tabindex=&quot;5&quot; role=&quot;menuitem&quot; data-menuobj=&quot;CI_MAINMENU&quot; data-isleaf=&quot;true&quot; data-menutype=&quot;MAIN&quot; data-navoptcode=&quot;f1tddashTabMenu&quot; onclick=&quot;ouaf.context.onSubMenuEnter()&quot; onmouseover=&quot;ouaf.context.expandSubMenu(false)&quot; onkeydown=&quot;ouaf.context.onMenuKeyPress(event)&quot; id=&quot;CI_TODO_subMenuItem0x3&quot;>&lt;span data-menuobj=&quot;CI_MAINMENU&quot;>To Do Dashboard&lt;/span>&lt;span data-menuobj=&quot;CI_MAINMENU&quot;>&lt;/span>&lt;/li>" ref="outerHTML" pref="10"/>
+        <Property value="li" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Search Menu1">
+      <Object frame="main" ref="Search Menu1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="oj-inputsearch-input-menuSearchElem" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="(//input[@placeholder='Search Menu'])[1]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[4]/div/span[5]/span/div/div/input" ref="xpath" pref="6"/>
+        <Property value="oj-inputsearch-input oj-inputsearch-focused" ref="class" pref="7"/>
+        <Property value="#oj-inputsearch-input-menuSearchElem" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input type=&quot;text&quot; autocomplete=&quot;off&quot; autocorrect=&quot;off&quot; autocapitalize=&quot;off&quot; spellcheck=&quot;false&quot; class=&quot;oj-inputsearch-input oj-inputsearch-focused&quot; role=&quot;combobox&quot; aria-expanded=&quot;false&quot; aria-autocomplete=&quot;list&quot; id=&quot;oj-inputsearch-input-menuSearchElem&quot; aria-owns=&quot;oj-listbox-results-menuSearchElem&quot; aria-label=&quot;Search Menu&quot; placeholder=&quot;Search Menu&quot; tabindex=&quot;5&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Save">
+      <Object frame="main" ref="Save">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="Save" ref="name" pref="2"/>
+        <Property value="IM_SAVE" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@title='Save (Alt+S)']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[8]/div[2]/div/input[7]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="#IM_SAVE" ref="css" pref="8"/>
+        <Property value="button" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Admin">
+      <Object frame="main" ref="Admin">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="IM_adminButton" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//span[@title='Admin Menu (Ctrl+Alt+A)']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[3]/div/span[4]" ref="xpath" pref="6"/>
+        <Property value="ouafButton toolbarButton toolbarButtonMenu simpleToolbarButton adminImg" ref="class" pref="7"/>
+        <Property value="#IM_adminButton" ref="css" pref="8"/>
+        <Property value="span" ref="type" pref="9"/>
+        <Property value="&lt;span id=&quot;IM_adminButton&quot; class=&quot;ouafButton toolbarButton toolbarButtonMenu simpleToolbarButton adminImg&quot; title=&quot;Admin Menu (Ctrl+Alt+A)&quot; onclick=&quot;doClose();onTopMenuClick('CI_ADMINMENU', event);&quot; onkeypress=&quot;onToolbarButtonKeyPress(event)&quot; role=&quot;button&quot; tabindex=&quot;5&quot;>Admin&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="T">
+      <Object frame="main" ref="T">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='T']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div[3]/ul/li[20]/span)[1]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="html > body.pageContainer.oraDesktop > #menuDiv_0 > ul.menuList > #CI_ADMINMENU_topMenuItem0x19 > span" ref="css" pref="8"/>
+        <Property value="span" ref="type" pref="9"/>
+        <Property value="&lt;span data-menuobj=&quot;CI_ADMINMENU&quot;>T&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="To Do Type">
+      <Object frame="main" ref="To Do Type">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="CI_SG_ADMIN_T_subMenuItem1x11" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="(//li[@data-menutype='MAIN'])[14]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/ul/li[12]" ref="xpath" pref="6"/>
+        <Property value="menuItem activeMenuItem" ref="class" pref="7"/>
+        <Property value="#CI_SG_ADMIN_T_subMenuItem1x11" ref="css" pref="8"/>
+        <Property value="li" ref="type" pref="9"/>
+        <Property value="&lt;li class=&quot;menuItem&quot; tabindex=&quot;5&quot; role=&quot;menuitem&quot; data-menuobj=&quot;CI_ADMINMENU&quot; data-isleaf=&quot;false&quot; data-menutype=&quot;MAIN&quot; onclick=&quot;ouaf.context.expandSubMenu(true)&quot; onmouseover=&quot;ouaf.context.expandSubMenu(false)&quot; onkeydown=&quot;ouaf.context.onMenuKeyPress(event)&quot; aria-haspopup=&quot;true&quot; data-addsearchmodel=&quot;CI0000000361,CI0000000346&quot; id=&quot;CI_SG_ADMIN_T_subMenuItem1x11&quot;>&lt;span data-menuobj=&quot;CI_ADMINMENU&quot;>To Do Type&lt;/span>&lt;span data-menuobj=&quot;CI_ADMINMENU&quot;>&lt;img class=&quot;menuItemImg &quot; data-menuobj=&quot;CI_ADMINMENU&quot; src=&quot;images/all_trans.png&quot;>&lt;/span>&lt;/li>" ref="outerHTML" pref="10"/>
+        <Property value="li" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Add1">
+      <Object frame="main" ref="Add1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='Add']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div/ul/li[2]/span)[1]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="html > body.pageContainer.oraDesktop > #menuDiv_2 > ul.menuList > #CI0000000346 > span" ref="css" pref="8"/>
+        <Property value="span" ref="type" pref="9"/>
+        <Property value="&lt;span data-menuobj=&quot;CI_ADMINMENU&quot;>Add&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Select Type" ref="Select">
+    <ObjectGroup ref="selectedType1">
+      <Object frame="" ref="selectedType1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="selectedType" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//select[@oratype='string']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/table[2]/tbody/tr/td[2]/select" ref="xpath" pref="6"/>
+        <Property value="oraInput oraDefault" ref="class" pref="7"/>
+        <Property value="#selectedType" ref="css" pref="8"/>
+        <Property value="select-one" ref="type" pref="9"/>
+        <Property value="&lt;select id=&quot;selectedType&quot; orafield=&quot;selectedType&quot; oraselect=&quot;valuePath:selectableTypes/results/type; descPath:selectableTypes/results/description&quot; class=&quot;oraInput oraDefault&quot; role=&quot;listbox&quot; oratype=&quot;string&quot; dataexplorerdropdownstate=&quot;Collapsed&quot; oraerrorelement=&quot;selectedType&quot; tabindex=&quot;5&quot;>&lt;option value=&quot;&quot;>&lt;/option>&lt;option value=&quot;CM_BRPM&quot;>Billing Related Problem&lt;/option>&lt;option value=&quot;HIGH BIL&quot;>Bill related issues&lt;/option>&lt;option value=&quot;CMACBILL&quot;>Bills Not Generated&lt;/option>&lt;option value=&quot;CM_CUSTC&quot;>Customer Contact Reminder&lt;/option>&lt;option value=&quot;ELECTRIC&quot;>Electricity issue**&lt;/option>&lt;option value=&quot;CMFLDACT&quot;>Error in field activity&lt;/option>&lt;option value=&quot;C2M-HELP&quot;>Help Ticket&lt;/option>&lt;option value=&quot;WATER&quot;>High water bill&lt;/option>&lt;option value=&quot;CMIMDSH&quot;>IMD Exception - Water Single Family House&lt;/option>&lt;option value=&quot;METER&quot;>meter change&lt;/option>&lt;option value=&quot;METER 2&quot;>meter reading&lt;/option>&lt;option value=&quot;CMMMSM&quot;>METER RELATED ESSUE&lt;/option>&lt;option value=&quot;CM_ADJ&quot;>PAYMENT ADJUSTMENT RELATED ISSUE&lt;/option>&lt;option value=&quot;CMDBILL&quot;>This is Created by K.K for practise purpose&lt;/option>&lt;option value=&quot;WATER_2&quot;>Water High Bill Consumption&lt;/option>&lt;/select>" ref="outerHTML" pref="10"/>
+        <Property value="select" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Frame To do select type">
+      <Object frame="" ref="Frame To do select type">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="/html" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="html" ref="css" pref="8"/>
+        <Property value="html" ref="type" pref="9"/>
+        <Property value="&lt;html lang=&quot;en-US&quot;>&lt;head>&#xa;&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;>&#xa;&lt;!--&#xa;      ******************************************************************&#xa;      *                                                                *&#xa;      *                Confidentiality Information:                    *&#xa;      *                                                                *&#xa;      * This module is the confidential and proprietary information of *&#xa;      * SPL WorldGroup; it is not to be copied, reproduced, or         *&#xa;      * transmitted in any form, by any means, in whole or in part,    *&#xa;      * nor is it to be used for any purpose other than that for which *&#xa;      * it is expressly provided without the written permission of     *&#xa;      * SPL WorldGroup.                                                *&#xa;      *                                                                *&#xa;      *                                                                *&#xa;      ******************************************************************&#xa;      *  $DateTime$&#xa;      *  $File$&#xa;      *  $Revision$&#xa;      ******************************************************************&#xa;-->&#xa;&lt;title>Blank Empty&lt;/title>&#xa;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;cisDisabled.css&quot;>&#xa;&lt;link rel=&quot;SHORTCUT ICON&quot; href=&quot;images/SPL.ico&quot;>&#xa;&lt;script type=&quot;text/javascript&quot;>&#xa;var isBlankEmpty = true;&#xa;&lt;/script>&#xa;&lt;/head>&#xa;&lt;body>&lt;noscript>A script enabled browser is required for this page to function properly&lt;/noscript>&#xa;&#xa;&lt;table summary=&quot;&quot; id=&quot;generalTable&quot;>&#xa;&lt;/table>&#xa;&#xa;&#xa;&lt;/body>&lt;/html>" ref="outerHTML" pref="10"/>
+        <Property value="html" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="OK button">
+      <Object frame="" ref="OK button">
+        <Property value="//*[@id=&quot;OK&quot;]" ref="xpath" pref="6"/>
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;input class=&quot;oraButton oraDefault&quot; type=&quot;button&quot; value=&quot;OK&quot; id=&quot;OK&quot; oramdlabel=&quot;OK_LBL&quot; onclick=&quot;oraSubmitMap('OK');&quot; tabindex=&quot;5&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="To Do Entry" ref="To">
+    <ObjectGroup ref="Save">
+      <Object frame="" ref="Save">
+        <Property value="(/html/body/div[5]/div/input[1])[1]" ref="xpath" pref="6"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;input id=&quot;SAVE_BTN_MP&quot; type=&quot;button&quot; class=&quot;oraButton oraDefault&quot; oramdlabel=&quot;SAVE_BTN_LBL&quot; onclick=&quot;oraSubmitMap('SAVE');&quot; value=&quot;Save&quot; tabindex=&quot;5&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Expand (Record information)">
+      <Object frame="" ref="Expand (Record information)">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//img[@title='Expand Section - Record Information']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div[2]/h1/img" ref="xpath" pref="6"/>
+        <Property value="oraExpandCollapse" ref="class" pref="7"/>
+        <Property value="html > body.oraZoneMap.oraShowRequired oraDesktop > div.oraSectionRightParent > div.oraSectionRight > h1 > img.oraExpandCollapse" ref="css" pref="8"/>
+        <Property value="img" ref="type" pref="9"/>
+        <Property value="&lt;img class=&quot;oraExpandCollapse&quot; role=&quot;button&quot; src=&quot;images/alta/discloseCollapsed_ena_sm.png&quot; ontouchstart=&quot;oraExpandCollapseSection(this);&quot; onclick=&quot;oraExpandCollapseSection(this);&quot; onkeypress=&quot;oraHandleKeyPressEvents(getEvent());&quot; oramdlabel=&quot;F1_EXPAND_SECTION&quot; data-tabseqcorrect=&quot;true&quot; alt=&quot;Expand Section - Record Information&quot; title=&quot;Expand Section - Record Information&quot; tabindex=&quot;5&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="img" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="To Do ID">
+      <Object frame="" ref="To Do ID">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='To Do ID']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div[2]/div[2]/div/div/label)[1]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="#pkVal1 > label" ref="css" pref="8"/>
+        <Property value="label" ref="type" pref="9"/>
+        <Property value="&lt;label>To Do ID&lt;/label>" ref="outerHTML" pref="10"/>
+        <Property value="label" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="to do id no">
+      <Object frame="" ref="to do id no">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="(//*[normalize-space(text())='00768598256151'])[1]" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div[2]/div[2]/div/div/span)[1]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="#pkVal1 > span" ref="css" pref="8"/>
+        <Property value="span" ref="type" pref="9"/>
+        <Property value="&lt;span>94941880501670&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Edit">
+      <Object frame="" ref="Edit">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="EDIT" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='Edit']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div[2]/div/div/input)[1]" ref="xpath" pref="6"/>
+        <Property value="oraButton oraDefault" ref="class" pref="7"/>
+        <Property value="#EDIT" ref="css" pref="8"/>
+        <Property value="button" ref="type" pref="9"/>
+        <Property value="&lt;input id=&quot;EDIT&quot; oramdlabel=&quot;EDIT_LBL&quot; class=&quot;oraButton oraDefault&quot; type=&quot;button&quot; style=&quot;float: left; display: block;&quot; onclick=&quot;oraProcessActionButtonClick('UPD');&quot; oraload=&quot;oraDisplayNone(item, 'editAllowed', 'false');&quot; value=&quot;Edit&quot; orainitdisplaystyle=&quot;block&quot; tabindex=&quot;5&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="boGroup_toDoPriority">
+      <Object frame="" ref="boGroup_toDoPriority">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="boGroup_toDoPriority" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="(//select[@oratype='lookup:TD_PRIORITY_FLG'])[2]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[3]/div[11]/span/select" ref="xpath" pref="6"/>
+        <Property value="oraInput" ref="class" pref="7"/>
+        <Property value="#boGroup_toDoPriority" ref="css" pref="8"/>
+        <Property value="select-one" ref="type" pref="9"/>
+        <Property value="&lt;select orafield=&quot;boGroup/toDoPriority&quot; id=&quot;boGroup_toDoPriority&quot; class=&quot;oraInput&quot; oraselect=&quot;lookup:TD_PRIORITY_FLG&quot; role=&quot;listbox&quot; oratype=&quot;lookup:TD_PRIORITY_FLG&quot; dataexplorerdropdownstate=&quot;Collapsed&quot; oraerrorelement=&quot;boGroup/toDoPriority&quot; aria-required=&quot;true&quot; tabindex=&quot;5&quot;>&lt;option value=&quot;&quot;>&lt;/option>&lt;option value=&quot;010&quot;>Priority 10 -- Highest&lt;/option>&lt;option value=&quot;020&quot;>Priority 20&lt;/option>&lt;option value=&quot;030&quot;>Priority 30&lt;/option>&lt;option value=&quot;040&quot;>Priority 40&lt;/option>&lt;option value=&quot;050&quot;>Priority 50&lt;/option>&lt;option value=&quot;060&quot;>Priority 60&lt;/option>&lt;option value=&quot;070&quot;>Priority 70&lt;/option>&lt;option value=&quot;080&quot;>Priority 80&lt;/option>&lt;option value=&quot;090&quot;>Priority 90 -- Lowest&lt;/option>&lt;/select>" ref="outerHTML" pref="10"/>
+        <Property value="select" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Save1">
+      <Object frame="" ref="Save1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="SAVE_BTN_MP" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='Save']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div[5]/div/input)[1]" ref="xpath" pref="6"/>
+        <Property value="oraButton oraDefault" ref="class" pref="7"/>
+        <Property value="#SAVE_BTN_MP" ref="css" pref="8"/>
+        <Property value="button" ref="type" pref="9"/>
+        <Property value="&lt;input id=&quot;SAVE_BTN_MP&quot; type=&quot;button&quot; class=&quot;oraButton oraDefault&quot; oramdlabel=&quot;SAVE_BTN_LBL&quot; onclick=&quot;oraSubmitMap('SAVE');&quot; value=&quot;Save&quot; tabindex=&quot;5&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Forward">
+      <Object frame="" ref="Forward">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="FORWARD" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='Forward']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/div/input[3]" ref="xpath" pref="6"/>
+        <Property value="oraButton oraDefault" ref="class" pref="7"/>
+        <Property value="#FORWARD" ref="css" pref="8"/>
+        <Property value="button" ref="type" pref="9"/>
+        <Property value="&lt;input id=&quot;FORWARD&quot; oramdlabel=&quot;FORWARD_SW&quot; class=&quot;oraButton oraDefault&quot; type=&quot;button&quot; style=&quot;float: left; display: block;&quot; onclick=&quot;oraRunScriptWithValues('F1ToDoActs', {'toDoAction': 'FWRD'});&quot; oraload=&quot;oraDisplayNone(item, 'forwardAllowed', 'false');&quot; value=&quot;Forward&quot; orainitdisplaystyle=&quot;block&quot; tabindex=&quot;5&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="to do objects">
+    <ObjectGroup ref="Subject text">
+      <Object frame="" ref="Subject text">
+        <Property value="//*[@id=&quot;addGroup_subject&quot;]" ref="xpath" pref="6"/>
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;textarea orafield=&quot;addGroup/subject&quot; id=&quot;addGroup_subject&quot; class=&quot;oraInput oraDefault&quot; cols=&quot;60&quot; rows=&quot;5&quot; oratype=&quot;string;precision:60&quot; oraerrorelement=&quot;addGroup/subject&quot; aria-required=&quot;true&quot; data-combinedlistenerblur=&quot;true&quot; tabindex=&quot;5&quot;>&lt;/textarea>" ref="outerHTML" pref="10"/>
+        <Property value="textarea" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Comment text">
+      <Object frame="" ref="Comment text">
+        <Property value="//*[@id=&quot;addGroup_addComments&quot;]" ref="xpath" pref="6"/>
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;textarea orafield=&quot;addGroup/addComments&quot; id=&quot;addGroup_addComments&quot; class=&quot;oraInput oraDefault&quot; cols=&quot;60&quot; rows=&quot;5&quot; oratype=&quot;string;precision:254&quot; oraerrorelement=&quot;addGroup/addComments&quot; data-combinedlistenerblur=&quot;true&quot; tabindex=&quot;5&quot;>&lt;/textarea>" ref="outerHTML" pref="10"/>
+        <Property value="textarea" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Priority">
+      <Object frame="" ref="Priority">
+        <Property value="//*[@id=&quot;addGroup_overridePriority&quot;]" ref="xpath" pref="6"/>
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;select orafield=&quot;addGroup/overridePriority&quot; id=&quot;addGroup_overridePriority&quot; class=&quot;oraInput&quot; oraselect=&quot;lookup:TD_PRIORITY_FLG&quot; role=&quot;listbox&quot; oratype=&quot;lookup:TD_PRIORITY_FLG&quot; dataexplorerdropdownstate=&quot;Collapsed&quot; oraerrorelement=&quot;addGroup/overridePriority&quot; tabindex=&quot;5&quot;>&#xa;                &lt;option value=&quot;&quot;>&lt;/option>&#xa;            &lt;option value=&quot;010&quot;>Priority 10 -- Highest&lt;/option>&lt;option value=&quot;020&quot;>Priority 20&lt;/option>&lt;option value=&quot;030&quot;>Priority 30&lt;/option>&lt;option value=&quot;040&quot;>Priority 40&lt;/option>&lt;option value=&quot;050&quot;>Priority 50&lt;/option>&lt;option value=&quot;060&quot;>Priority 60&lt;/option>&lt;option value=&quot;070&quot;>Priority 70&lt;/option>&lt;option value=&quot;080&quot;>Priority 80&lt;/option>&lt;option value=&quot;090&quot;>Priority 90 -- Lowest&lt;/option>&lt;/select>" ref="outerHTML" pref="10"/>
+        <Property value="select" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="to do list objects">
+    <ObjectGroup ref="Search icon">
+      <Object frame="" ref="Search icon">
+        <Property value="//*[@id=&quot;IM_TD_TYPE_CD&quot;]" ref="xpath" pref="6"/>
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;img src=&quot;../images/alta/search.png?ltr&quot; tabindex=&quot;5&quot; class=&quot; &#xa;         &#x9;&#x9;oraSearchImg imageTypeElement uiMargin imgPadding &quot; id=&quot;IM_TD_TYPE_CD&quot; name=&quot;IM_TD_TYPE_CD&quot; onkeypress=&quot;main.onImageKeyPress(event, document)&quot; onmousedown=&quot;main.onImageMouseDown(event, document)&quot; onmouseup=&quot;main.onImageMouseUp(event, document)&quot; onmouseout=&quot;main.onImageMouseOut(event, document)&quot; onclick=&quot;launchToDoTypeSearch();&quot; style=&quot;&quot; title=&quot;Search for To Do Type&quot; alt=&quot;Search for To Do Type&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="img" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="enter type to do">
+      <Object frame="" ref="enter type to do">
+        <Property value="//*[@id=&quot;TD_TYPE_CD&quot;]" ref="xpath" pref="6"/>
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;input tabindex=&quot;5&quot; class=&quot;uiMargin data forms dc-CHAR-NONE-8-0&quot; data-pickertype=&quot;&quot; type=&quot;text&quot; data-required=&quot;true&quot; aria-required=&quot;true&quot; id=&quot;TD_TYPE_CD&quot; name=&quot;TD_TYPE_CD&quot; onblur=&quot;main.onInputTextBlur(event, document)&quot; onfocus=&quot;main.onInputTextFocus(event, document)&quot; onkeypress=&quot;launchToDoTypeSearch();&quot; onclick=&quot;main.onInputTextClick(event, document)&quot; ondblclick=&quot;main.onInputTextDoubleClick(event, document)&quot; onchange=&quot;main.onInputTextChange(event, document)&quot; size=&quot;10&quot; maxlength=&quot;8&quot; style=&quot;padding-right:5px;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Filter By">
+      <Object frame="" ref="Filter By">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="SRCH_ENT_STAT_FLG" ref="name" pref="2"/>
+        <Property value="SRCH_ENT_STAT_FLG" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//select[@name='SRCH_ENT_STAT_FLG']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/table/tbody/tr[2]/td/table/tbody/tr[2]/td[2]/select" ref="xpath" pref="6"/>
+        <Property value="uiMargin data forms dc-CHAR-FLG-2-0" ref="class" pref="7"/>
+        <Property value="#SRCH_ENT_STAT_FLG" ref="css" pref="8"/>
+        <Property value="select-one" ref="type" pref="9"/>
+        <Property value="&lt;select tabindex=&quot;5&quot; class=&quot;uiMargin data forms dc-CHAR-FLG-2-0&quot; data-required=&quot;false&quot; aria-required=&quot;false&quot; id=&quot;SRCH_ENT_STAT_FLG&quot; name=&quot;SRCH_ENT_STAT_FLG&quot; onblur=&quot;main.onSelectBlur(event, document)&quot; onfocus=&quot;main.onSelectFocus(event, document)&quot; onkeypress=&quot;main.onSelectKeyPress(event, document)&quot; onclick=&quot;main.onSelectClick(event, document)&quot; ondblclick=&quot;main.onSelectDoubleClick(event, document)&quot; onchange=&quot;main.onSelectChange(event, document)&quot; style=&quot;margin-right:5px;&quot;>&lt;option value=&quot; &quot;>&lt;/option>&lt;script type=&quot;text/javascript&quot;>&#xa;        var options = fieldValue_SRCH_ENT_STAT_FLG();&#xa;        var doc = document;&#xa;        for (var i=0; i &lt; options.length; i++) {&#xa;          doc.write('&lt;option value=&quot;' + options[i].key + '&quot;>');&#xa;          &#xa;          doc.write(options[i].value);&#xa;            &#xa;          doc.write('&lt;\/option>');&#xa;      }&#xa;      &lt;/script>&lt;option value=&quot;A&quot;>All&lt;/option>&lt;option value=&quot;W&quot;>Being Worked On&lt;/option>&lt;option value=&quot;O&quot;>Open&lt;/option>&lt;/select>" ref="outerHTML" pref="10"/>
+        <Property value="select" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="checkbox_(1)">
+      <Object frame="" ref="checkbox_(1)">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="TD_ENTRY_LIST:0$CHECKED_SW" ref="name" pref="2"/>
+        <Property value="TD_ENTRY_LIST:0$CHECKED_SW" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@name='TD_ENTRY_LIST:0$CHECKED_SW']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/span[2]/div/table/tbody/tr/td/input)[1]" ref="xpath" pref="6"/>
+        <Property value="data cbox" ref="class" pref="7"/>
+        <Property value="html > body.oraDesktop > span.searchResultsTopMargin. > #dataDivision > #dataTable > #dataTableBody > tr.grid. > #TD_ENTRY_LIST|0|1 > #TD_ENTRY_LIST:0$CHECKED_SW" ref="css" pref="8"/>
+        <Property value="checkbox" ref="type" pref="9"/>
+        <Property value="&lt;input type=&quot;checkbox&quot; tabindex=&quot;5&quot; onblur=&quot;main.onCheckboxBlur(event, document)&quot; onfocus=&quot;main.onCheckboxFocus(event, document)&quot; onkeypress=&quot;main.onCheckboxKeyPress(event, document)&quot; onclick=&quot;main.onCheckboxClick(event, document)&quot; ondblclick=&quot;main.onCheckboxDoubleClick(event, document)&quot; id=&quot;TD_ENTRY_LIST:0$CHECKED_SW&quot; name=&quot;TD_ENTRY_LIST:0$CHECKED_SW&quot; aria-label=&quot;Select Row&quot; class=&quot;data  cbox &quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Assign Button">
+      <Object frame="" ref="Assign Button">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="ASSIGN_SW" ref="name" pref="2"/>
+        <Property value="ASSIGN_SW" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@title='Assign']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/table/tbody/tr[5]/td/table/tbody/tr/td[8]/input" ref="xpath" pref="6"/>
+        <Property value="oraButton uiMargin" ref="class" pref="7"/>
+        <Property value="#ASSIGN_SW" ref="css" pref="8"/>
+        <Property value="button" ref="type" pref="9"/>
+        <Property value="&lt;input class=&quot;oraButton uiMargin &quot; tabindex=&quot;5&quot; type=&quot;button&quot; onclick=&quot;setRecsForSave('ASSIGN_SW');&quot; id=&quot;ASSIGN_SW&quot; name=&quot;ASSIGN_SW&quot; style=&quot;opacity: 1;&quot; title=&quot;Assign&quot; value=&quot;Assign&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Complete Button">
+      <Object frame="" ref="Complete Button">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="//*[@id=&quot;COMPLETE_SW&quot;]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="#IM_CLEAR" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;input type=&quot;button&quot; id=&quot;IM_CLEAR&quot; title=&quot;Clear (Ctrl+Alt+C)&quot; name=&quot;Clear&quot; value=&quot;Clear&quot; onclick=&quot;main.doClose();main.doClear()&quot; style=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Select all">
+      <Object frame="" ref="Select all">
+        <Property value="//*[@id=&quot;SELECT_ALL_LBL&quot;]" ref="xpath" pref="6"/>
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="#IM_DELETE" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;input class=&quot;oraButton uiMargin &quot; tabindex=&quot;5&quot; type=&quot;button&quot; onclick=&quot;selectAll();&quot; id=&quot;SELECT_ALL_LBL&quot; name=&quot;SELECT_ALL_LBL&quot; style=&quot;margin-left: 10px; &quot; title=&quot;Select All&quot; value=&quot;Select All&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Page" ref="To do Entry">
+    <ObjectGroup ref="Search">
+      <Object frame="" ref="Search">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="anTLZ1Refresh" ref="name" pref="2"/>
+        <Property value="anTLZ1Refresh" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='Search']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/table/tbody/tr[4]/td/table/tbody/tr[2]/td/input" ref="xpath" pref="6"/>
+        <Property value="oraButton oraButtonActive" ref="class" pref="7"/>
+        <Property value="#anTLZ1Refresh" ref="css" pref="8"/>
+        <Property value="button" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="toDoType1">
+      <Object frame="" ref="toDoType1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="toDoType" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//select[@oratype='string;precision:8']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/table/tbody/tr[4]/td/table/tbody/tr/td/span/div/div/span/select" ref="xpath" pref="6"/>
+        <Property value="oraInput oraDefault" ref="class" pref="7"/>
+        <Property value="#toDoType" ref="css" pref="8"/>
+        <Property value="select-one" ref="type" pref="9"/>
+        <Property value="&lt;select orafield=&quot;toDoType&quot; id=&quot;toDoType&quot; class=&quot;oraInput oraDefault&quot; oraselect=&quot;bs:F1-USERTDTY&quot; oraselectout=&quot;valuePath:results/toDoType;descPath:results/description&quot; role=&quot;listbox&quot; oratype=&quot;string;precision:8&quot; dataexplorerdropdownstate=&quot;Collapsed&quot; oraerrorelement=&quot;toDoType&quot; aria-required=&quot;true&quot; schemaval_bk=&quot;&quot; oraafterload=&quot;oraGetValueFromScript(document.getElementById('toDoType'));&quot; tabindex=&quot;5&quot;>&lt;option value=&quot;&quot;>&lt;/option>&lt;option value=&quot;ADM2&quot;>Account Debt Monitor 2 Errors&lt;/option>&lt;option value=&quot;ADM&quot;>Account Debt Monitor Errors&lt;/option>&lt;option value=&quot;TD-NOBC&quot;>Accounts without bill cycle&lt;/option>&lt;option value=&quot;ACTVTAPY&quot;>Activate Auto-pay Batch Errors&lt;/option>&lt;option value=&quot;SAACT&quot;>Activate pending start/stop SA Errors&lt;/option>&lt;option value=&quot;C1-PRILD&quot;>Active Non-Priority Lead&lt;/option>&lt;option value=&quot;W1-ACTTD&quot;>Activity Error&lt;/option>&lt;option value=&quot;W1-WOTD&quot;>Activity Generator To Do Type&lt;/option>&lt;option value=&quot;D1-ATVTD&quot;>Activity To Do Type&lt;/option>&lt;option value=&quot;C1-ACTTY&quot;>Activity Type Monitor Errors&lt;/option>&lt;option value=&quot;ADJCAN&quot;>Adjustment Canceled&lt;/option>&lt;option value=&quot;ADJFRZ&quot;>Adjustment Frozen&lt;/option>&lt;option value=&quot;C1-ADSUS&quot;>Adjustments In Suspense For Too Long&lt;/option>&lt;option value=&quot;C1-ADAPP&quot;>Adjustments Requiring Approval&lt;/option>&lt;option value=&quot;C1-ASCER&quot;>Adjustment Staging Control Errors&lt;/option>&lt;option value=&quot;C1-ADUP2&quot;>Adjustment Upload Errors&lt;/option>&lt;option value=&quot;C1-AUSER&quot;>Adjustment Upload Staging Preprocessing Errors&lt;/option>&lt;option value=&quot;C1-LDEXT&quot;>Advanced Analysis System Lead - Extract&lt;/option>&lt;option value=&quot;C1-LDRTY&quot;>Advanced Analysis System Lead - Retry&lt;/option>&lt;option value=&quot;D1-AGETD&quot;>Aggregation Group Run Error&lt;/option>&lt;option value=&quot;D1-BFATD&quot;>Analysis To Do Type&lt;/option>&lt;option value=&quot;ANLYZSAR&quot;>Analyze SA Relationship Errors&lt;/option>&lt;option value=&quot;C1-SRAPP&quot;>Appointment Notification&lt;/option>&lt;option value=&quot;C1-APRTR&quot;>Approval Request Monitor Errors&lt;/option>&lt;option value=&quot;W1-ACTRN&quot;>Approval Type - Activity Reconciliation&lt;/option>&lt;option value=&quot;W1-ATATD&quot;>Approval Type - Adjustment&lt;/option>&lt;option value=&quot;W1-CRATD&quot;>Approval Type - Change Request&lt;/option>&lt;option value=&quot;W1-CU&quot;>Approval Type - Compatible Unit&lt;/option>&lt;option value=&quot;W1-EUTD&quot;>Approval Type - Employee Unavailability&lt;/option>&lt;option value=&quot;W1-INVTD&quot;>Approval Type - Invoice Header&lt;/option>&lt;option value=&quot;W1-ODCTD&quot;>Approval Type - ODC&lt;/option>&lt;option value=&quot;W1-PTATD&quot;>Approval Type - Permit&lt;/option>&lt;option value=&quot;W1-PRJTD&quot;>Approval Type - Project&lt;/option>&lt;option value=&quot;W1-POHDR&quot;>Approval Type - Purchase Order Header&lt;/option>&lt;option value=&quot;W1-PRTD&quot;>Approval Type - Purchase Requisition&lt;/option>&lt;option value=&quot;W1-TSATD&quot;>Approval Type - Timesheet&lt;/option>&lt;option value=&quot;W1-WDATD&quot;>Approval Type -  Work Design&lt;/option>&lt;option value=&quot;W1-WOATD&quot;>Approval Type - Work Order&lt;/option>&lt;option value=&quot;W1-WRTD&quot;>Approval Type - Work Request&lt;/option>&lt;option value=&quot;ASSGNSBN&quot;>Assign sequential bill numbers errors&lt;/option>&lt;option value=&quot;FOD&quot;>Automatic dispatch of FAs Errors&lt;/option>&lt;option value=&quot;TD-APOVL&quot;>Auto pay amount over limit&lt;/option>&lt;option value=&quot;C1-PEPL3&quot;>Balance Tender Control Errors&lt;/option>&lt;option value=&quot;C2M-BNKR&quot;>Bankruptcy Case&lt;/option>&lt;option value=&quot;TD-BTERR&quot;>Batch processing errors&lt;/option>&lt;option value=&quot;TD-BCUPL&quot;>Billable charge upload error&lt;/option>&lt;option value=&quot;C1-BCUPD&quot;>Bill Cycle Change Notification Error&lt;/option>&lt;option value=&quot;CM_BRP&quot;>Billing related problem&lt;/option>&lt;option value=&quot;CM_BRPM&quot;>Billing Related Problem&lt;/option>&lt;option value=&quot;HIGH BIL&quot;>Bill related issues&lt;/option>&lt;option value=&quot;C1-BLRVW&quot;>Bill Review Monitor&lt;/option>&lt;option value=&quot;DELBSEG&quot;>Bill segment(s) deleted&lt;/option>&lt;option value=&quot;TD-BSERR&quot;>Bill segments in error&lt;/option>&lt;option value=&quot;TD-BIERR&quot;>Bills in error&lt;/option>&lt;option value=&quot;C1-BLACC&quot;>Bill Single Account Billing Errors&lt;/option>&lt;option value=&quot;CMACBILL&quot;>Bills Not Generated&lt;/option>&lt;option value=&quot;C1-BFANL&quot;>Business Flag Analysis&lt;/option>&lt;option value=&quot;W1-BFANL&quot;>Business Flag Analysis&lt;/option>&lt;option value=&quot;C1-BFTD&quot;>Business Flag Error&lt;/option>&lt;option value=&quot;D1-BFETD&quot;>Business Flag Error&lt;/option>&lt;option value=&quot;W1-BFTD&quot;>Business Flag Error&lt;/option>&lt;option value=&quot;F1-BSFLG&quot;>Business Flag Monitor Errors&lt;/option>&lt;option value=&quot;F1-BSFLS&quot;>Business Flag Sync Errors&lt;/option>&lt;option value=&quot;C1-ACPAR&quot;>Cancel Inactive PA Requests Errors&lt;/option>&lt;option value=&quot;C1-CNPHO&quot;>Cancel Pending/Held Orders Errors&lt;/option>&lt;option value=&quot;C1-SFAC&quot;>Cancel Severance Process Field Activities&lt;/option>&lt;option value=&quot;CPCRALOC&quot;>Capital credit allocation Errors&lt;/option>&lt;option value=&quot;CPCRRETR&quot;>Capital credit retirement Errors&lt;/option>&lt;option value=&quot;C1-CSTRS&quot;>Case Scheduled Transition Batch Errors&lt;/option>&lt;option value=&quot;CASETRAN&quot;>Case Status Auto Transition Batch Errors&lt;/option>&lt;option value=&quot;CSENTD&quot;>Case Tracking&lt;/option>&lt;option value=&quot;C1-CSEXC&quot;>Case Transition Exception&lt;/option>&lt;option value=&quot;DEPREF&quot;>Cash deposit refund review&lt;/option>&lt;option value=&quot;CLOSEQTE&quot;>Close expired quotes Errors&lt;/option>&lt;option value=&quot;TD-CEVT&quot;>Collection events require attention&lt;/option>&lt;option value=&quot;CET&quot;>Collection event trigger Errors&lt;/option>&lt;option value=&quot;CPM&quot;>Collection process monitor Errors&lt;/option>&lt;option value=&quot;FANRMRCO&quot;>Complete FA using a recent MR batch Errors&lt;/option>&lt;option value=&quot;WAITCOM&quot;>Completes a WF Event in Waiting state Errors&lt;/option>&lt;option value=&quot;C1-CPRQ&quot;>Conservation Program Monitor Errors&lt;/option>&lt;option value=&quot;D2-IDERQ&quot;>Consumption Request Error&lt;/option>&lt;option value=&quot;C1-COEER&quot;>Contract Option Event Exception&lt;/option>&lt;option value=&quot;C1-CORRD&quot;>Corrected Read Notification&lt;/option>&lt;option value=&quot;C1-CORER&quot;>Corrected Read Notification In Error&lt;/option>&lt;option value=&quot;C1-CRDTO&quot;>Corrected Read Notification Time Out&lt;/option>&lt;option value=&quot;C1-CRDBS&quot;>Corrected Read with Freezable Bill Segment&lt;/option>&lt;option value=&quot;NBBAPAY&quot;>Create autopay for NBBs Errors&lt;/option>&lt;option value=&quot;APAYCRET&quot;>Create autopay on extract date errors&lt;/option>&lt;option value=&quot;BALAPY&quot;>Create autopay tender controls errors&lt;/option>&lt;option value=&quot;C1-BLAPY&quot;>Create Autopay Tender Controls Errors&lt;/option>&lt;option value=&quot;BILLING&quot;>Create Bill Using Bill Cycle Errors&lt;/option>&lt;option value=&quot;CAREPROG&quot;>Create CC for expiring SA char Errors&lt;/option>&lt;option value=&quot;LATEPYMT&quot;>Create late payment charges Errors&lt;/option>&lt;option value=&quot;STMPRD&quot;>Create statements Errors&lt;/option>&lt;option value=&quot;W1-ODWCS&quot;>Crew Shift - Overdue To Do Type&lt;/option>&lt;option value=&quot;W1-SFTD&quot;>Crew Shift To Do Type&lt;/option>&lt;option value=&quot;C1-CNSRA&quot;>CS Request Service Location&lt;/option>&lt;option value=&quot;TD-CCCB&quot;>Customer contact callback&lt;/option>&lt;option value=&quot;CM_CUSTC&quot;>Customer Contact Reminder&lt;/option>&lt;option value=&quot;C1-CRRAT&quot;>Customer Relationship Request Action Timeout&lt;/option>&lt;option value=&quot;C1-CRRER&quot;>Customer Relationship Request Error&lt;/option>&lt;option value=&quot;C1-CRRRR&quot;>Customer Relationship Request Requiring Review&lt;/option>&lt;option value=&quot;C1-CNCHR&quot;>Customer Service Request&lt;/option>&lt;option value=&quot;C1-CTEVT&quot;>Cut Event&lt;/option>&lt;option value=&quot;D/C REG&quot;>Demand/consumptive register&lt;/option>&lt;option value=&quot;TD-DTCST&quot;>Dep/tender control stg error&lt;/option>&lt;option value=&quot;F1-DPLFD&quot;>Deployment Out of Date&lt;/option>&lt;option value=&quot;DEPINTRF&quot;>Deposit interest refund process Errors&lt;/option>&lt;option value=&quot;DEPRFND&quot;>Deposit refund Errors&lt;/option>&lt;option value=&quot;DEPRVW&quot;>Deposit review Errors&lt;/option>&lt;option value=&quot;C1-DETBC&quot;>Determine Bill Cycle Error&lt;/option>&lt;option value=&quot;D1-DETD&quot;>Device Event To Do Type&lt;/option>&lt;option value=&quot;DT LOC&quot;>Device test location&lt;/option>&lt;option value=&quot;TD-MODTL&quot;>Disputed match events exist&lt;/option>&lt;option value=&quot;APAYDSFR&quot;>Distribute and freeze autopay errors&lt;/option>&lt;option value=&quot;C1-MAXSQ&quot;>Document Number Threshold Sequence&lt;/option>&lt;option value=&quot;ELECTRIC&quot;>Electricity issue**&lt;/option>&lt;option value=&quot;CMFLDACT&quot;>Error in field activity&lt;/option>&lt;option value=&quot;C1-ADFAC&quot;>FA Completion Adjustment Creation Error&lt;/option>&lt;option value=&quot;C1-FACCM&quot;>FA Completion Crew Message&lt;/option>&lt;option value=&quot;C1-FACI&quot;>FA Completion Issues&lt;/option>&lt;option value=&quot;C1-FACRM&quot;>FA Completion Task Crew Message&lt;/option>&lt;option value=&quot;DT H/L N&quot;>Fails hi/low limit non-residential&lt;/option>&lt;option value=&quot;TD-FARSP&quot;>FA Negative Response&lt;/option>&lt;option value=&quot;C1-FACMP&quot;>Field Activity Completion&lt;/option>&lt;option value=&quot;TD-FACT&quot;>Field Activity Remark Exception&lt;/option>&lt;option value=&quot;TD-FAUPL&quot;>Field activity upload error&lt;/option>&lt;option value=&quot;FDS&quot;>Field order download staging Errors&lt;/option>&lt;option value=&quot;W1-FTERR&quot;>Financial Transaction Errors&lt;/option>&lt;option value=&quot;SASP&quot;>Find read for SA/SP Errors&lt;/option>&lt;option value=&quot;C1-BLCMP&quot;>Freeze and Complete Bill Errors&lt;/option>&lt;option value=&quot;PPAPAY&quot;>Generate autopay for pay plans Errors&lt;/option>&lt;option value=&quot;DG-IBCTD&quot;>Generic - Inbound Comm To Do Type&lt;/option>&lt;option value=&quot;DG-OBCTD&quot;>Generic - Outbound Comm To Do Type&lt;/option>&lt;option value=&quot;C2M-HELP&quot;>Help Ticket&lt;/option>&lt;option value=&quot;WATER&quot;>High water bill&lt;/option>&lt;option value=&quot;D1-IMDTD&quot;>IMD Exception&lt;/option>&lt;option value=&quot;DM-IMDEI&quot;>IMD Exception - Electric Industrial&lt;/option>&lt;option value=&quot;DM-IMDEL&quot;>IMD Exception - Electric Large Commercial&lt;/option>&lt;option value=&quot;DM-IMDEN&quot;>IMD Exception - Electric Net Metering&lt;/option>&lt;option value=&quot;DM-IMDER&quot;>IMD Exception - Electric Residential&lt;/option>&lt;option value=&quot;DM-IMDES&quot;>IMD Exception - Electric Small Commercial&lt;/option>&lt;option value=&quot;DM-IMDET&quot;>IMD Exception - Electric Streaming&lt;/option>&lt;option value=&quot;DM-IMDGI&quot;>IMD Exception - Gas Industrial&lt;/option>&lt;option value=&quot;DM-IMDGL&quot;>IMD Exception - Gas Large Commercial&lt;/option>&lt;option value=&quot;DM-IMDGR&quot;>IMD Exception - Gas Residential&lt;/option>&lt;option value=&quot;DM-IMDGS&quot;>IMD Exception - Gas Small Commercial&lt;/option>&lt;option value=&quot;DM-IMDWF&quot;>IMD Exception - Water Fire Service&lt;/option>&lt;option value=&quot;DM-IMDWI&quot;>IMD Exception - Water Industrial&lt;/option>&lt;option value=&quot;DM-IMDWL&quot;>IMD Exception - Water Large Commercial&lt;/option>&lt;option value=&quot;DM-IMDWR&quot;>IMD Exception - Water Residential&lt;/option>&lt;option value=&quot;CMIMDSH&quot;>IMD Exception - Water Single Family House&lt;/option>&lt;option value=&quot;DM-IMDWS&quot;>IMD Exception - Water Small Commercial&lt;/option>&lt;option value=&quot;D1-IMDPE&quot;>IMD Periodic Estimation Processing Error&lt;/option>&lt;option value=&quot;D1-IMDBE&quot;>IMD Processing Error&lt;/option>&lt;option value=&quot;D1-IMDSE&quot;>IMD Seeder Exception&lt;/option>&lt;option value=&quot;D1-IMSTD&quot;>IMS Exception&lt;/option>&lt;option value=&quot;W1-INCTD&quot;>Inbound Communication Error&lt;/option>&lt;option value=&quot;D1-IBCTD&quot;>Inbound Communication Error with Message Override&lt;/option>&lt;option value=&quot;D1-IBTDT&quot;>Inbound To Do Type for Communication.&lt;/option>&lt;option value=&quot;C1-BLIEB&quot;>Include/Exclude Bill Cycle Billing Errors&lt;/option>&lt;option value=&quot;C1-IDSER&quot;>Interval Data Set Exception&lt;/option>&lt;option value=&quot;C1-RDSER&quot;>Interval Register Data Set Exception&lt;/option>&lt;option value=&quot;C2M-IHB&quot;>Investigate High Bill Complaint&lt;/option>&lt;option value=&quot;D8-IBCTD&quot;>Itron - Inbound Communication To Do Type&lt;/option>&lt;option value=&quot;D8-OBCTD&quot;>Itron - Outbound Communication To Do Type&lt;/option>&lt;option value=&quot;F1-INJMS&quot;>JMS Inbound Message In Error&lt;/option>&lt;option value=&quot;C1-LTPEX&quot;>Letter Print Extract Errors&lt;/option>&lt;option value=&quot;C2M-LIEN&quot;>Lien Case&lt;/option>&lt;option value=&quot;LF&quot;>Load factor &amp;gt; 1&lt;/option>&lt;option value=&quot;D1-MCSTD&quot;>Manual Measuring Component Set Execution&lt;/option>&lt;option value=&quot;MASSCNCL&quot;>Mass bill cancellation Errors&lt;/option>&lt;option value=&quot;MASSROBL&quot;>Mass re-open of bills Errors&lt;/option>&lt;option value=&quot;D1-MRTD&quot;>Measurement Reprocess Approval To Do Type&lt;/option>&lt;option value=&quot;METER&quot;>meter change&lt;/option>&lt;option value=&quot;RGCMOD&quot;>Meter CT/PT ratio exc modulo 5&lt;/option>&lt;option value=&quot;D1-MEXTD&quot;>Meter Exchange -Delete It&lt;/option>&lt;option value=&quot;D3-MEXTD&quot;>Meter Exchange Notification To Do Type&lt;/option>&lt;option value=&quot;DM_MINIV&quot;>Meter Insight Investigation&lt;/option>&lt;option value=&quot;TD-HILO&quot;>Meter Read High/Low Error&lt;/option>&lt;option value=&quot;METER 2&quot;>meter reading&lt;/option>&lt;option value=&quot;TD-MRRER&quot;>Meter read remark in error&lt;/option>&lt;option value=&quot;TD-MRUPL&quot;>Meter reads in error&lt;/option>&lt;option value=&quot;RGCDIFF&quot;>Meter reg cons value diff calc&lt;/option>&lt;option value=&quot;CMMMSM&quot;>METER RELATED ESSUE&lt;/option>&lt;option value=&quot;F1-MGDPR&quot;>Migration Data Set Export Monitor Errors&lt;/option>&lt;option value=&quot;F1-MGDIM&quot;>Migration Data Set Import Monitor Errors&lt;/option>&lt;option value=&quot;F1-MGOAP&quot;>Migration Object Monitor Apply Errors&lt;/option>&lt;option value=&quot;F1-MGOPR&quot;>Migration Object Monitor Errors&lt;/option>&lt;option value=&quot;F1-MGTAP&quot;>Migration Transaction Monitor Apply Errors&lt;/option>&lt;option value=&quot;F1-MGTPR&quot;>Migration Transaction Monitor Errors&lt;/option>&lt;option value=&quot;BUDMON&quot;>Monitor Budgets Errors&lt;/option>&lt;option value=&quot;W1-MWMIC&quot;>MWM Inbound Communication Error&lt;/option>&lt;option value=&quot;NCFSSPS&quot;>New consumption for stopped SP&lt;/option>&lt;option value=&quot;C2M-NHB&quot;>New High Bill Complaint&lt;/option>&lt;option value=&quot;NEWSA&quot;>New service agreement created&lt;/option>&lt;option value=&quot;NBBPS&quot;>Non billed budget payments Errors&lt;/option>&lt;option value=&quot;TD-NCDEX&quot;>Non-cash deposit expiring&lt;/option>&lt;option value=&quot;TD-NTDWN&quot;>Notification download in error&lt;/option>&lt;option value=&quot;TD-NTUPL&quot;>Notification uploads in error&lt;/option>&lt;option value=&quot;F1-OESMN&quot;>Object Erasure Monitor Errors&lt;/option>&lt;option value=&quot;C1-OCBG&quot;>Off Cycle Bill Generator Completion Errors&lt;/option>&lt;option value=&quot;C1-OCBGT&quot;>Off Cycle Bill Generator Transition Errors&lt;/option>&lt;option value=&quot;W1-REQTD&quot;>Online Loader Request To Do&lt;/option>&lt;option value=&quot;TD-MONTL&quot;>Open match events exists&lt;/option>&lt;option value=&quot;C1-OPTIN&quot;>Opt-In Errors&lt;/option>&lt;option value=&quot;TD-ECBK&quot;>Order callback&lt;/option>&lt;option value=&quot;D1-OBCTD&quot;>Outbound Communication Error with Message Override&lt;/option>&lt;option value=&quot;D1-OBMEX&quot;>Outbound Message Exception&lt;/option>&lt;option value=&quot;F1-OUTMS&quot;>Outbound Message In Error&lt;/option>&lt;option value=&quot;D1-OBTDT&quot;>Outbound To Do Type for Communication.&lt;/option>&lt;option value=&quot;C1-ODET&quot;>Overdue / Cut Event Manager&lt;/option>&lt;option value=&quot;C1-ODEVT&quot;>Overdue Event&lt;/option>&lt;option value=&quot;C1-ADMOV&quot;>Overdue Monitor Errors&lt;/option>&lt;option value=&quot;C1-ODXSA&quot;>Overdue Process Canceled but SA is Expired&lt;/option>&lt;option value=&quot;C1-DSPFA&quot;>Overdue Process Canceled with Dispatched FA&lt;/option>&lt;option value=&quot;C1-PARAP&quot;>PA Request Requiring Approval&lt;/option>&lt;option value=&quot;CM_ADJ&quot;>PAYMENT ADJUSTMENT RELATED ISSUE&lt;/option>&lt;option value=&quot;C1-PARMP&quot;>Payment Arrangement Request Monitor Errors&lt;/option>&lt;option value=&quot;C1-PEPL2&quot;>Payment Event Upload Stage 2 Errors&lt;/option>&lt;option value=&quot;C1-PEPL1&quot;>Payment Event Upload Staging Errors&lt;/option>&lt;option value=&quot;TD-PYERR&quot;>Payments in error&lt;/option>&lt;option value=&quot;PPM&quot;>Pay plan monitor Errors&lt;/option>&lt;option value=&quot;PAYSPR&quot;>Pay service provider Errors&lt;/option>&lt;option value=&quot;TD-EPND&quot;>Pending orders&lt;/option>&lt;option value=&quot;PSASPM&quot;>Pending SA/SP monitor Errors&lt;/option>&lt;option value=&quot;TD-SSFTL&quot;>Pending start/stop SA for too long&lt;/option>&lt;option value=&quot;W1-PMTTD&quot;>Permit Expiration Warning&lt;/option>&lt;option value=&quot;GLASSIGN&quot;>Populate GL_ACCT on CI_FT_GL Errors&lt;/option>&lt;option value=&quot;PF&quot;>Power factor greater than Threshold Percent&lt;/option>&lt;option value=&quot;C1-PPBTD&quot;>Prepay Biller Task Errors&lt;/option>&lt;option value=&quot;C2M-PI&quot;>Product Inquiry&lt;/option>&lt;option value=&quot;D1-PRFL&quot;>Prorate Fail To Do Type&lt;/option>&lt;option value=&quot;C1-CPAPP&quot;>Rebate Claims Requiring Approval&lt;/option>&lt;option value=&quot;C1-RCTRQ&quot;>Rebate Claim Transition Errors&lt;/option>&lt;option value=&quot;F1-TDCLP&quot;>Recalculate To Do Priority Errors&lt;/option>&lt;option value=&quot;REGCNST&quot;>Register constant validation Errors&lt;/option>&lt;option value=&quot;F1-RMMSG&quot;>Remote Message Error&lt;/option>&lt;option value=&quot;F1-RMMON&quot;>Remote Message Monitor Error&lt;/option>&lt;option value=&quot;F1-SUBRQ&quot;>Request Monitor (Deferred) Errors&lt;/option>&lt;option value=&quot;F1-ARQPR&quot;>Request Monitor Errors&lt;/option>&lt;option value=&quot;F1-REQTY&quot;>Request Type Monitor Errors&lt;/option>&lt;option value=&quot;REVDEP&quot;>Review account's deposit&lt;/option>&lt;option value=&quot;FAREVIEW&quot;>Review Field Activity&lt;/option>&lt;option value=&quot;C1-STREV&quot;>Review Service Task&lt;/option>&lt;option value=&quot;TD-UARN&quot;>Review UA for renewal&lt;/option>&lt;option value=&quot;C1-ACTRQ&quot;>Sample &amp;amp; Submit Request Monitor Errors&lt;/option>&lt;option value=&quot;TD-SARN&quot;>SA renewal error&lt;/option>&lt;option value=&quot;C1-SSTD&quot;>Self-Service Errors&lt;/option>&lt;option value=&quot;C1-TSKTD&quot;>Self-Service Task Errors&lt;/option>&lt;option value=&quot;CANCELSA&quot;>Service Agreement Canceled&lt;/option>&lt;option value=&quot;W1-SCTD&quot;>Service Call To Do Type&lt;/option>&lt;option value=&quot;W1-SHFTD&quot;>Service History Follow Up Work&lt;/option>&lt;option value=&quot;W1-INSTD&quot;>Service History Inspection To Do Type&lt;/option>&lt;option value=&quot;D1-SIMPE&quot;>Service Issue Monitor Processing Error&lt;/option>&lt;option value=&quot;D1-SIMTD&quot;>Service Issue Monitor Requiring Approval&lt;/option>&lt;option value=&quot;C1-SRTTD&quot;>Service Order Management Task Errors&lt;/option>&lt;option value=&quot;C1-SRDS&quot;>Service Route Download Errors&lt;/option>&lt;option value=&quot;D1-SVTTD&quot;>Service Task Type To Do&lt;/option>&lt;option value=&quot;D2-STEXT&quot;>Settlement Transaction Export Error&lt;/option>&lt;option value=&quot;D2-SISTD&quot;>Settlement Transaction Issues&lt;/option>&lt;option value=&quot;D2-SRATD&quot;>Settlement Transaction Requiring Approval&lt;/option>&lt;option value=&quot;SEC&quot;>Severance Event Completion Errors&lt;/option>&lt;option value=&quot;SED&quot;>Severance event set dependency date Errors&lt;/option>&lt;option value=&quot;TD-SEVT&quot;>Severance events require att.&lt;/option>&lt;option value=&quot;SET&quot;>Severance event trigger Errors&lt;/option>&lt;option value=&quot;TD-SPRO&quot;>Severance process requires attention&lt;/option>&lt;option value=&quot;W1-SDFTD&quot;>Shipment Deficiency&lt;/option>&lt;option value=&quot;TD-NOMR&quot;>SP with no MR cycle&lt;/option>&lt;option value=&quot;D7-IBCTD&quot;>SSN - Inbound Communication To Do Type&lt;/option>&lt;option value=&quot;D7-OBCTD&quot;>SSN - Outbound Communication To Do Type&lt;/option>&lt;option value=&quot;SAEXPIRE&quot;>Stop expired SAs Batch Errors&lt;/option>&lt;option value=&quot;D1-SUPEX&quot;>Suppressions Exist&lt;/option>&lt;option value=&quot;F1-SYNRQ&quot;>Sync Request Error&lt;/option>&lt;option value=&quot;D1-SYNIN&quot;>Sync Request Inbound Error&lt;/option>&lt;option value=&quot;W1-SYNIN&quot;>Sync Request Inbound Error&lt;/option>&lt;option value=&quot;W1-SYRQI&quot;>Sync Request Inbound Error&lt;/option>&lt;option value=&quot;W1-SYRQM&quot;>Sync Request Inbound Manual Resolution&lt;/option>&lt;option value=&quot;F1-SYNTD&quot;>Sync Request Monitor Errors&lt;/option>&lt;option value=&quot;W1-SYRQO&quot;>Sync Request Outbound Error&lt;/option>&lt;option value=&quot;DT H/L R&quot;>Test result fails hi/low residential&lt;/option>&lt;option value=&quot;C1-TAPCN&quot;>Third Party Auto Pay Cancellation Errors&lt;/option>&lt;option value=&quot;C1-TAPDF&quot;>Third Party Auto Pay Confirmation Errors&lt;/option>&lt;option value=&quot;C1-TPPAY&quot;>Third Party Auto Pay Setup Task Errors&lt;/option>&lt;option value=&quot;C1-TAPCT&quot;>Third Party Auto Pay Tender Control Errors&lt;/option>&lt;option value=&quot;C1-TPOPY&quot;>Third Party One Time Payment Task Errors&lt;/option>&lt;option value=&quot;C1-TOPCT&quot;>Third Party One Time Pay Tender Control Errors&lt;/option>&lt;option value=&quot;CMDBILL&quot;>This is Created by K.K for practise purpose&lt;/option>&lt;option value=&quot;CMDMSK&quot;>To Do Created by Data Migration - SK&lt;/option>&lt;option value=&quot;F1-TDEER&quot;>To Do Entry External Routing Errors&lt;/option>&lt;option value=&quot;F1-TDMON&quot;>To Do Monitor Errors&lt;/option>&lt;option value=&quot;C1-TDSER&quot;>TOU Data Set Exception&lt;/option>&lt;option value=&quot;BUDTRUP&quot;>True Up Budgets Errors&lt;/option>&lt;option value=&quot;UARENEW&quot;>UA Renewal Errors&lt;/option>&lt;option value=&quot;TD-UNBAL&quot;>Unbalanced pay events exist&lt;/option>&lt;option value=&quot;WX-SSAP&quot;>Unsupported (Self-Service Automatic Payment Setup Errors)&lt;/option>&lt;option value=&quot;WX-SSCMR&quot;>Unsupported (Self-Service Create Meter Read Errors)&lt;/option>&lt;option value=&quot;WX-SSOTP&quot;>Unsupported (Self-Service Create One Time Payment Errors)&lt;/option>&lt;option value=&quot;C1-CSSRQ&quot;>UNSUPPORTED - DO NOT USE&lt;/option>&lt;option value=&quot;REDSAAMT&quot;>Update old FTs as redundant Errors&lt;/option>&lt;option value=&quot;TD-PYUPL&quot;>Uploaded payments in error&lt;/option>&lt;option value=&quot;D2-UEHTD&quot;>Usage Exception Handler&lt;/option>&lt;option value=&quot;D2-UISTD&quot;>Usage Transaction Issues&lt;/option>&lt;option value=&quot;D2-URATD&quot;>Usage Transaction Requiring Approval&lt;/option>&lt;option value=&quot;D2-USETD&quot;>Usage Transaction - Send Error&lt;/option>&lt;option value=&quot;D2-USCTD&quot;>Usage Transaction - Subsequent Correction&lt;/option>&lt;option value=&quot;WAITFA&quot;>Wait for FA Completion Errors&lt;/option>&lt;option value=&quot;WAITNT&quot;>Wait for Notification Response Errors&lt;/option>&lt;option value=&quot;WATER_2&quot;>Water High Bill Consumption&lt;/option>&lt;option value=&quot;WFPRINIT&quot;>WF process initiation Errors&lt;/option>&lt;option value=&quot;D2-WSOTD&quot;>Widespread outage&lt;/option>&lt;option value=&quot;WFA-WL&quot;>Workflow event requires attention&lt;/option>&lt;option value=&quot;TD-WEXTL&quot;>Workflow events in error&lt;/option>&lt;option value=&quot;WAITMAN&quot;>Workflow timeout manual wait Errors&lt;/option>&lt;option value=&quot;TD-WOEVT&quot;>Write-off events require attention&lt;/option>&lt;option value=&quot;WET&quot;>Write Off Event Trigger Errors&lt;/option>&lt;option value=&quot;WPM&quot;>Write off monitor process Errors&lt;/option>&lt;option value=&quot;TD-XAIDN&quot;>XAI Download Staging in error&lt;/option>&lt;option value=&quot;TD-XAIUP&quot;>XAI Upload Staging in error&lt;/option>&lt;/select>" ref="outerHTML" pref="10"/>
+        <Property value="select" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Billing Related Problem - Open">
+      <Object frame="" ref="Billing Related Problem - Open">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="(//span[@title='Go To To Do Entry '])[1]" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div/div/table/tbody/tr[8]/td/div/table/tbody/tr/td[3]/a/span)[1]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="html > #portalBody > div.portalZoneFull > #data_1 > #dataExplorerZone1 > tbody > #dataExplorerDisplay1 > td > #dataExplorerScrollDiv1 > #dataExplorerTable1 > #dataExplorerTableBody1 > tr > td.grid.paddedCell explorerGrid nowrap cursorDefault clickable > a.pseudoLink > span[title=&quot;Go To To Do Entry &quot;]" ref="css" pref="8"/>
+        <Property value="span" ref="type" pref="9"/>
+        <Property value="&lt;span style=&quot;color:;&quot; title=&quot;Go To To Do Entry &quot;>Billing Related Problem - Open, 08‑08‑2023 18:48:46&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Water High Bill Consumption -">
+      <Object frame="" ref="Water High Bill Consumption -">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="(//span[@title='Go To To Do Entry '])[1]" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div/div/table/tbody/tr[8]/td/div/table/tbody/tr/td[3]/a/span)[1]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="html > #portalBody > div.portalZoneFull > #data_1 > #dataExplorerZone1 > tbody > #dataExplorerDisplay1 > td > #dataExplorerScrollDiv1 > #dataExplorerTable1 > #dataExplorerTableBody1 > tr > td.grid.paddedCell explorerGrid nowrap cursorDefault clickable > a.pseudoLink > span[title=&quot;Go To To Do Entry &quot;]" ref="css" pref="8"/>
+        <Property value="span" ref="type" pref="9"/>
+        <Property value="&lt;span style=&quot;color:;&quot; title=&quot;Go To To Do Entry &quot;>Water High Bill Consumption - Being Worked On, 01‑05‑2021 18:03:16&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="To Do Summary-Main-List" ref="To do Summary">
+    <ObjectGroup ref="12">
+      <Object frame="" ref="12">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="TODO_SUMM:12$TOTAL_CNT" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//span[@name='TODO_SUMM:12$TOTAL_CNT']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/span[2]/div/table/tbody/tr[13]/td[3]/a/span" ref="xpath" pref="6"/>
+        <Property value="data dc-NUMB-NONE-10-0 clickable" ref="class" pref="7"/>
+        <Property value="html > body.oraDesktop > span.searchResultsTopMargin. > #dataDivision > #dataTable > #dataTableBody > tr.grid. > #TODO_SUMM|12|3 > #TODO_SUMM|12|TOTAL_CNT > #TODO_SUMM:12$TOTAL_CNT" ref="css" pref="8"/>
+        <Property value="span" ref="type" pref="9"/>
+        <Property value="&lt;span id=&quot;TODO_SUMM:12$TOTAL_CNT&quot; name=&quot;TODO_SUMM:12$TOTAL_CNT&quot; class=&quot;data dc-NUMB-NONE-10-0 clickable&quot;>&amp;nbsp;3&amp;nbsp;&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="To Do Summary-Main-List var so1">
+      <Object frame="" ref="To Do Summary-Main-List var so1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="/html" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="html" ref="css" pref="8"/>
+        <Property value="html" ref="type" pref="9"/>
+        <Property value="&lt;html lang=&quot;en-US&quot;>&lt;head>&#xa;&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;>&#xa;&lt;link rel=&quot;SHORTCUT ICON&quot; href=&quot;images/SPL.ico&quot;>&#xa;&lt;/head>&#xa;&lt;body>&#xa;&#xa;&lt;/body>&lt;/html>" ref="outerHTML" pref="10"/>
+        <Property value="html" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="SORT_BY_FLG">
+      <Object frame="" ref="SORT_BY_FLG">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="SORT_BY_FLG" ref="name" pref="2"/>
+        <Property value="SORT_BY_FLG" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//select[@name='SORT_BY_FLG']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/table/tbody/tr[2]/td/table/tbody/tr/td[2]/select)[1]" ref="xpath" pref="6"/>
+        <Property value="uiMargin data forms dc-CHAR-FLG-4-0" ref="class" pref="7"/>
+        <Property value="#SORT_BY_FLG" ref="css" pref="8"/>
+        <Property value="select-one" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Tab Page var isPopup = false;">
+      <Object frame="" ref="Tab Page var isPopup = false;">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="/html" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="html" ref="css" pref="8"/>
+        <Property value="html" ref="type" pref="9"/>
+        <Property value="&lt;html lang=&quot;en-US&quot; style=&quot;visibility: visible;&quot;>&lt;head>&#xa;&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;>&#xa;&lt;title>To Do List&lt;/title>&#xa;&lt;link rel=&quot;SHORTCUT ICON&quot; href=&quot;images/SPL.ico&quot;>&#xa;&lt;style type=&quot;text/css&quot;>&#xa;    html { visibility: hidden; }&#xa;&lt;/style>&#xa;&lt;script type=&quot;text/javascript&quot;>&#xa;// frame busting&#xa;var isEmbed = false;&#xa;&#xa;&#xa;&#xa;if(isEmbed == true) {&#xa;    document.documentElement.style.visibility = 'visible';&#xa;} else if (self == top){&#xa;    document.documentElement.style.visibility = 'visible';&#xa;} else {&#xa;    top.location = self.location;&#xa;} &#xa;&#xa;function getMain(){&#xa;    return main;&#xa;}&#xa;&lt;/script>&#xa;&lt;/head>&#xa;&lt;frameset title=&quot;Application Content&quot;>&#xa;&#x9;    &lt;frame name=&quot;main&quot; src=&quot;cisMain.jsp?language=ENG&quot; scrolling=&quot;no&quot; title=&quot;Main Frame&quot; cd_frame_id_=&quot;1d1b29086ff2cd28bf86d14b79363697&quot;>&#xa;&#x9;    &lt;noframes>&#xa;&#x9;        Browser not supported&#xa;&#x9;    &lt;/noframes>&#xa;&#x9;    &#xa;&lt;/frameset>&#xa;&#xa;&#xa;&lt;/html>" ref="outerHTML" pref="10"/>
+        <Property value="html" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="WObject0">
+      <Object frame="" ref="WObject0">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/span[2]/div/table/tbody/tr[16]/td[3]/a[contains(text(),'#To Do type')]/ancestor::div/table/tbody/tr[16]/td[3]/a/spa" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Tab Page" ref="To do type">
+    <ObjectGroup ref="To Do Type Page">
+      <Object frame="" ref="To Do Type Page">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="TD_TYPE_CD" ref="name" pref="2"/>
+        <Property value="TD_TYPE_CD" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@name='TD_TYPE_CD']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/table/tbody/tr/td/table/tbody/tr/td[2]/input)[1]" ref="xpath" pref="6"/>
+        <Property value="uiMargin data forms dc-CHAR-NONE-8-0" ref="class" pref="7"/>
+        <Property value="#TD_TYPE_CD" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input tabindex=&quot;5&quot; class=&quot;uiMargin data forms dc-CHAR-NONE-8-0&quot; data-pickertype=&quot;&quot; type=&quot;text&quot; data-required=&quot;true&quot; aria-required=&quot;true&quot; id=&quot;TD_TYPE_CD&quot; name=&quot;TD_TYPE_CD&quot; onblur=&quot;main.onInputTextBlur(event, document)&quot; onfocus=&quot;main.onInputTextFocus(event, document)&quot; onkeypress=&quot;launchSearch('toDoTypeSearchPage','LOAD')&quot; onclick=&quot;main.onInputTextClick(event, document)&quot; ondblclick=&quot;main.onInputTextDoubleClick(event, document)&quot; onchange=&quot;main.onInputTextChange(event, document)&quot; size=&quot;10&quot; maxlength=&quot;8&quot; style=&quot;padding-right:5px;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Description">
+      <Object frame="" ref="Description">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="DESCR" ref="name" pref="2"/>
+        <Property value="DESCR" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@name='DESCR']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/table/tbody/tr[2]/td/table/tbody/tr/td[2]/input" ref="xpath" pref="6"/>
+        <Property value="uiMargin data forms dc-VARC-NONE-60-0" ref="class" pref="7"/>
+        <Property value="#DESCR" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input tabindex=&quot;5&quot; class=&quot;uiMargin data forms dc-VARC-NONE-60-0&quot; data-pickertype=&quot;&quot; type=&quot;text&quot; data-required=&quot;true&quot; aria-required=&quot;true&quot; id=&quot;DESCR&quot; name=&quot;DESCR&quot; onblur=&quot;main.onInputTextBlur(event, document)&quot; onfocus=&quot;main.onInputTextFocus(event, document)&quot; onkeypress=&quot;main.onInputTextKeyPress(event, document)&quot; onclick=&quot;main.onInputTextClick(event, document)&quot; ondblclick=&quot;main.onInputTextDoubleClick(event, document)&quot; onchange=&quot;main.onInputTextChange(event, document)&quot; size=&quot;72&quot; maxlength=&quot;60&quot; style=&quot;padding-right:5px;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Detailed Description">
+      <Object frame="tabPage" ref="Detailed Description">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="DESCRLONG" ref="name" pref="2"/>
+        <Property value="DESCRLONG" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//textarea[@name='DESCRLONG']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/table/tbody/tr[2]/td/table/tbody/tr[2]/td[2]/span/textarea" ref="xpath" pref="6"/>
+        <Property value="uiMargin data dc-VARC-NONE-4000-0" ref="class" pref="7"/>
+        <Property value="#DESCRLONG" ref="css" pref="8"/>
+        <Property value="textarea" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="TD_PRIORITY_FLG">
+      <Object frame="" ref="TD_PRIORITY_FLG">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="TD_PRIORITY_FLG" ref="name" pref="2"/>
+        <Property value="TD_PRIORITY_FLG" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//select[@name='TD_PRIORITY_FLG']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/table/tbody/tr[2]/td/table/tbody/tr[3]/td[2]/select" ref="xpath" pref="6"/>
+        <Property value="uiMargin data forms dc-CHAR-FLG-4-0" ref="class" pref="7"/>
+        <Property value="#TD_PRIORITY_FLG" ref="css" pref="8"/>
+        <Property value="select-one" ref="type" pref="9"/>
+        <Property value="&lt;select tabindex=&quot;5&quot; class=&quot;uiMargin data forms dc-CHAR-FLG-4-0&quot; data-required=&quot;true&quot; aria-required=&quot;true&quot; id=&quot;TD_PRIORITY_FLG&quot; name=&quot;TD_PRIORITY_FLG&quot; onblur=&quot;main.onSelectBlur(event, document)&quot; onfocus=&quot;main.onSelectFocus(event, document)&quot; onkeypress=&quot;main.onSelectKeyPress(event, document)&quot; onclick=&quot;main.onSelectClick(event, document)&quot; ondblclick=&quot;main.onSelectDoubleClick(event, document)&quot; onchange=&quot;main.onSelectChange(event, document)&quot; style=&quot;margin-right:5px;&quot;>&lt;option value=&quot; &quot;>&lt;/option>&lt;script type=&quot;text/javascript&quot;>&#xa;        var options = fieldValue_TD_PRIORITY_FLG();&#xa;        var doc = document;&#xa;        for (var i=0; i &lt; options.length; i++) {&#xa;          doc.write('&lt;option value=&quot;' + options[i].key + '&quot;>');&#xa;          &#xa;          doc.write(options[i].value);&#xa;            &#xa;          doc.write('&lt;\/option>');&#xa;      }&#xa;      &lt;/script>&lt;option value=&quot;010&quot;>Priority 10 -- Highest&lt;/option>&lt;option value=&quot;020&quot;>Priority 20&lt;/option>&lt;option value=&quot;030&quot;>Priority 30&lt;/option>&lt;option value=&quot;040&quot;>Priority 40&lt;/option>&lt;option value=&quot;050&quot;>Priority 50&lt;/option>&lt;option value=&quot;060&quot;>Priority 60&lt;/option>&lt;option value=&quot;070&quot;>Priority 70&lt;/option>&lt;option value=&quot;080&quot;>Priority 80&lt;/option>&lt;option value=&quot;090&quot;>Priority 90 -- Lowest&lt;/option>&lt;/select>" ref="outerHTML" pref="10"/>
+        <Property value="select" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="TD_USAGE_TYPE_FLG">
+      <Object frame="" ref="TD_USAGE_TYPE_FLG">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="TD_USAGE_TYPE_FLG" ref="name" pref="2"/>
+        <Property value="TD_USAGE_TYPE_FLG" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//select[@name='TD_USAGE_TYPE_FLG']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/table/tbody/tr[2]/td/table/tbody/tr[4]/td[2]/select" ref="xpath" pref="6"/>
+        <Property value="uiMargin data forms dc-CHAR-FLG-4-0" ref="class" pref="7"/>
+        <Property value="#TD_USAGE_TYPE_FLG" ref="css" pref="8"/>
+        <Property value="select-one" ref="type" pref="9"/>
+        <Property value="&lt;select tabindex=&quot;5&quot; class=&quot;uiMargin data forms dc-CHAR-FLG-4-0&quot; data-required=&quot;true&quot; aria-required=&quot;true&quot; id=&quot;TD_USAGE_TYPE_FLG&quot; name=&quot;TD_USAGE_TYPE_FLG&quot; onblur=&quot;main.onSelectBlur(event, document)&quot; onfocus=&quot;main.onSelectFocus(event, document)&quot; onkeypress=&quot;main.onSelectKeyPress(event, document)&quot; onclick=&quot;main.onSelectClick(event, document)&quot; ondblclick=&quot;main.onSelectDoubleClick(event, document)&quot; onchange=&quot;main.onSelectChange(event, document)&quot; style=&quot;margin-right:5px;&quot;>&lt;option value=&quot; &quot;>&lt;/option>&lt;script type=&quot;text/javascript&quot;>&#xa;        var options = fieldValue_TD_USAGE_TYPE_FLG();&#xa;        var doc = document;&#xa;        for (var i=0; i &lt; options.length; i++) {&#xa;          doc.write('&lt;option value=&quot;' + options[i].key + '&quot;>');&#xa;          &#xa;          doc.write(options[i].value);&#xa;            &#xa;          doc.write('&lt;\/option>');&#xa;      }&#xa;      &lt;/script>&lt;option value=&quot;AUTO&quot;>Automatic&lt;/option>&lt;option value=&quot;MANL&quot;>Manual&lt;/option>&lt;/select>" ref="outerHTML" pref="10"/>
+        <Property value="select" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Search for Navigation Option">
+      <Object frame="" ref="Search for Navigation Option">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="IM_NAV_OPT_CD" ref="name" pref="2"/>
+        <Property value="IM_NAV_OPT_CD" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//img[@title='Search for Navigation Option']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/table/tbody/tr[2]/td/table/tbody/tr[5]/td[2]/span/img" ref="xpath" pref="6"/>
+        <Property value="oraSearchImg imageTypeElement uiMargin imgPadding" ref="class" pref="7"/>
+        <Property value="#IM_NAV_OPT_CD" ref="css" pref="8"/>
+        <Property value="img" ref="type" pref="9"/>
+        <Property value="&lt;img src=&quot;../images/alta/search.png?ltr&quot; tabindex=&quot;5&quot; class=&quot; &#xa;         &#x9;&#x9;oraSearchImg imageTypeElement uiMargin imgPadding &quot; id=&quot;IM_NAV_OPT_CD&quot; name=&quot;IM_NAV_OPT_CD&quot; onkeypress=&quot;main.onImageKeyPress(event, document)&quot; onmousedown=&quot;main.onImageMouseDown(event, document)&quot; onmouseup=&quot;main.onImageMouseUp(event, document)&quot; onmouseout=&quot;main.onImageMouseOut(event, document)&quot; onclick=&quot;launchSearch('navigationOptionSearchPage','NOLOAD', 'navo','MAIN')&quot; style=&quot;&quot; title=&quot;Search for Navigation Option&quot; alt=&quot;Search for Navigation Option&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="img" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Search by Message Number">
+      <Object frame="" ref="Search by Message Number">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="IM_MESSAGE_NBR" ref="name" pref="2"/>
+        <Property value="IM_MESSAGE_NBR" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//img[@title='Search by Message Number']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/table/tbody/tr[2]/td/table/tbody/tr[9]/td[2]/span/img" ref="xpath" pref="6"/>
+        <Property value="oraSearchImg imageTypeElement uiMargin imgPadding" ref="class" pref="7"/>
+        <Property value="#IM_MESSAGE_NBR" ref="css" pref="8"/>
+        <Property value="img" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Message Category">
+      <Object frame="" ref="Message Category">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="MESSAGE_CAT_NBR" ref="name" pref="2"/>
+        <Property value="MESSAGE_CAT_NBR" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@name='MESSAGE_CAT_NBR']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/table/tbody/tr[2]/td/table/tbody/tr[8]/td[2]/span/input" ref="xpath" pref="6"/>
+        <Property value="uiMargin data forms dc-NUMB-NONE-5-0 textAlignRight" ref="class" pref="7"/>
+        <Property value="#MESSAGE_CAT_NBR" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input tabindex=&quot;5&quot; class=&quot;uiMargin data forms dc-NUMB-NONE-5-0 textAlignRight&quot; data-pickertype=&quot;&quot; type=&quot;text&quot; data-required=&quot;false&quot; aria-required=&quot;false&quot; id=&quot;MESSAGE_CAT_NBR&quot; name=&quot;MESSAGE_CAT_NBR&quot; onblur=&quot;main.onInputTextBlur(event, document)&quot; onfocus=&quot;main.onInputTextFocus(event, document)&quot; onkeypress=&quot;launchSearch('messageCategorySearchPage','NOLOAD', 'msgCatSearch','MAIN')&quot; onclick=&quot;main.onInputTextClick(event, document)&quot; ondblclick=&quot;main.onInputTextDoubleClick(event, document)&quot; onchange=&quot;main.onInputTextChange(event, document)&quot; size=&quot;6&quot; maxlength=&quot;5&quot; style=&quot;padding-right:5px;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="to do meassage text">
+      <Object frame="" ref="to do meassage text">
+        <Property value="//*[@id=&quot;MESSAGE_NBR&quot;]" ref="xpath" pref="6"/>
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;input tabindex=&quot;5&quot; class=&quot;uiMargin data forms dc-NUMB-NONE-5-0 textAlignRight&quot; data-pickertype=&quot;&quot; type=&quot;text&quot; data-required=&quot;false&quot; aria-required=&quot;false&quot; id=&quot;MESSAGE_NBR&quot; name=&quot;MESSAGE_NBR&quot; onblur=&quot;main.onInputTextBlur(event, document)&quot; onfocus=&quot;main.onInputTextFocus(event, document)&quot; onkeypress=&quot;launchSearch('messageSearchPage','NOLOAD', '','MAIN')&quot; onclick=&quot;main.onInputTextClick(event, document)&quot; ondblclick=&quot;main.onInputTextDoubleClick(event, document)&quot; onchange=&quot;main.onInputTextChange(event, document)&quot; size=&quot;6&quot; maxlength=&quot;5&quot; style=&quot;padding-right:5px;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Search">
+      <Object frame="" ref="Search">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="BU_section01_sec01_03" ref="name" pref="2"/>
+        <Property value="BU_section01_sec01_03" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@title='Search by Navigation Option']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/table/tbody/tr[2]/td/table/tbody/tr/td[3]/span/input" ref="xpath" pref="6"/>
+        <Property value="oraButton uiMargin" ref="class" pref="7"/>
+        <Property value="#BU_section01_sec01_03" ref="css" pref="8"/>
+        <Property value="button" ref="type" pref="9"/>
+        <Property value="&lt;input class=&quot;oraButton uiMargin &quot; tabindex=&quot;5&quot; type=&quot;button&quot; onclick=&quot;doSearch(event)&quot; id=&quot;BU_section01_sec01_03&quot; name=&quot;BU_section01_sec01_03&quot; style=&quot;&quot; title=&quot;Search by Navigation Option&quot; value=&quot;Search&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Rebate Claim">
+      <Object frame="" ref="Rebate Claim">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="SEARCH_RESULTS:25$DESCR" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//span[@name='SEARCH_RESULTS:25$DESCR']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/span/div/table/tbody/tr[26]/td[2]/span" ref="xpath" pref="6"/>
+        <Property value="data dc-VARC-NONE-60-0" ref="class" pref="7"/>
+        <Property value="html > body.oraDesktop > span.searchResultsTopMargin. > #dataDivision > #dataTable > #dataTableBody > tr.grid. > #SEARCH_RESULTS|25|2 > #SEARCH_RESULTS:25$DESCR" ref="css" pref="8"/>
+        <Property value="span" ref="type" pref="9"/>
+        <Property value="&lt;span id=&quot;SEARCH_RESULTS:25$DESCR&quot; name=&quot;SEARCH_RESULTS:25$DESCR&quot; style=&quot;margin-right: 0.20 em;&quot; class=&quot;data dc-VARC-NONE-60-0 &quot;>Rebate Claim&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Roles1">
+      <Object frame="" ref="Roles1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//td[@title='Roles']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/table/tbody/tr/td[2]/table/tbody/tr[2]/td" ref="xpath" pref="6"/>
+        <Property value="inactiveTab" ref="class" pref="7"/>
+        <Property value="html > body.oraDesktop > table > tbody > #tabRow > #ROLES_TLBL > table > tbody > tr:nth-of-type(1) > td.inactiveTab" ref="css" pref="8"/>
+        <Property value="td" ref="type" pref="9"/>
+        <Property value="&lt;td role=&quot;tab&quot; class=&quot;inactiveTab&quot; tabindex=&quot;4&quot; onkeypress=&quot;main.onImageKeyPress(getEvent(), document)&quot; ontouchstart=&quot;setTab('ROLES_TLBL')&quot; onclick=&quot;setTab('ROLES_TLBL')&quot; title=&quot;Roles&quot;>Roles&lt;/td>" ref="outerHTML" pref="10"/>
+        <Property value="td" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Routing Process">
+      <Object frame="" ref="Routing Process">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="RTE_BATCH_CD" ref="name" pref="2"/>
+        <Property value="RTE_BATCH_CD" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@name='RTE_BATCH_CD']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/table/tbody/tr[2]/td/table/tbody/tr[7]/td[2]/span/input" ref="xpath" pref="6"/>
+        <Property value="uiMargin data forms dc-CHAR-NONE-8-0" ref="class" pref="7"/>
+        <Property value="#RTE_BATCH_CD" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input tabindex=&quot;5&quot; class=&quot;uiMargin data forms dc-CHAR-NONE-8-0&quot; data-pickertype=&quot;&quot; type=&quot;text&quot; data-required=&quot;false&quot; aria-required=&quot;false&quot; id=&quot;RTE_BATCH_CD&quot; name=&quot;RTE_BATCH_CD&quot; onblur=&quot;main.onInputTextBlur(event, document)&quot; onfocus=&quot;main.onInputTextFocus(event, document)&quot; onkeypress=&quot;launchSearch('batchControlSearchPage','NOLOAD', 'rteBatCtrlSearch','MAIN')&quot; onclick=&quot;main.onInputTextClick(event, document)&quot; ondblclick=&quot;main.onInputTextDoubleClick(event, document)&quot; onchange=&quot;main.onInputTextChange(event, document)&quot; size=&quot;9.6&quot; maxlength=&quot;8&quot; style=&quot;padding-right:5px;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="SRCH_ENT_STAT_FLG">
+      <Object frame="tabPage" ref="SRCH_ENT_STAT_FLG">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="SRCH_ENT_STAT_FLG" ref="name" pref="2"/>
+        <Property value="SRCH_ENT_STAT_FLG" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//select[@name='SRCH_ENT_STAT_FLG']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/table/tbody/tr[2]/td/table/tbody/tr[2]/td[2]/select" ref="xpath" pref="6"/>
+        <Property value="uiMargin data forms dc-CHAR-FLG-2-0" ref="class" pref="7"/>
+        <Property value="#SRCH_ENT_STAT_FLG" ref="css" pref="8"/>
+        <Property value="select-one" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="To Do Type-Roles-List" ref="To do type - Roles">
+    <ObjectGroup ref="TD_TYPE_ROLE:0$ROLE_ID">
+      <Object frame="" ref="TD_TYPE_ROLE:0$ROLE_ID">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="TD_TYPE_ROLE:0$ROLE_ID" ref="name" pref="2"/>
+        <Property value="TD_TYPE_ROLE:0$ROLE_ID" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//td[3]/input" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/span[2]/div/table/tbody/tr/td[3]/input" ref="xpath" pref="6"/>
+        <Property value="data dc-CHAR-NONE-10-0 forms" ref="class" pref="7"/>
+        <Property value="html > body.oraDesktop > span.searchResultsTopMargin. > #dataDivision > #dataTable > #dataTableBody > tr.grid. > #TD_TYPE_ROLE|0|3 > #TD_TYPE_ROLE:0$ROLE_ID" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input tabindex=&quot;5&quot; type=&quot;text&quot; data-pickertype=&quot;&quot; data-required=&quot;true&quot; aria-required=&quot;true&quot; onblur=&quot;main.onInputTextBlur(event, document)&quot; onfocus=&quot;main.onInputTextFocus(event, document)&quot; onkeypress=&quot;launchSearch('roleSearchPage','NOLOAD','roleSearch')&quot; onclick=&quot;main.onInputTextClick(event, document)&quot; ondblclick=&quot;main.onInputTextDoubleClick(event, document)&quot; onchange=&quot;main.onInputTextChange(event, document)&quot; size=&quot;12&quot; maxlength=&quot;10&quot; id=&quot;TD_TYPE_ROLE:0$ROLE_ID&quot; name=&quot;TD_TYPE_ROLE:0$ROLE_ID&quot; aria-labelledby=&quot;D_L_ROLE_ID&quot; value=&quot;&quot; class=&quot;data dc-CHAR-NONE-10-0 forms &quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="TD_TYPE_ROLE:0$DEFAULT_SW">
+      <Object frame="" ref="TD_TYPE_ROLE:0$DEFAULT_SW">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="TD_TYPE_ROLE:0$DEFAULT_SW" ref="name" pref="2"/>
+        <Property value="TD_TYPE_ROLE:0$DEFAULT_SW" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@name='TD_TYPE_ROLE:0$DEFAULT_SW']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/span[2]/div/table/tbody/tr/td[4]/input" ref="xpath" pref="6"/>
+        <Property value="data dc-CHAR-SW-1-0 cbox" ref="class" pref="7"/>
+        <Property value="html > body.oraDesktop > span.searchResultsTopMargin. > #dataDivision > #dataTable > #dataTableBody > tr.grid. > #TD_TYPE_ROLE|0|4 > #TD_TYPE_ROLE:0$DEFAULT_SW" ref="css" pref="8"/>
+        <Property value="checkbox" ref="type" pref="9"/>
+        <Property value="&lt;input type=&quot;checkbox&quot; tabindex=&quot;5&quot; onblur=&quot;main.onCheckboxBlur(event, document)&quot; onfocus=&quot;main.onCheckboxFocus(event, document)&quot; onkeypress=&quot;main.onCheckboxKeyPress(event, document)&quot; onclick=&quot;main.onCheckboxClick(event, document)&quot; ondblclick=&quot;main.onCheckboxDoubleClick(event, document)&quot; id=&quot;TD_TYPE_ROLE:0$DEFAULT_SW&quot; name=&quot;TD_TYPE_ROLE:0$DEFAULT_SW&quot; aria-labelledby=&quot;D_L_DEFAULT_SW&quot; class=&quot;data dc-CHAR-SW-1-0 cbox &quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="To Do Type Tabs" ref="To do type - Short Key">
+    <ObjectGroup ref="Sort Keys">
+      <Object frame="" ref="Sort Keys">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//td[@title='Sort Keys']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/table/tbody/tr/td[3]/table/tbody/tr[2]/td" ref="xpath" pref="6"/>
+        <Property value="inactiveTab" ref="class" pref="7"/>
+        <Property value="html > body.oraDesktop > table > tbody > #tabRow > #SORTKEYS_TLBL > table > tbody > tr:nth-of-type(1) > td.inactiveTab" ref="css" pref="8"/>
+        <Property value="td" ref="type" pref="9"/>
+        <Property value="&lt;td role=&quot;tab&quot; class=&quot;inactiveTab&quot; tabindex=&quot;4&quot; onkeypress=&quot;main.onImageKeyPress(getEvent(), document)&quot; ontouchstart=&quot;setTab('SORTKEYS_TLBL')&quot; onclick=&quot;setTab('SORTKEYS_TLBL')&quot; title=&quot;Sort Keys&quot;>Sort Keys&lt;/td>" ref="outerHTML" pref="10"/>
+        <Property value="td" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Use as a defoult">
+      <Object frame="" ref="Use as a defoult">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="TD_TYPE_SRTKY:0$DEFAULT_SW" ref="name" pref="2"/>
+        <Property value="TD_TYPE_SRTKY:0$DEFAULT_SW" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@name='TD_TYPE_SRTKY:0$DEFAULT_SW']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/span[2]/div/table/tbody/tr/td[5]/input" ref="xpath" pref="6"/>
+        <Property value="data dc-CHAR-SW-1-0 cbox" ref="class" pref="7"/>
+        <Property value="html > body.oraDesktop > span.searchResultsTopMargin. > #dataDivision > #dataTable > #dataTableBody > tr.grid. > #TD_TYPE_SRTKY|0|5 > #TD_TYPE_SRTKY:0$DEFAULT_SW" ref="css" pref="8"/>
+        <Property value="checkbox" ref="type" pref="9"/>
+        <Property value="&lt;input type=&quot;checkbox&quot; tabindex=&quot;5&quot; onblur=&quot;main.onCheckboxBlur(event, document)&quot; onfocus=&quot;main.onCheckboxFocus(event, document)&quot; onkeypress=&quot;main.onCheckboxKeyPress(event, document)&quot; onclick=&quot;main.onCheckboxClick(event, document)&quot; ondblclick=&quot;main.onCheckboxDoubleClick(event, document)&quot; id=&quot;TD_TYPE_SRTKY:0$DEFAULT_SW&quot; name=&quot;TD_TYPE_SRTKY:0$DEFAULT_SW&quot; aria-labelledby=&quot;D_L_DEFAULT_SW&quot; class=&quot;data dc-CHAR-SW-1-0 cbox &quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Sort order">
+      <Object frame="" ref="Sort order">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="TD_TYPE_SRTKY:0$ORDER_FLG" ref="name" pref="2"/>
+        <Property value="TD_TYPE_SRTKY:0$ORDER_FLG" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//select[@name='TD_TYPE_SRTKY:0$ORDER_FLG']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/span[2]/div/table/tbody/tr/td[6]/select" ref="xpath" pref="6"/>
+        <Property value="data dc-CHAR-FLG-2-0" ref="class" pref="7"/>
+        <Property value="html > body.oraDesktop > span.searchResultsTopMargin. > #dataDivision > #dataTable > #dataTableBody > tr.grid. > #TD_TYPE_SRTKY|0|6 > #TD_TYPE_SRTKY:0$ORDER_FLG" ref="css" pref="8"/>
+        <Property value="select-one" ref="type" pref="9"/>
+        <Property value="&lt;select tabindex=&quot;5&quot; style=&quot;margin-right: 3px;&quot; data-required=&quot;true&quot; aria-required=&quot;true&quot; id=&quot;TD_TYPE_SRTKY:0$ORDER_FLG&quot; name=&quot;TD_TYPE_SRTKY:0$ORDER_FLG&quot; aria-labelledby=&quot;D_L_ORDER_FLG&quot; onblur=&quot;main.onSelectBlur(event, document)&quot; onfocus=&quot;main.onSelectFocus(event, document)&quot; onkeypress=&quot;main.onSelectKeyPress(event, document)&quot; onclick=&quot;main.onSelectClick(event, document)&quot; ondblclick=&quot;main.onSelectDoubleClick(event, document)&quot; onchange=&quot;main.onSelectChange(event, document)&quot; class=&quot;data dc-CHAR-FLG-2-0 &quot;>&lt;option value=&quot; &quot;>&lt;/option>&#xa;&lt;option value=&quot;A&quot;>Ascending&lt;/option>&#xa;&lt;option value=&quot;D&quot;>Descending&lt;/option>&lt;/select>" ref="outerHTML" pref="10"/>
+        <Property value="select" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Description">
+      <Object frame="" ref="Description">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="TD_TYPE_SRTKY:0$DESCR" ref="name" pref="2"/>
+        <Property value="TD_TYPE_SRTKY:0$DESCR" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//td[4]/input" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/span[2]/div/table/tbody/tr/td[4]/input" ref="xpath" pref="6"/>
+        <Property value="data dc-VARC-NONE-60-0 forms" ref="class" pref="7"/>
+        <Property value="html > body.oraDesktop > span.searchResultsTopMargin. > #dataDivision > #dataTable > #dataTableBody > tr.grid. > #TD_TYPE_SRTKY|0|4 > #TD_TYPE_SRTKY:0$DESCR" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input tabindex=&quot;5&quot; type=&quot;text&quot; data-pickertype=&quot;&quot; data-required=&quot;true&quot; aria-required=&quot;true&quot; onblur=&quot;main.onInputTextBlur(event, document)&quot; onfocus=&quot;main.onInputTextFocus(event, document)&quot; onkeypress=&quot;main.onInputTextKeyPress(event, document)&quot; onclick=&quot;main.onInputTextClick(event, document)&quot; ondblclick=&quot;main.onInputTextDoubleClick(event, document)&quot; onchange=&quot;main.onInputTextChange(event, document)&quot; size=&quot;72&quot; maxlength=&quot;60&quot; id=&quot;TD_TYPE_SRTKY:0$DESCR&quot; name=&quot;TD_TYPE_SRTKY:0$DESCR&quot; aria-labelledby=&quot;D_L_DESCR&quot; value=&quot;&quot; class=&quot;data dc-VARC-NONE-60-0 forms &quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Sequence">
+      <Object frame="" ref="Sequence">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="TD_TYPE_SRTKY:0$SEQ_NUM" ref="name" pref="2"/>
+        <Property value="TD_TYPE_SRTKY:0$SEQ_NUM" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//td[3]/input" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/span[2]/div/table/tbody/tr/td[3]/input" ref="xpath" pref="6"/>
+        <Property value="data dc-NUMB-NONE-3-0 forms textAlignRight" ref="class" pref="7"/>
+        <Property value="html > body.oraDesktop > span.searchResultsTopMargin. > #dataDivision > #dataTable > #dataTableBody > tr.grid. > #TD_TYPE_SRTKY|0|3 > #TD_TYPE_SRTKY:0$SEQ_NUM" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input tabindex=&quot;5&quot; type=&quot;text&quot; data-pickertype=&quot;&quot; data-required=&quot;true&quot; aria-required=&quot;true&quot; onblur=&quot;main.onInputTextBlur(event, document)&quot; onfocus=&quot;main.onInputTextFocus(event, document)&quot; onkeypress=&quot;main.onInputTextKeyPress(event, document)&quot; onclick=&quot;main.onInputTextClick(event, document)&quot; ondblclick=&quot;main.onInputTextDoubleClick(event, document)&quot; onchange=&quot;main.onInputTextChange(event, document)&quot; style=&quot;text-align: right;&quot; size=&quot;5&quot; maxlength=&quot;3&quot; id=&quot;TD_TYPE_SRTKY:0$SEQ_NUM&quot; name=&quot;TD_TYPE_SRTKY:0$SEQ_NUM&quot; aria-labelledby=&quot;D_L_SEQ_NUM&quot; value=&quot;&quot; class=&quot;data dc-NUMB-NONE-3-0 forms &quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="To do type - Drill">
+    <ObjectGroup ref="Sequence">
+      <Object frame="" ref="Sequence">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="TD_TYPE_DRLKY:0$SEQ_NUM" ref="name" pref="2"/>
+        <Property value="TD_TYPE_DRLKY:0$SEQ_NUM" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//td[3]/input" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/span[2]/div/table/tbody/tr/td[3]/input" ref="xpath" pref="6"/>
+        <Property value="data dc-NUMB-NONE-3-0 forms textAlignRight" ref="class" pref="7"/>
+        <Property value="html > body.oraDesktop > span.searchResultsTopMargin. > #dataDivision > #dataTable > #dataTableBody > tr.grid. > #TD_TYPE_DRLKY|0|3 > #TD_TYPE_DRLKY:0$SEQ_NUM" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input tabindex=&quot;5&quot; type=&quot;text&quot; data-pickertype=&quot;&quot; data-required=&quot;true&quot; aria-required=&quot;true&quot; onblur=&quot;main.onInputTextBlur(event, document)&quot; onfocus=&quot;main.onInputTextFocus(event, document)&quot; onkeypress=&quot;main.onInputTextKeyPress(event, document)&quot; onclick=&quot;main.onInputTextClick(event, document)&quot; ondblclick=&quot;main.onInputTextDoubleClick(event, document)&quot; onchange=&quot;main.onInputTextChange(event, document)&quot; style=&quot;text-align: right;&quot; size=&quot;5&quot; maxlength=&quot;3&quot; id=&quot;TD_TYPE_DRLKY:0$SEQ_NUM&quot; name=&quot;TD_TYPE_DRLKY:0$SEQ_NUM&quot; aria-labelledby=&quot;D_L_SEQ_NUM&quot; value=&quot;&quot; class=&quot;data dc-NUMB-NONE-3-0 forms &quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Table">
+      <Object frame="" ref="Table">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="TD_TYPE_DRLKY:0$TBL_NAME" ref="name" pref="2"/>
+        <Property value="TD_TYPE_DRLKY:0$TBL_NAME" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//td[4]/input" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/span[2]/div/table/tbody/tr/td[4]/input" ref="xpath" pref="6"/>
+        <Property value="data dc-CHAR-NONE-30-0 forms" ref="class" pref="7"/>
+        <Property value="html > body.oraDesktop > span.searchResultsTopMargin. > #dataDivision > #dataTable > #dataTableBody > tr.grid. > #TD_TYPE_DRLKY|0|4 > #TD_TYPE_DRLKY:0$TBL_NAME" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input tabindex=&quot;5&quot; type=&quot;text&quot; data-pickertype=&quot;&quot; data-required=&quot;true&quot; aria-required=&quot;true&quot; onblur=&quot;main.onInputTextBlur(event, document)&quot; onfocus=&quot;main.onInputTextFocus(event, document)&quot; onkeypress=&quot;launchSearch('metaDataTableSearchPage','NOLOAD', 'tableSearch','MAIN')&quot; onclick=&quot;main.onInputTextClick(event, document)&quot; ondblclick=&quot;main.onInputTextDoubleClick(event, document)&quot; onchange=&quot;main.onInputTextChange(event, document)&quot; size=&quot;36&quot; maxlength=&quot;30&quot; id=&quot;TD_TYPE_DRLKY:0$TBL_NAME&quot; name=&quot;TD_TYPE_DRLKY:0$TBL_NAME&quot; aria-labelledby=&quot;D_L_TBL_NAME&quot; value=&quot;&quot; class=&quot;data dc-CHAR-NONE-30-0 forms &quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Feild">
+      <Object frame="" ref="Feild">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="TD_TYPE_DRLKY:0$FLD_NAME" ref="name" pref="2"/>
+        <Property value="TD_TYPE_DRLKY:0$FLD_NAME" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//td[5]/input" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/span[2]/div/table/tbody/tr/td[5]/input" ref="xpath" pref="6"/>
+        <Property value="data dc-CHAR-NONE-30-0 forms" ref="class" pref="7"/>
+        <Property value="html > body.oraDesktop > span.searchResultsTopMargin. > #dataDivision > #dataTable > #dataTableBody > tr.grid. > #TD_TYPE_DRLKY|0|5 > #TD_TYPE_DRLKY:0$FLD_NAME" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input tabindex=&quot;5&quot; type=&quot;text&quot; data-pickertype=&quot;&quot; data-required=&quot;true&quot; aria-required=&quot;true&quot; onblur=&quot;main.onInputTextBlur(event, document)&quot; onfocus=&quot;main.onInputTextFocus(event, document)&quot; onkeypress=&quot;launchSearch('metaDataTableFieldSearchPage','NOLOAD', 'tableFieldSearch','MAIN')&quot; onclick=&quot;main.onInputTextClick(event, document)&quot; ondblclick=&quot;main.onInputTextDoubleClick(event, document)&quot; onchange=&quot;main.onInputTextChange(event, document)&quot; size=&quot;36&quot; maxlength=&quot;30&quot; id=&quot;TD_TYPE_DRLKY:0$FLD_NAME&quot; name=&quot;TD_TYPE_DRLKY:0$FLD_NAME&quot; aria-labelledby=&quot;D_L_FLD_NAME&quot; value=&quot;&quot; class=&quot;data dc-CHAR-NONE-30-0 forms &quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Save">
+      <Object frame="" ref="Save">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="Save" ref="name" pref="2"/>
+        <Property value="IM_SAVE" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@title='Save (Alt+S)']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[8]/div[2]/div/input[7]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="#IM_SAVE" ref="css" pref="8"/>
+        <Property value="button" ref="type" pref="9"/>
+        <Property value="&lt;input type=&quot;button&quot; id=&quot;IM_SAVE&quot; title=&quot;Save (Alt+S)&quot; name=&quot;Save&quot; value=&quot;Save&quot; onclick=&quot;main.doClose();main.doSave()&quot; style=&quot;opacity: 1;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Drill Keys">
+      <Object frame="" ref="Drill Keys">
+        <Property value="//*[@id=&quot;DRILLKEYS_TLBL&quot;]/table/tbody/tr[2]/td" ref="xpath" pref="6"/>
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;td role=&quot;tab&quot; class=&quot;inactiveTab&quot; tabindex=&quot;4&quot; onkeypress=&quot;main.onImageKeyPress(getEvent(), document)&quot; ontouchstart=&quot;setTab('DRILLKEYS_TLBL')&quot; onclick=&quot;setTab('DRILLKEYS_TLBL')&quot; title=&quot;Drill Keys&quot;>Drill Keys&lt;/td>" ref="outerHTML" pref="10"/>
+        <Property value="td" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Forward To Do Entry" ref="To do entry - forword">
+    <ObjectGroup ref="Search - User">
+      <Object frame="uiMap" ref="Search - User">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="user_search" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//img[@title='Search - User']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[3]/div[2]/span/img" ref="xpath" pref="6"/>
+        <Property value="imageTypeElement uiMargin oraSearchImg" ref="class" pref="7"/>
+        <Property value="#user_search" ref="css" pref="8"/>
+        <Property value="img" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="user">
+      <Object frame="uiMap" ref="user">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="user" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@type='text']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[3]/div[2]/span/input" ref="xpath" pref="6"/>
+        <Property value="oraInput" ref="class" pref="7"/>
+        <Property value="#user" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="details">
+      <Object frame="" ref="details">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="details" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//textarea[@oratype='string;precision:4000']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[3]/div[4]/span/textarea" ref="xpath" pref="6"/>
+        <Property value="oraInput oraDefault" ref="class" pref="7"/>
+        <Property value="#details" ref="css" pref="8"/>
+        <Property value="textarea" ref="type" pref="9"/>
+        <Property value="&lt;textarea orafield=&quot;details&quot; id=&quot;details&quot; class=&quot;oraInput oraDefault&quot; cols=&quot;60&quot; rows=&quot;5&quot; oratype=&quot;string;precision:4000&quot; oraerrorelement=&quot;details&quot; aria-required=&quot;true&quot; data-combinedlistenerblur=&quot;true&quot; tabindex=&quot;5&quot;>&lt;/textarea>" ref="outerHTML" pref="10"/>
+        <Property value="textarea" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Save">
+      <Object frame="" ref="Save">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="SAVE_BTN_MP" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='Save']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div[4]/div/input)[1]" ref="xpath" pref="6"/>
+        <Property value="oraButton oraDefault" ref="class" pref="7"/>
+        <Property value="#SAVE_BTN_MP" ref="css" pref="8"/>
+        <Property value="button" ref="type" pref="9"/>
+        <Property value="&lt;input id=&quot;SAVE_BTN_MP&quot; type=&quot;button&quot; class=&quot;oraButton oraDefault&quot; oramdlabel=&quot;SAVE_BTN_LBL&quot; onclick=&quot;oraSubmitMap('SAVE');&quot; value=&quot;Save&quot; tabindex=&quot;5&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="To do search">
+    <ObjectGroup ref="To Do Search">
+      <Object frame="main" ref="To Do Search">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='To Do Search']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div[3]/ul/li[8]/span)[1]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="html > body.pageContainer.oraDesktop > #menuDiv_1 > ul.menuList > #CI_TODO_subMenuItem0x7 > span" ref="css" pref="8"/>
+        <Property value="span" ref="type" pref="9"/>
+        <Property value="&lt;span data-menuobj=&quot;CI_MAINMENU&quot;>To Do Search&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Related to do filter">
+      <Object frame="" ref="Related to do filter">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="REL_TD_FILTER_FLG" ref="name" pref="2"/>
+        <Property value="REL_TD_FILTER_FLG" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//select[@name='REL_TD_FILTER_FLG']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/table/tbody/tr/td/table/tbody/tr/td[2]/select)[1]" ref="xpath" pref="6"/>
+        <Property value="uiMargin data forms dc-CHAR-FLG-4-0" ref="class" pref="7"/>
+        <Property value="#REL_TD_FILTER_FLG" ref="css" pref="8"/>
+        <Property value="select-one" ref="type" pref="9"/>
+        <Property value="&lt;select tabindex=&quot;5&quot; class=&quot;uiMargin data forms dc-CHAR-FLG-4-0&quot; data-required=&quot;false&quot; aria-required=&quot;false&quot; id=&quot;REL_TD_FILTER_FLG&quot; name=&quot;REL_TD_FILTER_FLG&quot; onblur=&quot;main.onSelectBlur(event, document)&quot; onfocus=&quot;main.onSelectFocus(event, document)&quot; onkeypress=&quot;main.onSelectKeyPress(event, document)&quot; onclick=&quot;main.onSelectClick(event, document)&quot; ondblclick=&quot;main.onSelectDoubleClick(event, document)&quot; onchange=&quot;main.onSelectChange(event, document)&quot; style=&quot;margin-right:5px;&quot;>&lt;option value=&quot; &quot;>&lt;/option>&lt;script type=&quot;text/javascript&quot;>&#xa;        var options = fieldValue_REL_TD_FILTER_FLG();&#xa;        var doc = document;&#xa;        for (var i=0; i &lt; options.length; i++) {&#xa;          doc.write('&lt;option value=&quot;' + options[i].key + '&quot;>');&#xa;          &#xa;          doc.write(options[i].value);&#xa;            &#xa;          doc.write('&lt;\/option>');&#xa;      }&#xa;      &lt;/script>&lt;option value=&quot;F1NA&quot;>Not Applicable&lt;/option>&lt;option value=&quot;F1ST&quot;>Specific To Do&lt;/option>&lt;/select>" ref="outerHTML" pref="10"/>
+        <Property value="select" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="To Do ID">
+      <Object frame="" ref="To Do ID">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="REL_TD_ENTRY_ID" ref="name" pref="2"/>
+        <Property value="REL_TD_ENTRY_ID" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@name='REL_TD_ENTRY_ID']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/table/tbody/tr/td/table/tbody/tr/td[4]/span/input)[1]" ref="xpath" pref="6"/>
+        <Property value="uiMargin data forms dc-CHAR-NONE-14-0" ref="class" pref="7"/>
+        <Property value="#REL_TD_ENTRY_ID" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input tabindex=&quot;5&quot; class=&quot;uiMargin data forms dc-CHAR-NONE-14-0&quot; data-pickertype=&quot;&quot; type=&quot;text&quot; data-required=&quot;false&quot; aria-required=&quot;false&quot; id=&quot;REL_TD_ENTRY_ID&quot; name=&quot;REL_TD_ENTRY_ID&quot; onblur=&quot;main.onInputTextBlur(event, document)&quot; onfocus=&quot;main.onInputTextFocus(event, document)&quot; onkeypress=&quot;launchSearch('toDoEntrySearchPage','NOLOAD', 'todo','MAIN')&quot; onclick=&quot;main.onInputTextClick(event, document)&quot; ondblclick=&quot;main.onInputTextDoubleClick(event, document)&quot; onchange=&quot;main.onInputTextChange(event, document)&quot; size=&quot;16.8&quot; maxlength=&quot;14&quot; style=&quot;padding-right: 5px; visibility: visible;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="to do type filter">
+      <Object frame="" ref="to do type filter">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="TD_TYPE_FILTER_FLG" ref="name" pref="2"/>
+        <Property value="TD_TYPE_FILTER_FLG" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//select[@name='TD_TYPE_FILTER_FLG']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/table/tbody/tr/td/table/tbody/tr[2]/td[2]/select" ref="xpath" pref="6"/>
+        <Property value="uiMargin data forms dc-CHAR-FLG-4-0" ref="class" pref="7"/>
+        <Property value="#TD_TYPE_FILTER_FLG" ref="css" pref="8"/>
+        <Property value="select-one" ref="type" pref="9"/>
+        <Property value="&lt;select tabindex=&quot;5&quot; class=&quot;uiMargin data forms dc-CHAR-FLG-4-0&quot; data-required=&quot;false&quot; aria-required=&quot;false&quot; id=&quot;TD_TYPE_FILTER_FLG&quot; name=&quot;TD_TYPE_FILTER_FLG&quot; onblur=&quot;main.onSelectBlur(event, document)&quot; onfocus=&quot;main.onSelectFocus(event, document)&quot; onkeypress=&quot;main.onSelectKeyPress(event, document)&quot; onclick=&quot;main.onSelectClick(event, document)&quot; ondblclick=&quot;main.onSelectDoubleClick(event, document)&quot; onchange=&quot;main.onSelectChange(event, document)&quot; style=&quot;margin-right:5px;&quot;>&lt;option value=&quot; &quot;>&lt;/option>&lt;script type=&quot;text/javascript&quot;>&#xa;        var options = fieldValue_TD_TYPE_FILTER_FLG();&#xa;        var doc = document;&#xa;        for (var i=0; i &lt; options.length; i++) {&#xa;          doc.write('&lt;option value=&quot;' + options[i].key + '&quot;>');&#xa;          &#xa;          doc.write(options[i].value);&#xa;            &#xa;          doc.write('&lt;\/option>');&#xa;      }&#xa;      &lt;/script>&lt;option value=&quot;TALL&quot;>All&lt;/option>&lt;option value=&quot;TTYP&quot;>Specific To Do Type&lt;/option>&lt;/select>" ref="outerHTML" pref="10"/>
+        <Property value="select" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="To Do Type">
+      <Object frame="" ref="To Do Type">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="TD_TYPE_CD" ref="name" pref="2"/>
+        <Property value="TD_TYPE_CD" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@name='TD_TYPE_CD']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/table/tbody/tr/td/table/tbody/tr[2]/td[4]/span/input" ref="xpath" pref="6"/>
+        <Property value="uiMargin data forms dc-CHAR-NONE-8-0" ref="class" pref="7"/>
+        <Property value="#TD_TYPE_CD" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input tabindex=&quot;5&quot; class=&quot;uiMargin data forms dc-CHAR-NONE-8-0&quot; data-pickertype=&quot;&quot; type=&quot;text&quot; data-required=&quot;false&quot; aria-required=&quot;false&quot; id=&quot;TD_TYPE_CD&quot; name=&quot;TD_TYPE_CD&quot; onblur=&quot;main.onInputTextBlur(event, document)&quot; onfocus=&quot;main.onInputTextFocus(event, document)&quot; onkeypress=&quot;launchSearch('toDoTypeSearchPage','NOLOAD')&quot; onclick=&quot;main.onInputTextClick(event, document)&quot; ondblclick=&quot;main.onInputTextDoubleClick(event, document)&quot; onchange=&quot;main.onInputTextChange(event, document)&quot; size=&quot;10&quot; maxlength=&quot;8&quot; style=&quot;padding-right: 5px; visibility: visible;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="User filter">
+      <Object frame="" ref="User filter">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="TD_USER_FILTER_FLG" ref="name" pref="2"/>
+        <Property value="TD_USER_FILTER_FLG" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//select[@name='TD_USER_FILTER_FLG']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/table/tbody/tr/td/table/tbody/tr[4]/td[2]/select" ref="xpath" pref="6"/>
+        <Property value="uiMargin data forms dc-CHAR-FLG-4-0" ref="class" pref="7"/>
+        <Property value="#TD_USER_FILTER_FLG" ref="css" pref="8"/>
+        <Property value="select-one" ref="type" pref="9"/>
+        <Property value="&lt;select tabindex=&quot;5&quot; class=&quot;uiMargin data forms dc-CHAR-FLG-4-0&quot; data-required=&quot;false&quot; aria-required=&quot;false&quot; id=&quot;TD_USER_FILTER_FLG&quot; name=&quot;TD_USER_FILTER_FLG&quot; onblur=&quot;main.onSelectBlur(event, document)&quot; onfocus=&quot;main.onSelectFocus(event, document)&quot; onkeypress=&quot;main.onSelectKeyPress(event, document)&quot; onclick=&quot;main.onSelectClick(event, document)&quot; ondblclick=&quot;main.onSelectDoubleClick(event, document)&quot; onchange=&quot;main.onSelectChange(event, document)&quot; style=&quot;margin-right:5px;&quot;>&lt;option value=&quot; &quot;>&lt;/option>&lt;script type=&quot;text/javascript&quot;>&#xa;        var options = fieldValue_TD_USER_FILTER_FLG();&#xa;        var doc = document;&#xa;        for (var i=0; i &lt; options.length; i++) {&#xa;          doc.write('&lt;option value=&quot;' + options[i].key + '&quot;>');&#xa;          &#xa;          doc.write(options[i].value);&#xa;            &#xa;          doc.write('&lt;\/option>');&#xa;      }&#xa;      &lt;/script>&lt;option value=&quot;ASUS&quot;>Assigned To User&lt;/option>&lt;option value=&quot;CMUS&quot;>Completed By User&lt;/option>&lt;option value=&quot;CRUS&quot;>Created By User&lt;/option>&lt;option value=&quot;NAPP&quot;>Not Applicable&lt;/option>&lt;/select>" ref="outerHTML" pref="10"/>
+        <Property value="select" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="User id">
+      <Object frame="" ref="User id">
+        <Property value="//*[@id=&quot;USER_ID&quot;]" ref="xpath" pref="6"/>
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;input tabindex=&quot;5&quot; class=&quot;uiMargin data forms dc-CHAR-NONE-8-0&quot; data-pickertype=&quot;&quot; type=&quot;text&quot; data-required=&quot;false&quot; aria-required=&quot;false&quot; id=&quot;USER_ID&quot; name=&quot;USER_ID&quot; onblur=&quot;main.onInputTextBlur(event, document)&quot; onfocus=&quot;main.onInputTextFocus(event, document)&quot; onkeypress=&quot;launchSearch('atUserSearchPage','NOLOAD')&quot; onclick=&quot;main.onInputTextClick(event, document)&quot; ondblclick=&quot;main.onInputTextDoubleClick(event, document)&quot; onchange=&quot;main.onInputTextChange(event, document)&quot; size=&quot;10&quot; maxlength=&quot;8&quot; style=&quot;padding-right: 5px; visibility: visible;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Status Filter">
+      <Object frame="" ref="Status Filter">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="TD_STAT_FILTER_FLG" ref="name" pref="2"/>
+        <Property value="TD_STAT_FILTER_FLG" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//select[@name='TD_STAT_FILTER_FLG']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/table/tbody/tr/td/table/tbody/tr[6]/td[2]/span/select" ref="xpath" pref="6"/>
+        <Property value="uiMargin data forms dc-CHAR-FLG-4-0" ref="class" pref="7"/>
+        <Property value="#TD_STAT_FILTER_FLG" ref="css" pref="8"/>
+        <Property value="select-one" ref="type" pref="9"/>
+        <Property value="&lt;select tabindex=&quot;5&quot; class=&quot;uiMargin data forms dc-CHAR-FLG-4-0&quot; data-required=&quot;false&quot; aria-required=&quot;false&quot; id=&quot;TD_STAT_FILTER_FLG&quot; name=&quot;TD_STAT_FILTER_FLG&quot; onblur=&quot;main.onSelectBlur(event, document)&quot; onfocus=&quot;main.onSelectFocus(event, document)&quot; onkeypress=&quot;main.onSelectKeyPress(event, document)&quot; onclick=&quot;main.onSelectClick(event, document)&quot; ondblclick=&quot;main.onSelectDoubleClick(event, document)&quot; onchange=&quot;main.onSelectChange(event, document)&quot; style=&quot;margin-right:5px;&quot;>&lt;option value=&quot; &quot;>&lt;/option>&lt;script type=&quot;text/javascript&quot;>&#xa;        var options = fieldValue_TD_STAT_FILTER_FLG();&#xa;        var doc = document;&#xa;        for (var i=0; i &lt; options.length; i++) {&#xa;          doc.write('&lt;option value=&quot;' + options[i].key + '&quot;>');&#xa;          &#xa;          doc.write(options[i].value);&#xa;            &#xa;          doc.write('&lt;\/option>');&#xa;      }&#xa;      &lt;/script>&lt;option value=&quot;ALLE&quot;>All&lt;/option>&lt;option value=&quot;WRKD&quot;>Being Worked&lt;/option>&lt;option value=&quot;CMPL&quot;>Completed&lt;/option>&lt;option value=&quot;OPEN&quot;>Open&lt;/option>&lt;option value=&quot;OPWR&quot;>Open &amp;amp; Being Worked&lt;/option>&lt;/select>" ref="outerHTML" pref="10"/>
+        <Property value="select" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Search">
+      <Object frame="" ref="Search">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="BU_MAIN_SRCH" ref="name" pref="2"/>
+        <Property value="BU_MAIN_SRCH" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@title='Retrieve To Do Entries']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/table/tbody/tr/td/table/tbody/tr[6]/td[2]/span/input" ref="xpath" pref="6"/>
+        <Property value="oraButton uiMargin" ref="class" pref="7"/>
+        <Property value="#BU_MAIN_SRCH" ref="css" pref="8"/>
+        <Property value="button" ref="type" pref="9"/>
+        <Property value="&lt;input class=&quot;oraButton uiMargin &quot; tabindex=&quot;5&quot; type=&quot;button&quot; onclick=&quot;launchToDoEntrySearch()&quot; id=&quot;BU_MAIN_SRCH&quot; name=&quot;BU_MAIN_SRCH&quot; style=&quot;margin-left: 50px;&quot; title=&quot;Retrieve To Do Entries&quot; value=&quot;Search&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Expand Scroll">
+      <Object frame="" ref="Expand Scroll">
+        <Property value="//*[@id=&quot;expandScrollControl&quot;]" ref="xpath" pref="6"/>
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;img src=&quot;../images/expandScroll.gif&quot; id=&quot;expandScrollControl&quot; class=&quot;imgExpandScroll&quot; tabindex=&quot;5&quot; onkeypress=&quot;main.onImageKeyPress(event,document);&quot; onclick=&quot;startExpandedState()&quot; style=&quot;visibility: visible;&quot; alt=&quot;Scroll to Expand&quot; title=&quot;Scroll to Expand&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="img" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

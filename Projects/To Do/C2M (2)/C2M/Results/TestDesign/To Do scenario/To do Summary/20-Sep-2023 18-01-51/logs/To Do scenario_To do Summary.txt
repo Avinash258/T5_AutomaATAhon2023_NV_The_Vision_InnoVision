@@ -1,0 +1,140 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Wed Sep 20 18:01:51 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [To do Summary]
+Browser          :  [Edge]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: %Login_Link%  |  Condition:  | @20-Sep-2023 18:01:53.053
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @20-Sep-2023 18:01:53.053
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: To Do:Username  |  Condition:  | @20-Sep-2023 18:01:54.054
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @20-Sep-2023 18:01:54.054
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:Set  |  Input: To Do:Password  |  Condition:  | @20-Sep-2023 18:01:54.054
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @20-Sep-2023 18:01:54.054
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Browser  |  Action:pause  |  Input: @4000  |  Condition:  | @20-Sep-2023 18:01:58.058
+[DONE]   | Thread sleep for '4000
+
+
+===================================================================================================
+
+Step:3  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @20-Sep-2023 18:01:59.059
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @20-Sep-2023 18:01:59.059
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:5  |  Object:To Do Summary1  |  Action:Click  |  Input:   |  Condition:  | @20-Sep-2023 18:01:59.059
+[FAIL]   | Seems Like the Element [To Do Summary1] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @1000  |  Condition:  | @20-Sep-2023 18:02:02.002
+[DONE]   | Thread sleep for '1000
+
+
+===================================================================================================
+
+Step:7  |  Object:Browser  |  Action:switchToFrame  |  Input: To Do:Frame  |  Condition:  | @20-Sep-2023 18:02:02.002
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:8  |  Object:Browser  |  Action:switchToFrame  |  Input: Frames:frame 1  |  Condition:  | @20-Sep-2023 18:02:02.002
+[DEBUG]   | No frame element found by name or id dataframe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '10.20.0.46', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown
+
+
+===================================================================================================
+
+Step:9  |  Object:To Do Summary-Main-List var so1  |  Action:highlight  |  Input:   |  Condition:  | @20-Sep-2023 18:02:02.002
+[PASS]   | Element Highlighted
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @20-Sep-2023 18:02:33.033
+[DONE]   | Thread sleep for '30000
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @1000  |  Condition:  | @20-Sep-2023 18:02:34.034
+[DONE]   | Thread sleep for '1000
+
+
+===================================================================================================
+
+Step:2  |  Object:Browser  |  Action:takeScreenshot  |  Input:   |  Condition:  | @20-Sep-2023 18:02:34.034
+[PASS]   | Screenshot is taken
+
+
+===================================================================================================
+
+Step:12  |  Object:12  |  Action:Click  |  Input:   |  Condition:  | @20-Sep-2023 18:02:45.045
+[FAIL]   | Driver Edge Closed / Could not be reached
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To do Summary
+Executed Steps       : 18
+Passed Steps         : 15
+Failed Steps         : 3
+Time Taken           : 00:00:54
+---------------------------------------------------
+

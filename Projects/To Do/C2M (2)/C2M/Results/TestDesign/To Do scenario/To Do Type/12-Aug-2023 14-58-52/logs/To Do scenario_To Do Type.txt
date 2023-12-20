@@ -1,0 +1,223 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Sat Aug 12 14:58:52 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [To Do Type]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: %Login_Link%  |  Condition:  | @12-Aug-2023 14:58:56.056
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @12-Aug-2023 14:58:56.056
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: To Do:Username  |  Condition:  | @12-Aug-2023 14:58:57.057
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @12-Aug-2023 14:58:57.057
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:Set  |  Input: To Do:Password  |  Condition:  | @12-Aug-2023 14:58:57.057
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @12-Aug-2023 14:58:57.057
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @12-Aug-2023 14:59:27.027
+[DONE]   | Thread sleep for '30000
+
+
+===================================================================================================
+
+Step:3  |  Object:Admin  |  Action:Click  |  Input:   |  Condition:  | @12-Aug-2023 14:59:27.027
+[DONE]   | Clicking on Admin
+
+
+===================================================================================================
+
+Step:4  |  Object:T  |  Action:Click  |  Input:   |  Condition:  | @12-Aug-2023 14:59:28.028
+[DONE]   | Clicking on T
+
+
+===================================================================================================
+
+Step:5  |  Object:To Do Type  |  Action:Click  |  Input:   |  Condition:  | @12-Aug-2023 14:59:28.028
+[DONE]   | Clicking on To Do Type
+
+
+===================================================================================================
+
+Step:6  |  Object:Add1  |  Action:Click  |  Input:   |  Condition:  | @12-Aug-2023 14:59:28.028
+[DONE]   | Clicking on Add1
+
+
+===================================================================================================
+
+Step:7  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabPage  |  Condition:  | @12-Aug-2023 14:59:28.028
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:8  |  Object:To Do Type Page  |  Action:Click  |  Input:   |  Condition:  | @12-Aug-2023 14:59:32.032
+[DONE]   | Clicking on To Do Type Page
+
+
+===================================================================================================
+
+Step:9  |  Object:To Do Type Page  |  Action:Set  |  Input: @Water  |  Condition:  | @12-Aug-2023 14:59:32.032
+[DONE]   | Entered Text 'Water' on 'To Do Type Page'
+
+
+===================================================================================================
+
+Step:10  |  Object:Description  |  Action:Click  |  Input:   |  Condition:  | @12-Aug-2023 14:59:32.032
+[DONE]   | Clicking on Description
+
+
+===================================================================================================
+
+Step:11  |  Object:Description  |  Action:Set  |  Input: @Water High Bill Consumption  |  Condition:  | @12-Aug-2023 14:59:32.032
+[DONE]   | Entered Text 'Water High Bill Consumption' on 'Description'
+
+
+===================================================================================================
+
+Step:13  |  Object:TD_PRIORITY_FLG  |  Action:Click  |  Input:   |  Condition:  | @12-Aug-2023 14:59:32.032
+[DONE]   | Clicking on TD_PRIORITY_FLG
+
+
+===================================================================================================
+
+Step:14  |  Object:TD_PRIORITY_FLG  |  Action:selectByVisibleText  |  Input: @Priority 20  |  Condition:  | @12-Aug-2023 14:59:33.033
+[DONE]   | Item/s 'Priority 20' is/are selected from list TD_PRIORITY_FLG
+
+
+===================================================================================================
+
+Step:15  |  Object:TD_USAGE_TYPE_FLG  |  Action:Click  |  Input:   |  Condition:  | @12-Aug-2023 14:59:33.033
+[DONE]   | Clicking on TD_USAGE_TYPE_FLG
+
+
+===================================================================================================
+
+Step:16  |  Object:TD_USAGE_TYPE_FLG  |  Action:selectByVisibleText  |  Input: @Manual  |  Condition:  | @12-Aug-2023 14:59:33.033
+[DONE]   | Item/s 'Manual' is/are selected from list TD_USAGE_TYPE_FLG
+
+
+===================================================================================================
+
+Step:17  |  Object:Search for Navigation Option  |  Action:Click  |  Input:   |  Condition:  | @12-Aug-2023 14:59:33.033
+[DONE]   | Clicking on Search for Navigation Option
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @12-Aug-2023 14:59:35.035
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:19  |  Object:Browser  |  Action:switchToWindowByTitle  |  Input: @Navigation Option Search  |  Condition:  | @12-Aug-2023 14:59:35.035
+[DONE]   | Webdriver switched to new window by title[Navigation Option Search]
+
+
+===================================================================================================
+
+Step:20  |  Object:Search  |  Action:clickByJS  |  Input:   |  Condition:  | @12-Aug-2023 14:59:35.035
+[DONE]   | Clicked on Search
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @12-Aug-2023 15:00:05.005
+[DONE]   | Thread sleep for '30000
+
+
+===================================================================================================
+
+Step:22  |  Object:Browser  |  Action:switchToFrame  |  Input: @dataframe  |  Condition:  | @12-Aug-2023 15:00:05.005
+[DONE]   | Webdriver switched to new frame by name[dataframe]
+
+
+===================================================================================================
+
+Step:23  |  Object:Rebate Claim  |  Action:clickByJS  |  Input:   |  Condition:  | @12-Aug-2023 15:00:05.005
+[DONE]   | Clicked on Rebate Claim
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @12-Aug-2023 15:00:35.035
+[DONE]   | Thread sleep for '30000
+
+
+===================================================================================================
+
+Step:25  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabPage  |  Condition:  | @12-Aug-2023 15:00:35.035
+[DEBUG]   | no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '192.168.82.90', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SHAILJ~1.RAJ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:51505}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4b07c620f10a20b5984f9506a8e48201
+*** Element info: {Using=css selector, value=frame[name='tabPage'],iframe[name='tabPage']}
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @12-Aug-2023 15:01:05.005
+[DONE]   | Thread sleep for '30000
+
+
+===================================================================================================
+
+Step:27  |  Object:Search for Message Category  |  Action:clickByJS  |  Input:   |  Condition:  | @12-Aug-2023 15:01:10.010
+[FAIL]   | Driver Chrome Closed / Could not be reached
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To Do Type
+Executed Steps       : 31
+Passed Steps         : 29
+Failed Steps         : 2
+Time Taken           : 00:02:17
+---------------------------------------------------
+

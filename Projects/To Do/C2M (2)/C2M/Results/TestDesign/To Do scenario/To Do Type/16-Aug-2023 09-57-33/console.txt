@@ -1,0 +1,561 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 20.0.1
+java.home            : C:\Program Files\Java\jdk-20
+os.name              : Windows 11
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Wed Aug 16 09:57:33 IST 2023
+Loading Browser Profile
+Loading RunManager
+[Scenario:To Do scenario] [TestCase: To Do Type] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-10] WARN com.NewVision.InnoVision.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+[pool-4-thread-1] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[pool-4-thread-1] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[pool-4-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\shailja.rajak\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 45205
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1692160058.852][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
+2023-08-16 09:57:39:08S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input:*********  | Conditon:  | @16-Aug-2023 09:57:39.039
+%Login_Link% changed to http://172.40.0.60:8009/ouaf/cis.jsp
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+===================================================================================================
+
+Step:2   | Object: j_username | Action: Click | Input:*********  | Conditon:  | @16-Aug-2023 09:57:39.039
+Using @name [j_username], Object 'j_username' Found in 51 ms
+[DONE]   | Clicking on j_username
+
+===================================================================================================
+
+Step:3   | Object: j_username | Action: Set | Input:*********  | Conditon:  | @16-Aug-2023 09:57:39.039
+Using @name [j_username], Object 'j_username' Found in 21 ms
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+===================================================================================================
+
+Step:4   | Object: j_password | Action: Click | Input:*********  | Conditon:  | @16-Aug-2023 09:57:40.040
+Using @name [j_password], Object 'j_password' Found in 22 ms
+[DONE]   | Clicking on j_password
+
+===================================================================================================
+
+Step:5   | Object: j_password | Action: Set | Input:*********  | Conditon:  | @16-Aug-2023 09:57:40.040
+Using @name [j_password], Object 'j_password' Found in 22 ms
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+===================================================================================================
+
+Step:6   | Object: Login | Action: Click | Input:*********  | Conditon:  | @16-Aug-2023 09:57:40.040
+Using @id [loginButton], Object 'Login' Found in 22 ms
+[DONE]   | Clicking on Login
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @16-Aug-2023 09:57:40.040
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:3   | Object: Admin | Action: Click | Input:*********  | Conditon:  | @16-Aug-2023 09:57:42.042
+Using @id [IM_adminButton], Object 'Admin' Found in 2786 ms
+[DONE]   | Clicking on Admin
+
+===================================================================================================
+
+Step:4   | Object: T | Action: Click | Input:*********  | Conditon:  | @16-Aug-2023 09:57:56.056
+Using @relative_xpath [//*[normalize-space(text())='T']], Object 'T' Found in 85 ms
+[DONE]   | Clicking on T
+
+===================================================================================================
+
+Step:5   | Object: To Do Type | Action: Click | Input:*********  | Conditon:  | @16-Aug-2023 09:57:56.056
+Using @id [CI_SG_ADMIN_T_subMenuItem1x11], Object 'To Do Type' Found in 82 ms
+[DONE]   | Clicking on To Do Type
+
+===================================================================================================
+
+Step:6   | Object: Add1 | Action: Click | Input:*********  | Conditon:  | @16-Aug-2023 09:57:56.056
+Using @relative_xpath [//*[normalize-space(text())='Add']], Object 'Add1' Found in 109 ms
+[DONE]   | Clicking on Add1
+
+===================================================================================================
+
+Step:7   | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @16-Aug-2023 09:57:57.057
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+===================================================================================================
+
+Step:8   | Object: To Do Type Page | Action: Click | Input:*********  | Conditon:  | @16-Aug-2023 09:57:57.057
+Using @name [TD_TYPE_CD], Object 'To Do Type Page' Found in 4645 ms
+[DONE]   | Clicking on To Do Type Page
+
+===================================================================================================
+
+Step:9   | Object: To Do Type Page | Action: Set | Input:*********  | Conditon:  | @16-Aug-2023 09:58:02.002
+Using @name [TD_TYPE_CD], Object 'To Do Type Page' Found in 54 ms
+[DONE]   | Entered Text 'Water' on 'To Do Type Page'
+
+===================================================================================================
+
+Step:10  | Object: Description | Action: Click | Input:*********  | Conditon:  | @16-Aug-2023 09:58:02.002
+Using @name [DESCR], Object 'Description' Found in 68 ms
+[DONE]   | Clicking on Description
+
+===================================================================================================
+
+Step:11  | Object: Description | Action: Set | Input:*********  | Conditon:  | @16-Aug-2023 09:58:03.003
+Using @name [DESCR], Object 'Description' Found in 50 ms
+[DONE]   | Entered Text 'Water High Bill Consumption' on 'Description'
+
+===================================================================================================
+
+Step:13  | Object: TD_PRIORITY_FLG | Action: Click | Input:*********  | Conditon:  | @16-Aug-2023 09:58:03.003
+Using @name [TD_PRIORITY_FLG], Object 'TD_PRIORITY_FLG' Found in 43 ms
+[DONE]   | Clicking on TD_PRIORITY_FLG
+
+===================================================================================================
+
+Step:14  | Object: TD_PRIORITY_FLG | Action: selectByVisibleText | Input:*********  | Conditon:  | @16-Aug-2023 09:58:04.004
+Using @name [TD_PRIORITY_FLG], Object 'TD_PRIORITY_FLG' Found in 68 ms
+[DONE]   | Item/s 'Priority 20' is/are selected from list TD_PRIORITY_FLG
+
+===================================================================================================
+
+Step:15  | Object: TD_USAGE_TYPE_FLG | Action: Click | Input:*********  | Conditon:  | @16-Aug-2023 09:58:04.004
+Using @name [TD_USAGE_TYPE_FLG], Object 'TD_USAGE_TYPE_FLG' Found in 42 ms
+[DONE]   | Clicking on TD_USAGE_TYPE_FLG
+
+===================================================================================================
+
+Step:16  | Object: TD_USAGE_TYPE_FLG | Action: selectByVisibleText | Input:*********  | Conditon:  | @16-Aug-2023 09:58:04.004
+Using @name [TD_USAGE_TYPE_FLG], Object 'TD_USAGE_TYPE_FLG' Found in 59 ms
+[DONE]   | Item/s 'Manual' is/are selected from list TD_USAGE_TYPE_FLG
+
+===================================================================================================
+
+Step:17  | Object: Search for Navigation Option | Action: Click | Input:*********  | Conditon:  | @16-Aug-2023 09:58:05.005
+Using @name [IM_NAV_OPT_CD], Object 'Search for Navigation Option' Found in 70 ms
+[DONE]   | Clicking on Search for Navigation Option
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @16-Aug-2023 09:58:05.005
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:19  | Object: Browser | Action: switchToWindowByTitle | Input:*********  | Conditon:  | @16-Aug-2023 09:58:07.007
+[DONE]   | Webdriver switched to new window by title[Navigation Option Search]
+
+===================================================================================================
+
+Step:20  | Object: Search | Action: clickByJS | Input:*********  | Conditon:  | @16-Aug-2023 09:58:07.007
+Using @name [BU_section01_sec01_03], Object 'Search' Found in 35 ms
+[DONE]   | Clicked on Search
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @16-Aug-2023 09:58:07.007
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:22  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @16-Aug-2023 09:58:09.009
+[DONE]   | Webdriver switched to new frame by name[dataframe]
+
+===================================================================================================
+
+Step:23  | Object: Rebate Claim | Action: Click | Input:*********  | Conditon:  | @16-Aug-2023 09:58:09.009
+Using @id [SEARCH_RESULTS:25$DESCR], Object 'Rebate Claim' Found in 44 ms
+[DONE]   | Clicking on Rebate Claim
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @16-Aug-2023 09:58:10.010
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:25  | Object: Browser | Action: switchToWindowByIndex | Input:*********  | Conditon:  | @16-Aug-2023 09:58:12.012
+[DONE]   | Webdriver switched to new window            
+
+===================================================================================================
+
+Step:26  | Object: Browser | Action: switchToDefaultContent | Input:*********  | Conditon:  | @16-Aug-2023 09:58:12.012
+[DONE]   | Webdriver switched to default content
+
+===================================================================================================
+
+Step:27  | Object: Browser | Action: waitForTitleToBe | Input:*********  | Conditon:  | @16-Aug-2023 09:58:12.012
+[DONE]   | Title Equals 'To Do Type' in stipulated Time
+
+===================================================================================================
+
+Step:28  | Object: Browser | Action: switchToDefaultContent | Input:*********  | Conditon:  | @16-Aug-2023 09:58:12.012
+[DONE]   | Webdriver switched to default content
+
+===================================================================================================
+
+Step:29  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @16-Aug-2023 09:58:12.012
+[DONE]   | Webdriver switched to new frame by name[main]
+
+===================================================================================================
+
+Step:30  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @16-Aug-2023 09:58:12.012
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @16-Aug-2023 09:58:12.012
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:32  | Object: Message Category | Action: Click | Input:*********  | Conditon:  | @16-Aug-2023 09:58:14.014
+Using @name [MESSAGE_CAT_NBR], Object 'Message Category' Found in 65 ms
+[DONE]   | Clicking on Message Category
+
+===================================================================================================
+
+Step:33  | Object: Message Category | Action: setByJS | Input:*********  | Conditon:  | @16-Aug-2023 09:58:14.014
+Using @name [MESSAGE_CAT_NBR], Object 'Message Category' Found in 61 ms
+[DONE]   | Entered Text '6' on 'Message Category'
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @16-Aug-2023 09:58:15.015
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:35  | Object: Routing Process | Action: Click | Input:*********  | Conditon:  | @16-Aug-2023 09:58:17.017
+Using @name [RTE_BATCH_CD], Object 'Routing Process' Found in 64 ms
+[DONE]   | Clicking on Routing Process
+
+===================================================================================================
+
+Step:36  | Object: to do meassage text | Action: Click | Input:*********  | Conditon:  | @16-Aug-2023 09:58:17.017
+Using @xpath [//*[@id="MESSAGE_NBR"]], Object 'to do meassage text' Found in 73 ms
+[DONE]   | Clicking on to do meassage text
+
+===================================================================================================
+
+Step:37  | Object: to do meassage text | Action: setByJS | Input:*********  | Conditon:  | @16-Aug-2023 09:58:18.018
+Using @xpath [//*[@id="MESSAGE_NBR"]], Object 'to do meassage text' Found in 62 ms
+[DONE]   | Entered Text '2' on 'to do meassage text'
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @16-Aug-2023 09:58:18.018
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:39  | Object: Routing Process | Action: Click | Input:*********  | Conditon:  | @16-Aug-2023 09:58:20.020
+Using @name [RTE_BATCH_CD], Object 'Routing Process' Found in 66 ms
+[DONE]   | Clicking on Routing Process
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @16-Aug-2023 09:58:20.020
+[DONE]   | Thread sleep for '30000
+
+===================================================================================================
+
+Step:41  | Object: Browser | Action: switchToDefaultContent | Input:*********  | Conditon:  | @16-Aug-2023 09:58:50.050
+[DONE]   | Webdriver switched to default content
+
+===================================================================================================
+
+Step:42  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @16-Aug-2023 09:58:50.050
+[DONE]   | Webdriver switched to new frame by name[main]
+
+===================================================================================================
+
+Step:43  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @16-Aug-2023 09:58:50.050
+[DONE]   | Webdriver switched to new frame by name[tabMenu]
+
+===================================================================================================
+
+Step:44  | Object: Roles1 | Action: clickByJS | Input:*********  | Conditon:  | @16-Aug-2023 09:58:50.050
+Using @relative_xpath [//td[@title='Roles']], Object 'Roles1' Found in 70 ms
+[DONE]   | Clicked on Roles1
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @16-Aug-2023 09:58:51.051
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:46  | Object: Browser | Action: switchToDefaultContent | Input:*********  | Conditon:  | @16-Aug-2023 09:58:53.053
+[DONE]   | Webdriver switched to default content
+
+===================================================================================================
+
+Step:47  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @16-Aug-2023 09:58:53.053
+[DONE]   | Webdriver switched to new frame by name[main]
+
+===================================================================================================
+
+Step:48  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @16-Aug-2023 09:58:53.053
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+===================================================================================================
+
+Step:49  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @16-Aug-2023 09:58:53.053
+[DONE]   | Webdriver switched to new frame by name[roleGrid]
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @16-Aug-2023 09:58:53.053
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:51  | Object: TD_TYPE_ROLE:0$ROLE_ID | Action: Click | Input:*********  | Conditon:  | @16-Aug-2023 09:58:55.055
+Using @name [TD_TYPE_ROLE:0$ROLE_ID], Object 'TD_TYPE_ROLE:0$ROLE_ID' Found in 62 ms
+[DONE]   | Clicking on TD_TYPE_ROLE:0$ROLE_ID
+
+===================================================================================================
+
+Step:52  | Object: TD_TYPE_ROLE:0$ROLE_ID | Action: setByJS | Input:*********  | Conditon:  | @16-Aug-2023 09:58:55.055
+Using @name [TD_TYPE_ROLE:0$ROLE_ID], Object 'TD_TYPE_ROLE:0$ROLE_ID' Found in 55 ms
+[DONE]   | Entered Text 'BILLERR' on 'TD_TYPE_ROLE:0$ROLE_ID'
+
+===================================================================================================
+
+Step:53  | Object: TD_TYPE_ROLE:0$DEFAULT_SW | Action: clickByJS | Input:*********  | Conditon:  | @16-Aug-2023 09:58:56.056
+Using @name [TD_TYPE_ROLE:0$DEFAULT_SW], Object 'TD_TYPE_ROLE:0$DEFAULT_SW' Found in 69 ms
+[DONE]   | Clicked on TD_TYPE_ROLE:0$DEFAULT_SW
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @16-Aug-2023 09:58:56.056
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:55  | Object: Browser | Action: takeScreenshot | Input:*********  | Conditon:  | @16-Aug-2023 09:58:58.058
+[PASS]   | Screenshot is taken
+
+===================================================================================================
+
+Step:56  | Object: Browser | Action: switchToDefaultContent | Input:*********  | Conditon:  | @16-Aug-2023 09:59:00.000
+[DONE]   | Webdriver switched to default content
+
+===================================================================================================
+
+Step:57  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @16-Aug-2023 09:59:00.000
+[DONE]   | Webdriver switched to new frame by name[main]
+
+===================================================================================================
+
+Step:58  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @16-Aug-2023 09:59:00.000
+[DONE]   | Webdriver switched to new frame by name[tabMenu]
+
+===================================================================================================
+
+Step:59  | Object: Sort Keys | Action: Click | Input:*********  | Conditon:  | @16-Aug-2023 09:59:00.000
+Using @relative_xpath [//td[@title='Sort Keys']], Object 'Sort Keys' Found in 69 ms
+[DONE]   | Clicking on Sort Keys
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @16-Aug-2023 09:59:01.001
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:61  | Object: Browser | Action: switchToDefaultContent | Input:*********  | Conditon:  | @16-Aug-2023 09:59:03.003
+[DONE]   | Webdriver switched to default content
+
+===================================================================================================
+
+Step:62  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @16-Aug-2023 09:59:03.003
+[DONE]   | Webdriver switched to new frame by name[main]
+
+===================================================================================================
+
+Step:63  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @16-Aug-2023 09:59:03.003
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+===================================================================================================
+
+Step:64  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @16-Aug-2023 09:59:03.003
+[DONE]   | Webdriver switched to new frame by name[sortKeyGrid]
+
+===================================================================================================
+
+Step:65  | Object: Sequence | Action: setByJS | Input:*********  | Conditon:  | @16-Aug-2023 09:59:03.003
+Using @name [TD_TYPE_SRTKY:0$SEQ_NUM], Object 'Sequence' Found in 68 ms
+[DONE]   | Entered Text '1' on 'Sequence'
+
+===================================================================================================
+
+Step:66  | Object: Description | Action: setByJS | Input:*********  | Conditon:  | @16-Aug-2023 09:59:03.003
+Using @name [TD_TYPE_SRTKY:0$DESCR], Object 'Description' Found in 72 ms
+[DONE]   | Entered Text 'Water related issue' on 'Description'
+
+===================================================================================================
+
+Step:67  | Object: Use as a defoult | Action: clickByJS | Input:*********  | Conditon:  | @16-Aug-2023 09:59:03.003
+Using @name [TD_TYPE_SRTKY:0$DEFAULT_SW], Object 'Use as a defoult' Found in 74 ms
+[DONE]   | Clicked on Use as a defoult
+
+===================================================================================================
+
+Step:68  | Object: Sort order | Action: Click | Input:*********  | Conditon:  | @16-Aug-2023 09:59:03.003
+Using @name [TD_TYPE_SRTKY:0$ORDER_FLG], Object 'Sort order' Found in 63 ms
+[DONE]   | Clicking on Sort order
+
+===================================================================================================
+
+Step:69  | Object: Sort order | Action: selectByVisibleText | Input:*********  | Conditon:  | @16-Aug-2023 09:59:04.004
+Using @name [TD_TYPE_SRTKY:0$ORDER_FLG], Object 'Sort order' Found in 59 ms
+[DONE]   | Item/s 'Ascending' is/are selected from list Sort order
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @16-Aug-2023 09:59:04.004
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:71  | Object: Browser | Action: takeScreenshot | Input:*********  | Conditon:  | @16-Aug-2023 09:59:06.006
+[PASS]   | Screenshot is taken
+
+===================================================================================================
+
+Step:72  | Object: Browser | Action: switchToDefaultContent | Input:*********  | Conditon:  | @16-Aug-2023 09:59:08.008
+[DONE]   | Webdriver switched to default content
+
+===================================================================================================
+
+Step:73  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @16-Aug-2023 09:59:08.008
+[DONE]   | Webdriver switched to new frame by name[main]
+
+===================================================================================================
+
+Step:74  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @16-Aug-2023 09:59:08.008
+[DONE]   | Webdriver switched to new frame by name[tabMenu]
+
+===================================================================================================
+
+Step:75  | Object: Drill Keys | Action: Click | Input:*********  | Conditon:  | @16-Aug-2023 09:59:08.008
+Using @xpath [//*[@id="DRILLKEYS_TLBL"]/table/tbody/tr[2]/td], Object 'Drill Keys' Found in 68 ms
+[DONE]   | Clicking on Drill Keys
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @16-Aug-2023 09:59:09.009
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:77  | Object: Browser | Action: switchToDefaultContent | Input:*********  | Conditon:  | @16-Aug-2023 09:59:11.011
+[DONE]   | Webdriver switched to default content
+
+===================================================================================================
+
+Step:78  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @16-Aug-2023 09:59:11.011
+[DONE]   | Webdriver switched to new frame by name[main]
+
+===================================================================================================
+
+Step:79  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @16-Aug-2023 09:59:11.011
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+===================================================================================================
+
+Step:80  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @16-Aug-2023 09:59:11.011
+[DONE]   | Webdriver switched to new frame by name[drillGrid]
+
+===================================================================================================
+
+Step:81  | Object: Sequence | Action: Set | Input:*********  | Conditon:  | @16-Aug-2023 09:59:11.011
+Using @name [TD_TYPE_DRLKY:0$SEQ_NUM], Object 'Sequence' Found in 69 ms
+[DONE]   | Entered Text '2' on 'Sequence'
+
+===================================================================================================
+
+Step:82  | Object: Table | Action: Set | Input:*********  | Conditon:  | @16-Aug-2023 09:59:12.012
+Using @name [TD_TYPE_DRLKY:0$TBL_NAME], Object 'Table' Found in 68 ms
+[DONE]   | Entered Text 'C1_BI_BILL_VW' on 'Table'
+
+===================================================================================================
+
+Step:83  | Object: Feild | Action: Set | Input:*********  | Conditon:  | @16-Aug-2023 09:59:12.012
+Using @name [TD_TYPE_DRLKY:0$FLD_NAME], Object 'Feild' Found in 62 ms
+[DONE]   | Entered Text 'BILL_AMT' on 'Feild'
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @16-Aug-2023 09:59:12.012
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:85  | Object: Browser | Action: takeScreenshot | Input:*********  | Conditon:  | @16-Aug-2023 09:59:14.014
+[PASS]   | Screenshot is taken
+
+===================================================================================================
+
+Step:86  | Object: Browser | Action: switchToDefaultContent | Input:*********  | Conditon:  | @16-Aug-2023 09:59:16.016
+[DONE]   | Webdriver switched to default content
+
+===================================================================================================
+
+Step:87  | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @16-Aug-2023 09:59:16.016
+[DONE]   | Webdriver switched to new frame by name[main]
+
+===================================================================================================
+
+Step:88  | Object: Save | Action: Click | Input:*********  | Conditon:  | @16-Aug-2023 09:59:16.016
+Using @name [Save], Object 'Save' Found in 58 ms
+[DONE]   | Clicking on Save
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @16-Aug-2023 09:59:17.017
+[DONE]   | Thread sleep for '30000
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To Do Type
+Executed Steps       : 93
+Passed Steps         : 93
+Failed Steps         : 0
+Time Taken           : 00:02:12
+-----------------------------------------------------
+
+Run Finished on Wed Aug 16 09:59:46 IST 2023
+-----------------------------------------------------
+ExecutionDate        : 16-Aug-2023 09-57-33
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:02:13
+ReportPath           : file:///C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\To Do Type\16-Aug-2023 09-57-33\summary.html
+-----------------------------------------------------
+[Thread-10] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\To Do Type\16-Aug-2023 09-57-33\summary.html
+[Thread-10] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\To Do Type\16-Aug-2023 09-57-33\summary.html]

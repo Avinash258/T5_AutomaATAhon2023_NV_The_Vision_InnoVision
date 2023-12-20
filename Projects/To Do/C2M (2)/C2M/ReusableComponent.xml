@@ -1,0 +1,19 @@
+<Root ref="C2M" type="RC">
+<Folder ref="Reuseable Components">
+<Scenario ref="Evidence">
+<TestCase exeType="Executable" ref="Screen Shot"/>
+</Scenario>
+<Scenario ref="To Do Reusable">
+<TestCase exeType="Executable" ref="Select All button"/>
+</Scenario>
+<Scenario ref="To Do scenario">
+<TestCase exeType="Executable" ref="Login"/>
+<TestCase exeType="Executable" ref="To do entry-search"/>
+</Scenario>
+<Scenario ref="Wait">
+<TestCase exeType="Executable" ref="wait 1 sec"/>
+<TestCase exeType="Executable" ref="wait 2 sec"/>
+<TestCase exeType="Executable" ref="wait 30 sec"/>
+</Scenario>
+</Folder>
+</Root>

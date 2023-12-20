@@ -1,0 +1,6 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+"//1",Browser,Print Input and Condition,PrintInputCondition,loop:Name,Bajaj,
+"//2",Browser,Update the Sub-Iterations in sheet input<NPI to be update>condition<fileName.xlxs>,subIterationsLooping,,loop.csv,
+"//3",Database,"Query and save the result in Datasheet ",storeResultInDataSheet,,,
+4,Database,"Query and save the result in Datasheet ",storeResultInDataSheet,,,
+5,Browser,,,,,

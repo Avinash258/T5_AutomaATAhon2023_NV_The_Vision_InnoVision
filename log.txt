@@ -426,3 +426,367 @@ properties {R=, BoardName=}
 prope {R=, BoardName=}
 properties111 {R=, BoardName=}
 properties {R=, BoardName=}
+2023-12-11 19:12:05:12S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main main:Launching InnoVision IDE
+2023-12-11 19:12:21:12S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main main:Launching InnoVision IDE
+2023-12-11 19:12:29:12S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main main:Launching InnoVision IDE
+light
+2023-12-11 19:12:30:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-11 19:12:32:12S +0530 [INFO] com.NewVision.InnoVision.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2023-12-11 19:12:35:12S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
+2023-12-12 10:50:34:12S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main finish:InnoVision IDE has been Terminated - [ Total Time : 15:38:06.655 ]
+2023-12-12 10:58:18:12S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main main:Launching InnoVision IDE
+2023-12-12 10:58:26:12S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main main:Launching InnoVision IDE
+light
+2023-12-12 10:58:26:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-12 10:58:28:12S +0530 [INFO] com.NewVision.InnoVision.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2023-12-12 10:58:32:12S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
+2023-12-12 13:24:35:12S +0530 [SEVERE] com.NewVision.InnoVision.datalib.component.utils.FileUtils getRecords:File [C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\C2M V-Model\TestPlan\V-Model\NewTestCase.csv] doesn't exist
+2023-12-12 13:25:04:12S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\C2M V-Model\TestPlan\V-Model\NewTestCase.csv Renamed to V- Model (E2E ).csv
+2023-12-12 13:25:04:12S +0530 [INFO] com.NewVision.InnoVision.datalib.component.Project refactorTestCase:Refactoring started for TestCase [NewTestCase] to [V- Model (E2E )]
+2023-12-12 13:25:05:12S +0530 [INFO] com.NewVision.InnoVision.datalib.component.Project refactorTestCase:Refactoring done for TestCase [NewTestCase] to [V- Model (E2E )]
+2023-12-12 13:29:10:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-12 13:35:07:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-12 13:37:21:12S +0530 [WARNING] com.NewVision.InnoVision.ide.main.utils.table.XTableUtils pasteFromClipboard:Invalid Paste Type
+java.awt.datatransfer.UnsupportedFlavorException: Unicode String
+	at com.NewVision.InnoVision.ide.main.utils.dnd.TransferableNode.getTransferData(TransferableNode.java:56)
+	at java.desktop/sun.awt.datatransfer.TransferableProxy.getTransferData(TransferableProxy.java:73)
+	at com.NewVision.InnoVision.ide.main.utils.table.XTableUtils.pasteFromClipboard(XTableUtils.java:88)
+	at com.NewVision.InnoVision.ide.main.utils.keys.ClipboardKeyAdapter.keyReleased(ClipboardKeyAdapter.java:52)
+	at java.desktop/java.awt.AWTEventMulticaster.keyReleased(AWTEventMulticaster.java:268)
+	at java.desktop/java.awt.Component.processKeyEvent(Component.java:6581)
+	at java.desktop/javax.swing.JComponent.processKeyEvent(JComponent.java:2905)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6397)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4995)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4827)
+	at java.desktop/java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1952)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:883)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1146)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1020)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:848)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4876)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4827)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+2023-12-12 13:37:41:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-12 13:39:16:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-12 13:40:32:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-12 13:48:41:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-12 13:49:42:12S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\C2M V-Model\TestPlan\V-Model\V- Model (E2E ).csv Renamed to V- Model_E2E.csv
+2023-12-12 13:49:42:12S +0530 [INFO] com.NewVision.InnoVision.datalib.component.Project refactorTestCase:Refactoring started for TestCase [V- Model (E2E )] to [V- Model_E2E]
+2023-12-12 13:49:42:12S +0530 [INFO] com.NewVision.InnoVision.datalib.component.Project refactorTestCase:Refactoring done for TestCase [V- Model (E2E )] to [V- Model_E2E]
+2023-12-12 13:49:51:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+Exception in thread "AWT-EventQueue-0" java.lang.ClassCastException: class javax.swing.plaf.FontUIResource cannot be cast to class javax.swing.Painter (javax.swing.plaf.FontUIResource and javax.swing.Painter are in module java.desktop of loader 'bootstrap')
+	at java.desktop/javax.swing.plaf.nimbus.NimbusStyle.getBackgroundPainter(NimbusStyle.java:721)
+	at java.desktop/javax.swing.plaf.nimbus.SynthPainterImpl.paintBackground(SynthPainterImpl.java:100)
+	at java.desktop/javax.swing.plaf.nimbus.SynthPainterImpl.paintLabelBackground(SynthPainterImpl.java:754)
+	at java.desktop/javax.swing.plaf.synth.SynthLabelUI.update(SynthLabelUI.java:178)
+	at java.desktop/javax.swing.JComponent.paintComponent(JComponent.java:852)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1128)
+	at java.desktop/javax.swing.CellRendererPane.paintComponent(CellRendererPane.java:170)
+	at java.desktop/javax.swing.plaf.synth.SynthTableUI.paintCell(SynthTableUI.java:697)
+	at java.desktop/javax.swing.plaf.synth.SynthTableUI.paintCells(SynthTableUI.java:585)
+	at java.desktop/javax.swing.plaf.synth.SynthTableUI.paint(SynthTableUI.java:369)
+	at java.desktop/javax.swing.plaf.synth.SynthTableUI.update(SynthTableUI.java:282)
+	at java.desktop/javax.swing.JComponent.paintComponent(JComponent.java:852)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1128)
+	at java.desktop/javax.swing.JComponent.paintToOffscreen(JComponent.java:5318)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paintDoubleBufferedFPScales(RepaintManager.java:1720)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paintDoubleBuffered(RepaintManager.java:1629)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1569)
+	at java.desktop/javax.swing.RepaintManager.paint(RepaintManager.java:1336)
+	at java.desktop/javax.swing.JComponent._paintImmediately(JComponent.java:5266)
+	at java.desktop/javax.swing.JComponent.paintImmediately(JComponent.java:5076)
+	at java.desktop/javax.swing.RepaintManager$4.run(RepaintManager.java:878)
+	at java.desktop/javax.swing.RepaintManager$4.run(RepaintManager.java:861)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:861)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:834)
+	at java.desktop/javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:784)
+	at java.desktop/javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1897)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2023-12-12 18:15:10:12S +0530 [SEVERE] com.NewVision.InnoVision.datalib.component.utils.FileUtils getRecords:File [C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Custom Code\TestPlan\NewScenario\NewTestCase.csv] doesn't exist
+2023-12-12 18:15:10:12S +0530 [SEVERE] com.NewVision.InnoVision.datalib.component.utils.FileUtils getRecords:File [C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Custom Code\TestLab\NewRelease\NewTestSet.csv] doesn't exist
+2023-12-12 18:15:46:12S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Custom Code\TestPlan\NewScenario Renamed to CustomMethod
+2023-12-12 18:15:46:12S +0530 [INFO] com.NewVision.InnoVision.datalib.component.Project refactorScenario:Refactoring started for Scenario [NewScenario] to [CustomMethod]
+2023-12-12 18:15:46:12S +0530 [INFO] com.NewVision.InnoVision.datalib.component.Project refactorScenario:Refactoring done for Scenario [NewScenario] to [CustomMethod]
+2023-12-12 18:33:08:12S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Custom Code\TestPlan\CustomMethod\NewTestCase.csv Renamed to TC_1.csv
+2023-12-12 18:33:08:12S +0530 [INFO] com.NewVision.InnoVision.datalib.component.Project refactorTestCase:Refactoring started for TestCase [NewTestCase] to [TC_1]
+2023-12-12 18:33:08:12S +0530 [INFO] com.NewVision.InnoVision.datalib.component.Project refactorTestCase:Refactoring done for TestCase [NewTestCase] to [TC_1]
+2023-12-12 18:41:02:12S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main finish:InnoVision IDE has been Terminated - [ Total Time : 07:42:37.203 ]
+2023-12-12 18:41:04:12S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main main:Launching InnoVision IDE
+light
+2023-12-12 18:41:04:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-12 18:41:06:12S +0530 [INFO] com.NewVision.InnoVision.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2023-12-12 18:41:11:12S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
+2023-12-12 18:44:14:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-12 20:20:53:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-12 20:25:02:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-13 12:55:25:12S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main finish:InnoVision IDE has been Terminated - [ Total Time : 18:14:24.136 ]
+2023-12-13 12:55:27:12S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main main:Launching InnoVision IDE
+light
+2023-12-13 12:55:27:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-13 12:55:29:12S +0530 [INFO] com.NewVision.InnoVision.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2023-12-13 12:55:34:12S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
+2023-12-13 14:00:08:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-13 14:03:59:12S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main main:Launching InnoVision IDE
+light
+2023-12-13 14:04:00:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-13 14:04:02:12S +0530 [INFO] com.NewVision.InnoVision.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2023-12-13 14:04:08:12S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
+2023-12-13 14:04:32:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-13 14:06:06:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-13 14:10:55:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-13 14:24:37:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-13 14:26:42:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-13 14:31:29:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-13 14:34:29:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-13 15:01:22:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-13 15:04:08:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-13 15:34:41:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-13 15:37:30:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-13 15:39:36:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-13 15:56:08:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-13 16:07:54:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-13 16:10:27:12S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main finish:InnoVision IDE has been Terminated - [ Total Time : 03:15:00.756 ]
+2023-12-13 16:16:05:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-13 16:18:50:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-13 16:38:32:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-14 11:55:56:12S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main finish:InnoVision IDE has been Terminated - [ Total Time : 21:51:57.310 ]
+2023-12-14 11:56:07:12S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main main:Launching InnoVision IDE
+light
+2023-12-14 11:56:07:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-14 11:56:09:12S +0530 [INFO] com.NewVision.InnoVision.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2023-12-14 11:56:15:12S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
+Exception in thread "Thread-3" java.lang.NullPointerException
+2023-12-15 15:10:21:12S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main main:Launching InnoVision IDE
+light
+2023-12-15 15:10:22:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-15 15:10:24:12S +0530 [INFO] com.NewVision.InnoVision.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2023-12-15 15:10:31:12S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
+2023-12-15 15:14:00:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-15 15:14:27:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-15 15:32:39:12S +0530 [INFO] com.NewVision.InnoVision.ide.main.mainui.components.testdesign.tree.ProjectTree deleteTestCases:Delete TestCases approved for 4; [V- Model_E2E, Thread_3_V_Model, Thread_2 _Person Entity, Thread_1 Person_Account_Premise]
+2023-12-15 15:32:39:12S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils deleteFile:Deleting C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\C2M V-Model\TestPlan\V-Model\V- Model_E2E.csv
+2023-12-15 15:32:39:12S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils deleteFile:Deleting C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\C2M V-Model\TestPlan\V-Model\Thread_3_V_Model.csv
+2023-12-15 15:32:39:12S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils deleteFile:Deleting C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\C2M V-Model\TestPlan\V-Model\Thread_2 _Person Entity.csv
+2023-12-15 15:32:39:12S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils deleteFile:Deleting C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\C2M V-Model\TestPlan\V-Model\Thread_1 Person_Account_Premise.csv
+2023-12-15 15:32:52:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-15 15:39:06:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-15 16:17:59:12S +0530 [WARNING] com.NewVision.InnoVision.ide.main.utils.table.XTableUtils pasteFromClipboard:Invalid Paste Type
+java.awt.datatransfer.UnsupportedFlavorException: Unicode String
+	at java.desktop/sun.awt.datatransfer.ClipboardTransferable.getTransferData(ClipboardTransferable.java:151)
+	at com.NewVision.InnoVision.ide.main.utils.table.XTableUtils.pasteFromClipboard(XTableUtils.java:88)
+	at com.NewVision.InnoVision.ide.main.utils.keys.ClipboardKeyAdapter.keyReleased(ClipboardKeyAdapter.java:52)
+	at java.desktop/java.awt.AWTEventMulticaster.keyReleased(AWTEventMulticaster.java:268)
+	at java.desktop/java.awt.Component.processKeyEvent(Component.java:6581)
+	at java.desktop/javax.swing.JComponent.processKeyEvent(JComponent.java:2905)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6397)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4995)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4827)
+	at java.desktop/java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1952)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:883)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1146)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1020)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:848)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4876)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4827)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+2023-12-15 16:19:02:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-15 16:19:09:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-15 16:34:51:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-15 16:35:11:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-15 16:43:30:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-15 16:44:11:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-15 16:52:38:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-15 17:13:39:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-15 17:26:40:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-15 17:35:03:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-15 17:37:26:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-15 17:44:21:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-15 17:52:19:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+Exception in thread "AWT-EventQueue-0" java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 559
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.util.Objects.checkIndex(Objects.java:385)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at java.base/java.util.Collections$SynchronizedList.get(Collections.java:2499)
+	at com.NewVision.InnoVision.datalib.component.TestCase.getValueAt(TestCase.java:366)
+	at java.desktop/javax.swing.JTable.getValueAt(JTable.java:2763)
+	at com.NewVision.InnoVision.ide.main.mainui.components.testdesign.testcase.TestCaseAutoSuggest$ActionAutoSuggest.getActionBasedOnObject(TestCaseAutoSuggest.java:200)
+	at com.NewVision.InnoVision.ide.main.mainui.components.testdesign.testcase.TestCaseAutoSuggest$ActionAutoSuggest.beforeSearch(TestCaseAutoSuggest.java:258)
+	at com.NewVision.InnoVision.ide.main.utils.table.autosuggest.AutoSuggest$AutoSuggestKeyHandler$1.run(AutoSuggest.java:224)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+Exception in thread "AWT-EventQueue-0" java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 559
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.util.Objects.checkIndex(Objects.java:385)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at java.base/java.util.Collections$SynchronizedList.get(Collections.java:2499)
+	at com.NewVision.InnoVision.datalib.component.TestCase.getValueAt(TestCase.java:366)
+	at java.desktop/javax.swing.JTable.getValueAt(JTable.java:2763)
+	at com.NewVision.InnoVision.ide.main.mainui.components.testdesign.testcase.TestCaseAutoSuggest$ActionAutoSuggest.getActionBasedOnObject(TestCaseAutoSuggest.java:200)
+	at com.NewVision.InnoVision.ide.main.mainui.components.testdesign.testcase.TestCaseAutoSuggest$ActionAutoSuggest.beforeSearch(TestCaseAutoSuggest.java:258)
+	at com.NewVision.InnoVision.ide.main.utils.table.autosuggest.AutoSuggest.reset(AutoSuggest.java:161)
+	at com.NewVision.InnoVision.ide.main.utils.table.autosuggest.AutoSuggestCellEditor.stopCellEditing(AutoSuggestCellEditor.java:35)
+	at java.desktop/javax.swing.DefaultCellEditor$EditorDelegate.actionPerformed(DefaultCellEditor.java:392)
+	at java.desktop/javax.swing.JComboBox.fireActionEvent(JComboBox.java:1294)
+	at java.desktop/javax.swing.JComboBox.actionPerformed(JComboBox.java:1353)
+	at java.desktop/javax.swing.DefaultCellEditor$3.stopCellEditing(DefaultCellEditor.java:156)
+	at java.desktop/javax.swing.DefaultCellEditor.stopCellEditing(DefaultCellEditor.java:234)
+	at com.NewVision.InnoVision.ide.main.utils.table.autosuggest.AutoSuggestCellEditor.stopCellEditing(AutoSuggestCellEditor.java:33)
+	at com.NewVision.InnoVision.ide.main.mainui.components.testdesign.testcase.TestCaseAutoSuggest$2.actionPerformed(TestCaseAutoSuggest.java:108)
+	at com.NewVision.InnoVision.ide.main.utils.table.autosuggest.AutoSuggest$1.focusLost(AutoSuggest.java:75)
+	at java.desktop/java.awt.AWTEventMulticaster.focusLost(AWTEventMulticaster.java:238)
+	at java.desktop/java.awt.Component.processFocusEvent(Component.java:6512)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6376)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4995)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4827)
+	at java.desktop/java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1952)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1070)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:738)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4876)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4827)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2023-12-15 18:03:36:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-16 14:20:38:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-16 14:21:02:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-16 14:31:47:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-16 14:43:32:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-16 14:51:50:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-16 15:01:39:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-16 15:09:42:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-16 15:21:57:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-16 15:23:27:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-17 11:34:08:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-17 13:07:49:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-17 13:08:07:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-17 13:18:30:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-17 13:25:29:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-17 13:34:11:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-18 10:59:27:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+[AWT-EventQueue-0] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Custom Code\TestData\loop.csv
+[AWT-EventQueue-0] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Custom Code\TestData\loop.csv]
+2023-12-19 21:35:31:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-19 21:36:04:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-19 22:46:14:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-19 22:46:41:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-20 11:18:48:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-20 11:20:33:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-20 11:33:51:12S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main finish:InnoVision IDE has been Terminated - [ Total Time : 116:23:39.810 ]
+2023-12-20 11:54:09:12S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main main:Launching InnoVision IDE
+light
+2023-12-20 11:54:10:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-20 11:54:11:12S +0530 [INFO] com.NewVision.InnoVision.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2023-12-20 11:54:15:12S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
+2023-12-20 11:55:18:12S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main finish:InnoVision IDE has been Terminated - [ Total Time : 00:01:08.666 ]
+2023-12-20 11:56:53:12S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main main:Launching InnoVision IDE
+light
+2023-12-20 11:56:54:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-20 11:56:56:12S +0530 [INFO] com.NewVision.InnoVision.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2023-12-20 11:56:59:12S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
+2023-12-20 11:57:24:12S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\lib\InnoVision-engine-1.0.jar
+2023-12-20 12:12:13:12S +0530 [INFO] com.NewVision.InnoVision.ide.main.mainui.components.testdesign.tree.ProjectTree deleteScenarios:Delete Scenarios approved for 1; [Admin Configration]
+2023-12-20 12:12:13:12S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils deleteFile:Deleting C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\C2M _Multiple V Model\C2M V-Model\TestPlan\Admin Configration\TC_06 Characterstick type.csv
+2023-12-20 12:12:13:12S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils deleteFile:Deleting C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\C2M _Multiple V Model\C2M V-Model\TestPlan\Admin Configration
+2023-12-20 12:12:17:12S +0530 [INFO] com.NewVision.InnoVision.ide.main.mainui.components.testdesign.tree.ProjectTree deleteScenarios:Delete Scenarios approved for 1; [Case Management]
+2023-12-20 12:12:17:12S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils deleteFile:Deleting C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\C2M _Multiple V Model\C2M V-Model\TestPlan\Case Management\TC_04 Case Management.csv
+2023-12-20 12:12:17:12S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils deleteFile:Deleting C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\C2M _Multiple V Model\C2M V-Model\TestPlan\Case Management\TC_05 Product Enquiry.csv
+2023-12-20 12:12:17:12S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils deleteFile:Deleting C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\C2M _Multiple V Model\C2M V-Model\TestPlan\Case Management
+2023-12-20 12:12:31:12S +0530 [INFO] com.NewVision.InnoVision.ide.main.mainui.components.testdesign.tree.ProjectTree deleteTestCases:Delete TestCases approved for 1; [TC01 Create Account with mandatory field]
+2023-12-20 12:12:31:12S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils deleteFile:Deleting C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\C2M _Multiple V Model\C2M V-Model\TestPlan\V-Model\TC01 Create Account with mandatory field.csv
+2023-12-20 12:12:35:12S +0530 [INFO] com.NewVision.InnoVision.ide.main.mainui.components.testdesign.tree.ProjectTree deleteTestCases:Delete TestCases approved for 1; [TC01 Create Device details]
+2023-12-20 12:12:35:12S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils deleteFile:Deleting C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\C2M _Multiple V Model\C2M V-Model\TestPlan\V-Model\TC01 Create Device details.csv
+2023-12-20 12:12:41:12S +0530 [INFO] com.NewVision.InnoVision.ide.main.mainui.components.testdesign.tree.ProjectTree deleteTestCases:Delete TestCases approved for 1; [TC_01 Create Premise with mandatory fields]
+2023-12-20 12:12:41:12S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils deleteFile:Deleting C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\C2M _Multiple V Model\C2M V-Model\TestPlan\V-Model\TC_01 Create Premise with mandatory fields.csv
+2023-12-20 12:12:44:12S +0530 [INFO] com.NewVision.InnoVision.ide.main.mainui.components.testdesign.tree.ProjectTree deleteTestCases:Delete TestCases approved for 1; [TC_01 Create service Point]
+2023-12-20 12:12:44:12S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils deleteFile:Deleting C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\C2M _Multiple V Model\C2M V-Model\TestPlan\V-Model\TC_01 Create service Point.csv
+2023-12-20 12:12:49:12S +0530 [INFO] com.NewVision.InnoVision.ide.main.mainui.components.testdesign.tree.ProjectTree deleteTestCases:Delete TestCases approved for 1; [TC_03 Service Agreement]
+2023-12-20 12:12:49:12S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils deleteFile:Deleting C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\C2M _Multiple V Model\C2M V-Model\TestPlan\V-Model\TC_03 Service Agreement.csv
+2023-12-20 12:17:02:12S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main finish:InnoVision IDE has been Terminated - [ Total Time : 00:20:08.481 ]

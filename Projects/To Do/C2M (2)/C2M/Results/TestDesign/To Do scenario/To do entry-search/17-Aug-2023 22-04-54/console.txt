@@ -1,0 +1,147 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 20.0.1
+java.home            : C:\Program Files\Java\jdk-20
+os.name              : Windows 11
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Thu Aug 17 22:04:54 IST 2023
+Loading Browser Profile
+Loading RunManager
+[Scenario:To Do scenario] [TestCase: To do entry-search] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-20] WARN com.NewVision.InnoVision.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+[pool-9-thread-1] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[pool-9-thread-1] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[pool-9-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\shailja.rajak\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 41912
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1692290097.562][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
+2023-08-17 22:04:57:08S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input:*********  | Conditon:  | @17-Aug-2023 22:04:57.057
+%Login_Link% changed to http://172.40.0.60:8009/ouaf/cis.jsp
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+===================================================================================================
+
+Step:2   | Object: j_username | Action: Click | Input:*********  | Conditon:  | @17-Aug-2023 22:04:58.058
+Using @name [j_username], Object 'j_username' Found in 45 ms
+[DONE]   | Clicking on j_username
+
+===================================================================================================
+
+Step:3   | Object: j_username | Action: Set | Input:*********  | Conditon:  | @17-Aug-2023 22:04:58.058
+Using @name [j_username], Object 'j_username' Found in 33 ms
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+===================================================================================================
+
+Step:4   | Object: j_password | Action: Click | Input:*********  | Conditon:  | @17-Aug-2023 22:04:59.059
+Using @name [j_password], Object 'j_password' Found in 37 ms
+[DONE]   | Clicking on j_password
+
+===================================================================================================
+
+Step:5   | Object: j_password | Action: Set | Input:*********  | Conditon:  | @17-Aug-2023 22:04:59.059
+Using @name [j_password], Object 'j_password' Found in 27 ms
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+===================================================================================================
+
+Step:6   | Object: Login | Action: Click | Input:*********  | Conditon:  | @17-Aug-2023 22:04:59.059
+Using @id [loginButton], Object 'Login' Found in 30 ms
+[DONE]   | Clicking on Login
+
+===================================================================================================
+
+Step:2   | Object: Menu | Action: Click | Input:*********  | Conditon:  | @17-Aug-2023 22:05:00.000
+Using @id [IM_menuButton], Object 'Menu' Found in 9049 ms
+[DONE]   | Clicking on Menu
+
+===================================================================================================
+
+Step:3   | Object: To Do | Action: mouseOverElement | Input:*********  | Conditon:  | @17-Aug-2023 22:05:09.009
+Using @relative_xpath [(//*[normalize-space(text())='To Do'])[1]], Object 'To Do' Found in 85 ms
+[DONE]   | Mouse Over to Element 'To Do
+
+===================================================================================================
+
+Step:4   | Object: To Do Entry | Action: clickByJS | Input:*********  | Conditon:  | @17-Aug-2023 22:05:09.009
+Using @relative_xpath [//*[normalize-space(text())='To Do Entry']], Object 'To Do Entry' Found in 100 ms
+[DONE]   | Clicked on To Do Entry
+
+===================================================================================================
+
+Step:5   | Object: Search | Action: Click | Input:*********  | Conditon:  | @17-Aug-2023 22:05:09.009
+Using @xpath [//*[@id="f1todoeqTabMenu"]], Object 'Search' Found in 90 ms
+[DONE]   | Clicking on Search
+
+===================================================================================================
+
+Step:6   | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @17-Aug-2023 22:05:10.010
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+===================================================================================================
+
+Step:7   | Object: toDoType1 | Action: Click | Input:*********  | Conditon:  | @17-Aug-2023 22:05:12.012
+Using @id [toDoType], Object 'toDoType1' Found in 53 ms
+[DONE]   | Clicking on toDoType1
+
+===================================================================================================
+
+Step:8   | Object: toDoType1 | Action: selectByVisibleText | Input:*********  | Conditon:  | @17-Aug-2023 22:05:14.014
+Using @id [toDoType], Object 'toDoType1' Found in 63 ms
+[DONE]   | Item/s 'Water High Bill Consumption' is/are selected from list toDoType1
+
+===================================================================================================
+
+Step:9   | Object: Search | Action: Click | Input:*********  | Conditon:  | @17-Aug-2023 22:05:14.014
+Object 'Search' Found in 43 ms
+[DONE]   | Clicking on Search
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @17-Aug-2023 22:05:14.014
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:11  | Object: Browser | Action: takeScreenshot | Input:*********  | Conditon:  | @17-Aug-2023 22:05:16.016
+[PASS]   | Screenshot is taken
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To do entry-search
+Executed Steps       : 16
+Passed Steps         : 16
+Failed Steps         : 0
+Time Taken           : 00:00:24
+-----------------------------------------------------
+
+Run Finished on Thu Aug 17 22:05:19 IST 2023
+-----------------------------------------------------
+ExecutionDate        : 17-Aug-2023 22-04-54
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:24
+ReportPath           : file:///C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\To do entry-search\17-Aug-2023 22-04-54\summary.html
+-----------------------------------------------------
+[Thread-20] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\To do entry-search\17-Aug-2023 22-04-54\summary.html
+[Thread-20] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\To do entry-search\17-Aug-2023 22-04-54\summary.html]

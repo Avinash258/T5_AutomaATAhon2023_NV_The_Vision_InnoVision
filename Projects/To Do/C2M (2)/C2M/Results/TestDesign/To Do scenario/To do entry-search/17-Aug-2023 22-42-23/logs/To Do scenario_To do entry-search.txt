@@ -1,0 +1,222 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Thu Aug 17 22:42:23 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [To do entry-search]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: %Login_Link%  |  Condition:  | @17-Aug-2023 22:42:27.027
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 22:42:27.027
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: To Do:Username  |  Condition:  | @17-Aug-2023 22:42:27.027
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 22:42:27.027
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:Set  |  Input: To Do:Password  |  Condition:  | @17-Aug-2023 22:42:27.027
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 22:42:28.028
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 22:42:41.041
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @17-Aug-2023 22:42:41.041
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do Entry  |  Action:clickByJS  |  Input:   |  Condition:  | @17-Aug-2023 22:42:41.041
+[DONE]   | Clicked on To Do Entry
+
+
+===================================================================================================
+
+Step:5  |  Object:Search  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 22:42:41.041
+[DONE]   | Clicking on Search
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabPage  |  Condition:  | @17-Aug-2023 22:42:41.041
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:7  |  Object:toDoType1  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 22:42:46.046
+[DONE]   | Clicking on toDoType1
+
+
+===================================================================================================
+
+Step:8  |  Object:toDoType1  |  Action:selectByVisibleText  |  Input: @Water High Bill Consumption  |  Condition:  | @17-Aug-2023 22:42:46.046
+[DONE]   | Item/s 'Water High Bill Consumption' is/are selected from list toDoType1
+
+
+===================================================================================================
+
+Step:9  |  Object:Search  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 22:42:46.046
+[DONE]   | Clicking on Search
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @17-Aug-2023 22:42:48.048
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:11  |  Object:Browser  |  Action:takeScreenshot  |  Input:   |  Condition:  | @17-Aug-2023 22:42:48.048
+[PASS]   | Screenshot is taken
+
+
+===================================================================================================
+
+Step:12  |  Object:Water High Bill Consumption -  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 22:42:50.050
+[DONE]   | Clicking on Water High Bill Consumption -
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @17-Aug-2023 22:43:20.020
+[DONE]   | Thread sleep for '30000
+
+
+===================================================================================================
+
+Step:16  |  Object:Browser  |  Action:switchToFrame  |  Input: @zoneMapFrame_1  |  Condition:  | @17-Aug-2023 22:43:20.020
+[DONE]   | Webdriver switched to new frame by name[zoneMapFrame_1]
+
+
+===================================================================================================
+
+Step:17  |  Object:Edit  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 22:43:21.021
+[DONE]   | Clicking on Edit
+
+
+===================================================================================================
+
+Step:18  |  Object:Browser  |  Action:switchToDefaultContent  |  Input:   |  Condition:  | @17-Aug-2023 22:43:21.021
+[DONE]   | Webdriver switched to default content
+
+
+===================================================================================================
+
+Step:19  |  Object:Browser  |  Action:switchToFrame  |  Input: @main  |  Condition:  | @17-Aug-2023 22:43:21.021
+[DONE]   | Webdriver switched to new frame by name[main]
+
+
+===================================================================================================
+
+Step:20  |  Object:Browser  |  Action:switchToFrame  |  Input: @uiMap  |  Condition:  | @17-Aug-2023 22:43:21.021
+[DONE]   | Webdriver switched to new frame by name[uiMap]
+
+
+===================================================================================================
+
+Step:21  |  Object:boGroup_toDoPriority  |  Action:selectByVisibleText  |  Input: @Priority 30  |  Condition:  | @17-Aug-2023 22:43:28.028
+[DONE]   | Item/s 'Priority 30' is/are selected from list boGroup_toDoPriority
+
+
+===================================================================================================
+
+Step:22  |  Object:Save1  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 22:43:29.029
+[DONE]   | Clicking on Save1
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @17-Aug-2023 22:43:31.031
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:24  |  Object:Browser  |  Action:switchToDefaultContent  |  Input:   |  Condition:  | @17-Aug-2023 22:43:31.031
+[DONE]   | Webdriver switched to default content
+
+
+===================================================================================================
+
+Step:25  |  Object:Browser  |  Action:switchToFrame  |  Input: @main  |  Condition:  | @17-Aug-2023 22:43:32.032
+[DONE]   | Webdriver switched to new frame by name[main]
+
+
+===================================================================================================
+
+Step:26  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabPage  |  Condition:  | @17-Aug-2023 22:43:32.032
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:27  |  Object:Browser  |  Action:switchToFrame  |  Input: @zoneMapFrame_1  |  Condition:  | @17-Aug-2023 22:43:33.033
+[DONE]   | Webdriver switched to new frame by name[zoneMapFrame_1]
+
+
+===================================================================================================
+
+Step:28  |  Object:Forward  |  Action:Click  |  Input:   |  Condition:  | @17-Aug-2023 22:43:36.036
+[FAIL]   | org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.173)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '192.168.33.90', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.173, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SHAILJ~1.RAJ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:62587}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 60da2680af65b458d490b69ca7518310
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To do entry-search
+Executed Steps       : 31
+Passed Steps         : 30
+Failed Steps         : 1
+Time Taken           : 00:01:16
+---------------------------------------------------
+

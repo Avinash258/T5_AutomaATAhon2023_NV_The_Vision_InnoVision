@@ -1,0 +1,131 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Fri Aug 04 17:22:18 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [TO Do List]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: @http://172.40.0.60:8009/ouaf/cis.jsp  |  Condition:  | @04-Aug-2023 17:22:21.021
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @04-Aug-2023 17:22:21.021
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: @SYSUSER  |  Condition:  | @04-Aug-2023 17:22:22.022
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @04-Aug-2023 17:22:22.022
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:setEncrypted  |  Input: @S/DuxGW4WhUofNaPo6mQyw== Enc  |  Condition:  | @04-Aug-2023 17:22:22.022
+[DONE]   | Entered Encrypted Text S/DuxGW4WhUofNaPo6mQyw== on j_password
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @04-Aug-2023 17:22:22.022
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @04-Aug-2023 17:22:27.027
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @04-Aug-2023 17:22:28.028
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do List  |  Action:Click  |  Input:   |  Condition:  | @04-Aug-2023 17:22:28.028
+[DONE]   | Clicking on To Do List
+
+
+===================================================================================================
+
+Step:5  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabPage  |  Condition:  | @04-Aug-2023 17:22:29.029
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:6  |  Object:Search icon  |  Action:Click  |  Input:   |  Condition:  | @04-Aug-2023 17:22:29.029
+[DONE]   | Clicking on Search icon
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @04-Aug-2023 17:22:31.031
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:8  |  Object:Browser  |  Action:switchToWindowByTitle  |  Input: @To Do Type  |  Condition:  | @04-Aug-2023 17:22:31.031
+[FAIL]   | Can't find a Window by the given Title [To Do Type]
+
+
+===================================================================================================
+
+Step:9  |  Object:Browser  |  Action:maximize  |  Input:   |  Condition:  | @04-Aug-2023 17:22:32.032
+[DONE]   |  Window is maximized 
+
+
+===================================================================================================
+
+Step:10  |  Object:enter type to do  |  Action:Set  |  Input: @CM_BRPM  |  Condition:  | @04-Aug-2023 17:22:50.050
+[DONE]   | Entered Text 'CM_BRPM' on 'enter type to do'
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @04-Aug-2023 17:22:52.052
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:12  |  Object:search to do type  |  Action:clickByJS  |  Input:   |  Condition:  | @04-Aug-2023 17:22:52.052
+[DONE]   | Clicked on search to do type
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:TO Do List
+Executed Steps       : 17
+Passed Steps         : 16
+Failed Steps         : 1
+Time Taken           : 00:00:34
+---------------------------------------------------
+

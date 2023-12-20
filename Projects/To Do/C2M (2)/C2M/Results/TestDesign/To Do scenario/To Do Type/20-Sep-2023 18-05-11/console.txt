@@ -1,0 +1,216 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 20.0.1
+java.home            : C:\Program Files\Java\jdk-20
+os.name              : Windows 11
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Wed Sep 20 18:05:11 IST 2023
+Loading Browser Profile
+Loading RunManager
+[Scenario:To Do scenario] [TestCase: To Do Type] [Description: Test Run] [Browser: Edge] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-48] WARN com.NewVision.InnoVision.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Edge
+Launching Local Driver
+[pool-23-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 117.0.2045.31 (resolved driver for Edge 117)
+[pool-23-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\shailja.rajak\.cache\selenium\msedgedriver\win64\117.0.2045.31\msedgedriver.exe
+Starting Microsoft Edge WebDriver 117.0.2045.31 (fdd954ad1e8cf217b32383103a4ec253d69f5121) on port 32642
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+2023-09-20 18:05:42:09S +0530 [SEVERE] com.NewVision.InnoVision.engine.core.Task onError:disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: MicrosoftEdge=117.0.2045.31)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '10.20.0.46', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF62E6E0E42+59378]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF62E66A302+259554]
+	(No symbol) [0x00007FF62E42AB4E]
+	(No symbol) [0x00007FF62E415A50]
+	(No symbol) [0x00007FF62E415073]
+	(No symbol) [0x00007FF62E4140CF]
+	(No symbol) [0x00007FF62E413FD4]
+	(No symbol) [0x00007FF62E4122CB]
+	(No symbol) [0x00007FF62E413013]
+	(No symbol) [0x00007FF62E411A36]
+	(No symbol) [0x00007FF62E42250A]
+	(No symbol) [0x00007FF62E4118B8]
+	(No symbol) [0x00007FF62E413C2C]
+	(No symbol) [0x00007FF62E4122CB]
+	(No symbol) [0x00007FF62E413013]
+	(No symbol) [0x00007FF62E411A36]
+	(No symbol) [0x00007FF62E41BD94]
+	(No symbol) [0x00007FF62E4118B8]
+	(No symbol) [0x00007FF62E413C2C]
+	(No symbol) [0x00007FF62E4122CB]
+	(No symbol) [0x00007FF62E413013]
+	(No symbol) [0x00007FF62E411A36]
+	(No symbol) [0x00007FF62E419471]
+	(No symbol) [0x00007FF62E4118B8]
+	(No symbol) [0x00007FF62E413C2C]
+	(No symbol) [0x00007FF62E4122CB]
+	(No symbol) [0x00007FF62E413013]
+	(No symbol) [0x00007FF62E411A36]
+	(No symbol) [0x00007FF62E4089EA]
+	(No symbol) [0x00007FF62E4118B8]
+	(No symbol) [0x00007FF62E410D55]
+	(No symbol) [0x00007FF62E410A08]
+	(No symbol) [0x00007FF62E42CE4B]
+	(No symbol) [0x00007FF62E401FDE]
+	(No symbol) [0x00007FF62E40178C]
+	(No symbol) [0x00007FF62E4A5562]
+	(No symbol) [0x00007FF62E49C493]
+	(No symbol) [0x00007FF62E46D91A]
+	(No symbol) [0x00007FF62E46CC0B]
+	(No symbol) [0x00007FF62E46E0A4]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF62E8A0019+1187993]
+	(No symbol) [0x00007FF62E4EA1E4]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF62E5AE12A+34122]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF62E5A69F9+3609]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF62E89EDB4+1183284]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF62E674458+300856]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF62E66EF94+279156]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF62E66F0C2+279458]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF62E6629C1+228513]
+	BaseThreadInitThunk [0x00007FFBA42526AD+29]
+	RtlUserThreadStart [0x00007FFBA4E8AA68+40]
+
+org.openqa.selenium.WebDriverException: disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: MicrosoftEdge=117.0.2045.31)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '10.20.0.46', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF62E6E0E42+59378]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF62E66A302+259554]
+	(No symbol) [0x00007FF62E42AB4E]
+	(No symbol) [0x00007FF62E415A50]
+	(No symbol) [0x00007FF62E415073]
+	(No symbol) [0x00007FF62E4140CF]
+	(No symbol) [0x00007FF62E413FD4]
+	(No symbol) [0x00007FF62E4122CB]
+	(No symbol) [0x00007FF62E413013]
+	(No symbol) [0x00007FF62E411A36]
+	(No symbol) [0x00007FF62E42250A]
+	(No symbol) [0x00007FF62E4118B8]
+	(No symbol) [0x00007FF62E413C2C]
+	(No symbol) [0x00007FF62E4122CB]
+	(No symbol) [0x00007FF62E413013]
+	(No symbol) [0x00007FF62E411A36]
+	(No symbol) [0x00007FF62E41BD94]
+	(No symbol) [0x00007FF62E4118B8]
+	(No symbol) [0x00007FF62E413C2C]
+	(No symbol) [0x00007FF62E4122CB]
+	(No symbol) [0x00007FF62E413013]
+	(No symbol) [0x00007FF62E411A36]
+	(No symbol) [0x00007FF62E419471]
+	(No symbol) [0x00007FF62E4118B8]
+	(No symbol) [0x00007FF62E413C2C]
+	(No symbol) [0x00007FF62E4122CB]
+	(No symbol) [0x00007FF62E413013]
+	(No symbol) [0x00007FF62E411A36]
+	(No symbol) [0x00007FF62E4089EA]
+	(No symbol) [0x00007FF62E4118B8]
+	(No symbol) [0x00007FF62E410D55]
+	(No symbol) [0x00007FF62E410A08]
+	(No symbol) [0x00007FF62E42CE4B]
+	(No symbol) [0x00007FF62E401FDE]
+	(No symbol) [0x00007FF62E40178C]
+	(No symbol) [0x00007FF62E4A5562]
+	(No symbol) [0x00007FF62E49C493]
+	(No symbol) [0x00007FF62E46D91A]
+	(No symbol) [0x00007FF62E46CC0B]
+	(No symbol) [0x00007FF62E46E0A4]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF62E8A0019+1187993]
+	(No symbol) [0x00007FF62E4EA1E4]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF62E5AE12A+34122]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF62E5A69F9+3609]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF62E89EDB4+1183284]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF62E674458+300856]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF62E66EF94+279156]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF62E66F0C2+279458]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF62E6629C1+228513]
+	BaseThreadInitThunk [0x00007FFBA42526AD+29]
+	RtlUserThreadStart [0x00007FFBA4E8AA68+40]
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1016)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:130)
+	at com.NewVision.InnoVision.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:220)
+	at com.NewVision.InnoVision.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:169)
+	at com.NewVision.InnoVision.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:159)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.launchDriver(SeleniumDriver.java:66)
+	at com.NewVision.InnoVision.engine.core.Task.launchBrowser(Task.java:155)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:125)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+2023-09-20 18:05:42:09S +0530 [SEVERE] com.NewVision.InnoVision.engine.core.Task run:Cannot read field "Input" because the return value of "com.NewVision.InnoVision.engine.reporting.TestCaseReport.getStep()" is null
+java.lang.NullPointerException: Cannot read field "Input" because the return value of "com.NewVision.InnoVision.engine.reporting.TestCaseReport.getStep()" is null
+	at com.NewVision.InnoVision.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:188)
+	at com.NewVision.InnoVision.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:164)
+	at com.NewVision.InnoVision.engine.core.Task.onError(Task.java:192)
+	at com.NewVision.InnoVision.engine.core.Task.onError(Task.java:180)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:137)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To Do Type
+Executed Steps       : 0
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:30
+-----------------------------------------------------
+
+Run Finished on Wed Sep 20 18:05:42 IST 2023
+-----------------------------------------------------
+ExecutionDate        : 20-Sep-2023 18-05-11
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:31
+ReportPath           : file:///C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\To Do Type\20-Sep-2023 18-05-11\summary.html
+-----------------------------------------------------
+[Thread-48] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\To Do Type\20-Sep-2023 18-05-11\summary.html
+[Thread-48] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\To Do Type\20-Sep-2023 18-05-11\summary.html]

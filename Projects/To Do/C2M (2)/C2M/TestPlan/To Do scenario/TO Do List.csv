@@ -1,0 +1,34 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Execute,,To Do scenario:Login,,,
+2,Execute,,Wait:wait 2 sec,,,
+3,Menu,Wait  for the element [<Object>] to be present,waitForElementToBePresent,,,Home Page
+4,Menu,Click on [<Object>],clickByJS,,,Home Page
+5,To Do,Hover over the [<Object>] element,mouseOverElement,,,Home Page
+6,To Do List,"Click the [<Object>] ",Click,,,Home Page
+7,Browser,Switch to frame by name: [<Data>],switchToFrame,To Do:Frame,,
+8,Execute,,Wait:wait 2 sec,,,
+"//9",Search icon,"Click the [<Object>] ",clickByJS,,,to do list objects
+"//10",Execute,,Wait:wait 30 sec,,,
+"//11",Browser,Maximize the browser.,maximize,,,
+12,enter type to do,Set [<Data>] on [<Object>],setByJS,"To Do:To Do type ",,to do list objects
+13,enter type to do,Send Keys [<Data>]  to object [<Object>].,sendKeysToElement,@Enter,,to do list objects
+14,Execute,,Wait:wait 2 sec,,,
+"*15",Filter By,"Click the [<Object>] ",clickByJS,,,to do list objects
+16,Filter By,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,To Do:Filter By- To do List,,to do list objects
+17,Execute,,Wait:wait 30 sec,,,
+18,Execute,,Evidence:Screen Shot,,,
+19,Browser,Switch to frame by name: [<Data>],switchToFrame,Frames:frame 1,,
+"//20",checkbox_(1),"Click the [<Object>] ",Click,,,to do list objects
+"*21",Execute,,To Do Reusable:Select All button,,,
+22,Execute,,Wait:wait 30 sec,,,
+"//*23",Assign Button,"Click the [<Object>] ",clickByJS,,,to do list objects
+"//24",Execute,,Evidence:Screen Shot,,,
+"//25",Execute,,Wait:wait 30 sec,,,
+"//*26",Filter By,"Click the [<Object>] ",clickByJS,,,to do list objects
+"//27",Filter By,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,@Being Worked On,,to do list objects
+"//28",Execute,,Wait:wait 2 sec,,,
+"//29",Execute,,Evidence:Screen Shot,,,
+"//30",Filter By,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,To Do:Filter By- To do List,,to do list objects
+"//31",checkbox_(1),"Click the [<Object>] ",Click,,,to do list objects
+"//*32",Complete Button,"Click the [<Object>] ",Click,,,to do list objects
+"//33",Execute,,Evidence:Screen Shot,,,

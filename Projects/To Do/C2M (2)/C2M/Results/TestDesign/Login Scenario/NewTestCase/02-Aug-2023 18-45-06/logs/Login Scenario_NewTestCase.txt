@@ -1,0 +1,95 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Wed Aug 02 18:45:06 IST 2023
+
+Scenario         :  [Login Scenario]
+TestCase         :  [NewTestCase]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: @http://172.40.0.60:8009/ouaf/cis.jsp  |  Condition:  | @02-Aug-2023 18:45:10.010
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @02-Aug-2023 18:45:10.010
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: @SYSUSER  |  Condition:  | @02-Aug-2023 18:45:10.010
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @02-Aug-2023 18:45:10.010
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:setEncrypted  |  Input: @S/DuxGW4WhUofNaPo6mQyw== Enc  |  Condition:  | @02-Aug-2023 18:45:10.010
+[DONE]   | Entered Encrypted Text S/DuxGW4WhUofNaPo6mQyw== on j_password
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @02-Aug-2023 18:45:10.010
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @02-Aug-2023 18:45:18.018
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @02-Aug-2023 18:45:18.018
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:5  |  Object:Browser  |  Action:pause  |  Input: @3000  |  Condition:  | @02-Aug-2023 18:45:21.021
+[DONE]   | Thread sleep for '3000
+
+
+===================================================================================================
+
+Step:6  |  Object:To Do Entry  |  Action:Click  |  Input:   |  Condition:  | @02-Aug-2023 18:45:52.052
+[FAIL]   | Seems Like the Element [To Do Entry] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:7  |  Object:Add  |  Action:Click  |  Input:   |  Condition:  | @02-Aug-2023 18:46:13.013
+[FAIL]   | Driver Chrome Closed / Could not be reached
+
+---------------------------------------------------
+Testcase Name        : Login Scenario:NewTestCase
+Executed Steps       : 11
+Passed Steps         : 9
+Failed Steps         : 2
+Time Taken           : 00:01:07
+---------------------------------------------------
+

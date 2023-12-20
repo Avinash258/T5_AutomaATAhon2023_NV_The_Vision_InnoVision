@@ -1,0 +1,35 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Wed Aug 02 16:57:21 IST 2023
+
+Scenario         :  [Login Scenario]
+TestCase         :  [Login]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: @http://172.40.0.60:8009/ouaf/cis.jsp  |  Condition:  | @02-Aug-2023 16:57:26.026
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+---------------------------------------------------
+Testcase Name        : Login Scenario:Login
+Executed Steps       : 1
+Passed Steps         : 1
+Failed Steps         : 0
+Time Taken           : 00:00:05
+---------------------------------------------------
+

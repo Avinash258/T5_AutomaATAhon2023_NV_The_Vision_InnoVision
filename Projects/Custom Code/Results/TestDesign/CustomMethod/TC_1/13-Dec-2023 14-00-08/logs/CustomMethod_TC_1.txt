@@ -1,0 +1,41 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  ${project.version}
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Wed Dec 13 14:00:08 IST 2023
+
+Scenario         :  [CustomMethod]
+TestCase         :  [TC_1]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:PrintInputCondition  |  Input: loop:Name  |  Condition:Bajaj  | @13-Dec-2023 14:00:10.010
+[DONE]   | [loop:Name],[Diksha],[Bajaj]
+
+
+===================================================================================================
+
+Step:2  |  Object:Browser  |  Action:subIterationsLooping  |  Input:   |  Condition:loop.csv  | @13-Dec-2023 14:00:10.010
+[DONE]   | Path :[C:\Diksha\AssureIT- Hackathon File 2023\T5_AutomaATAhon2023_NV_The_Vision_InnoVision\Projects\Custom Code/TestData/loop.csv] generated
+
+---------------------------------------------------
+Testcase Name        : CustomMethod:TC_1
+Executed Steps       : 2
+Passed Steps         : 2
+Failed Steps         : 0
+Time Taken           : 00:00:02
+---------------------------------------------------
+

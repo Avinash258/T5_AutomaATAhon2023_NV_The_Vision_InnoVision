@@ -1,0 +1,102 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 20.0.1
+java.home            : C:\Program Files\Java\jdk-20
+os.name              : Windows 11
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Fri Aug 11 16:55:23 IST 2023
+Loading Browser Profile
+Loading RunManager
+[Scenario:To Do scenario] [TestCase: NewTestCase] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-39] WARN com.NewVision.InnoVision.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+[pool-13-thread-1] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[pool-13-thread-1] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[pool-13-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\shailja.rajak\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 17736
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1691753125.017][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
+2023-08-11 16:55:25:08S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input:*********  | Conditon:  | @11-Aug-2023 16:55:25.025
+%Login_Link% changed to http://172.40.0.60:8009/ouaf/cis.jsp
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+===================================================================================================
+
+Step:2   | Object: j_username | Action: Click | Input:*********  | Conditon:  | @11-Aug-2023 16:55:25.025
+Using @name [j_username], Object 'j_username' Found in 30 ms
+[DONE]   | Clicking on j_username
+
+===================================================================================================
+
+Step:3   | Object: j_username | Action: Set | Input:*********  | Conditon:  | @11-Aug-2023 16:55:25.025
+Using @name [j_username], Object 'j_username' Found in 18 ms
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+===================================================================================================
+
+Step:4   | Object: j_password | Action: Click | Input:*********  | Conditon:  | @11-Aug-2023 16:55:25.025
+Using @name [j_password], Object 'j_password' Found in 23 ms
+[DONE]   | Clicking on j_password
+
+===================================================================================================
+
+Step:5   | Object: j_password | Action: Set | Input:*********  | Conditon:  | @11-Aug-2023 16:55:26.026
+Using @name [j_password], Object 'j_password' Found in 19 ms
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+===================================================================================================
+
+Step:6   | Object: Login | Action: Click | Input:*********  | Conditon:  | @11-Aug-2023 16:55:26.026
+Using @id [loginButton], Object 'Login' Found in 20 ms
+[DONE]   | Clicking on Login
+
+===================================================================================================
+
+Step:2   | Object: Search Menu | Action: Click | Input:*********  | Conditon:  | @11-Aug-2023 16:55:28.028
+Using @id [oj-inputsearch-input-menuSearchElem], Object 'Search Menu' Found in 7257 ms
+[DONE]   | Clicking on Search Menu
+
+===================================================================================================
+
+Step:3   | Object: Search Menu1 | Action: Set | Input:*********  | Conditon:  | @11-Aug-2023 16:55:36.036
+Using @id [oj-inputsearch-input-menuSearchElem], Object 'Search Menu1' Found in 75 ms
+[DONE]   | Entered Text 'Add To' on 'Search Menu1'
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:NewTestCase
+Executed Steps       : 8
+Passed Steps         : 8
+Failed Steps         : 0
+Time Taken           : 00:00:13
+-----------------------------------------------------
+
+Run Finished on Fri Aug 11 16:55:36 IST 2023
+-----------------------------------------------------
+ExecutionDate        : 11-Aug-2023 16-55-23
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:13
+ReportPath           : file:///C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\NewTestCase\11-Aug-2023 16-55-23\summary.html
+-----------------------------------------------------
+[Thread-39] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\NewTestCase\11-Aug-2023 16-55-23\summary.html
+[Thread-39] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\NewTestCase\11-Aug-2023 16-55-23\summary.html]

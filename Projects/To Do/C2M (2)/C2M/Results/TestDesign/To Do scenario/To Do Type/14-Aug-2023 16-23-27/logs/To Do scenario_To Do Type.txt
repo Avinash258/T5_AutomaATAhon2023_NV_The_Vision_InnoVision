@@ -1,0 +1,344 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Aug 14 16:23:27 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [To Do Type]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: %Login_Link%  |  Condition:  | @14-Aug-2023 16:23:31.031
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 16:23:31.031
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: To Do:Username  |  Condition:  | @14-Aug-2023 16:23:31.031
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 16:23:31.031
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:Set  |  Input: To Do:Password  |  Condition:  | @14-Aug-2023 16:23:32.032
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 16:23:33.033
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @14-Aug-2023 16:23:35.035
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:3  |  Object:Admin  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 16:23:39.039
+[DONE]   | Clicking on Admin
+
+
+===================================================================================================
+
+Step:4  |  Object:T  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 16:23:40.040
+[DONE]   | Clicking on T
+
+
+===================================================================================================
+
+Step:5  |  Object:To Do Type  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 16:23:41.041
+[DONE]   | Clicking on To Do Type
+
+
+===================================================================================================
+
+Step:6  |  Object:Add1  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 16:23:41.041
+[FAIL]   | Seems Like the Element [Add1] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:7  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabPage  |  Condition:  | @14-Aug-2023 16:23:42.042
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:8  |  Object:To Do Type Page  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 16:24:13.013
+[DONE]   | Clicking on To Do Type Page
+
+
+===================================================================================================
+
+Step:9  |  Object:To Do Type Page  |  Action:Set  |  Input: @Water  |  Condition:  | @14-Aug-2023 16:24:45.045
+[DONE]   | Entered Text 'Water' on 'To Do Type Page'
+
+
+===================================================================================================
+
+Step:10  |  Object:Description  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 16:25:11.011
+[FAIL]   | Seems Like the Element [Description] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:11  |  Object:Description  |  Action:Set  |  Input: @Water High Bill Consumption  |  Condition:  | @14-Aug-2023 16:25:17.017
+[FAIL]   | Seems Like the Element [Description] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:13  |  Object:TD_PRIORITY_FLG  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 16:25:23.023
+[FAIL]   | Seems Like the Element [TD_PRIORITY_FLG] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:14  |  Object:TD_PRIORITY_FLG  |  Action:selectByVisibleText  |  Input: @Priority 20  |  Condition:  | @14-Aug-2023 16:25:29.029
+[FAIL]   | Seems Like the Element [TD_PRIORITY_FLG] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:15  |  Object:TD_USAGE_TYPE_FLG  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 16:26:01.001
+[DONE]   | Clicking on TD_USAGE_TYPE_FLG
+
+
+===================================================================================================
+
+Step:16  |  Object:TD_USAGE_TYPE_FLG  |  Action:selectByVisibleText  |  Input: @Manual  |  Condition:  | @14-Aug-2023 16:26:32.032
+[FAIL]   | org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Manual
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '10.20.0.31', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown
+
+
+===================================================================================================
+
+Step:17  |  Object:Search for Navigation Option  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 16:26:53.053
+[DONE]   | Clicking on Search for Navigation Option
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @14-Aug-2023 16:26:55.055
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:19  |  Object:Browser  |  Action:switchToWindowByTitle  |  Input: @Navigation Option Search  |  Condition:  | @14-Aug-2023 16:26:55.055
+[DONE]   | Webdriver switched to new window by title[Navigation Option Search]
+
+
+===================================================================================================
+
+Step:20  |  Object:Search  |  Action:clickByJS  |  Input:   |  Condition:  | @14-Aug-2023 16:26:55.055
+[DONE]   | Clicked on Search
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @14-Aug-2023 16:26:57.057
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:22  |  Object:Browser  |  Action:switchToFrame  |  Input: @dataframe  |  Condition:  | @14-Aug-2023 16:26:57.057
+[DONE]   | Webdriver switched to new frame by name[dataframe]
+
+
+===================================================================================================
+
+Step:23  |  Object:Rebate Claim  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 16:26:57.057
+[DONE]   | Clicking on Rebate Claim
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @14-Aug-2023 16:26:59.059
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:25  |  Object:Browser  |  Action:switchToWindowByIndex  |  Input: @0  |  Condition:  | @14-Aug-2023 16:26:59.059
+[DONE]   | Webdriver switched to new window            
+
+
+===================================================================================================
+
+Step:26  |  Object:Browser  |  Action:switchToDefaultContent  |  Input:   |  Condition:  | @14-Aug-2023 16:26:59.059
+[DONE]   | Webdriver switched to default content
+
+
+===================================================================================================
+
+Step:27  |  Object:Browser  |  Action:waitForTitleToBe  |  Input: @To Do Type  |  Condition:  | @14-Aug-2023 16:27:10.010
+[DEBUG]   | Couldn't wait for action to complete in given time - 10 seconds
+
+
+===================================================================================================
+
+Step:28  |  Object:Browser  |  Action:switchToDefaultContent  |  Input:   |  Condition:  | @14-Aug-2023 16:27:10.010
+[DONE]   | Webdriver switched to default content
+
+
+===================================================================================================
+
+Step:29  |  Object:Browser  |  Action:switchToFrame  |  Input: @main  |  Condition:  | @14-Aug-2023 16:27:10.010
+[DONE]   | Webdriver switched to new frame by name[main]
+
+
+===================================================================================================
+
+Step:30  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabPage  |  Condition:  | @14-Aug-2023 16:27:10.010
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @14-Aug-2023 16:27:12.012
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:32  |  Object:Message Category  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 16:28:04.004
+[FAIL]   | Seems Like the Element [Message Category] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:33  |  Object:Message Category  |  Action:setByJS  |  Input: @6  |  Condition:  | @14-Aug-2023 16:28:08.008
+[FAIL]   | Seems Like the Element [Message Category] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @14-Aug-2023 16:28:10.010
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:35  |  Object:Routing Process  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 16:28:27.027
+[FAIL]   | Seems Like the Element [Routing Process] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:36  |  Object:to do meassage text  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 16:28:38.038
+[FAIL]   | Seems Like the Element [to do meassage text] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:37  |  Object:to do meassage text  |  Action:setByJS  |  Input: @2  |  Condition:  | @14-Aug-2023 16:28:49.049
+[FAIL]   | Seems Like the Element [to do meassage text] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @14-Aug-2023 16:28:52.052
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:39  |  Object:Routing Process  |  Action:Click  |  Input:   |  Condition:  | @14-Aug-2023 16:29:49.049
+[FAIL]   | Seems Like the Element [Routing Process] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @14-Aug-2023 16:30:20.020
+[DONE]   | Thread sleep for '30000
+
+
+===================================================================================================
+
+Step:41  |  Object:Browser  |  Action:switchToDefaultContent  |  Input:   |  Condition:  | @14-Aug-2023 16:30:20.020
+[DEBUG]   | no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '10.20.0.31', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SHAILJ~1.RAJ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64779}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d04a13082fc010a2469e88982c4999d5
+
+
+===================================================================================================
+
+Step:42  |  Object:Browser  |  Action:switchToFrame  |  Input: @main  |  Condition:  | @14-Aug-2023 16:30:20.020
+[DEBUG]   | no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '10.20.0.31', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SHAILJ~1.RAJ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64779}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d04a13082fc010a2469e88982c4999d5
+*** Element info: {Using=css selector, value=frame[name='main'],iframe[name='main']}
+
+
+===================================================================================================
+
+Step:43  |  Object:Browser  |  Action:switchToFrame  |  Input: @tabMenu  |  Condition:  | @14-Aug-2023 16:30:20.020
+[DEBUG]   | no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '10.20.0.31', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SHAILJ~1.RAJ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64779}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d04a13082fc010a2469e88982c4999d5
+*** Element info: {Using=css selector, value=frame[name='tabMenu'],iframe[name='tabMenu']}
+
+
+===================================================================================================
+
+Step:44  |  Object:Roles1  |  Action:clickByJS  |  Input:   |  Condition:  | @14-Aug-2023 16:30:20.020
+[FAIL]   | Driver Chrome Closed / Could not be reached
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To Do Type
+Executed Steps       : 48
+Passed Steps         : 31
+Failed Steps         : 17
+Time Taken           : 00:06:53
+---------------------------------------------------
+

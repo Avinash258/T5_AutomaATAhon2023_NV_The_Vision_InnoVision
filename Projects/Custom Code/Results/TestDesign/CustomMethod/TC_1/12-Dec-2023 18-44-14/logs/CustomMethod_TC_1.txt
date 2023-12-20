@@ -1,0 +1,35 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  ${project.version}
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Tue Dec 12 18:44:15 IST 2023
+
+Scenario         :  [CustomMethod]
+TestCase         :  [TC_1]
+Browser          :  [No Browser]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:PrintInputCondition  |  Input: DataSheet:Name  |  Condition:Bajaj  | @12-Dec-2023 18:44:15.015
+[DONE]   | [DataSheet:Name],[Diksha],[Bajaj]
+
+---------------------------------------------------
+Testcase Name        : CustomMethod:TC_1
+Executed Steps       : 1
+Passed Steps         : 1
+Failed Steps         : 0
+Time Taken           : 00:00:00
+---------------------------------------------------
+

@@ -1,0 +1,167 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Fri Aug 04 15:46:44 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [to do entry]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: @http://172.40.0.60:8009/ouaf/cis.jsp  |  Condition:  | @04-Aug-2023 15:46:47.047
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @04-Aug-2023 15:46:48.048
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: @SYSUSER  |  Condition:  | @04-Aug-2023 15:46:48.048
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @04-Aug-2023 15:46:48.048
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:setEncrypted  |  Input: @S/DuxGW4WhUofNaPo6mQyw== Enc  |  Condition:  | @04-Aug-2023 15:46:48.048
+[DONE]   | Entered Encrypted Text S/DuxGW4WhUofNaPo6mQyw== on j_password
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @04-Aug-2023 15:46:48.048
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @04-Aug-2023 15:46:54.054
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @04-Aug-2023 15:46:54.054
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do Entry  |  Action:clickByJS  |  Input:   |  Condition:  | @04-Aug-2023 15:46:54.054
+[DONE]   | Clicked on To Do Entry
+
+
+===================================================================================================
+
+Step:5  |  Object:Add  |  Action:clickByJS  |  Input:   |  Condition:  | @04-Aug-2023 15:46:54.054
+[DONE]   | Clicked on Add
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:switchToFrame  |  Input: @uiMap  |  Condition:  | @04-Aug-2023 15:46:54.054
+[DONE]   | Webdriver switched to new frame by name[uiMap]
+
+
+===================================================================================================
+
+Step:7  |  Object:Frame To do select type  |  Action:highlight  |  Input:   |  Condition:  | @04-Aug-2023 15:46:54.054
+[PASS]   | Element Highlighted
+
+
+===================================================================================================
+
+Step:8  |  Object:selectedType1  |  Action:Click  |  Input:   |  Condition:  | @04-Aug-2023 15:46:58.058
+[DONE]   | Clicking on selectedType1
+
+
+===================================================================================================
+
+Step:9  |  Object:selectedType1  |  Action:selectByVisibleText  |  Input: select:To Do type   |  Condition:  | @04-Aug-2023 15:46:58.058
+[DONE]   | Item/s 'Billing Related Problem' is/are selected from list selectedType1
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @04-Aug-2023 15:47:00.000
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:11  |  Object:OK button  |  Action:Click  |  Input:   |  Condition:  | @04-Aug-2023 15:47:00.000
+[DONE]   | Clicking on OK button
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @04-Aug-2023 15:47:02.002
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:13  |  Object:Subject text  |  Action:Set  |  Input: @reading   |  Condition:  | @04-Aug-2023 15:47:04.004
+[DONE]   | Entered Text 'reading ' on 'Subject text'
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @04-Aug-2023 15:47:06.006
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:15  |  Object:Comment text  |  Action:Set  |  Input: @Bill Reading   |  Condition:  | @04-Aug-2023 15:47:06.006
+[DONE]   | Entered Text 'Bill Reading ' on 'Comment text'
+
+
+===================================================================================================
+
+Step:16  |  Object:addGroup_overridePriority  |  Action:selectByVisibleText  |  Input: @Priority 20  |  Condition:  | @04-Aug-2023 15:48:18.018
+[FAIL]   | Seems Like the Element [addGroup_overridePriority] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:17  |  Object:Role  |  Action:selectByIndex  |  Input: @2  |  Condition:  | @04-Aug-2023 15:48:29.029
+[FAIL]   | Seems Like the Element [Role] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:18  |  Object:Save  |  Action:Click  |  Input:   |  Condition:  | @04-Aug-2023 15:48:51.051
+[FAIL]   | Driver Chrome Closed / Could not be reached
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:to do entry
+Executed Steps       : 23
+Passed Steps         : 20
+Failed Steps         : 3
+Time Taken           : 00:02:07
+---------------------------------------------------
+

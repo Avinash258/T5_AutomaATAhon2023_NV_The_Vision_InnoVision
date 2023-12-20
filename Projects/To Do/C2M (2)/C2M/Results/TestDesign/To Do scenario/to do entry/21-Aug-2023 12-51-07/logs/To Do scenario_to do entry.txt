@@ -1,0 +1,413 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Aug 21 12:51:07 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [to do entry]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: %Login_Link%  |  Condition:  | @21-Aug-2023 12:51:12.012
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @21-Aug-2023 12:51:12.012
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: To Do:Username  |  Condition:  | @21-Aug-2023 12:51:12.012
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @21-Aug-2023 12:51:13.013
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:Set  |  Input: To Do:Password  |  Condition:  | @21-Aug-2023 12:51:13.013
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @21-Aug-2023 12:51:14.014
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @21-Aug-2023 12:51:21.021
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @21-Aug-2023 12:51:21.021
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do Entry  |  Action:clickByJS  |  Input:   |  Condition:  | @21-Aug-2023 12:51:21.021
+[DONE]   | Clicked on To Do Entry
+
+
+===================================================================================================
+
+Step:6  |  Object:Add  |  Action:clickByJS  |  Input:   |  Condition:  | @21-Aug-2023 12:51:22.022
+[DONE]   | Clicked on Add
+
+
+===================================================================================================
+
+Step:7  |  Object:Browser  |  Action:switchToFrame  |  Input: To Do:Frame  |  Condition:  | @21-Aug-2023 12:51:22.022
+[DONE]   | Webdriver switched to new frame by name[uiMap]
+
+
+===================================================================================================
+
+Step:8  |  Object:Frame To do select type  |  Action:highlight  |  Input:   |  Condition:  | @21-Aug-2023 12:51:22.022
+[PASS]   | Element Highlighted
+
+
+===================================================================================================
+
+Step:9  |  Object:selectedType1  |  Action:Click  |  Input:   |  Condition:  | @21-Aug-2023 12:51:25.025
+[DONE]   | Clicking on selectedType1
+
+
+===================================================================================================
+
+Step:10  |  Object:selectedType1  |  Action:selectByVisibleText  |  Input: To Do:To Do type   |  Condition:  | @21-Aug-2023 12:51:26.026
+[DONE]   | Item/s 'Water High Bill Consumption' is/are selected from list selectedType1
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @21-Aug-2023 12:51:28.028
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:12  |  Object:OK button  |  Action:Click  |  Input:   |  Condition:  | @21-Aug-2023 12:51:28.028
+[DONE]   | Clicking on OK button
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @21-Aug-2023 12:51:30.030
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:14  |  Object:Subject text  |  Action:Set  |  Input: To Do:Subject  |  Condition:  | @21-Aug-2023 12:51:31.031
+[DONE]   | Entered Text 'Water consumption ' on 'Subject text'
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @21-Aug-2023 12:51:33.033
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:16  |  Object:Comment text  |  Action:Set  |  Input: @water related issue   |  Condition:  | @21-Aug-2023 12:51:33.033
+[DONE]   | Entered Text 'water related issue ' on 'Comment text'
+
+
+===================================================================================================
+
+Step:17  |  Object:Priority  |  Action:selectByVisibleText  |  Input: To Do:Priority  |  Condition:  | @21-Aug-2023 12:51:33.033
+[DONE]   | Item/s 'Priority 20' is/are selected from list Priority
+
+
+===================================================================================================
+
+Step:18  |  Object:Save  |  Action:clickByJS  |  Input:   |  Condition:  | @21-Aug-2023 12:51:33.033
+[DONE]   | Clicked on Save
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @21-Aug-2023 12:52:03.003
+[DONE]   | Thread sleep for '30000
+
+
+===================================================================================================
+
+Step:20  |  Object:Browser  |  Action:switchToDefaultContent  |  Input:   |  Condition:  | @21-Aug-2023 12:52:03.003
+[DONE]   | Webdriver switched to default content
+
+
+===================================================================================================
+
+Step:21  |  Object:Browser  |  Action:switchToFrame  |  Input: Frames:frame 2  |  Condition:  | @21-Aug-2023 12:52:03.003
+[DONE]   | Webdriver switched to new frame by name[main]
+
+
+===================================================================================================
+
+Step:22  |  Object:Browser  |  Action:switchToFrame  |  Input: Frames:frame 1  |  Condition:  | @21-Aug-2023 12:52:03.003
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:23  |  Object:Browser  |  Action:switchToFrame  |  Input: Frames:frame 3  |  Condition:  | @21-Aug-2023 12:52:04.004
+[DONE]   | Webdriver switched to new frame by name[zoneMapFrame_1]
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @21-Aug-2023 12:52:06.006
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:25  |  Object:Expand (Record information)  |  Action:Click  |  Input:   |  Condition:  | @21-Aug-2023 12:52:06.006
+[DONE]   | Clicking on Expand (Record information)
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @21-Aug-2023 12:52:08.008
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:27  |  Object:Browser  |  Action:takeScreenshot  |  Input:   |  Condition:  | @21-Aug-2023 12:52:08.008
+[PASS]   | Screenshot is taken
+
+
+===================================================================================================
+
+Step:28  |  Object:To Do ID  |  Action:assertElementPresent  |  Input:   |  Condition:  | @21-Aug-2023 12:52:09.009
+[PASS]   | Element [To Do ID] is Present
+
+
+===================================================================================================
+
+Step:29  |  Object:to do id no  |  Action:storeTextinDataSheet  |  Input: To Do:To do Id  |  Condition:  | @21-Aug-2023 12:52:21.021
+[DONE]   | Element text [70105399062530] is stored in To Do:To do Id
+
+
+===================================================================================================
+
+Step:2  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @21-Aug-2023 12:52:21.021
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:3  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @21-Aug-2023 12:52:22.022
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do Entry  |  Action:clickByJS  |  Input:   |  Condition:  | @21-Aug-2023 12:52:22.022
+[DONE]   | Clicked on To Do Entry
+
+
+===================================================================================================
+
+Step:5  |  Object:Search  |  Action:Click  |  Input:   |  Condition:  | @21-Aug-2023 12:52:22.022
+[DONE]   | Clicking on Search
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:switchToFrame  |  Input: Frames:frame 1  |  Condition:  | @21-Aug-2023 12:52:22.022
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:7  |  Object:toDoType1  |  Action:clickByJS  |  Input:   |  Condition:  | @21-Aug-2023 12:52:23.023
+[DONE]   | Clicked on toDoType1
+
+
+===================================================================================================
+
+Step:8  |  Object:toDoType1  |  Action:selectByVisibleText  |  Input: @Water High Bill Consumption  |  Condition:  | @21-Aug-2023 12:52:23.023
+[DONE]   | Item/s 'Water High Bill Consumption' is/are selected from list toDoType1
+
+
+===================================================================================================
+
+Step:9  |  Object:Search  |  Action:Click  |  Input:   |  Condition:  | @21-Aug-2023 12:52:24.024
+[DONE]   | Clicking on Search
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @21-Aug-2023 12:52:26.026
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:11  |  Object:Browser  |  Action:takeScreenshot  |  Input:   |  Condition:  | @21-Aug-2023 12:52:26.026
+[PASS]   | Screenshot is taken
+
+
+===================================================================================================
+
+Step:12  |  Object:Water High Bill Consumption -  |  Action:Click  |  Input:   |  Condition:  | @21-Aug-2023 12:52:27.027
+[DONE]   | Clicking on Water High Bill Consumption -
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @30000  |  Condition:  | @21-Aug-2023 12:52:57.057
+[DONE]   | Thread sleep for '30000
+
+
+===================================================================================================
+
+Step:14  |  Object:Browser  |  Action:switchToFrame  |  Input: Frames:frame 3  |  Condition:  | @21-Aug-2023 12:52:57.057
+[DONE]   | Webdriver switched to new frame by name[zoneMapFrame_1]
+
+
+===================================================================================================
+
+Step:15  |  Object:Edit  |  Action:clickByJS  |  Input:   |  Condition:  | @21-Aug-2023 12:52:58.058
+[DONE]   | Clicked on Edit
+
+
+===================================================================================================
+
+Step:16  |  Object:Browser  |  Action:switchToDefaultContent  |  Input:   |  Condition:  | @21-Aug-2023 12:52:58.058
+[DONE]   | Webdriver switched to default content
+
+
+===================================================================================================
+
+Step:17  |  Object:Browser  |  Action:switchToFrame  |  Input: Frames:frame 2  |  Condition:  | @21-Aug-2023 12:52:58.058
+[DONE]   | Webdriver switched to new frame by name[main]
+
+
+===================================================================================================
+
+Step:18  |  Object:Browser  |  Action:switchToFrame  |  Input: @uiMap  |  Condition:  | @21-Aug-2023 12:52:58.058
+[DONE]   | Webdriver switched to new frame by name[uiMap]
+
+
+===================================================================================================
+
+Step:19  |  Object:boGroup_toDoPriority  |  Action:selectByVisibleText  |  Input: @Priority 30  |  Condition:  | @21-Aug-2023 12:53:01.001
+[DONE]   | Item/s 'Priority 30' is/are selected from list boGroup_toDoPriority
+
+
+===================================================================================================
+
+Step:20  |  Object:Save1  |  Action:Click  |  Input:   |  Condition:  | @21-Aug-2023 12:53:01.001
+[DONE]   | Clicking on Save1
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @21-Aug-2023 12:53:03.003
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:22  |  Object:Browser  |  Action:switchToDefaultContent  |  Input:   |  Condition:  | @21-Aug-2023 12:53:04.004
+[DONE]   | Webdriver switched to default content
+
+
+===================================================================================================
+
+Step:23  |  Object:Browser  |  Action:switchToFrame  |  Input: Frames:frame 2  |  Condition:  | @21-Aug-2023 12:53:04.004
+[DONE]   | Webdriver switched to new frame by name[main]
+
+
+===================================================================================================
+
+Step:24  |  Object:Browser  |  Action:switchToFrame  |  Input: Frames:frame 1  |  Condition:  | @21-Aug-2023 12:53:04.004
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+
+===================================================================================================
+
+Step:25  |  Object:Browser  |  Action:switchToFrame  |  Input: Frames:frame 3  |  Condition:  | @21-Aug-2023 12:53:05.005
+[DONE]   | Webdriver switched to new frame by name[zoneMapFrame_1]
+
+
+===================================================================================================
+
+Step:26  |  Object:Forward  |  Action:clickByJS  |  Input:   |  Condition:  | @21-Aug-2023 12:53:05.005
+[DONE]   | Clicked on Forward
+
+
+===================================================================================================
+
+Step:29  |  Object:Browser  |  Action:switchToDefaultContent  |  Input:   |  Condition:  | @21-Aug-2023 12:53:05.005
+[DONE]   | Webdriver switched to default content
+
+
+===================================================================================================
+
+Step:30  |  Object:Browser  |  Action:switchToFrame  |  Input: Frames:frame 2  |  Condition:  | @21-Aug-2023 12:53:05.005
+[DONE]   | Webdriver switched to new frame by name[main]
+
+
+===================================================================================================
+
+Step:31  |  Object:Browser  |  Action:switchToFrame  |  Input: @uiMap  |  Condition:  | @21-Aug-2023 12:53:05.005
+[DONE]   | Webdriver switched to new frame by name[uiMap]
+
+
+===================================================================================================
+
+Step:32  |  Object:details  |  Action:Click  |  Input:   |  Condition:  | @21-Aug-2023 12:53:07.007
+[DONE]   | Clicking on details
+
+
+===================================================================================================
+
+Step:33  |  Object:details  |  Action:Set  |  Input: @water consumption  |  Condition:  | @21-Aug-2023 12:53:07.007
+[DONE]   | Entered Text 'water consumption' on 'details'
+
+
+===================================================================================================
+
+Step:34  |  Object:Save  |  Action:Click  |  Input:   |  Condition:  | @21-Aug-2023 12:53:07.007
+[DONE]   | Clicking on Save
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:to do entry
+Executed Steps       : 64
+Passed Steps         : 64
+Failed Steps         : 0
+Time Taken           : 00:02:00
+---------------------------------------------------
+

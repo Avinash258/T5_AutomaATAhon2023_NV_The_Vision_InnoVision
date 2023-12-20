@@ -1,0 +1,125 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  20.0.1
+java.home                                  :  C:\Program Files\Java\jdk-20
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Sep 25 12:10:37 IST 2023
+
+Scenario         :  [To Do scenario]
+TestCase         :  [to do entry]
+Browser          :  [Edge]
+Browser Version  :  [Default]
+Platform         :  [Any]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: %Login_Link%  |  Condition:  | @25-Sep-2023 12:10:40.040
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+
+===================================================================================================
+
+Step:2  |  Object:j_username  |  Action:Click  |  Input:   |  Condition:  | @25-Sep-2023 12:10:40.040
+[DONE]   | Clicking on j_username
+
+
+===================================================================================================
+
+Step:3  |  Object:j_username  |  Action:Set  |  Input: To Do:Username  |  Condition:  | @25-Sep-2023 12:10:40.040
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+
+===================================================================================================
+
+Step:4  |  Object:j_password  |  Action:Click  |  Input:   |  Condition:  | @25-Sep-2023 12:10:40.040
+[DONE]   | Clicking on j_password
+
+
+===================================================================================================
+
+Step:5  |  Object:j_password  |  Action:Set  |  Input: To Do:Password  |  Condition:  | @25-Sep-2023 12:10:40.040
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:   |  Condition:  | @25-Sep-2023 12:10:41.041
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:2  |  Object:Browser  |  Action:pause  |  Input: @5000  |  Condition:  | @25-Sep-2023 12:10:46.046
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:3  |  Object:Menu  |  Action:Click  |  Input:   |  Condition:  | @25-Sep-2023 12:10:47.047
+[DONE]   | Clicking on Menu
+
+
+===================================================================================================
+
+Step:4  |  Object:To Do  |  Action:mouseOverElement  |  Input:   |  Condition:  | @25-Sep-2023 12:10:48.048
+[DONE]   | Mouse Over to Element 'To Do
+
+
+===================================================================================================
+
+Step:5  |  Object:To Do Entry  |  Action:Click  |  Input:   |  Condition:  | @25-Sep-2023 12:10:48.048
+[DONE]   | Clicking on To Do Entry
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:pause  |  Input: @2000  |  Condition:  | @25-Sep-2023 12:10:50.050
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:8  |  Object:Add  |  Action:Click  |  Input:   |  Condition:  | @25-Sep-2023 12:11:21.021
+[DONE]   | Clicking on Add
+
+
+===================================================================================================
+
+Step:9  |  Object:Browser  |  Action:switchToFrame  |  Input: To Do:Frame  |  Condition:  | @25-Sep-2023 12:11:21.021
+[DONE]   | Webdriver switched to new frame by name[uiMap]
+
+
+===================================================================================================
+
+Step:10  |  Object:Frame To do select type  |  Action:highlight  |  Input:   |  Condition:  | @25-Sep-2023 12:11:21.021
+[PASS]   | Element Highlighted
+
+
+===================================================================================================
+
+Step:11  |  Object:selectedType1  |  Action:Click  |  Input:   |  Condition:  | @25-Sep-2023 12:12:24.024
+[FAIL]   | Seems Like the Element [selectedType1] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:12  |  Object:selectedType1  |  Action:selectByVisibleText  |  Input: To Do:To Do type   |  Condition:  | @25-Sep-2023 12:13:27.027
+[FAIL]   | Seems Like the Element [selectedType1] is Not Present/Found in the page Try Adding wait or heal it
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:to do entry
+Executed Steps       : 16
+Passed Steps         : 14
+Failed Steps         : 2
+Time Taken           : 00:02:50
+---------------------------------------------------
+

@@ -1,0 +1,198 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 20.0.1
+java.home            : C:\Program Files\Java\jdk-20
+os.name              : Windows 11
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Fri Aug 18 12:34:15 IST 2023
+Loading Browser Profile
+Loading RunManager
+[Scenario:To Do scenario] [TestCase: To do search] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-73] WARN com.NewVision.InnoVision.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+[pool-26-thread-1] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[pool-26-thread-1] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[pool-26-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\shailja.rajak\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 39861
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1692342258.890][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
+2023-08-18 12:34:19:08S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input:*********  | Conditon:  | @18-Aug-2023 12:34:19.019
+%Login_Link% changed to http://172.40.0.60:8009/ouaf/cis.jsp
+[DONE]   | Opened Url: http://172.40.0.60:8009/ouaf/cis.jsp
+
+===================================================================================================
+
+Step:2   | Object: j_username | Action: Click | Input:*********  | Conditon:  | @18-Aug-2023 12:34:19.019
+Using @name [j_username], Object 'j_username' Found in 39 ms
+[DONE]   | Clicking on j_username
+
+===================================================================================================
+
+Step:3   | Object: j_username | Action: Set | Input:*********  | Conditon:  | @18-Aug-2023 12:34:20.020
+Using @name [j_username], Object 'j_username' Found in 29 ms
+[DONE]   | Entered Text 'SYSUSER' on 'j_username'
+
+===================================================================================================
+
+Step:4   | Object: j_password | Action: Click | Input:*********  | Conditon:  | @18-Aug-2023 12:34:20.020
+Using @name [j_password], Object 'j_password' Found in 21 ms
+[DONE]   | Clicking on j_password
+
+===================================================================================================
+
+Step:5   | Object: j_password | Action: Set | Input:*********  | Conditon:  | @18-Aug-2023 12:34:20.020
+Using @name [j_password], Object 'j_password' Found in 26 ms
+[DONE]   | Entered Text 'sysuser00' on 'j_password'
+
+===================================================================================================
+
+Step:6   | Object: Login | Action: Click | Input:*********  | Conditon:  | @18-Aug-2023 12:34:20.020
+Using @id [loginButton], Object 'Login' Found in 27 ms
+[DONE]   | Clicking on Login
+
+===================================================================================================
+
+Step:2   | Object: Menu | Action: Click | Input:*********  | Conditon:  | @18-Aug-2023 12:34:20.020
+Using @id [IM_menuButton], Object 'Menu' Found in 5009 ms
+[DONE]   | Clicking on Menu
+
+===================================================================================================
+
+Step:3   | Object: To Do | Action: mouseOverElement | Input:*********  | Conditon:  | @18-Aug-2023 12:34:26.026
+Using @relative_xpath [(//*[normalize-space(text())='To Do'])[1]], Object 'To Do' Found in 64 ms
+[DONE]   | Mouse Over to Element 'To Do
+
+===================================================================================================
+
+Step:4   | Object: To Do Search | Action: clickByJS | Input:*********  | Conditon:  | @18-Aug-2023 12:34:26.026
+Using @relative_xpath [//*[normalize-space(text())='To Do Search']], Object 'To Do Search' Found in 98 ms
+[DONE]   | Clicked on To Do Search
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input:*********  | Conditon:  | @18-Aug-2023 12:34:27.027
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:6   | Object: Browser | Action: switchToFrame | Input:*********  | Conditon:  | @18-Aug-2023 12:34:29.029
+[DONE]   | Webdriver switched to new frame by name[tabPage]
+
+===================================================================================================
+
+Step:7   | Object: Related to do filter | Action: selectByVisibleText | Input:*********  | Conditon:  | @18-Aug-2023 12:34:39.039
+Using @name [REL_TD_FILTER_FLG], Object 'Related to do filter' Found in 38 ms
+[DONE]   | Item/s 'Specific To Do' is/are selected from list Related to do filter
+
+===================================================================================================
+
+Step:8   | Object: To Do ID | Action: Set | Input:*********  | Conditon:  | @18-Aug-2023 12:34:42.042
+Using @name [REL_TD_ENTRY_ID], Object 'To Do ID' Found in 29 ms
+[DONE]   | Entered Text '10853160561150' on 'To Do ID'
+
+===================================================================================================
+
+Step:9   | Object: to do type filter | Action: Click | Input:*********  | Conditon:  | @18-Aug-2023 12:34:44.044
+Using @name [TD_TYPE_FILTER_FLG], Object 'to do type filter' Found in 28 ms
+[DONE]   | Clicking on to do type filter
+
+===================================================================================================
+
+Step:10  | Object: to do type filter | Action: selectByVisibleText | Input:*********  | Conditon:  | @18-Aug-2023 12:34:47.047
+Using @name [TD_TYPE_FILTER_FLG], Object 'to do type filter' Found in 26 ms
+[FAIL]   | org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Specific To Do
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '10.20.0.28', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown
+
+===================================================================================================
+
+2023-08-18 12:34:49:08S +0530 [SEVERE] com.NewVision.InnoVision.engine.execution.run.TestCaseRunner onError:org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Specific To Do
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '10.20.0.28', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown
+org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Specific To Do
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHAILJAR', ip: '10.20.0.28', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.NewVision.InnoVision.engine.commands.Dropdown.select(Dropdown.java:273)
+	at com.NewVision.InnoVision.engine.commands.Dropdown.select(Dropdown.java:264)
+	at com.NewVision.InnoVision.engine.commands.Dropdown.selectSingle(Dropdown.java:238)
+	at com.NewVision.InnoVision.engine.commands.Dropdown.select(Dropdown.java:216)
+	at com.NewVision.InnoVision.engine.commands.Dropdown.selectByVisibleText(Dropdown.java:112)
+	at com.NewVision.InnoVision.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Step:11  | Object: To Do Type | Action: Set | Input:*********  | Conditon:  | @18-Aug-2023 12:35:40.040
+Using @name [TD_TYPE_CD], Object 'To Do Type' Found in 37 ms
+[FAIL]   | Seems Like the Element [To Do Type] is Not Visible or hidden at the moment
+
+===================================================================================================
+
+2023-08-18 12:35:42:08S +0530 [SEVERE] com.NewVision.InnoVision.engine.execution.run.TestCaseRunner onRuntimeException:Seems Like the Element [To Do Type] is Not Visible or hidden at the moment
+com.NewVision.InnoVision.engine.execution.exception.element.ElementException: Seems Like the Element [To Do Type] is Not Visible or hidden at the moment
+	at com.NewVision.InnoVision.engine.commands.General.elementEnabled(General.java:64)
+	at com.NewVision.InnoVision.engine.commands.Basic.Set(Basic.java:99)
+	at com.NewVision.InnoVision.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+
+---------------------------------------------------
+Testcase Name        : To Do scenario:To do search
+Executed Steps       : 16
+Passed Steps         : 14
+Failed Steps         : 2
+Time Taken           : 00:01:26
+-----------------------------------------------------
+
+Run Finished on Fri Aug 18 12:35:42 IST 2023
+-----------------------------------------------------
+ExecutionDate        : 18-Aug-2023 12-34-15
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:01:26
+ReportPath           : file:///C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\To do search\18-Aug-2023 12-34-15\summary.html
+-----------------------------------------------------
+[Thread-73] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\To do search\18-Aug-2023 12-34-15\summary.html
+[Thread-73] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\shailja.rajak\Downloads\InnoVision-2.0-setup\InnoVision-1.0\Projects\C2M\Results\TestDesign\To Do scenario\To do search\18-Aug-2023 12-34-15\summary.html]
